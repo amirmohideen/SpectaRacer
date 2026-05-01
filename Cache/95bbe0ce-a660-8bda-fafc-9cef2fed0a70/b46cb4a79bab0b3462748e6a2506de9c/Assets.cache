@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ab00ce43-dc16-4011-9e32-c9886bdf1ad0: 95bbe0ce-a660-8bda-fafc-9cef2fed0a70/b46cb4a79bab0b3462748e6a2506de9c/Data/road_bollard_yellow_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/ab00ce43-dc16-4011-9e32-c9886bdf1ad0>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: b46cb4a79bab0b3462748e6a2506de9c
+  FileHash: fbb3eb26ad557313dacdc5ee0625ed84
+  NativePackageItems:
+    []

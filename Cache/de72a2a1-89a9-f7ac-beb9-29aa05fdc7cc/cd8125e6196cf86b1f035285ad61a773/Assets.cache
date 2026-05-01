@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fb8356cf-433e-45f1-9fdc-0ea6a7d2c5ee: de72a2a1-89a9-f7ac-beb9-29aa05fdc7cc/cd8125e6196cf86b1f035285ad61a773/Data/Back.png
+  Assets:
+    - !<FileTexture/fb8356cf-433e-45f1-9fdc-0ea6a7d2c5ee>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: cd8125e6196cf86b1f035285ad61a773
+  FileHash: 2dcd75f173a61f53f1945a92d9b60d6a
+  NativePackageItems:
+    []

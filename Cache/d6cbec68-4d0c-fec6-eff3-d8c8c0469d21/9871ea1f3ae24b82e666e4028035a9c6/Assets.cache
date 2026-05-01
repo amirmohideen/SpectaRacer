@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dfae495d-5038-4906-aca4-c8a028ae6a15: d6cbec68-4d0c-fec6-eff3-d8c8c0469d21/9871ea1f3ae24b82e666e4028035a9c6/Data/Speaker-cone.png
+  Assets:
+    - !<FileTexture/dfae495d-5038-4906-aca4-c8a028ae6a15>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 250
+        Height: 250
+  SourceHash: 9871ea1f3ae24b82e666e4028035a9c6
+  FileHash: 71dee82e2f4315a24e0fe51bb7be31d3
+  NativePackageItems:
+    []

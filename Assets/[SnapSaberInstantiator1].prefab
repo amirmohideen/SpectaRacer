@@ -1,0 +1,128 @@
+- !<ObjectPrefab/790d8694-c395-4d46-ac15-8a902ad79b1f>
+  PackagePath: ""
+  objects:
+    - !<own> 72270314-058e-4005-beb0-b8280ac4abea
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/6c0a2af6-d087-4f5f-9416-ae518684b452>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 840527d7-2d09-4f74-b256-227b0cda6f2f
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/72270314-058e-4005-beb0-b8280ac4abea>
+  PrefabRemaps:
+    - 6c0a2af6-d087-4f5f-9416-ae518684b452: 6c0a2af6-d087-4f5f-6be9-51ae797b4bad
+    - 72270314-058e-4005-beb0-b8280ac4abea: 72270314-058e-4005-414f-47d7f53b5415
+    - 8984ffba-8e1b-4701-828b-77c53e4d8c5f: 8984ffba-8e1b-4701-7d74-883ac1b273a0
+    - 9c4b7a7c-8643-4bb7-a8b6-f84cded2e435: 9c4b7a7c-8643-4bb7-5749-07b3212d1bca
+    - bab4cd20-06a7-49a7-aa10-fb27464edfe4: bab4cd20-06a7-49a7-55ef-04d8b9b1201b
+    - e928e5d1-79bf-4799-a985-c1ca49f4f902: e928e5d1-79bf-4799-567a-3e35b60b06fd
+  Name: "[SnapSaberInstantiator1]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> e928e5d1-79bf-4799-a985-c1ca49f4f902
+    - !<own> 8984ffba-8e1b-4701-828b-77c53e4d8c5f
+  Components:
+    - !<own> bab4cd20-06a7-49a7-aa10-fb27464edfe4
+- !<SceneObject/8984ffba-8e1b-4701-828b-77c53e4d8c5f>
+  PrefabRemaps:
+    []
+  Name: InstantiatorEndPosition1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -20.000000, y: 0.000000, z: 400.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9c4b7a7c-8643-4bb7-a8b6-f84cded2e435
+- !<RenderMeshVisual/9c4b7a7c-8643-4bb7-a8b6-f84cded2e435>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 840527d7-2d09-4f74-b256-227b0cda6f2f
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/bab4cd20-06a7-49a7-aa10-fb27464edfe4>
+  PrefabRemaps:
+    []
+  Name: SnapSaberInstantiator
+  Enabled: true
+  ScriptAsset: !<reference> 8f352e76-c6d2-4a7c-89e0-af5726bcab00
+  ScriptInputsDefault:
+    spawnInterval: true
+    rotationSpeedY: true
+    maxLifetime: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> b628a651-bbb4-40ea-8460-b85bdcc35133
+      spawnPosition: !<reference.SceneObject> e928e5d1-79bf-4799-a985-c1ca49f4f902
+      targetPosition: !<reference.SceneObject> 8984ffba-8e1b-4701-828b-77c53e4d8c5f
+      spawnInterval: !<float> 2.000000
+      moveSpeed: !<float> 100.000000
+      rotationSpeedX: !<float> 20.000000
+      rotationSpeedY: !<float> 90.000000
+      rotationSpeedZ: !<float> 55.000000
+      maxLifetime: !<float> 10.000000
+      destroyOnReachTarget: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/e928e5d1-79bf-4799-a985-c1ca49f4f902>
+  PrefabRemaps:
+    []
+  Name: InstantiatorStartPosition1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -400.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6c0a2af6-d087-4f5f-9416-ae518684b452

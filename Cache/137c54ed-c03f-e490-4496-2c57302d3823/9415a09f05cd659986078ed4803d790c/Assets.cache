@@ -1,0 +1,222 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 9415a09f05cd659986078ed4803d790c
+  FileHash: 8d3daa7e81911a59e76ff5bcaf171306
+  NativePackageItems:
+    - !<own> 4f3eb31f-04e8-69d4-6f50-ad26b69eb9f7
+    - !<own> 9491f2eb-e1d7-5743-bd96-9eefaedea82a
+    - !<own> 1b1fb7a4-3593-a715-abc5-95f9c9ee0130
+    - !<own> ada169a5-3cd0-0d75-c2d0-bcd674297752
+    - !<own> 8fa2ae2a-2de3-4ce9-ae0b-323ce3615127
+    - !<own> 85bec48d-99f8-69a2-0d35-05bb79a27d03
+    - !<own> ce3b43dd-dbae-cdb6-13bf-a38856dda4a6
+    - !<own> 133fb67e-03be-98da-77e6-5ed81e513d58
+- !<AssetImportMetadata/133fb67e-03be-98da-77e6-5ed81e513d58>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 17ee147b-66a6-400a-9c62-544eebb3e651
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 17ee147b-66a6-400a-9c62-544eebb3e651
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/15229d14-d2a0-4a0d-6e4e-42a3e4fb4971>
+  PrefabRemaps:
+    []
+  Name: GPU Particles Trail Mesh Builder
+  Enabled: true
+  ScriptAsset: !<reference> f4998dc6-b488-4556-98af-56f661119eec
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      particleTrailsMaterial: !<reference.Material> 9ccab3a8-1c89-4d82-a10b-813ebf9ad752
+      segmentCount: 25
+      addHead: true
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/1b1fb7a4-3593-a715-abc5-95f9c9ee0130>
+  ImportedAssetIds:
+    Texture: !<reference> a5a8b55a-b61e-4298-8015-1f7876316310
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> a5a8b55a-b61e-4298-8015-1f7876316310
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/4f3eb31f-04e8-69d4-6f50-ad26b69eb9f7>
+  ImportedAssetIds:
+    Texture: !<reference> 3fdf9255-c910-4159-8926-5c0e8b145879
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 3fdf9255-c910-4159-8926-5c0e8b145879
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/819f0d08-545e-4527-bcf6-ff10a507fef0>
+  Prototype: !<ObjectOwner/18f51cdb-83f3-4e46-8edd-99e7306ca99a>
+    PackagePath: ""
+    objects:
+      - !<own> b0534530-0ea1-45cf-5b2a-7facd80d5630
+- !<AssetImportMetadata/85bec48d-99f8-69a2-0d35-05bb79a27d03>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f4998dc6-b488-4556-98af-56f661119eec
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f4998dc6-b488-4556-98af-56f661119eec
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d93d16ee-8581-4343-8ed0-25159fa10454
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8fa2ae2a-2de3-4ce9-ae0b-323ce3615127>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 3192a060-4576-4be2-bf0c-584b33ce499c
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 3192a060-4576-4be2-bf0c-584b33ce499c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 819f0d08-545e-4527-bcf6-ff10a507fef0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/9491f2eb-e1d7-5743-bd96-9eefaedea82a>
+  ImportedAssetIds:
+    Texture: !<reference> a2a105a6-2626-4661-a0c2-2e7102b72de9
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> a2a105a6-2626-4661-a0c2-2e7102b72de9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/ada169a5-3cd0-0d75-c2d0-bcd674297752>
+  ImportedAssetIds:
+    Material: !<reference> 9ccab3a8-1c89-4d82-a10b-813ebf9ad752
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 9ccab3a8-1c89-4d82-a10b-813ebf9ad752
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/b0534530-0ea1-45cf-5b2a-7facd80d5630>
+  PrefabRemaps:
+    []
+  Name: GPU Particles Trails__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15229d14-d2a0-4a0d-6e4e-42a3e4fb4971
+- !<AssetImportMetadata/ce3b43dd-dbae-cdb6-13bf-a38856dda4a6>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> a0e1e615-6bbe-48b0-887e-ba092dc6183c
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> a0e1e615-6bbe-48b0-887e-ba092dc6183c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/d93d16ee-8581-4343-8ed0-25159fa10454>
+  SvgIcon: |
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.9287 1.24275C10.8384 1.09215 10.6756 1 10.5 1C10.3244 1 10.1616 1.09215 10.0713 1.24275L8.63557 3.63557L6.24275 5.07125C6.09215 5.16162 6 5.32437 6 5.5C6 5.67563 6.09215 5.83838 6.24275 5.92875L8.63557 7.36443L10.0713 9.75725C10.1616 9.90785 10.3244 10 10.5 10C10.6756 10 10.8384 9.90785 10.9287 9.75725L12.3644 7.36443L14.7572 5.92875C14.9079 5.83838 15 5.67563 15 5.5C15 5.32437 14.9079 5.16162 14.7572 5.07125L12.3644 3.63557L10.9287 1.24275ZM9.42875 4.25725L10.5 2.47183L11.5713 4.25725C11.6135 4.32762 11.6724 4.38652 11.7428 4.42875L13.5282 5.5L11.7428 6.57125C11.6724 6.61348 11.6135 6.67238 11.5713 6.74275L10.5 8.52817L9.42875 6.74275C9.38652 6.67238 9.32762 6.61348 9.25725 6.57125L7.47183 5.5L9.25725 4.42875C9.32762 4.38652 9.38652 4.32762 9.42875 4.25725ZM5.85355 7.85355C6.04882 7.65829 6.04882 7.34171 5.85355 7.14645C5.65829 6.95118 5.34171 6.95118 5.14645 7.14645L1.14645 11.1464C0.951184 11.3417 0.951184 11.6583 1.14645 11.8536C1.34171 12.0488 1.65829 12.0488 1.85355 11.8536L5.85355 7.85355ZM7.85355 8.14645C8.04882 8.34171 8.04882 8.65829 7.85355 8.85355L1.85355 14.8536C1.65829 15.0488 1.34171 15.0488 1.14645 14.8536C0.951184 14.6583 0.951184 14.3417 1.14645 14.1464L7.14645 8.14645C7.34171 7.95118 7.65829 7.95118 7.85355 8.14645ZM8.85355 10.8536C9.04882 10.6583 9.04882 10.3417 8.85355 10.1464C8.65829 9.95118 8.34171 9.95118 8.14645 10.1464L4.14645 14.1464C3.95118 14.3417 3.95118 14.6583 4.14645 14.8536C4.34171 15.0488 4.65829 15.0488 4.85355 14.8536L8.85355 10.8536Z" fill="#FCE94E"/>
+    </svg>
+
+  SetupScript:
+    code: ""
+  Description: |-
+    Creates a trail mesh for GPU Particles material that uses Trails.
+    
+    This script is useful for when you need a different amount of segments than the default GPU Particles Trails mesh, which has 100 segments.
+    - lowering the segment count helps with performance by reducing the amount of vertices used.
+    - increasing segment count fixes visual artifacts such as noticeable segmentation or ends of trails popping in or out.
+    - for best results, try to use as few segments as needed to create your effect. Particles with shorter and straighter paths require less segments, while particles with longer or curved paths require more.
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 3
+  ComponentUid: b4425ca6-5916-411a-a86a-3cdda7637a36
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    addHead: false
+    particleTrailsMaterial: false
+    segmentCount: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - particleTrailsMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      segmentCount: 20
+      addHead: false
+  ScriptTypes:
+    -
+      {}

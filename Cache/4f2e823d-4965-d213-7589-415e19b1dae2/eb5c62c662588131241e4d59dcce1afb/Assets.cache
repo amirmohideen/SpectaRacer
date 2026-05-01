@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    ea72fd36-cfc2-4b0e-b782-524e0a132bf5: 4f2e823d-4965-d213-7589-415e19b1dae2/eb5c62c662588131241e4d59dcce1afb/Data/thank_you_animated_texture.t3d
+    02219a7d-7479-46c1-8305-33949fb803b5: 4f2e823d-4965-d213-7589-415e19b1dae2/eb5c62c662588131241e4d59dcce1afb/Data/atlas_0.pvr
+  Assets:
+    - !<AnimatedTexture/ea72fd36-cfc2-4b0e-b782-524e0a132bf5>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 1.600000
+            value: 48
+      ReverseSupported: true
+      FrameSize: {x: 292, y: 290}
+      AnimationSequences:
+        default: 48
+      AutoPlay: false
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/02219a7d-7479-46c1-8305-33949fb803b5>
+      PackagePath: atlas_0.pvr
+      FileInfo: !<FileTextureInfo>
+        Width: 2044
+        Height: 2030
+  SourceHash: eb5c62c662588131241e4d59dcce1afb
+  FileHash: 5a8f7c0e9dd4b75fdb45928d22e17414
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b5475af0-878f-4f80-82b1-df307ef35c6e: 9d79f3cf-4d6e-e4cf-26c1-317cea90cb13/9761178f6404445f38be0616154e05bd/Data/veh_fire_truck_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/b5475af0-878f-4f80-82b1-df307ef35c6e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 9761178f6404445f38be0616154e05bd
+  FileHash: 30043a37d24e4c10373d86a402d55c3d
+  NativePackageItems:
+    []

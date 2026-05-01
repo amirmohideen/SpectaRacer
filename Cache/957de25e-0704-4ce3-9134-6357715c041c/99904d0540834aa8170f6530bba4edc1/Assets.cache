@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    72d925d8-3878-4a09-a302-6a62f25e9db7: 957de25e-0704-4ce3-9134-6357715c041c/99904d0540834aa8170f6530bba4edc1/Data/road_hotdog_cart_bitmoji.mesh
+  Assets:
+    - !<FileMesh/72d925d8-3878-4a09-a302-6a62f25e9db7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3924
+        Vertices: 3216
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 152.046082, y: 156.725952, z: 83.814224}
+  SourceHash: 99904d0540834aa8170f6530bba4edc1
+  FileHash: 176c890144df61717a38b30384edad84
+  NativePackageItems:
+    []

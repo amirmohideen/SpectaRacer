@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    31b05e41-738c-4f73-a047-50387388b42a: 7864d24d-2935-ed73-ed33-69b1dbed9305/c22d16e106ba7e628cae2c94c0f13dea/Data/Pattern_wood.png
+  Assets:
+    - !<FileTexture/31b05e41-738c-4f73-a047-50387388b42a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: c22d16e106ba7e628cae2c94c0f13dea
+  FileHash: 26f45a558f641130652ee05376c0a45b
+  NativePackageItems:
+    []

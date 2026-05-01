@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8af01590-4a43-4b85-b6c1-3bdbfdc82163: 8a097acf-64e7-4013-9dbb-84e5fd009aee/f339b96736c1a5a5d55ddeaa91c1531f/Data/stones_8.mesh
+  Assets:
+    - !<FileMesh/8af01590-4a43-4b85-b6c1-3bdbfdc82163>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 74
+        Vertices: 152
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1829.503906, y: 61.480282, z: 1294.643677}
+  SourceHash: f339b96736c1a5a5d55ddeaa91c1531f
+  FileHash: 4e4821f3371b02288a88b3c7b73b6f45
+  NativePackageItems:
+    []

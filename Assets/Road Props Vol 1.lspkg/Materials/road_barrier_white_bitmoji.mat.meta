@@ -1,0 +1,16 @@
+- !<AssetImportMetadata/ba2a88a0-ebed-ccaf-ee17-db28e79e76aa>
+  ImportedAssetIds:
+    Material: !<reference> 1383333f-0b29-443c-81b9-05bafa5c6652
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 1383333f-0b29-443c-81b9-05bafa5c6652
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

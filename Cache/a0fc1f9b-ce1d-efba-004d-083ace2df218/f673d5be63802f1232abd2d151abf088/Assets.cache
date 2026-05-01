@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    213a4c98-18cc-4198-9f4b-2c886f75b287: a0fc1f9b-ce1d-efba-004d-083ace2df218/f673d5be63802f1232abd2d151abf088/Data/road_gas_pump_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/213a4c98-18cc-4198-9f4b-2c886f75b287>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: f673d5be63802f1232abd2d151abf088
+  FileHash: d54c7f53044629f925149239fc8e59d4
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    4956edeb-d601-4af6-86d1-ef15a90202e7: d87ac75c-a6e2-4606-b581-f7108fa01f23/46d08503e10eb18fd8c2749b57420889/Data/veh_fire_truck_bitmoji.mesh
+  Assets:
+    - !<FileMesh/4956edeb-d601-4af6-86d1-ef15a90202e7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 11874
+        Vertices: 12090
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 183.023315, y: 195.885803, z: 369.980896}
+  SourceHash: 46d08503e10eb18fd8c2749b57420889
+  FileHash: 0dfea28aa246dc64d9561a85c8fb5b1f
+  NativePackageItems:
+    []

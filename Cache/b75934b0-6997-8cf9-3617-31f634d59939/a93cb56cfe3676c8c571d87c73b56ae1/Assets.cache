@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ecbce4e9-316f-465d-a8de-35019e726527: b75934b0-6997-8cf9-3617-31f634d59939/a93cb56cfe3676c8c571d87c73b56ae1/Data/veh_cabrio_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/ecbce4e9-316f-465d-a8de-35019e726527>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: a93cb56cfe3676c8c571d87c73b56ae1
+  FileHash: 8dc0cc6c53ec416676990308d950af1d
+  NativePackageItems:
+    []

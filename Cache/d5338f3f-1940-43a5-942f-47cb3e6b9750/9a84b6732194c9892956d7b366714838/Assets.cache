@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    63b6aa64-e0d9-44cf-a6b3-c443eafbe88c: d5338f3f-1940-43a5-942f-47cb3e6b9750/9a84b6732194c9892956d7b366714838/Data/veh_scooter_bitmoji.mesh
+  Assets:
+    - !<FileMesh/63b6aa64-e0d9-44cf-a6b3-c443eafbe88c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 5228
+        Vertices: 3811
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 58.585266, y: 78.137970, z: 106.081917}
+  SourceHash: 9a84b6732194c9892956d7b366714838
+  FileHash: 8c3d9893ee0512ca656040f230d2d79a
+  NativePackageItems:
+    []

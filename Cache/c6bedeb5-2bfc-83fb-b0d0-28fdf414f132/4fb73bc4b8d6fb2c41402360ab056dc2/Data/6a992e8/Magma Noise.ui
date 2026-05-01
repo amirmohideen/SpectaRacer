@@ -1,0 +1,166 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "noiseTex", 
+                	"label":       "Noise Texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "Magma Noise",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N15",
+                    	"label":       "UV Scale",
+                    	"widget":      "spinbox",
+                    	"min":         0.5,
+                    	"max":         3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N19",
+                    	"label":       "Low Freq Scale",
+                    	"widget":      "slider",
+                    	"min":         0.1,
+                    	"max":         5,
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "highfreqScale",
+                    	"label":       "High Freq Scale",
+                    	"widget":      "slider",
+                    	"min":         0.1,
+                    	"max":         5,
+                    	"step":        "0.01",
+                    	"sortIndex":   "2",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "simplexScale",
+                    	"label":       "Simplex Scale",
+                    	"widget":      "slider",
+                    	"min":         0.5,
+                    	"max":         20,
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Magma Parameters",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N52",
+                    	"label":       "Cooling Ratio",
+                    	"widget":      "slider",
+                    	"min":         0.5,
+                    	"max":         2.5,
+                    	"step":        "0.05",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "smoothness",
+                    	"label":       "Smoothness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Time",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N71",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Animated",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "4",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N80",
+                    	"label":       "Offset",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "5",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "speed",
+                    	"label":       "Speed",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.01",
+                    	"sortIndex":   "6",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

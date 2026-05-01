@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    55763b72-cadd-4951-b940-294ea5759406: d29af6b1-50c0-a4ea-7e9a-afce433f0041/d6896cb18c39a95497eae8a5496c5c0f/Data/Road_Tileset_noise.jpg
+  Assets:
+    - !<FileTexture/55763b72-cadd-4951-b940-294ea5759406>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: d6896cb18c39a95497eae8a5496c5c0f
+  FileHash: fadced720b297447757a7f3a1369f732
+  NativePackageItems:
+    []

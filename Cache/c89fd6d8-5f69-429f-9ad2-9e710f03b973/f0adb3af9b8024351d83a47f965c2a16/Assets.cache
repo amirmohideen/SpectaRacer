@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c98c3c85-3c5b-44b6-9069-971936e5ef31: c89fd6d8-5f69-429f-9ad2-9e710f03b973/f0adb3af9b8024351d83a47f965c2a16/Data/Swinging_pendulum.mesh
+  Assets:
+    - !<FileMesh/c98c3c85-3c5b-44b6-9069-971936e5ef31>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 700
+        Vertices: 460
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 154.713364, y: 65.297546, z: 40.660286}
+  SourceHash: f0adb3af9b8024351d83a47f965c2a16
+  FileHash: 6b563b9049264534c4405b7d18ff7304
+  NativePackageItems:
+    []

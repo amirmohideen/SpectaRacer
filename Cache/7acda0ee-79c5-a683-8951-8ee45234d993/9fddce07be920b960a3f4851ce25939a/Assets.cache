@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f1d4dc3b-f550-4985-8da4-966df90f4e1c: 7acda0ee-79c5-a683-8951-8ee45234d993/9fddce07be920b960a3f4851ce25939a/Data/road_road_marker_post_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/f1d4dc3b-f550-4985-8da4-966df90f4e1c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 9fddce07be920b960a3f4851ce25939a
+  FileHash: fcf794b60a722feba2e827f3ce19f7e0
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    62d8e1aa-c3d3-46d5-a0de-96e1b72700d6: b123c8f2-2722-886e-a3f7-9804549733a0/aa8a49724d7c948a18f2f0d8dbc8fdf1/Data/Color Filter.png
+  Assets:
+    - !<FileTexture/62d8e1aa-c3d3-46d5-a0de-96e1b72700d6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: aa8a49724d7c948a18f2f0d8dbc8fdf1
+  FileHash: 166dc11885be3df9bf857807a4802593
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3f76a7f0-9e5b-44c4-8806-e35b222bf82d: 66fa351b-3ed9-296b-0ff6-593f1ec60d18/b82426deeda170e8b1774adc9d351899/Data/c.png
+  Assets:
+    - !<FileTexture/3f76a7f0-9e5b-44c4-8806-e35b222bf82d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 736
+        Height: 736
+  SourceHash: b82426deeda170e8b1774adc9d351899
+  FileHash: 98acf432ee3f4b2d2cd3b6a1da873320
+  NativePackageItems:
+    []

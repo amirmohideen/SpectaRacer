@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b4f1b0bc-6548-41f1-b46a-3c506d8fd103: b0c56ec7-0439-4790-b498-b5ccde354a84/d3442dfa432c9475fb879abde45dfae9/Data/Rotating_Blades.mesh
+  Assets:
+    - !<FileMesh/b4f1b0bc-6548-41f1-b46a-3c506d8fd103>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1044
+        Vertices: 760
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 67.903732, y: 69.786324, z: 18.541294}
+  SourceHash: d3442dfa432c9475fb879abde45dfae9
+  FileHash: 27299da6eb71b905a8476f76da0db344
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    cdcc3016-94f2-4a53-9efa-e66e8deeabeb: 6500d848-c86d-48bf-e18d-c194516d7385/f8c838ee7a96c4288dbe4583c7379b63/Data/veh_hatchback_ID.png
+  Assets:
+    - !<FileTexture/cdcc3016-94f2-4a53-9efa-e66e8deeabeb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: f8c838ee7a96c4288dbe4583c7379b63
+  FileHash: 18bc73eb2b21eaa6cd9dff18966f8491
+  NativePackageItems:
+    []

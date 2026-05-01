@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    bf5161cc-2f4a-44e5-88f6-c7e8068e1d74: 7033eded-ddc5-a262-8930-bb79ea278e7c/479d70689b6ab0c38f8546ae7d0991ff/Data/Untitled Markdown.md
+  Assets:
+    - !<MarkdownAsset/bf5161cc-2f4a-44e5-88f6-c7e8068e1d74>
+      PackagePath: ""
+  SourceHash: 479d70689b6ab0c38f8546ae7d0991ff
+  FileHash: b1945b6b08a98309f0fa067a0079e6af
+  NativePackageItems:
+    []

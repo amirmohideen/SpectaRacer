@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    cc3b86d1-18b9-489f-bf1c-9e4589e97d69: 8e4b1f1a-4486-0df4-48e9-ee9522493ca7/97bc63092e1716080e44c06c2b36a638/Data/road_hotdog_cart_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/cc3b86d1-18b9-489f-bf1c-9e4589e97d69>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 97bc63092e1716080e44c06c2b36a638
+  FileHash: 1b6764cd64042db8e363e493341abe54
+  NativePackageItems:
+    []

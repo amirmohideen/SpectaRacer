@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/13340853-bd4e-425b-8b76-b2794141da60>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 5dedc5d8-d49a-4057-a4ef-3bab34cffefe
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 5dedc5d8-d49a-4057-a4ef-3bab34cffefe
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 6b6bbd9c-0d06-49a6-872e-bf8e8f1bc550
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/139ebd85-c0bc-40b9-764d-9505d0144968>
+  PrefabRemaps:
+    []
+  Name: PoliceCar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.009000, y: 0.009000, z: 0.009000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d3ee3ad-243d-4d47-7695-a79fad2dd9b2
+    - !<own> 4f5e9705-a468-4df5-7a66-ec07fdcc3f5f
+- !<RenderMeshVisual/1d3ee3ad-243d-4d47-7695-a79fad2dd9b2>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8365a500-a005-4cbf-856e-e242a600b67f
+  Mesh: !<reference> 459551a3-743f-402f-8928-435d71cdd78c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/4f5e9705-a468-4df5-7a66-ec07fdcc3f5f>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 120.000000, y: 200.000000, z: 200.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<ObjectPrefabAssetData/6b6bbd9c-0d06-49a6-872e-bf8e8f1bc550>
+  Prototype: !<ObjectOwner/8e5da906-33fd-4013-a5a7-71051951e54d>
+    PackagePath: ""
+    objects:
+      - !<own> 139ebd85-c0bc-40b9-764d-9505d0144968

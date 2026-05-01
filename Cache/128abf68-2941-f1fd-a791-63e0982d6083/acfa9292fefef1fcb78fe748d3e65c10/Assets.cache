@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3b457a67-26a7-41eb-8cac-9093400263be: 128abf68-2941-f1fd-a791-63e0982d6083/acfa9292fefef1fcb78fe748d3e65c10/Data/Map.png
+  Assets:
+    - !<FileTexture/3b457a67-26a7-41eb-8cac-9093400263be>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: acfa9292fefef1fcb78fe748d3e65c10
+  FileHash: b07e4e3368225518125fe6abbdbc1125
+  NativePackageItems:
+    []

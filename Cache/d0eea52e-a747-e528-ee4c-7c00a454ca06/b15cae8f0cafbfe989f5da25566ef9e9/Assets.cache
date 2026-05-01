@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c3a8b427-25bb-4630-9d99-677fdb7cf051: d0eea52e-a747-e528-ee4c-7c00a454ca06/b15cae8f0cafbfe989f5da25566ef9e9/Data/road_trash_bag_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/c3a8b427-25bb-4630-9d99-677fdb7cf051>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: b15cae8f0cafbfe989f5da25566ef9e9
+  FileHash: 4505960b5e99636cf76c01e70bd74893
+  NativePackageItems:
+    []

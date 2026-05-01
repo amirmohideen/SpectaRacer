@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    452e58d2-7b50-46ce-8309-1ea3d0803276: b46b1d9a-93c6-799c-1179-42d507340bee/273bc78a7ca8e6f39d63a43f4d451a18/Data/Face.png
+  Assets:
+    - !<FileTexture/452e58d2-7b50-46ce-8309-1ea3d0803276>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 273bc78a7ca8e6f39d63a43f4d451a18
+  FileHash: 9b70174222ed82185ddda3242a8f6103
+  NativePackageItems:
+    []

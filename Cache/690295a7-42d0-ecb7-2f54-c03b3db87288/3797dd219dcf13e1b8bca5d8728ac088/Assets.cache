@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6bf8c06b-ec03-493c-b581-3b18bf9cf2e0: 690295a7-42d0-ecb7-2f54-c03b3db87288/3797dd219dcf13e1b8bca5d8728ac088/Data/road_bus_stop_AO.jpg
+  Assets:
+    - !<FileTexture/6bf8c06b-ec03-493c-b581-3b18bf9cf2e0>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 3797dd219dcf13e1b8bca5d8728ac088
+  FileHash: 183a77c63cf1f3e8814e3d7ba191d85f
+  NativePackageItems:
+    []

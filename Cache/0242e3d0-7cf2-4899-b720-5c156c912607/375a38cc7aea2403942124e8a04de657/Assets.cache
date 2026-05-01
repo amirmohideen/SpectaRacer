@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    34133a53-2f4a-4217-8817-eb33d1b81185: 0242e3d0-7cf2-4899-b720-5c156c912607/375a38cc7aea2403942124e8a04de657/Data/road_ticket_machine_bitmoji.mesh
+  Assets:
+    - !<FileMesh/34133a53-2f4a-4217-8817-eb33d1b81185>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1358
+        Vertices: 974
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 66.723679, y: 123.971855, z: 43.707340}
+  SourceHash: 375a38cc7aea2403942124e8a04de657
+  FileHash: 9bdb7a56bb3fa3443966291eb6181a7f
+  NativePackageItems:
+    []

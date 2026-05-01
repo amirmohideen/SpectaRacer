@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4832e0e4-2ade-45c0-809b-73f29f53d442: "0b1cf66a-cd5a-5b92-d6be-6d6f4ada9470/fb119ad8aa0e26b1771b0f1d02a35910/Data/Lock [Outline].png"
+  Assets:
+    - !<FileTexture/4832e0e4-2ade-45c0-809b-73f29f53d442>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: fb119ad8aa0e26b1771b0f1d02a35910
+  FileHash: f2ffc37588f26c5ad05f5b77785a1e55
+  NativePackageItems:
+    []

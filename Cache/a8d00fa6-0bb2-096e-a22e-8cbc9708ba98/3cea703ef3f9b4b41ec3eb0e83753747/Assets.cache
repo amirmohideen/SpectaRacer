@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    86c43e4e-5f55-4d32-8b11-15bc8d614882: a8d00fa6-0bb2-096e-a22e-8cbc9708ba98/3cea703ef3f9b4b41ec3eb0e83753747/Data/pattern_07.jpg
+  Assets:
+    - !<FileTexture/86c43e4e-5f55-4d32-8b11-15bc8d614882>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 3cea703ef3f9b4b41ec3eb0e83753747
+  FileHash: 6754312a28fd68da768fce405ba07b11
+  NativePackageItems:
+    []

@@ -1,0 +1,176 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: b506293548bb1b7cf0c8116d50c3c50d
+  FileHash: e5ae8ea16d18c7c69cd48c5227897c6c
+  NativePackageItems:
+    - !<own> 4f47754c-b3c5-0cbf-06f1-cb3169efb4ca
+    - !<own> 96c5fe4a-17d2-7eca-cc43-392bcfaeda0b
+    - !<own> de564a7c-9c8b-ce6b-1592-5293e6391c3d
+    - !<own> ae3dfab3-6d1e-0112-d24a-906ade886181
+- !<AnimatedTextureData/19c94444-a2bd-44ea-8839-6ba9e2df5097>
+  AutoPlay: true
+  Reversed: false
+  PingPong: false
+  CurrentSequence: default
+  KeyFramesData:
+    default:
+      - time: 0.000000
+        value: 0
+      - time: 0.800000
+        value: 24
+- !<AssetImportMetadata/4f47754c-b3c5-0cbf-06f1-cb3169efb4ca>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> a42c5274-777c-4ce0-b6c1-4d0b9035a539
+    atlas_0.pvr: !<reference> f491fe7c-6bbd-4b43-a631-6954e4eb7ae2
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> a42c5274-777c-4ce0-b6c1-4d0b9035a539
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    AnimatedTexture: !<own> 19c94444-a2bd-44ea-8839-6ba9e2df5097
+  DependentFiles:
+    - atlas_0.pvr
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/71683b72-447c-4dbc-74cb-f343ea218650>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> b45d1984-5dbb-401d-8f31-3bf6b491db6e
+- !<SceneObject/8f9b1a96-4c91-4bcd-6789-070db2ae52a0>
+  PrefabRemaps:
+    []
+  Name: Clouds__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d9c24341-64b8-45a6-608b-f1af829e56db
+  Components:
+    []
+- !<AssetImportMetadata/96c5fe4a-17d2-7eca-cc43-392bcfaeda0b>
+  ImportedAssetIds:
+    VFXGraph: !<reference> b45d1984-5dbb-401d-8f31-3bf6b491db6e
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> b45d1984-5dbb-401d-8f31-3bf6b491db6e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> a3d62140-afd6-491c-8333-0a08487d5dca
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXAssetData/a3d62140-afd6-491c-8333-0a08487d5dca>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/a778ccf7-e693-4006-9994-698e85e7744c>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        boundingBoxMin:
+          typeIdx: 4
+          value: {x: -1000.000000, y: -100.000000, z: -500.000000}
+        boundingBoxMax:
+          typeIdx: 4
+          value: {x: 1000.000000, y: 100.000000, z: 500.000000}
+        offset:
+          typeIdx: 4
+          value: {x: 1.000000, y: 100.000000, z: -500.000000}
+      RenderProperties:
+        cloudAnimation:
+          typeIdx: 9
+          value:
+            id: a42c5274-777c-4ce0-b6c1-4d0b9035a539
+            sampler:
+              filteringMode: Trilinear
+              wrapModeU: Repeat
+              wrapModeV: Repeat
+              wrapModeW: ClampToEdge
+              borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+              mipmaps: false
+            type: Texture2D
+        fogColor:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/ae3dfab3-6d1e-0112-d24a-906ade886181>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 57c6cab6-401a-4ced-aa4b-fbc4a06ef042
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 57c6cab6-401a-4ced-aa4b-fbc4a06ef042
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> c27a5555-f5d2-4153-a5f2-fe767865400b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/c27a5555-f5d2-4153-a5f2-fe767865400b>
+  Prototype: !<ObjectOwner/ae696a02-b37c-4915-9762-55beb5493b1b>
+    PackagePath: ""
+    objects:
+      - !<own> 8f9b1a96-4c91-4bcd-6789-070db2ae52a0
+- !<SceneObject/d9c24341-64b8-45a6-608b-f1af829e56db>
+  PrefabRemaps:
+    []
+  Name: Clouds VFX
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 20.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 71683b72-447c-4dbc-74cb-f343ea218650
+- !<AssetImportMetadata/de564a7c-9c8b-ce6b-1592-5293e6391c3d>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 0fd64b71-c085-4a74-b663-2000022f2255
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 0fd64b71-c085-4a74-b663-2000022f2255
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

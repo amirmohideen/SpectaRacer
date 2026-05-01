@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    85635564-0461-40db-ad20-2b0136ff194d: 314fd1e9-490f-432f-a7ff-256d9e18154c/188aed6bdf43b74d21103dcc5c6b5218/Data/road_road_marker_post_bitmoji.mesh
+  Assets:
+    - !<FileMesh/85635564-0461-40db-ad20-2b0136ff194d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 300
+        Vertices: 220
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 11.085737, y: 65.409111, z: 7.848442}
+  SourceHash: 188aed6bdf43b74d21103dcc5c6b5218
+  FileHash: 3db4bd3773a2c59489f53c0974c935e5
+  NativePackageItems:
+    []

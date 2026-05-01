@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e6b9ccfc-6635-4072-a111-6e1e736bef0a: 404f9e6f-fe8a-ca95-56f8-3c5085414448/7023775a1f7b85247d8e251e2e5e72d5/Data/Bauble1.mesh
+  Assets:
+    - !<FileMesh/e6b9ccfc-6635-4072-a111-6e1e736bef0a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 510
+        Vertices: 289
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.999999, y: 1.999998, z: 2.429521}
+  SourceHash: 7023775a1f7b85247d8e251e2e5e72d5
+  FileHash: 33c6e7aa5277f2654befdb0e4a042683
+  NativePackageItems:
+    []

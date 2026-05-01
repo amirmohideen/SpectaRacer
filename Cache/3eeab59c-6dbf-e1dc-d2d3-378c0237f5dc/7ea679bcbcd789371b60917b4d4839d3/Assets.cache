@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    64e6c602-617e-4f39-a433-e8084843c99d: 3eeab59c-6dbf-e1dc-d2d3-378c0237f5dc/7ea679bcbcd789371b60917b4d4839d3/Data/Settings.png
+  Assets:
+    - !<FileTexture/64e6c602-617e-4f39-a433-e8084843c99d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 7ea679bcbcd789371b60917b4d4839d3
+  FileHash: fa62db5939471e5113a6d1e60b4cdb23
+  NativePackageItems:
+    []

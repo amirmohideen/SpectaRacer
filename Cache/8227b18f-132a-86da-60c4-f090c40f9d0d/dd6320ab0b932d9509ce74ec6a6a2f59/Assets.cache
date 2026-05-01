@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6eb2b15b-9731-443b-b3ec-bc95a4607942: 8227b18f-132a-86da-60c4-f090c40f9d0d/dd6320ab0b932d9509ce74ec6a6a2f59/Data/road_fire_hydrant_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/6eb2b15b-9731-443b-b3ec-bc95a4607942>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: dd6320ab0b932d9509ce74ec6a6a2f59
+  FileHash: 56357dff0e2c7ca409f2d8f2ebe0a4d2
+  NativePackageItems:
+    []

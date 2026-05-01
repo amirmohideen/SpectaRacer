@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/ef230564-c48d-4137-ae97-ad9f3ef3ab6e>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101512
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 4c5037ae-ad4d-4b8a-8fe0-4f177521ce69
+  ComponentUid: 4a4dc0a6-3d82-43fc-a3b8-ade9babe0bed
+  PackagePolicy: ShouldBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> fd3d9974-d132-4796-a850-236a197a6b69
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Road Tileset
+    AssetId: 26ci0TU9wZfq7FBsNRiKe6
+    Hash: ec17b1bc111829c3345e305cb65d8509
+    Version:
+      major: -1
+      minor: -1
+      patch: -1
+      build: 0

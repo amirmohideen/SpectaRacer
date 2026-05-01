@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d4ca3028-6164-4b12-b991-8f35300d0610: 90d1afb0-4663-a0e0-088b-e240999fed70/2ce2e98e4a2b7360eae0248007fe11a7/Data/Undo.png
+  Assets:
+    - !<FileTexture/d4ca3028-6164-4b12-b991-8f35300d0610>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 2ce2e98e4a2b7360eae0248007fe11a7
+  FileHash: 99b253234c91aed8c0393dffebad5794
+  NativePackageItems:
+    []

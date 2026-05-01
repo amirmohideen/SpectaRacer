@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fd5afbda-e8db-48b8-a2fa-dd6f7752588c: 233f00d3-b990-e914-afe2-4ef5f8bf113f/6232c888065a9da62f4e6fad3c0a2386/Data/road_fence_metal_bitmoji_AO 2.jpg
+  Assets:
+    - !<FileTexture/fd5afbda-e8db-48b8-a2fa-dd6f7752588c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 6232c888065a9da62f4e6fad3c0a2386
+  FileHash: d7697d8bd014624f219250aca88a985d
+  NativePackageItems:
+    []

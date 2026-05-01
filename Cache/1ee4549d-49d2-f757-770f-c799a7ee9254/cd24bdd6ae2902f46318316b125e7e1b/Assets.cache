@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    03b4c2f0-8de0-4623-8749-62e8ff8522d5: 1ee4549d-49d2-f757-770f-c799a7ee9254/cd24bdd6ae2902f46318316b125e7e1b/Data/veh_police_car_mask_B.png
+  Assets:
+    - !<FileTexture/03b4c2f0-8de0-4623-8749-62e8ff8522d5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: cd24bdd6ae2902f46318316b125e7e1b
+  FileHash: 6b60f5287458e76b27049e42900c421a
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    74f4b96a-f4c8-4fae-8f96-9cadd8837c46: 37ccb203-6ea3-f97e-6e21-f049ddd262e3/c0a82d5f3ab0f725236c66a2fcf2a649/Data/Earrings.png
+  Assets:
+    - !<FileTexture/74f4b96a-f4c8-4fae-8f96-9cadd8837c46>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: c0a82d5f3ab0f725236c66a2fcf2a649
+  FileHash: 8a28fcf09554db99bd59ba844650bb11
+  NativePackageItems:
+    []

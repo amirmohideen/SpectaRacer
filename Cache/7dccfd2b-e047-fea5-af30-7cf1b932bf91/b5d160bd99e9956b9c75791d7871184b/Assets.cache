@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    973029f5-b1fd-4b28-95f2-f7eb4042c525: 7dccfd2b-e047-fea5-af30-7cf1b932bf91/b5d160bd99e9956b9c75791d7871184b/Data/pattern_sign.png
+  Assets:
+    - !<FileTexture/973029f5-b1fd-4b28-95f2-f7eb4042c525>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: b5d160bd99e9956b9c75791d7871184b
+  FileHash: c6fee455e189dfc96aee0cc606ca47b6
+  NativePackageItems:
+    []

@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/b23b2711-f221-4294-af8c-9b2409d5e807>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: God Rays God rays mimic atmospheric light scattering, forming radiant beams that enhance immersion by interacting with virtual environments, creating a captivating and realistic lighting effect. Set cutoff value to calibrate rays from bright regions. Choose custom rays colour, set light position to set rays originating point, set blend modes for different exposure levels. Tweak other parameters for desired look. Learn more here
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: f3f58e71-b7e3-4f7b-bcac-d3df8e83eed4
+  ComponentUid: 7b7bfc2b-5dea-4a6d-8af9-d66a215d9e22
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
+  PackagePolicy: CanBeUnpackedTransparent
+  coreVersion: 330
+  clientVersion: 13.6000004

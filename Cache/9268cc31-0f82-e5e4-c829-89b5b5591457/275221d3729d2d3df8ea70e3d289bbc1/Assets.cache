@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f22219b5-a4a3-410d-8192-b254cec75adb: 9268cc31-0f82-e5e4-c829-89b5b5591457/275221d3729d2d3df8ea70e3d289bbc1/Data/Randomize.png
+  Assets:
+    - !<FileTexture/f22219b5-a4a3-410d-8192-b254cec75adb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 275221d3729d2d3df8ea70e3d289bbc1
+  FileHash: 25eff6dfdf580df35c9f838f7181bac4
+  NativePackageItems:
+    []

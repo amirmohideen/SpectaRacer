@@ -1,0 +1,148 @@
+- !<AssetCache>
+  AssetFiles:
+    32ae4231-65c9-45c9-b9fe-6f28b3529c3c: c8e1458f-0545-e7d8-80cc-dbbfd95927a3/15dc86acd6aba2abbbd1ba55d9cb5e95/Data/Make Tileable.ss_graph
+  Assets:
+    - !<ShaderGraphPass/32ae4231-65c9-45c9-b9fe-6f28b3529c3c>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N023:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N006:
+          typeIdx: 3
+          value: {x: 2.000000, y: 2.000000}
+        Port_Input1_N024:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N029:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N031:
+          typeIdx: 1
+          value: 0.500000
+        Port_LODValue_N001:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N005:
+          typeIdx: 1
+          value: 5.000000
+        Port_Offset_N003:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxA_N011:
+          typeIdx: 1
+          value: 0.300000
+        Port_RangeMaxB_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N011:
+          typeIdx: 1
+          value: 1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Map
+            mType: Property
+            mName: Tweak_N0
+            mWidget: texture_group
+            mHint: "Property: Tweak_N0"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: c8e1458f-0545-e7d8-80cc-dbbfd95927a3/15dc86acd6aba2abbbd1ba55d9cb5e95/Data/6a992e8/Make Tileable.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: 15dc86acd6aba2abbbd1ba55d9cb5e95
+  FileHash: c67ff742ac9913af97a94bd4c3883686
+  NativePackageItems:
+    []

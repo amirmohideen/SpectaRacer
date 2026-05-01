@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6df623fe-08c8-4cea-8b56-30ecc1312747: 5b36788d-f585-4018-8733-858f7052ee21/246174ca68b3c7d73eacddf0849dedb6/Data/road_sign_no_entry_bitmoji.mesh
+  Assets:
+    - !<FileMesh/6df623fe-08c8-4cea-8b56-30ecc1312747>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 732
+        Vertices: 508
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 54.753513, y: 154.912918, z: 9.605859}
+  SourceHash: 246174ca68b3c7d73eacddf0849dedb6
+  FileHash: 0b4748d0d765154e10e5d80ccad1c3e3
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d40f2a58-dc9c-429e-b679-7c8f710d9494: 2aab55a5-2fe5-30f3-424e-93f6e1524d08/23139761550305022c053ee179ff0ef2/Data/fx_bokeh.png
+  Assets:
+    - !<FileTexture/d40f2a58-dc9c-429e-b679-7c8f710d9494>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 23139761550305022c053ee179ff0ef2
+  FileHash: 6baec7d56b98d3ef5d1a446edc24a8e5
+  NativePackageItems:
+    []

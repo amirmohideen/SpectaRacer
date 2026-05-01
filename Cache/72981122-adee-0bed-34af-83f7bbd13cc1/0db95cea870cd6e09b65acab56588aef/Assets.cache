@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5560b0a4-dce4-403e-ac3c-968220527f9a: 72981122-adee-0bed-34af-83f7bbd13cc1/0db95cea870cd6e09b65acab56588aef/Data/Confetti.png
+  Assets:
+    - !<FileTexture/5560b0a4-dce4-403e-ac3c-968220527f9a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 64
+        Height: 64
+  SourceHash: 0db95cea870cd6e09b65acab56588aef
+  FileHash: 7b1a1c93be9101156998e6e33f6dca8b
+  NativePackageItems:
+    []

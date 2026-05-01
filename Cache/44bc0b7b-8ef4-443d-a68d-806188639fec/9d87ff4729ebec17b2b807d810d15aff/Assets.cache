@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e8127ae5-16c1-4be6-8740-e6fca0f1a51c: 44bc0b7b-8ef4-443d-a68d-806188639fec/9d87ff4729ebec17b2b807d810d15aff/Data/road_trash_can_bitmoji.mesh
+  Assets:
+    - !<FileMesh/e8127ae5-16c1-4be6-8740-e6fca0f1a51c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1150
+        Vertices: 801
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 48.718605, y: 54.457909, z: 48.719048}
+  SourceHash: 9d87ff4729ebec17b2b807d810d15aff
+  FileHash: 83615534eb0fef9e78f9b42e533786ef
+  NativePackageItems:
+    []

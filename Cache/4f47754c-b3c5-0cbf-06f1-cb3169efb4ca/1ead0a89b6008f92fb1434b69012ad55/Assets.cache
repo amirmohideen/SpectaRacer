@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    a42c5274-777c-4ce0-b6c1-4d0b9035a539: 4f47754c-b3c5-0cbf-06f1-cb3169efb4ca/1ead0a89b6008f92fb1434b69012ad55/Data/cloud_animation.t3d
+    f491fe7c-6bbd-4b43-a631-6954e4eb7ae2: 4f47754c-b3c5-0cbf-06f1-cb3169efb4ca/1ead0a89b6008f92fb1434b69012ad55/Data/atlas_0.pvr
+  Assets:
+    - !<AnimatedTexture/a42c5274-777c-4ce0-b6c1-4d0b9035a539>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 0.800000
+            value: 24
+      ReverseSupported: true
+      FrameSize: {x: 107, y: 85}
+      AnimationSequences:
+        default: 24
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/f491fe7c-6bbd-4b43-a631-6954e4eb7ae2>
+      PackagePath: atlas_0.pvr
+      FileInfo: !<FileTextureInfo>
+        Width: 428
+        Height: 512
+  SourceHash: 1ead0a89b6008f92fb1434b69012ad55
+  FileHash: 4330431d7ddf44e52697f2756ed8d346
+  NativePackageItems:
+    []

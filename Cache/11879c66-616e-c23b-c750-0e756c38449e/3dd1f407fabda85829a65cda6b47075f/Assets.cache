@@ -1,0 +1,740 @@
+- !<AssetCache>
+  AssetFiles:
+    af3c5b3a-84c8-4685-bf3b-491e155f0a28: 11879c66-616e-c23b-c750-0e756c38449e/3dd1f407fabda85829a65cda6b47075f/Data/Smoke_Solver.ss_graph
+  Assets:
+    - !<ShaderGraphPass/af3c5b3a-84c8-4685-bf3b-491e155f0a28>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_3_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Center_N046:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Center_N086:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Default_N051:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input0_N013:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input0_N040:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N021:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input1_N023:
+          typeIdx: 1
+          value: 0.700000
+        Port_Input1_N030:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N044:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N045:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input1_N083:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Input1_N087:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N093:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N098:
+          typeIdx: 1
+          value: 2.000000
+        Port_Input1_N100:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N120:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N123:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N127:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N137:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N140:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input2_N030:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N044:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N115:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Input2_N129:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N131:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N053:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N069:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N107:
+          typeIdx: 1
+          value: 0.000000
+        Port_Multiplier_N139:
+          typeIdx: 1
+          value: 1.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxA_N117:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N117:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N117:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N117:
+          typeIdx: 1
+          value: -1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N086:
+          typeIdx: 3
+          value: {x: 2.000000, y: 2.000000}
+        Port_Value1_N033:
+          typeIdx: 4
+          value: {x: 1.000000, y: 1.000000, z: 1.000000}
+        Port_Value3_N015:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N035:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N068:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N078:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N101:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N106:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N136:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N015:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N035:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N068:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N078:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N101:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N106:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N136:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Output
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Final Render
+                mType: DefineSelectValue
+                mName: NODE_3_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: 3D Noise Force
+                mType: DefineSelectValue
+                mName: NODE_3_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Radial force
+                mType: DefineSelectValue
+                mName: NODE_3_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Sim_Camera_RT
+            mType: Property
+            mName: prev_frame
+            mWidget: texture_group
+            mHint: "Property: prev_frame"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source Map
+            mType: Property
+            mName: Tweak_N52
+            mWidget: texture_group
+            mHint: "Property: Tweak_N52"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Black is Alpha
+            mType: Define
+            mName: Tweak_N128
+            mWidget: checkbox
+            mHint: "Define: Tweak_N128"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Source Intensity
+            mType: Property
+            mName: Tweak_N38
+            mWidget: spinbox
+            mHint: "Property: Tweak_N38"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Use Noise
+            mType: Define
+            mName: Tweak_N113
+            mWidget: checkbox
+            mHint: "Define: Tweak_N113"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3D Texture Noise
+            mType: Property
+            mName: Tweak_N9
+            mWidget: texture_group
+            mHint: "Property: Tweak_N9"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: Tweak_N27
+            mWidget: spinbox
+            mHint: "Property: Tweak_N27"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Flow Speed
+            mType: Property
+            mName: Tweak_N26
+            mWidget: spinbox
+            mHint: "Property: Tweak_N26"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Contrast
+            mType: Property
+            mName: Tweak_N12
+            mWidget: spinbox
+            mHint: "Property: Tweak_N12"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Contrast
+            mType: Property
+            mName: Tweak_N41
+            mWidget: spinbox
+            mHint: "Property: Tweak_N41"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color01
+            mType: Property
+            mName: Tweak_N58
+            mWidget: color
+            mHint: "Property: Tweak_N58"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color02
+            mType: Property
+            mName: Tweak_N73
+            mWidget: color
+            mHint: "Property: Tweak_N73"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3D Noise Force
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: 3D Texture
+            mType: Property
+            mName: Tweak_N80
+            mWidget: texture_group
+            mHint: "Property: Tweak_N80"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: UV Settings
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Radial UV
+            mType: Define
+            mName: Tweak_N66
+            mWidget: checkbox
+            mHint: "Define: Tweak_N66"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Radial Pivot Pos
+            mType: Property
+            mName: noisePivotPos
+            mWidget: spinbox
+            mHint: "Property: noisePivotPos"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Radial Offset Pivot Pos
+            mType: Property
+            mName: Tweak_N60
+            mWidget: spinbox
+            mHint: "Property: Tweak_N60"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Scroll Dir
+            mType: Property
+            mName: Tweak_N71
+            mWidget: spinbox
+            mHint: "Property: Tweak_N71"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scroll Speed
+            mType: Property
+            mName: Tweak_N6
+            mWidget: spinbox
+            mHint: "Property: Tweak_N6"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Scale
+            mType: Property
+            mName: Tweak_N25
+            mWidget: spinbox
+            mHint: "Property: Tweak_N25"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Flow Speed
+            mType: Property
+            mName: Tweak_N11
+            mWidget: spinbox
+            mHint: "Property: Tweak_N11"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: Tweak_N126
+            mWidget: spinbox
+            mHint: "Property: Tweak_N126"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Radial_force
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: Tweak_N119
+            mWidget: spinbox
+            mHint: "Property: Tweak_N119"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Pivot pos
+            mType: Property
+            mName: radialPivotPos
+            mWidget: spinbox
+            mHint: "Property: radialPivotPos"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: Offset pivot pos
+            mType: Property
+            mName: Tweak_N50
+            mWidget: spinbox
+            mHint: "Property: Tweak_N50"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 0.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Direction Force
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Direction
+            mType: Property
+            mName: Tweak_N48
+            mWidget: spinbox
+            mHint: "Property: Tweak_N48"
+            mMin: ~
+            mMax: ~
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: Tweak_N114
+            mWidget: spinbox
+            mHint: "Property: Tweak_N114"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Attenuation
+            mType: Property
+            mName: Tweak_N32
+            mWidget: spinbox
+            mHint: "Property: Tweak_N32"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Attenuation Exponent
+            mType: Property
+            mName: Tweak_N29
+            mWidget: spinbox
+            mHint: "Property: Tweak_N29"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: 11879c66-616e-c23b-c750-0e756c38449e/3dd1f407fabda85829a65cda6b47075f/Data/6a992e8/Smoke_Solver.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: 3dd1f407fabda85829a65cda6b47075f
+  FileHash: 06ab02b3751cac2737b1c0d23943786d
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d5903bfe-008e-4e76-9e80-e6bc3fa71324: edd38fd3-9fea-b714-cb4a-0cccd1fbd9d5/d0bc3eec7930f9659511e34fd342e1c9/Data/Road_Tileset_AO.jpg
+  Assets:
+    - !<FileTexture/d5903bfe-008e-4e76-9e80-e6bc3fa71324>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: d0bc3eec7930f9659511e34fd342e1c9
+  FileHash: 735df84566e12767fe9b96f1423b5c45
+  NativePackageItems:
+    []

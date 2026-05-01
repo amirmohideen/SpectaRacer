@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    3cb11557-d2a3-4981-affe-9a7fbcc6d3bd: 6bfe716f-2cf2-f357-d01a-769526fa08f3/bc17ff7d86f34a0ac1a5d8a0da34886a/Data/jellee_roman.ttf
+  Assets:
+    - !<Font/3cb11557-d2a3-4981-affe-9a7fbcc6d3bd>
+      PackagePath: ""
+  SourceHash: bc17ff7d86f34a0ac1a5d8a0da34886a
+  FileHash: 2182b4d0bf6e22dce4f8d944233d5a9a
+  NativePackageItems:
+    []

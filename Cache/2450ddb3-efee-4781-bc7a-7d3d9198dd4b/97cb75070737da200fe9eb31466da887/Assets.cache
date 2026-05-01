@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    93b63d93-ddd1-4ab3-aef6-3e238a693fa1: 2450ddb3-efee-4781-bc7a-7d3d9198dd4b/97cb75070737da200fe9eb31466da887/Data/road_street_electric_pole_condensers_bitmoji.mesh
+  Assets:
+    - !<FileMesh/93b63d93-ddd1-4ab3-aef6-3e238a693fa1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2268
+        Vertices: 1694
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 131.712967, y: 275.642029, z: 69.530685}
+  SourceHash: 97cb75070737da200fe9eb31466da887
+  FileHash: 306688cf8eca7ce2741de612d5bb2599
+  NativePackageItems:
+    []

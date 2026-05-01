@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8c7ce6d2-2b17-49e3-ac06-0d2a8003a204: 7bd3a031-4cf0-43ea-b15a-803a1ddfea82/2b7421c7b18fe74ff0aa5609c9dfe1ab/Data/Orb.mesh
+  Assets:
+    - !<FileMesh/8c7ce6d2-2b17-49e3-ac06-0d2a8003a204>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 20
+        Vertices: 60
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 56.686165, y: 53.911743, z: 63.377052}
+  SourceHash: 2b7421c7b18fe74ff0aa5609c9dfe1ab
+  FileHash: b5cb5b30808d49badc9d0b079a088995
+  NativePackageItems:
+    []

@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/5ad7477d-a793-42f7-b76d-7d1856efc7fa>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> c3fc50a7-9aeb-4751-875f-cd6ac498bfe3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> c3fc50a7-9aeb-4751-875f-cd6ac498bfe3
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 719ebf5a-f814-4d60-8dcb-eb1e79a1bb84
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/603fcffc-5657-45c4-6691-827a331c7be0>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cba9077a-c9da-4d11-b78d-b09a7a88e0d4
+  Mesh: !<reference> 35846f73-e25e-4117-8a00-8afefa614faf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/719ebf5a-f814-4d60-8dcb-eb1e79a1bb84>
+  Prototype: !<ObjectOwner/d7be2515-458d-4720-a995-828f82b8d9f9>
+    PackagePath: ""
+    objects:
+      - !<own> c38fe07f-9af0-4d11-42f7-566ed1628f8f
+- !<ColliderComponent/a3b3d04a-dca0-4ae9-62ec-9170538a869a>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/c38fe07f-9af0-4d11-42f7-566ed1628f8f>
+  PrefabRemaps:
+    []
+  Name: Coin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.020000, y: 0.020000, z: 0.020000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 603fcffc-5657-45c4-6691-827a331c7be0
+    - !<own> a3b3d04a-dca0-4ae9-62ec-9170538a869a

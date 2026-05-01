@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7d23f941-79f2-4886-a7b7-06181ab3f310: 3b0bfc03-2e92-005e-7e89-523b11a76b5f/9f6d0e78f1b66be421841d274047c211/Data/veh_hatchback_AO.jpg
+  Assets:
+    - !<FileTexture/7d23f941-79f2-4886-a7b7-06181ab3f310>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 9f6d0e78f1b66be421841d274047c211
+  FileHash: 6932e6c572ee55b55b5131c0a74e5211
+  NativePackageItems:
+    []

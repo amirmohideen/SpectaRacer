@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    27b26459-e835-43fc-b78f-891fcee1badd: 052524bd-96ea-4ced-b3df-0166f2f77a4a/6a3954c8fe0a5908b2dcaac29717db29/Data/Gem.mesh
+  Assets:
+    - !<FileMesh/27b26459-e835-43fc-b78f-891fcee1badd>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 108
+        Vertices: 68
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 66.464569, y: 57.511887, z: 58.680515}
+  SourceHash: 6a3954c8fe0a5908b2dcaac29717db29
+  FileHash: 2f913ee93f0f54457de4660b88e7e0ba
+  NativePackageItems:
+    []

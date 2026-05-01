@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    69f91d8f-e101-42e8-b47e-806c395b87a7: abaaa530-4af4-13df-8d17-8f6a25c806e1/dea3fadb0b86be90fc1b697d6c688e72/Data/fx_sparkles_2x2.png
+  Assets:
+    - !<FileTexture/69f91d8f-e101-42e8-b47e-806c395b87a7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: dea3fadb0b86be90fc1b697d6c688e72
+  FileHash: 0f36bd408579dc6b852a764152d63b8b
+  NativePackageItems:
+    []

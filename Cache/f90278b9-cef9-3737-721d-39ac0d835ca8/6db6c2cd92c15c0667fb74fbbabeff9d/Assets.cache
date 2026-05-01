@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a4757747-4104-4898-85f3-48327e0ef471: f90278b9-cef9-3737-721d-39ac0d835ca8/6db6c2cd92c15c0667fb74fbbabeff9d/Data/Road_Tileset_sand.jpg
+  Assets:
+    - !<FileTexture/a4757747-4104-4898-85f3-48327e0ef471>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 6db6c2cd92c15c0667fb74fbbabeff9d
+  FileHash: e03693994c3b508153a42c910be6f75f
+  NativePackageItems:
+    []

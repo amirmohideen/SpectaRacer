@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c9fedac6-3f43-43ee-9ee7-baf260d031a1: 3171ec51-e2ac-8a4c-138d-1f66a5666535/9d63590cefbf6c12666d184adfe71fb7/Data/Gift Box.mesh
+  Assets:
+    - !<FileMesh/c9fedac6-3f43-43ee-9ee7-baf260d031a1>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 220
+        Vertices: 178
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.138806, y: 2.178460, z: 1.360998}
+  SourceHash: 9d63590cefbf6c12666d184adfe71fb7
+  FileHash: 2b1c5548470d54012c2d60d0a2648d5c
+  NativePackageItems:
+    []

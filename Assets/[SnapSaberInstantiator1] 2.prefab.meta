@@ -1,0 +1,138 @@
+- !<AssetImportMetadata/97d3f977-098d-48bd-817e-907d60fc302e>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 389eb0ed-9013-40ce-9cba-ea0d5c308c26
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 389eb0ed-9013-40ce-9cba-ea0d5c308c26
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 6122be3e-0d18-41b8-9701-a458179c0b55
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0220634d-05ec-44f2-5f45-603c4f7829b6>
+  PrefabRemaps:
+    []
+  Name: InstantiatorStartPosition1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.111900, z: -67.940102}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8f2cc6f7-1a6a-414a-49c4-442861eeb889
+- !<ObjectPrefabAssetData/6122be3e-0d18-41b8-9701-a458179c0b55>
+  Prototype: !<ObjectOwner/b0d30d5f-cbed-44bd-bd40-b18377764afc>
+    PackagePath: ""
+    objects:
+      - !<own> 99c859f1-ec05-479c-6159-8bbec2966afe
+- !<SceneObject/7f4d8b19-4750-4f4b-5cc4-2433b6da7b31>
+  PrefabRemaps:
+    []
+  Name: InstantiatorEndPosition1
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 1.158219, z: 10.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 902d69ac-ec25-4754-69b4-290d36fd0ba7
+- !<RenderMeshVisual/8f2cc6f7-1a6a-414a-49c4-442861eeb889>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 840527d7-2d09-4f74-b256-227b0cda6f2f
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/902d69ac-ec25-4754-69b4-290d36fd0ba7>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 840527d7-2d09-4f74-b256-227b0cda6f2f
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/99c859f1-ec05-479c-6159-8bbec2966afe>
+  PrefabRemaps:
+    []
+  Name: "[SnapSaberInstantiator1]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0220634d-05ec-44f2-5f45-603c4f7829b6
+    - !<own> 7f4d8b19-4750-4f4b-5cc4-2433b6da7b31
+  Components:
+    - !<own> bac01474-3769-4a1c-4369-6cfe995494f5
+- !<ScriptComponent/bac01474-3769-4a1c-4369-6cfe995494f5>
+  PrefabRemaps:
+    []
+  Name: SnapSaberInstantiator
+  Enabled: true
+  ScriptAsset: !<reference> 8f352e76-c6d2-4a7c-89e0-af5726bcab00
+  ScriptInputsDefault:
+    rotationSpeedX: true
+    rotationSpeedZ: true
+    maxLifetime: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 7d165926-7ecf-4265-8323-7c8cad9376c6
+      spawnPosition: !<reference.SceneObject> 0220634d-05ec-44f2-5f45-603c4f7829b6
+      targetPosition: !<reference.SceneObject> 7f4d8b19-4750-4f4b-5cc4-2433b6da7b31
+      spawnInterval: !<float> 0.000000
+      moveSpeed: !<float> 40.000000
+      rotationSpeedX: !<float> 0.000000
+      rotationSpeedY: !<float> 0.000000
+      rotationSpeedZ: !<float> 0.000000
+      maxLifetime: !<float> 10.000000
+      destroyOnReachTarget: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}

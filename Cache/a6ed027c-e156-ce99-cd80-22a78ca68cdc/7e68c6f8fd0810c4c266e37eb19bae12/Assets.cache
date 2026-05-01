@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6030f383-a1e1-4d34-b62d-3375009c678f: a6ed027c-e156-ce99-cd80-22a78ca68cdc/7e68c6f8fd0810c4c266e37eb19bae12/Data/Road_Tileset_grass.jpg
+  Assets:
+    - !<FileTexture/6030f383-a1e1-4d34-b62d-3375009c678f>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 7e68c6f8fd0810c4c266e37eb19bae12
+  FileHash: b51308bf297ef7e61a49867157c9cf66
+  NativePackageItems:
+    []

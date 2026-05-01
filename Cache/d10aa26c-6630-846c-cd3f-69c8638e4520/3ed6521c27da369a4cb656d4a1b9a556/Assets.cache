@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7fa5eeca-0ebf-4042-8faf-59cbe7dbf5f8: d10aa26c-6630-846c-cd3f-69c8638e4520/3ed6521c27da369a4cb656d4a1b9a556/Data/road_mailbox_red_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/7fa5eeca-0ebf-4042-8faf-59cbe7dbf5f8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 3ed6521c27da369a4cb656d4a1b9a556
+  FileHash: 5c92851243bd6f37210b0c689dc31d75
+  NativePackageItems:
+    []

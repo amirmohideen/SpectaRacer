@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ba5f662b-60cc-4c39-b8bc-1c5464533c5b: 77d77135-90e3-48f1-abca-66bb37d2fb80/31a88d18c27471ae5c9704547874d00d/Data/veh_police_car_bitmoji 3.mesh
+  Assets:
+    - !<FileMesh/ba5f662b-60cc-4c39-b8bc-1c5464533c5b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 5689
+        Vertices: 5075
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 141.546463, y: 104.134506, z: 210.232361}
+  SourceHash: 31a88d18c27471ae5c9704547874d00d
+  FileHash: 0dec66adef4d503ac10645ae16d0f3e1
+  NativePackageItems:
+    []

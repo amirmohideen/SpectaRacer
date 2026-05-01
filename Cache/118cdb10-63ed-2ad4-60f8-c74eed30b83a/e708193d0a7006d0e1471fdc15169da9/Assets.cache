@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c950bf55-e25a-40f5-8476-356f9cb19a11: "118cdb10-63ed-2ad4-60f8-c74eed30b83a/e708193d0a7006d0e1471fdc15169da9/Data/Unlock [Outline].png"
+  Assets:
+    - !<FileTexture/c950bf55-e25a-40f5-8476-356f9cb19a11>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: e708193d0a7006d0e1471fdc15169da9
+  FileHash: eb526f5cb7a8b4a47933e18088692e14
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a3e1d12e-0454-4ef3-9b14-fd0d03ec5313: f756892b-395f-4d06-9a55-96cc3b449e25/298042a6d4b3abbde938c512d737be9c/Data/veh_school_bus_bitmoji.mesh
+  Assets:
+    - !<FileMesh/a3e1d12e-0454-4ef3-9b14-fd0d03ec5313>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 14815
+        Vertices: 10697
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 178.051727, y: 176.764236, z: 344.972961}
+  SourceHash: 298042a6d4b3abbde938c512d737be9c
+  FileHash: ed7f1fe86708780bd5b839134108610a
+  NativePackageItems:
+    []

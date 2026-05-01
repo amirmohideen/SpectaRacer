@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d46568b7-9338-46d7-8d53-9c63fb871c94: 53088c52-5d50-e0fc-c9cb-985716880f89/1ee41794c6dd44028a4fa4b324c36c0c/Data/road_bollard_bitmoji.png
+  Assets:
+    - !<FileTexture/d46568b7-9338-46d7-8d53-9c63fb871c94>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 1ee41794c6dd44028a4fa4b324c36c0c
+  FileHash: e0261737fcabfcc1f5647d229ebe69e7
+  NativePackageItems:
+    []

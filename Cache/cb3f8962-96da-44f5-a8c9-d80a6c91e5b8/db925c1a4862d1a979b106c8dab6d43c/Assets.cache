@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    29fff53b-12d3-4621-93ef-7332172e9c0d: cb3f8962-96da-44f5-a8c9-d80a6c91e5b8/db925c1a4862d1a979b106c8dab6d43c/Data/road_sign_street2_bitmoji.mesh
+  Assets:
+    - !<FileMesh/29fff53b-12d3-4621-93ef-7332172e9c0d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 506
+        Vertices: 442
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 79.822525, y: 157.198212, z: 79.822571}
+  SourceHash: db925c1a4862d1a979b106c8dab6d43c
+  FileHash: bc012ce2fc50e1f21a4bf19503da409b
+  NativePackageItems:
+    []

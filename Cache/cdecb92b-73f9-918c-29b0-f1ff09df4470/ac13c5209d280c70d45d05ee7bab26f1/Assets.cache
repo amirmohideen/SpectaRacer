@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    80402b7f-52b6-426a-bcb2-e436152bc7ba: cdecb92b-73f9-918c-29b0-f1ff09df4470/ac13c5209d280c70d45d05ee7bab26f1/Data/veh_suv_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/80402b7f-52b6-426a-bcb2-e436152bc7ba>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: ac13c5209d280c70d45d05ee7bab26f1
+  FileHash: 4b8f3eef9b0f7f7b2ac7850332c82bbc
+  NativePackageItems:
+    []

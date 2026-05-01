@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3853c7b2-51dd-4b2c-b0b3-1bb9a31b7fb9: 8e028faa-3754-405c-81ed-9b9b1ecfa1f5/2024f508f2be3261e48be5837f1b8c91/Data/road_sign_speed_limit_35_bitmoji.mesh
+  Assets:
+    - !<FileMesh/3853c7b2-51dd-4b2c-b0b3-1bb9a31b7fb9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 264
+        Vertices: 234
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 49.880447, y: 151.795151, z: 9.415438}
+  SourceHash: 2024f508f2be3261e48be5837f1b8c91
+  FileHash: cfff16564c40c8a577ff13ed396530b0
+  NativePackageItems:
+    []

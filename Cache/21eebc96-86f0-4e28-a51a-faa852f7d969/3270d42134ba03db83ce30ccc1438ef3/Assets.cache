@@ -1,0 +1,110 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 3270d42134ba03db83ce30ccc1438ef3
+  FileHash: 93e1e30bd40faf83ba055318744a8e5d
+  NativePackageItems:
+    - !<own> c51e8769-5445-b330-7ecd-13cacfe73ed7
+    - !<own> 28809a52-ef82-b1d1-2fcf-c8ef8c7d27a0
+    - !<own> 4644e561-0671-b49a-3c08-b8daf4df402d
+- !<AssetImportMetadata/28809a52-ef82-b1d1-2fcf-c8ef8c7d27a0>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 0f757513-a5d8-4f0f-803f-50bccf14bf03
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 0f757513-a5d8-4f0f-803f-50bccf14bf03
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> a8295555-c3e8-4f89-b6bf-63673d1ee569
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<VFXComponent/326500d5-137c-4cf5-68bc-5e342adca641>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 76592e65-1c86-44f8-8beb-656f2d85f90b
+- !<AssetImportMetadata/4644e561-0671-b49a-3c08-b8daf4df402d>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> af0cd4c8-0e52-4887-b699-4136295e05e5
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> af0cd4c8-0e52-4887-b699-4136295e05e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/a8295555-c3e8-4f89-b6bf-63673d1ee569>
+  Prototype: !<ObjectOwner/e4c11f7d-23ad-4112-9f95-8df6d8f26ad4>
+    PackagePath: ""
+    objects:
+      - !<own> eea06134-e479-47c0-5b36-dd2d827f8935
+- !<VFXAssetData/b6021c64-f72e-440a-bc52-1dd309ee5e2f>
+  Mesh: !<reference> 00000000-0000-0000-0000-000000000000
+  SystemPassProperties:
+    39: !<VFXSystemPassProperties/30afb81b-e663-4a61-b786-16d80b8e099f>
+      FeedbackProperties:
+        {}
+      SimulateProperties:
+        groundHeight:
+          typeIdx: 1
+          value: -7.000000
+      RenderProperties:
+        {}
+      FeedbackDefines:
+        []
+      SimulateDefines:
+        []
+      RenderDefines:
+        []
+- !<AssetImportMetadata/c51e8769-5445-b330-7ecd-13cacfe73ed7>
+  ImportedAssetIds:
+    VFXGraph: !<reference> 76592e65-1c86-44f8-8beb-656f2d85f90b
+  ImporterName: VFXAssetImporter
+  PrimaryAsset: !<reference> 76592e65-1c86-44f8-8beb-656f2d85f90b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    VFXGraph: !<own> b6021c64-f72e-440a-bc52-1dd309ee5e2f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/eea06134-e479-47c0-5b36-dd2d827f8935>
+  PrefabRemaps:
+    []
+  Name: RainVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 326500d5-137c-4cf5-68bc-5e342adca641

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    69f6e877-418c-4e10-9716-365804ef16e9: 20e240cb-35d2-6d26-b89d-e640184ff552/2d6989f14543c1f3b932ca5a648e907e/Data/5.png
+  Assets:
+    - !<FileTexture/69f6e877-418c-4e10-9716-365804ef16e9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 736
+        Height: 736
+  SourceHash: 2d6989f14543c1f3b932ca5a648e907e
+  FileHash: a6be40309e0371621dcedca038473f9f
+  NativePackageItems:
+    []

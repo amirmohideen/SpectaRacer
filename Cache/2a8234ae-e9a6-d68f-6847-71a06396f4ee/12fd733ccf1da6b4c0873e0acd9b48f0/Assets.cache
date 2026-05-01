@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c09eb08d-115a-4a18-93bf-eb06f8650778: 2a8234ae-e9a6-d68f-6847-71a06396f4ee/12fd733ccf1da6b4c0873e0acd9b48f0/Data/pattern_speed_limit35.jpg
+  Assets:
+    - !<FileTexture/c09eb08d-115a-4a18-93bf-eb06f8650778>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 12fd733ccf1da6b4c0873e0acd9b48f0
+  FileHash: b2accba4aabecce7d78c50e74f3890a2
+  NativePackageItems:
+    []

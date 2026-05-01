@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3e600886-03ac-43dc-9b38-f39361ab9d00: 0ebc395b-eec1-44f6-95a2-9fba7f627a6f/9f0b5e35b8f2ddb5b3246ec7775e88de/Data/veh_sports_car_bitmoji.mesh
+  Assets:
+    - !<FileMesh/3e600886-03ac-43dc-9b38-f39361ab9d00>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 9644
+        Vertices: 8508
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 140.803879, y: 71.340134, z: 232.262070}
+  SourceHash: 9f0b5e35b8f2ddb5b3246ec7775e88de
+  FileHash: 0e14f1c2c2f1372d81af5a33e3b13444
+  NativePackageItems:
+    []

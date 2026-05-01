@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    de3d6b2c-ac68-479f-9f2d-9b52edb1e624: f8e9b15a-ebeb-439d-810b-29e8008d0e3f/0371d8ac54c98bb7ce671391b43f22d5/Data/Hazard_tile_shadow.mesh
+  Assets:
+    - !<FileMesh/de3d6b2c-ac68-479f-9f2d-9b52edb1e624>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 80.971321, y: 0.000000, z: 77.744537}
+  SourceHash: 0371d8ac54c98bb7ce671391b43f22d5
+  FileHash: 7a565345c931afb37ea97d819ecd7f48
+  NativePackageItems:
+    []

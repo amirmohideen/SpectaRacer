@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a4add139-735a-461e-9dc5-095118f01019: 53408d1a-c086-15ea-ee53-08e6227fc410/5874128f93c4afd2c2d1de0b61c58b2b/Data/Candy Cane1.mesh
+  Assets:
+    - !<FileMesh/a4add139-735a-461e-9dc5-095118f01019>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 222
+        Vertices: 264
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1.060566, y: 0.207262, z: 2.383796}
+  SourceHash: 5874128f93c4afd2c2d1de0b61c58b2b
+  FileHash: 6da30c3a3bc9670db15148783b143cc0
+  NativePackageItems:
+    []

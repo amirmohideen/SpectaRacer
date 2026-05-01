@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    afed2dbb-b28c-4ec1-8c46-3e6a8d7a9273: 7cbbcb41-57e0-a5a7-311d-68b14cf39441/fdbbe8249de98c8b2043635f2eb4923a/Data/Road_Tileset_spots.jpg
+  Assets:
+    - !<FileTexture/afed2dbb-b28c-4ec1-8c46-3e6a8d7a9273>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: fdbbe8249de98c8b2043635f2eb4923a
+  FileHash: 934323db2777b0213854bde42925e975
+  NativePackageItems:
+    []

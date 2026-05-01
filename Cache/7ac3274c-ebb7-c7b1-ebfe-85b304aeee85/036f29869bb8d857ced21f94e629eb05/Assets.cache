@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d6c529fe-d447-4f87-833a-ea82cb68e58d: 7ac3274c-ebb7-c7b1-ebfe-85b304aeee85/036f29869bb8d857ced21f94e629eb05/Data/Select.png
+  Assets:
+    - !<FileTexture/d6c529fe-d447-4f87-833a-ea82cb68e58d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 036f29869bb8d857ced21f94e629eb05
+  FileHash: 35d358ffc988804618dfa2470e0a2765
+  NativePackageItems:
+    []

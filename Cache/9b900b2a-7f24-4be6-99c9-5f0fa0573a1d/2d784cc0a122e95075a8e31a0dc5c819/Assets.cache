@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    72dab061-262f-4f8c-8877-a92a42c84370: 9b900b2a-7f24-4be6-99c9-5f0fa0573a1d/2d784cc0a122e95075a8e31a0dc5c819/Data/tile_road_turn1.mesh
+  Assets:
+    - !<FileMesh/72dab061-262f-4f8c-8877-a92a42c84370>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 168
+        Vertices: 180
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1999.999878, y: 17.713345, z: 2000.000244}
+  SourceHash: 2d784cc0a122e95075a8e31a0dc5c819
+  FileHash: 7d14626a5c8cf2f434febd2c7026b7bf
+  NativePackageItems:
+    []

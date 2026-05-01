@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    cd84c55b-591d-49c9-8121-54496e56d9c5: 6e27b623-19eb-4b6f-a651-33c53a207590/b7bf83b642fac1d17ca7578b271f744d/Data/bounce_pad_shadow.mesh
+  Assets:
+    - !<FileMesh/cd84c55b-591d-49c9-8121-54496e56d9c5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 80.971321, y: 0.000000, z: 77.744537}
+  SourceHash: b7bf83b642fac1d17ca7578b271f744d
+  FileHash: 5bebfd9ecb37c6c7c072cbcbf50f17fc
+  NativePackageItems:
+    []

@@ -1,0 +1,14 @@
+- !<AssetCache>
+  AssetFiles:
+    700bdff3-0b93-461a-9096-813e29e149f5: db833a5e-a53b-f0c3-51b7-52c4a04bc197/ed0578121df71844ff1a42af5c590952/Data/warped_noise2_3D.png
+  Assets:
+    - !<FileTexture3D/700bdff3-0b93-461a-9096-813e29e149f5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo3D>
+        Width: 49
+        Height: 49
+        Depth: 49
+  SourceHash: ed0578121df71844ff1a42af5c590952
+  FileHash: 61550be0445f665af3148b7796f7d01f
+  NativePackageItems:
+    []

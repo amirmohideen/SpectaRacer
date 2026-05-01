@@ -1,0 +1,35 @@
+- !<ObjectPrefab/8ad0d4be-8a4d-4636-8fa4-78954797ea56>
+  PackagePath: ""
+  objects:
+    - !<own> 265a9ae0-ad65-4d6c-ba7c-184c4f19a852
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/265a9ae0-ad65-4d6c-ba7c-184c4f19a852>
+  PrefabRemaps:
+    []
+  Name: God Rays Post Effect__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 45dee9ec-0dd4-444f-8fb2-8b1168878b4c
+- !<PostEffectVisual/45dee9ec-0dd4-444f-8fb2-8b1168878b4c>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85715a38-e3c8-452c-94fa-84935b94a8bd

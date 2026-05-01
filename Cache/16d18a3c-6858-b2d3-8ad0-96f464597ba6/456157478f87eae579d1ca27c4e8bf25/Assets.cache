@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a7bbec04-d67c-474e-928a-2c183529d40d: 16d18a3c-6858-b2d3-8ad0-96f464597ba6/456157478f87eae579d1ca27c4e8bf25/Data/elephant_med.mesh
+  Assets:
+    - !<FileMesh/a7bbec04-d67c-474e-928a-2c183529d40d>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 8880
+        Vertices: 6081
+        Blendshapes:
+          - Key 1
+        Joints: 69
+        AabbSize: {x: 438.819122, y: 362.642029, z: 427.457764}
+  SourceHash: 456157478f87eae579d1ca27c4e8bf25
+  FileHash: a2bd220dcb1e36f9e42fd40f64a09a86
+  NativePackageItems:
+    []

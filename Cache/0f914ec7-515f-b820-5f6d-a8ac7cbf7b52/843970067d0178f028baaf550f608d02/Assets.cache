@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    565799c1-7524-48b3-bcf0-d0879f09b274: 0f914ec7-515f-b820-5f6d-a8ac7cbf7b52/843970067d0178f028baaf550f608d02/Data/veh_cabrio_red_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/565799c1-7524-48b3-bcf0-d0879f09b274>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 843970067d0178f028baaf550f608d02
+  FileHash: ae48d787da9f2da0e019e59d3d78bb3e
+  NativePackageItems:
+    []

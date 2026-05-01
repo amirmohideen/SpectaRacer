@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/6311e12a-095e-4c64-8f57-b4e5743afcc8>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 18
+    patch: 0
+    build: 26021811
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 87
+  ExportUid: db8e9326-d0a1-4e9f-b9ff-a829cc3ce015
+  ComponentUid: 88df5547-e837-4037-bd1d-65f801107546
+  PackagePolicy: ShouldBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 8fcf1a47-8ca8-4004-afb3-66fc8ad9fbeb
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Vehicles
+    AssetId: 7ehhwaSkF1yb2Ds4ezdwkJ
+    Hash: 189ffee35b43c287bdef55e84475e173
+    Version:
+      major: -1
+      minor: -1
+      patch: -1
+      build: 0

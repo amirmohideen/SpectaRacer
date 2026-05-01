@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/609472af-1441-4c5a-b1ab-9a27122b28f5>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101512
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 8d65352d-252f-4ac4-b625-1da74b8b12ae
+  ComponentUid: c7939369-a7bb-4864-9f1d-14e664f05b3b
+  PackagePolicy: ShouldBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 8fe59088-602f-4e13-87a5-e01615f91c21
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Platformer Obstacles Kit
+    AssetId: NdEhDeCcPFnRvS8lqVot3
+    Hash: 2a6309c6ae0152f9cf3a55bdbf79e2ff
+    Version:
+      major: -1
+      minor: -1
+      patch: -1
+      build: 0

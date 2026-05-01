@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d2d165fd-de57-4013-9e00-2d578e59b840: 58e3575b-5684-a344-0783-5b02cfd976da/e76da30f5f70b33990edcd2580ff5aba/Data/veh_scooter_material_AO.jpg
+  Assets:
+    - !<FileTexture/d2d165fd-de57-4013-9e00-2d578e59b840>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e76da30f5f70b33990edcd2580ff5aba
+  FileHash: 18ffa3ed82d6c4537921fbfc15ccf68c
+  NativePackageItems:
+    []

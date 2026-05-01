@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ad94c2ed-1d33-4b4f-ab44-d6f49cb156d6: 6ba25a58-3978-4b59-a26b-0184b2dc0701/3c9ad9df47c8baa2ec44164f53c0957f/Data/road_traffic_light_bitmoji.mesh
+  Assets:
+    - !<FileMesh/ad94c2ed-1d33-4b4f-ab44-d6f49cb156d6>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 758
+        Vertices: 648
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 49.220352, y: 246.739914, z: 110.243027}
+  SourceHash: 3c9ad9df47c8baa2ec44164f53c0957f
+  FileHash: 5c030b7344973e1c0091fcabe0919d7b
+  NativePackageItems:
+    []

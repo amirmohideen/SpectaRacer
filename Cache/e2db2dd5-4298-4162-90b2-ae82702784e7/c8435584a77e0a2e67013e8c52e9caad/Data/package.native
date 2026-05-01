@@ -1,0 +1,20 @@
+- !<NativePackageDescriptor/43241df0-01e5-4c1a-af27-88b5c1bd88f5>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+  Description: VFX of fireworks
+  SvgIcon: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 1
+  UpdateCheckpoint: 76
+  ExportUid: 2a88a89f-8b33-466a-aa36-4912a3498d4d
+  ComponentUid: a2560212-1de4-4344-9773-a4d97a1620ae
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpackedTransparent
+  coreVersion: 330
+  clientVersion: 13.6000004

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a1ffca80-41aa-494a-96c9-f2be4484cd92: "11242ad8-4944-9994-a414-092b6de7bce2/0343022f9b61566d0173f95b233cc647/Data/Camera [Outline].png"
+  Assets:
+    - !<FileTexture/a1ffca80-41aa-494a-96c9-f2be4484cd92>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 0343022f9b61566d0173f95b233cc647
+  FileHash: a568cdc52c2b7698c358143647dcf160
+  NativePackageItems:
+    []

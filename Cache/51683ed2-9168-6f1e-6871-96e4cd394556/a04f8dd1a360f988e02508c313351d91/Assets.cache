@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    48974273-cedb-45e8-9b5c-842beca240fb: 51683ed2-9168-6f1e-6871-96e4cd394556/a04f8dd1a360f988e02508c313351d91/Data/ShootingStar TrailTex BlueGradient.png
+  Assets:
+    - !<FileTexture/48974273-cedb-45e8-9b5c-842beca240fb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: a04f8dd1a360f988e02508c313351d91
+  FileHash: 08b8444e4880aad6567b0e48c0d83c11
+  NativePackageItems:
+    []

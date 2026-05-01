@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    326239b3-e2ce-41bf-a593-14b64baec79c: 84adc741-2ebe-4db8-b3aa-7528a1d713b0/ded93dbf51e99e2b22e4a7da3667693f/Data/veh_pickup_bitmoji.mesh
+  Assets:
+    - !<FileMesh/326239b3-e2ce-41bf-a593-14b64baec79c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 8408
+        Vertices: 5752
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 149.145020, y: 117.480957, z: 251.064301}
+  SourceHash: ded93dbf51e99e2b22e4a7da3667693f
+  FileHash: 91bf0a65b4fe03f8f14d3285a35fdccc
+  NativePackageItems:
+    []

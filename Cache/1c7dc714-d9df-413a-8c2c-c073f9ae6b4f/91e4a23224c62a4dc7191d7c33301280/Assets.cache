@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    8237e51e-684f-4094-81c2-52708628ec54: 1c7dc714-d9df-413a-8c2c-c073f9ae6b4f/91e4a23224c62a4dc7191d7c33301280/Data/CarHit 2.mp3
+  Assets:
+    - !<FileAudioTrack/8237e51e-684f-4094-81c2-52708628ec54>
+      PackagePath: ""
+  SourceHash: 91e4a23224c62a4dc7191d7c33301280
+  FileHash: 0e56e01a919770fe0fded25b99d5fd6e
+  NativePackageItems:
+    []

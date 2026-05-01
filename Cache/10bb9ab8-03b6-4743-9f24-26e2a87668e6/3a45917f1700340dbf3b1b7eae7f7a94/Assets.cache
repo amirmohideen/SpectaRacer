@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    981351be-6dde-4834-8893-7dbe6eb371e8: 10bb9ab8-03b6-4743-9f24-26e2a87668e6/3a45917f1700340dbf3b1b7eae7f7a94/Data/road_fire_hydrant_bitmoji.mesh
+  Assets:
+    - !<FileMesh/981351be-6dde-4834-8893-7dbe6eb371e8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2652
+        Vertices: 2026
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 40.309170, y: 53.807335, z: 28.959883}
+  SourceHash: 3a45917f1700340dbf3b1b7eae7f7a94
+  FileHash: 23bd67bfe78fa3054c32fa2a6755574f
+  NativePackageItems:
+    []

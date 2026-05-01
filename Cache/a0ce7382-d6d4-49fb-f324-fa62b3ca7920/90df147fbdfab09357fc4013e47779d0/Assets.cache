@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    73d01e2a-c5b5-494b-b6fc-3b14718c1ff6: a0ce7382-d6d4-49fb-f324-fa62b3ca7920/90df147fbdfab09357fc4013e47779d0/Data/road_sign_give_way_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/73d01e2a-c5b5-494b-b6fc-3b14718c1ff6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 90df147fbdfab09357fc4013e47779d0
+  FileHash: 6978da831e12c34801202b8989ef9d4a
+  NativePackageItems:
+    []

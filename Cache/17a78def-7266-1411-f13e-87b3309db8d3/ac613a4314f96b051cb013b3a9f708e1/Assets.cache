@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    58298660-76bb-4aa1-943d-1c6bc22a9db1: 17a78def-7266-1411-f13e-87b3309db8d3/ac613a4314f96b051cb013b3a9f708e1/Data/TrailTex SimpleWhiteTransparent.png
+  Assets:
+    - !<FileTexture/58298660-76bb-4aa1-943d-1c6bc22a9db1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 64
+        Height: 256
+  SourceHash: ac613a4314f96b051cb013b3a9f708e1
+  FileHash: 0f0c43fe1d6be1b288caa992366e1a14
+  NativePackageItems:
+    []

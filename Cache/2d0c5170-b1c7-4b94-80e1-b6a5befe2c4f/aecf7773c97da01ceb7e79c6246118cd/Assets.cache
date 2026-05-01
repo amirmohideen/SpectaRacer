@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9e972239-a5bc-4ab6-b21c-d29da1cc6df8: 2d0c5170-b1c7-4b94-80e1-b6a5befe2c4f/aecf7773c97da01ceb7e79c6246118cd/Data/road_street_light_duo_bitmoji.mesh
+  Assets:
+    - !<FileMesh/9e972239-a5bc-4ab6-b21c-d29da1cc6df8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2032
+        Vertices: 1412
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 87.932526, y: 223.689087, z: 55.210167}
+  SourceHash: aecf7773c97da01ceb7e79c6246118cd
+  FileHash: 703efd63703a43454ad17398fd9985cc
+  NativePackageItems:
+    []

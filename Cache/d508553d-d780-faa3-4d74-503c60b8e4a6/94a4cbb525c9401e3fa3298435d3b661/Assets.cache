@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0bd2bae6-f816-4a3e-a4bd-4d9e14c3c76e: d508553d-d780-faa3-4d74-503c60b8e4a6/94a4cbb525c9401e3fa3298435d3b661/Data/veh_ambulance_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/0bd2bae6-f816-4a3e-a4bd-4d9e14c3c76e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 94a4cbb525c9401e3fa3298435d3b661
+  FileHash: cfaf582e1b3683349b5c68e5d35703e8
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    38762c65-f724-497a-ab86-05b62c86046a: 77b9b06e-7204-49fa-b2e8-370f2c342d88/325749b429f5d3d0a372efdb6a24e4ed/Data/veh_ambulance_bitmoji.mesh
+  Assets:
+    - !<FileMesh/38762c65-f724-497a-ab86-05b62c86046a>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 13851
+        Vertices: 9973
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 174.627441, y: 174.119064, z: 335.029114}
+  SourceHash: 325749b429f5d3d0a372efdb6a24e4ed
+  FileHash: 82b02ecd4203bf64c5e0887966d882d9
+  NativePackageItems:
+    []

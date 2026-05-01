@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a90fe370-997e-4acd-b4f1-ddf9808c61df: 3b52de3f-0d59-0744-aa49-f03706e90f8d/b9f50fd9d66bceb6b4272f7ae1c76b5f/Data/road_barrier_striped_yellow_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/a90fe370-997e-4acd-b4f1-ddf9808c61df>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: b9f50fd9d66bceb6b4272f7ae1c76b5f
+  FileHash: daad3d1f3154a148e1e26e08541181d1
+  NativePackageItems:
+    []

@@ -1,0 +1,647 @@
+- !<AssetImportMetadata/a1e89cbd-8808-4b96-9c08-d23c2b4027a5>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 98675cd7-1d19-44c9-819e-6b2e4decc425
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 98675cd7-1d19-44c9-819e-6b2e4decc425
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> be0129f1-35c4-4a03-85c8-0d4736d8b21c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0b8e8cd8-384e-48ed-6d1d-97f222cccb21>
+  PrefabRemaps:
+    []
+  Name: veh_pickup_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 190.000000, y: -0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 53863790-b3d6-4277-7f88-2bba96c1c315
+- !<RenderMeshVisual/12132b11-3fca-4841-4a86-a843a1469d63>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> e9fff4d0-9f38-4e0b-a607-cb004fd4aaef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/196ae2d6-cd79-48d9-5fae-132d8fc11a5e>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -150.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 946c6ca2-3ce0-4a44-4b7f-f262331bedab
+- !<SceneObject/2df422ee-8a80-4079-56e3-5573db659418>
+  PrefabRemaps:
+    []
+  Name: veh_suv_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 450.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d189727c-5571-4b7d-6575-555a8d7280ab
+- !<SceneObject/433c208e-ec12-425a-4180-fd550fdadc46>
+  PrefabRemaps:
+    []
+  Name: veh_stroller_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 670.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 748e0efe-72b3-48dc-5c71-2c0510e45a34
+- !<RenderMeshVisual/50f663fc-dcc7-4e2e-6705-020f38a198d8>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 09036271-6db9-40a7-a383-eaff42b143b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/53863790-b3d6-4277-7f88-2bba96c1c315>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 326239b3-e2ce-41bf-a593-14b64baec79c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/55d38e2f-4463-464f-4f4b-173ae9725282>
+  PrefabRemaps:
+    []
+  Name: veh_locomotive_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -600.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f4dcbdf9-6c4d-4129-50c3-d3263d75b82e
+- !<RenderMeshVisual/579c0f7c-aa1d-4d7e-5994-98f98602c64c>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 3e600886-03ac-43dc-9b38-f39361ab9d00
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/64e51ab9-a82d-4b33-691e-e40d4cae73e7>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> ec9efe2f-ffd5-4338-a328-e9d940648b99
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/748e0efe-72b3-48dc-5c71-2c0510e45a34>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 517e9efd-99c6-4691-89f5-ff12d055d3ae
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/75efd617-fae6-4aac-734c-4f97c2b7b5d3>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_pink_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 350.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d44a2df4-b0a3-43f9-4c68-1a048c349971
+- !<SceneObject/785b1db5-03b9-418d-4915-8d8f0babd3ee>
+  PrefabRemaps:
+    []
+  Name: veh_hatchback_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 150.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 64e51ab9-a82d-4b33-691e-e40d4cae73e7
+- !<SceneObject/7d61948c-29d8-40bc-67d4-ca60c4728449>
+  PrefabRemaps:
+    []
+  Name: veh_scooter_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 550.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d83c1cde-f883-4735-6213-ebd3cb7dbbe1
+- !<SceneObject/894062d3-9313-42cb-4c2f-d275bdecefc7>
+  PrefabRemaps:
+    []
+  Name: Vehicles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 75efd617-fae6-4aac-734c-4f97c2b7b5d3
+    - !<own> 2df422ee-8a80-4079-56e3-5573db659418
+    - !<own> 0b8e8cd8-384e-48ed-6d1d-97f222cccb21
+    - !<own> 8cfb07ce-fb89-4326-79c2-4ba03cfdec79
+    - !<own> 433c208e-ec12-425a-4180-fd550fdadc46
+    - !<own> 7d61948c-29d8-40bc-67d4-ca60c4728449
+    - !<own> 8f505485-4fe1-4e95-6ca1-e3b8f2802a98
+    - !<own> 785b1db5-03b9-418d-4915-8d8f0babd3ee
+    - !<own> 196ae2d6-cd79-48d9-5fae-132d8fc11a5e
+    - !<own> a093b230-a02a-4988-5183-a35891fcf89c
+    - !<own> b21af2a1-0a01-4dd2-7940-b32c07db3131
+    - !<own> d3178f50-f27f-4482-40a8-1adca7a3e9eb
+    - !<own> 98bbc54b-78b0-4d1b-66ac-fb1bfb59901d
+    - !<own> dcc080a4-2332-4b82-7373-070c8d52303a
+    - !<own> 55d38e2f-4463-464f-4f4b-173ae9725282
+    - !<own> e6ca34d9-e72f-449d-46ff-60f4aa8d0ebb
+    - !<own> a5acdfdf-a917-4b1f-4aab-6402ef33b028
+  Components:
+    []
+- !<SceneObject/8cfb07ce-fb89-4326-79c2-4ba03cfdec79>
+  PrefabRemaps:
+    []
+  Name: veh_taxi_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -310.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 12132b11-3fca-4841-4a86-a843a1469d63
+- !<SceneObject/8f505485-4fe1-4e95-6ca1-e3b8f2802a98>
+  PrefabRemaps:
+    []
+  Name: veh_bicycle_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 610.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac6628cd-f0d3-4aff-7cb2-90d5097055fc
+- !<RenderMeshVisual/900631ba-1a57-4372-5f1c-4d75b181c284>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 38762c65-f724-497a-ab86-05b62c86046a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/946c6ca2-3ce0-4a44-4b7f-f262331bedab>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 42022da3-dc5d-457d-842d-a9d92b914f8e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/98bbc54b-78b0-4d1b-66ac-fb1bfb59901d>
+  PrefabRemaps:
+    []
+  Name: veh_ambulance_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -200.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 900631ba-1a57-4372-5f1c-4d75b181c284
+- !<SceneObject/a093b230-a02a-4988-5183-a35891fcf89c>
+  PrefabRemaps:
+    []
+  Name: veh_police_car_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -470.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fcbd0d35-4835-43ed-7616-852b99603dff
+- !<SceneObject/a5acdfdf-a917-4b1f-4aab-6402ef33b028>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_red_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 290.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eac35efd-83ef-47d6-69e2-962386147cbc
+- !<RenderMeshVisual/ac6628cd-f0d3-4aff-7cb2-90d5097055fc>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 6120bed9-181f-427e-9ab2-a4978377ad52
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b21af2a1-0a01-4dd2-7940-b32c07db3131>
+  PrefabRemaps:
+    []
+  Name: veh_sports_car_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 579c0f7c-aa1d-4d7e-5994-98f98602c64c
+- !<RenderMeshVisual/b7672b14-7f07-4f5b-6f97-8ad537441cfd>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 4956edeb-d601-4af6-86d1-ef15a90202e7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ObjectPrefabAssetData/be0129f1-35c4-4a03-85c8-0d4736d8b21c>
+  Prototype: !<ObjectOwner/c1b19a5d-9e12-42ed-901f-8338c2071359>
+    PackagePath: ""
+    objects:
+      - !<own> 894062d3-9313-42cb-4c2f-d275bdecefc7
+- !<RenderMeshVisual/d189727c-5571-4b7d-6575-555a8d7280ab>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 0e8ca22d-f825-401a-82fe-972917a2ef3f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/d3178f50-f27f-4482-40a8-1adca7a3e9eb>
+  PrefabRemaps:
+    []
+  Name: veh_school_bus_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f348d88f-d226-45bf-4258-6188c99bfc63
+- !<RenderMeshVisual/d44a2df4-b0a3-43f9-4c68-1a048c349971>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> f4a58952-3955-48ee-939c-0b97da8aca88
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d83c1cde-f883-4735-6213-ebd3cb7dbbe1>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 63b6aa64-e0d9-44cf-a6b3-c443eafbe88c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/dcc080a4-2332-4b82-7373-070c8d52303a>
+  PrefabRemaps:
+    []
+  Name: veh_fire_truck_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -400.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b7672b14-7f07-4f5b-6f97-8ad537441cfd
+- !<SceneObject/e6ca34d9-e72f-449d-46ff-60f4aa8d0ebb>
+  PrefabRemaps:
+    []
+  Name: veh_golfcar_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 470.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 50f663fc-dcc7-4e2e-6705-020f38a198d8
+- !<RenderMeshVisual/eac35efd-83ef-47d6-69e2-962386147cbc>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> c2e3e436-89ed-48da-81f9-e35ca3994a42
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f348d88f-d226-45bf-4258-6188c99bfc63>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> a3e1d12e-0454-4ef3-9b14-fd0d03ec5313
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f4dcbdf9-6c4d-4129-50c3-d3263d75b82e>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> 46345602-6299-4b31-8fba-e48b9a4acf44
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/fcbd0d35-4835-43ed-7616-852b99603dff>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+  Mesh: !<reference> f3b6cba2-7ce6-465e-9b79-8aeb38d449ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

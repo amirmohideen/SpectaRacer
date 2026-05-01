@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    78927c0a-4918-4b6a-942a-03dbe6f53dda: b4a0703f-4ad3-48d4-859e-38dbcb728d61/5f451cd206dfc0251c19acc64499f529/Data/Flag_shadow.mesh
+  Assets:
+    - !<FileMesh/78927c0a-4918-4b6a-942a-03dbe6f53dda>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 46.663086, y: 0.000000, z: 46.663086}
+  SourceHash: 5f451cd206dfc0251c19acc64499f529
+  FileHash: 0e242ec5c2257485ead921e5a1d8816b
+  NativePackageItems:
+    []

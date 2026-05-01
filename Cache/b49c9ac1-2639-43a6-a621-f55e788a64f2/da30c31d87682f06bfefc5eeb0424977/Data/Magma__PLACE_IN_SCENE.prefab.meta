@@ -1,0 +1,244 @@
+- !<AssetImportMetadata/98ac2c9c-7767-4a38-b770-6a7a64232b1f>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f4532689-2e4c-4378-8214-a954996a3cd3
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f4532689-2e4c-4378-8214-a954996a3cd3
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 1df14a37-d61c-4794-9d46-ce14d9d25319
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/027238ef-a3c3-48b5-bf50-bbbfa9d26e68>
+  PrefabRemaps:
+    []
+  Name: Make Tileable
+  Enabled: true
+  Layers: 2
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 62a7343d-e0f5-4763-af03-98d64ecb3a44
+- !<SceneObject/15cdedce-f4c4-4ddc-9fa9-e38df4762131>
+  PrefabRemaps:
+    []
+  Name: Magma Object
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b1ce50c9-2eea-4bef-b74e-d59af15c3574
+- !<ObjectPrefabAssetData/1df14a37-d61c-4794-9d46-ce14d9d25319>
+  SourceRemaps:
+    - 111d8019-90c8-44db-9719-91f7bc0db62d: ecccf229-6d5a-4a83-989f-21047f039b77
+    - 38664067-1bc9-4c2d-b29f-3299d79afa51: ff572c13-39f3-4c51-a48e-3e50c096715e
+    - 3ae287a5-12ae-45e9-a249-296721e54670: 15cdedce-f4c4-4ddc-9fa9-e38df4762131
+    - 3d8718fb-b61a-493a-abfe-a67c37f482a4: 377f15b9-44cf-466a-ba05-bf990769ec2b
+    - 59783464-4d66-45b8-a2c3-e9063c2f8d64: 4f3a7fcf-b7a1-49f8-94b7-4edfd3f3d8c6
+    - 5b522eaf-2ad1-44dd-9c3b-f472d5b7ddde: b1ce50c9-2eea-4bef-b74e-d59af15c3574
+    - 8a67c4f5-30bb-4c5f-95ef-8753ad77b972: 027238ef-a3c3-48b5-bf50-bbbfa9d26e68
+    - a72ef361-1efb-4954-8c01-b89b7c571f73: 6a3632e1-36e4-4346-ac18-e923d9d07633
+    - c90a178d-73b1-4373-9e36-287ca60bff54: 62a7343d-e0f5-4763-af03-98d64ecb3a44
+    - d26d4c9a-7714-49fc-a7f8-262608450731: ee1be47e-e793-42c7-a4bb-188a936a1a22
+    - e2e5dcd0-970c-4318-8738-007b61fb8d9d: b33ecbb1-d5d7-46ac-8861-850b7f8a2961
+    - f4532689-2e4c-4378-8214-a954996a3cd3: e4a87d85-3200-4e54-b25c-575517628609
+    - f5da6e83-df24-4d6d-84f6-32a695122c88: 71fa2474-2ff3-4a09-9636-203a8e598d1b
+  SourceState: !<own> e4a87d85-3200-4e54-b25c-575517628609
+- !<Camera/377f15b9-44cf-466a-ba05-bf990769ec2b>
+  PrefabRemaps:
+    []
+  Name: Camera
+  Enabled: true
+  renderLayer: 2
+  MipmapLevel: 0
+  RenderOrder: 1
+  Size: 20.000000
+  Near: 1.000000
+  Far: 200.000000
+  Fov: 63.541019
+  ClearColor: !<CameraClearColor>
+    Mode: None
+    Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  ClearDepth: !<CameraClearDepth>
+    Mode: None
+    Value: 1.000000
+    InputTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  Aspect: 1.000000
+  CameraType: Orthographic
+  DepthMode: Regular
+  DeviceProperty: All
+  AspectPreset: Custom
+  OitLayers: NoOit
+  RenderTarget: !<reference> 287c497c-2949-47fc-82d2-05ff36491531
+  DepthStencilRenderTarget: !<reference> 00000000-0000-0000-0000-000000000000
+  MaskTexture: !<reference> 00000000-0000-0000-0000-000000000000
+  RayTracing: !<reference> 00000000-0000-0000-0000-000000000000
+  DevicePropertiesSource: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4f3a7fcf-b7a1-49f8-94b7-4edfd3f3d8c6>
+  PrefabRemaps:
+    []
+  Name: Magma__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 47.864948, y: 13.546921, z: 35.130360}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 15cdedce-f4c4-4ddc-9fa9-e38df4762131
+    - !<own> 6a3632e1-36e4-4346-ac18-e923d9d07633
+  Components:
+    []
+- !<PostEffectVisual/62a7343d-e0f5-4763-af03-98d64ecb3a44>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 4
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f7d0693c-d86b-4cee-9b5f-ebe86d591f79
+- !<SceneObject/6a3632e1-36e4-4346-ac18-e923d9d07633>
+  PrefabRemaps:
+    []
+  Name: Orthographic Camera - Magma Noise Prepass
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> ecccf229-6d5a-4a83-989f-21047f039b77
+    - !<own> 027238ef-a3c3-48b5-bf50-bbbfa9d26e68
+    - !<own> ee1be47e-e793-42c7-a4bb-188a936a1a22
+  Components:
+    - !<own> 377f15b9-44cf-466a-ba05-bf990769ec2b
+- !<PostEffectVisual/71fa2474-2ff3-4a09-9636-203a8e598d1b>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b00cb14a-b80c-4fec-9b38-122dd766e09c
+- !<RenderMeshVisual/b1ce50c9-2eea-4bef-b74e-d59af15c3574>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 2
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 87540e2f-c8b1-493d-a0a9-939b0ce62966
+  Mesh: !<reference> df9751ce-2d88-4f20-9ae9-0709fed9f006
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<PostEffectVisual/b33ecbb1-d5d7-46ac-8861-850b7f8a2961>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 3
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 02faff4e-0bfc-45dd-be68-6b1625269ac6
+- !<ObjectPrefab/e4a87d85-3200-4e54-b25c-575517628609>
+  PackagePath: ""
+  objects:
+    - !<own> 4f3a7fcf-b7a1-49f8-94b7-4edfd3f3d8c6
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/ecccf229-6d5a-4a83-989f-21047f039b77>
+  PrefabRemaps:
+    []
+  Name: Magma Noise
+  Enabled: true
+  Layers: 2
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -1.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 32.000000, y: 32.000000, z: 32.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ff572c13-39f3-4c51-a48e-3e50c096715e
+    - !<own> b33ecbb1-d5d7-46ac-8861-850b7f8a2961
+- !<SceneObject/ee1be47e-e793-42c7-a4bb-188a936a1a22>
+  PrefabRemaps:
+    []
+  Name: Normals from Heightmap
+  Enabled: true
+  Layers: 2
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 71fa2474-2ff3-4a09-9636-203a8e598d1b
+- !<Image/ff572c13-39f3-4c51-a48e-3e50c096715e>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: false
+  RenderOrder: 3
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 02faff4e-0bfc-45dd-be68-6b1625269ac6
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000

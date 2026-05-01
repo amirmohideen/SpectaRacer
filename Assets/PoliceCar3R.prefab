@@ -1,0 +1,62 @@
+- !<ObjectPrefab/d16a7c49-2650-414b-b186-27e7b23eaac3>
+  PackagePath: ""
+  objects:
+    - !<own> e0ff0bfc-de03-40dc-acad-0ae0a868e084
+  LazyLoading: false
+  RetainAssets: true
+- !<ColliderComponent/47512203-56e8-41d8-9846-e6829ef0b838>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 120.000000, y: 200.000000, z: 200.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/e0ff0bfc-de03-40dc-acad-0ae0a868e084>
+  PrefabRemaps:
+    - 47512203-56e8-41d8-9846-e6829ef0b838: 47512203-56e8-41d8-67b9-197d610f47c7
+    - e0ff0bfc-de03-40dc-acad-0ae0a868e084: e0ff0bfc-de03-40dc-5352-f51f57971f7b
+    - ebefa17b-fef7-42bf-a7d4-d8632eff8a0b: ebefa17b-fef7-42bf-582b-279cd10075f4
+  Name: PoliceCar3R
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: -60.000000}
+    Scale: {x: 0.009000, y: 0.009000, z: 0.009000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ebefa17b-fef7-42bf-a7d4-d8632eff8a0b
+    - !<own> 47512203-56e8-41d8-9846-e6829ef0b838
+- !<RenderMeshVisual/ebefa17b-fef7-42bf-a7d4-d8632eff8a0b>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 350239e1-c046-4d3d-951e-35c71ce4ebe1
+  Mesh: !<reference> ba5f662b-60cc-4c39-b8bc-1c5464533c5b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

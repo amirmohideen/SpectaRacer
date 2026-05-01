@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    984b9239-2f44-492a-9246-fd8a99340802: ab2a4404-e2b2-e47a-5f72-772730f472b9/ebbb92f8d331381914a01c8686439234/Data/pattern_sign_bitmoji_st.jpg
+  Assets:
+    - !<FileTexture/984b9239-2f44-492a-9246-fd8a99340802>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 64
+  SourceHash: ebbb92f8d331381914a01c8686439234
+  FileHash: 9d1640d3588e784f982e326ca7b4bec0
+  NativePackageItems:
+    []

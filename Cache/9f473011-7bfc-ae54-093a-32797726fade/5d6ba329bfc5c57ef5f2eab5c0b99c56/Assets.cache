@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7a0e981a-9801-41c6-8927-1f0bfc299b28: 9f473011-7bfc-ae54-093a-32797726fade/5d6ba329bfc5c57ef5f2eab5c0b99c56/Data/veh_police_car_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/7a0e981a-9801-41c6-8927-1f0bfc299b28>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 5d6ba329bfc5c57ef5f2eab5c0b99c56
+  FileHash: 2f40753594277083983d4a69afc911dc
+  NativePackageItems:
+    []

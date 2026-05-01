@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4b88a14b-5993-4a1d-9202-2721b96753b1: 267ff11b-03b3-9fe7-fb6f-c502cc6bc73a/6342b1d985efb2fd5eb005bb80cb430c/Data/veh_taxi_pattern_B.png
+  Assets:
+    - !<FileTexture/4b88a14b-5993-4a1d-9202-2721b96753b1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 784
+        Height: 256
+  SourceHash: 6342b1d985efb2fd5eb005bb80cb430c
+  FileHash: bfd4768b221ee03453548460cca09649
+  NativePackageItems:
+    []

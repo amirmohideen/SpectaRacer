@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d1e469df-21dd-49a4-9863-4202fbec0414: 83b799e1-fee5-4674-896c-8f1aae43280a/2d9f2daacc13b190761ac64879d7bff9/Data/road_traffic_cone_small_bitmoji.mesh
+  Assets:
+    - !<FileMesh/d1e469df-21dd-49a4-9863-4202fbec0414>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 516
+        Vertices: 302
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 26.050844, y: 27.106716, z: 24.572470}
+  SourceHash: 2d9f2daacc13b190761ac64879d7bff9
+  FileHash: 3536f31124b83361487ddb3b700f84de
+  NativePackageItems:
+    []

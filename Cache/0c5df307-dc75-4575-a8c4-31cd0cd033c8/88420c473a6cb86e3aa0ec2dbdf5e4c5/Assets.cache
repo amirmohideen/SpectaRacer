@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    886b3adb-0518-4092-81ab-122ec9aa607c: 0c5df307-dc75-4575-a8c4-31cd0cd033c8/88420c473a6cb86e3aa0ec2dbdf5e4c5/Data/tile_road_turn_smoort4.mesh
+  Assets:
+    - !<FileMesh/886b3adb-0518-4092-81ab-122ec9aa607c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 8
+        Vertices: 16
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1999.999878, y: 17.713345, z: 2000.000244}
+  SourceHash: 88420c473a6cb86e3aa0ec2dbdf5e4c5
+  FileHash: b8b2eda3f025dafad1e1f289ce8686be
+  NativePackageItems:
+    []

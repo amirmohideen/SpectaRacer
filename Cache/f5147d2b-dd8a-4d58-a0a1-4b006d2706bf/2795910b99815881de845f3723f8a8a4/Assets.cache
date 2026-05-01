@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6120bed9-181f-427e-9ab2-a4978377ad52: f5147d2b-dd8a-4d58-a0a1-4b006d2706bf/2795910b99815881de845f3723f8a8a4/Data/veh_bicycle_bitmoji.mesh
+  Assets:
+    - !<FileMesh/6120bed9-181f-427e-9ab2-a4978377ad52>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4656
+        Vertices: 3982
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 41.808960, y: 69.543594, z: 114.789825}
+  SourceHash: 2795910b99815881de845f3723f8a8a4
+  FileHash: fc13910900bd75946cd85e4857a337b8
+  NativePackageItems:
+    []

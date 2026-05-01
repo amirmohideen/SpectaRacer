@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f0f2f64d-524b-4a8f-a966-5d806321a6bd: 974b9a9a-3b5c-e96f-31ec-8b1b7cf6c3d7/d14229ad207de6aaa3efdd99ec8e1c82/Data/Location.png
+  Assets:
+    - !<FileTexture/f0f2f64d-524b-4a8f-a966-5d806321a6bd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: d14229ad207de6aaa3efdd99ec8e1c82
+  FileHash: c5b3b2e86e21f8786f2afff7543230de
+  NativePackageItems:
+    []

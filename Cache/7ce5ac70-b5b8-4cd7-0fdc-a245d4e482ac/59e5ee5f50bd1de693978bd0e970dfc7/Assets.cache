@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9833b805-09e1-45d6-a917-1513f8707a1a: 7ce5ac70-b5b8-4cd7-0fdc-a245d4e482ac/59e5ee5f50bd1de693978bd0e970dfc7/Data/elephant_med_01_defaultMat1_base.png
+  Assets:
+    - !<FileTexture/9833b805-09e1-45d6-a917-1513f8707a1a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 2048
+        Height: 2048
+  SourceHash: 59e5ee5f50bd1de693978bd0e970dfc7
+  FileHash: c06bde9c91c9054aef5075f9caaec6cd
+  NativePackageItems:
+    []

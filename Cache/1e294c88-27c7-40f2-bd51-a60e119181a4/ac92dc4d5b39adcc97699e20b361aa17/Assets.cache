@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ec9efe2f-ffd5-4338-a328-e9d940648b99: 1e294c88-27c7-40f2-bd51-a60e119181a4/ac92dc4d5b39adcc97699e20b361aa17/Data/veh_hatchback_bitmoji.mesh
+  Assets:
+    - !<FileMesh/ec9efe2f-ffd5-4338-a328-e9d940648b99>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 6012
+        Vertices: 5398
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 116.414185, y: 111.087212, z: 207.258575}
+  SourceHash: ac92dc4d5b39adcc97699e20b361aa17
+  FileHash: f7f361536dcd4ecaf72f6cca77205499
+  NativePackageItems:
+    []

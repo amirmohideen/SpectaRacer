@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ab40c050-f20b-44bd-84d8-70d376c8c011: 7df8c7c1-1482-83a0-cb79-6a1a17dca281/9e3a87ff999e075edd26b56fd8cbc622/Data/fireball_2x2.png
+  Assets:
+    - !<FileTexture/ab40c050-f20b-44bd-84d8-70d376c8c011>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 9e3a87ff999e075edd26b56fd8cbc622
+  FileHash: 02191cadfab2d9e5acd336c1bf20be06
+  NativePackageItems:
+    []

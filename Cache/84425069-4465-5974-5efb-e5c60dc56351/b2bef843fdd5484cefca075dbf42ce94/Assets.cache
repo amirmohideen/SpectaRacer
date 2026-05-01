@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    63a28058-187b-45d9-a74f-1317125b8812: 84425069-4465-5974-5efb-e5c60dc56351/b2bef843fdd5484cefca075dbf42ce94/Data/eyes_mask.jpg
+  Assets:
+    - !<FileTexture/63a28058-187b-45d9-a74f-1317125b8812>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 379
+        Height: 512
+  SourceHash: b2bef843fdd5484cefca075dbf42ce94
+  FileHash: ea8df0b41c950480e548842c2182da0c
+  NativePackageItems:
+    []

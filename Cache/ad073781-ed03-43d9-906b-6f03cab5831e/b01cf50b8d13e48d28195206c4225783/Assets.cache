@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1d0d8240-9075-4342-94bf-cc1b98922810: ad073781-ed03-43d9-906b-6f03cab5831e/b01cf50b8d13e48d28195206c4225783/Data/Rotating_arm_shadow.mesh
+  Assets:
+    - !<FileMesh/1d0d8240-9075-4342-94bf-cc1b98922810>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2
+        Vertices: 4
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 59.639668, y: 0.000000, z: 49.370354}
+  SourceHash: b01cf50b8d13e48d28195206c4225783
+  FileHash: dd7ef617c92e8342f56f903101299338
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    49695206-cbbb-4c8a-873b-742413ebf920: 7b3c7748-87b6-4d83-984d-4a978697f45c/94bd512c277f99054f5ff4375555e38a/Data/Hazard_tile.mesh
+  Assets:
+    - !<FileMesh/49695206-cbbb-4c8a-873b-742413ebf920>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 982
+        Vertices: 685
+        Blendshapes:
+          - Hazard_tile_blendshape
+        Joints: 0
+        AabbSize: {x: 63.765343, y: 23.621605, z: 63.765343}
+  SourceHash: 94bd512c277f99054f5ff4375555e38a
+  FileHash: 8ecf71c1602d0abc904dceceeae39eaa
+  NativePackageItems:
+    []

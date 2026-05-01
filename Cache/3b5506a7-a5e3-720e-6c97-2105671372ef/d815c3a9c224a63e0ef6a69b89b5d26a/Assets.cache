@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ee73ddb5-ab35-47c6-8c2d-70bbee9eaae7: 3b5506a7-a5e3-720e-6c97-2105671372ef/d815c3a9c224a63e0ef6a69b89b5d26a/Data/road_traffic_light_pole_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/ee73ddb5-ab35-47c6-8c2d-70bbee9eaae7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: d815c3a9c224a63e0ef6a69b89b5d26a
+  FileHash: 87b11cb6c64c331ad0988d580118f85a
+  NativePackageItems:
+    []

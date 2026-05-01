@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    e9fff4d0-9f38-4e0b-a607-cb004fd4aaef: df4f7eb0-ff45-49f4-a670-93e622fa1905/2b060a09ec7f670330db2b11a97bc3b1/Data/veh_taxi_bitmoji.mesh
+  Assets:
+    - !<FileMesh/e9fff4d0-9f38-4e0b-a607-cb004fd4aaef>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 5448
+        Vertices: 4691
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 138.023972, y: 106.235016, z: 210.278854}
+  SourceHash: 2b060a09ec7f670330db2b11a97bc3b1
+  FileHash: 488408ba12df781b7dff37fdd186acad
+  NativePackageItems:
+    []

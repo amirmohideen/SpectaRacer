@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7beb3420-efbb-4334-9725-4b0d404d29e2: b6b2646d-951b-7541-b5aa-7d41dcbfef98/c648238c150449e4e9787e63502ecc94/Data/road_street_electric_pole_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/7beb3420-efbb-4334-9725-4b0d404d29e2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: c648238c150449e4e9787e63502ecc94
+  FileHash: 1e3715c803fb75305c9652dedfa4e32f
+  NativePackageItems:
+    []

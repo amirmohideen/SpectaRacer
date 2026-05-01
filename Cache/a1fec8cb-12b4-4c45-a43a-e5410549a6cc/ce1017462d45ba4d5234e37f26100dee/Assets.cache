@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    6bd52e7b-ae83-465f-88e0-d2c431948313: a1fec8cb-12b4-4c45-a43a-e5410549a6cc/ce1017462d45ba4d5234e37f26100dee/Data/road_bike_sign_stand_bitmoji.mesh
+  Assets:
+    - !<FileMesh/6bd52e7b-ae83-465f-88e0-d2c431948313>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 868
+        Vertices: 669
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 53.604324, y: 48.567780, z: 11.846882}
+  SourceHash: ce1017462d45ba4d5234e37f26100dee
+  FileHash: 8a6cae3b42678c11352fd5b411cd81ee
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8fd06c73-46a6-4a6c-bab0-4ce91357db3d: 7eb4e046-6a94-ca43-0a34-7772c8fd60fa/672f479a8940fa9aad9b03cdc93e5c71/Data/road_bus_stop_ID.png
+  Assets:
+    - !<FileTexture/8fd06c73-46a6-4a6c-bab0-4ce91357db3d>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 672f479a8940fa9aad9b03cdc93e5c71
+  FileHash: 1eef1c5e1c577e0d757adf7bdf624047
+  NativePackageItems:
+    []

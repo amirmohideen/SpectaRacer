@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    35846f73-e25e-4117-8a00-8afefa614faf: cedbc6b9-68e6-4d76-8dcb-ebe88b6dc7cd/c2e3d9c3c4a521ebec0588f1be48725c/Data/Coin.mesh
+  Assets:
+    - !<FileMesh/35846f73-e25e-4117-8a00-8afefa614faf>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 132
+        Vertices: 222
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 52.553986, y: 52.553986, z: 16.354961}
+  SourceHash: c2e3d9c3c4a521ebec0588f1be48725c
+  FileHash: eb247d4d3c537e2b94b5e4d3e01e52e3
+  NativePackageItems:
+    []

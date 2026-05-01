@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    09c38d1f-b1d9-486f-a106-857db49d05bc: 32a50dab-6417-42bd-b079-d827944b8557/493323943556f89d3ebf3321b80d8ebc/Data/g group_0_14541540.mesh
+  Assets:
+    - !<FileMesh/09c38d1f-b1d9-486f-a106-857db49d05bc>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 11234
+        Vertices: 32961
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 20.000000, y: 18.959000, z: 17.308001}
+  SourceHash: 493323943556f89d3ebf3321b80d8ebc
+  FileHash: 971e8440ea086f3bf72b46ea3ca32381
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a6740d0e-e5eb-477f-bcb1-5f3475993bc0: 697c2a74-335b-456d-96cb-8bdfec1a1735/5d8061169afa6dcb568cad71aca074a4/Data/road_mailbox_blue_bitmoji.mesh
+  Assets:
+    - !<FileMesh/a6740d0e-e5eb-477f-bcb1-5f3475993bc0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 740
+        Vertices: 730
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 39.930771, y: 64.392990, z: 39.660507}
+  SourceHash: 5d8061169afa6dcb568cad71aca074a4
+  FileHash: 832a1e0c5cdef21a5b228c95e1b90fbf
+  NativePackageItems:
+    []

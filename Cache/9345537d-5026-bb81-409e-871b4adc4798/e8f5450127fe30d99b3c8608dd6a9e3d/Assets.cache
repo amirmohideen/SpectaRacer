@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f968ca44-6f0e-4ff4-a5ce-281479a9a0b6: 9345537d-5026-bb81-409e-871b4adc4798/e8f5450127fe30d99b3c8608dd6a9e3d/Data/Trash.png
+  Assets:
+    - !<FileTexture/f968ca44-6f0e-4ff4-a5ce-281479a9a0b6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: e8f5450127fe30d99b3c8608dd6a9e3d
+  FileHash: 9828c43f6a2d0e1c49ad89033657469c
+  NativePackageItems:
+    []

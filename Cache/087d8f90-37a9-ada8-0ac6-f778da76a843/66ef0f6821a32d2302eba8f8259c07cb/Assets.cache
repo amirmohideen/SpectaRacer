@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    54f02ea8-06de-4380-b686-60f7dd12dbb9: 087d8f90-37a9-ada8-0ac6-f778da76a843/66ef0f6821a32d2302eba8f8259c07cb/Data/Matcap_Stone.jpg
+  Assets:
+    - !<FileTexture/54f02ea8-06de-4380-b686-60f7dd12dbb9>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 66ef0f6821a32d2302eba8f8259c07cb
+  FileHash: 2869d6d367ee2aba3a761758e9c5f2f7
+  NativePackageItems:
+    []

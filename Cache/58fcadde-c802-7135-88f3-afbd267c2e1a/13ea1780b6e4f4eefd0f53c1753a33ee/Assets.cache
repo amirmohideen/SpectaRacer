@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dd151481-5440-4fed-ba31-a60a943d3683: 58fcadde-c802-7135-88f3-afbd267c2e1a/13ea1780b6e4f4eefd0f53c1753a33ee/Data/road_barrier_stop_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/dd151481-5440-4fed-ba31-a60a943d3683>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 13ea1780b6e4f4eefd0f53c1753a33ee
+  FileHash: 628c4a0ae8a154cf2375e097064f1a2d
+  NativePackageItems:
+    []

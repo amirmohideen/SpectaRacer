@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    155a8570-0540-4051-a758-d3f88a6e2a83: 1357f591-138b-4e7a-ab00-2befeb29179b/6772a332ae9703455df6b54940357e29/Data/road_sign_stop_bitmoji.mesh
+  Assets:
+    - !<FileMesh/155a8570-0540-4051-a758-d3f88a6e2a83>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 316
+        Vertices: 268
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 54.734894, y: 154.903610, z: 9.327975}
+  SourceHash: 6772a332ae9703455df6b54940357e29
+  FileHash: 02ad12059f0cd719e0a2a014ced4c778
+  NativePackageItems:
+    []

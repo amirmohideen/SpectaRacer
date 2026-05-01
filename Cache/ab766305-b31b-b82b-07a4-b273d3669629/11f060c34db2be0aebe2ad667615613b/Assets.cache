@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b7f16f54-835d-44a9-8b32-98655ffed339: ab766305-b31b-b82b-07a4-b273d3669629/11f060c34db2be0aebe2ad667615613b/Data/pattern_sign_turn_right.jpg
+  Assets:
+    - !<FileTexture/b7f16f54-835d-44a9-8b32-98655ffed339>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 11f060c34db2be0aebe2ad667615613b
+  FileHash: 655994b37ab662954fd2c7982fdd8577
+  NativePackageItems:
+    []

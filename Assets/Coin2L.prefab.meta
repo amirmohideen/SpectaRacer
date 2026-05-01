@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/6e800b64-ea75-46c9-acee-003de960bc11>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 9b1899f1-d76f-46a3-80a6-fa40ffc3837a
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 9b1899f1-d76f-46a3-80a6-fa40ffc3837a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 18ce8017-ac71-42c7-810f-090515810e60
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/18ce8017-ac71-42c7-810f-090515810e60>
+  Prototype: !<ObjectOwner/d492be47-ae1c-4fca-8827-f140faf222f0>
+    PackagePath: ""
+    objects:
+      - !<own> 2c97effa-48fb-4a57-667f-4b7af9ef96da
+- !<SceneObject/2c97effa-48fb-4a57-667f-4b7af9ef96da>
+  PrefabRemaps:
+    []
+  Name: Coin2L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 60.000000}
+    Scale: {x: 0.020000, y: 0.020000, z: 0.020000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 471b4381-41e9-425d-40b0-99709035032f
+    - !<own> a3648001-aae1-42a3-58c4-18ef08d7236d
+- !<RenderMeshVisual/471b4381-41e9-425d-40b0-99709035032f>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> c66f1885-cbea-4472-b659-ec7c1e62cd2a
+  Mesh: !<reference> 79ab0882-caf4-4fa5-bcb2-9886a638c287
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/a3648001-aae1-42a3-58c4-18ef08d7236d>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false

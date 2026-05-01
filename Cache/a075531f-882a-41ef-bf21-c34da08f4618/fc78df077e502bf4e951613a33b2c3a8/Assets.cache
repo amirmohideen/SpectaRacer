@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    517e9efd-99c6-4691-89f5-ff12d055d3ae: a075531f-882a-41ef-bf21-c34da08f4618/fc78df077e502bf4e951613a33b2c3a8/Data/veh_stroller_bitmoji.mesh
+  Assets:
+    - !<FileMesh/517e9efd-99c6-4691-89f5-ff12d055d3ae>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 3552
+        Vertices: 2740
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 42.082397, y: 75.297867, z: 73.773170}
+  SourceHash: fc78df077e502bf4e951613a33b2c3a8
+  FileHash: 72bf3466f41d8b37a29d20c91c640d36
+  NativePackageItems:
+    []

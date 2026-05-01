@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    05ff545c-7a97-4a41-8b42-b39de79c360b: 070f0fb3-e790-843b-c68f-9bb27f5e6dd5/690e42d65b72b04a66228ec4e85b0bff/Data/Road_Tileset_stone_AO.jpg
+  Assets:
+    - !<FileTexture/05ff545c-7a97-4a41-8b42-b39de79c360b>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 690e42d65b72b04a66228ec4e85b0bff
+  FileHash: 7ec624f908403736b377591545d81f0f
+  NativePackageItems:
+    []

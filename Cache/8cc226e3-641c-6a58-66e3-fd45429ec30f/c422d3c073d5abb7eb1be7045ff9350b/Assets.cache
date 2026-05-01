@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    425f0f49-691d-4313-91c6-67303ca59ad4: 8cc226e3-641c-6a58-66e3-fd45429ec30f/c422d3c073d5abb7eb1be7045ff9350b/Data/road_street_electric_pole_condensers_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/425f0f49-691d-4313-91c6-67303ca59ad4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: c422d3c073d5abb7eb1be7045ff9350b
+  FileHash: 74bb6c5768cec281950baa881a73350c
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    46345602-6299-4b31-8fba-e48b9a4acf44: 567822bd-f5e8-41e5-a761-7e5b0f8af047/219f7084f32339382765bcc68f8bcb04/Data/veh_locomotive_bitmoji.mesh
+  Assets:
+    - !<FileMesh/46345602-6299-4b31-8fba-e48b9a4acf44>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 9422
+        Vertices: 7996
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 139.158981, y: 193.956604, z: 247.506622}
+  SourceHash: 219f7084f32339382765bcc68f8bcb04
+  FileHash: 56fede5f9f6b7220409563a5804db678
+  NativePackageItems:
+    []

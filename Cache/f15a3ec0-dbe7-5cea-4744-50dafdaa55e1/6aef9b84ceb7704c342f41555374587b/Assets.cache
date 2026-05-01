@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    3039e968-306e-4bb2-a7d8-52a74a66b496: f15a3ec0-dbe7-5cea-4744-50dafdaa55e1/6aef9b84ceb7704c342f41555374587b/Data/veh_stroller_diff.jpg
+  Assets:
+    - !<FileTexture/3039e968-306e-4bb2-a7d8-52a74a66b496>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 6aef9b84ceb7704c342f41555374587b
+  FileHash: 06b1b87b76c23e0d5f1623c8a2df11b0
+  NativePackageItems:
+    []

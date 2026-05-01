@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4a96d00c-20c9-43f5-ba42-aedaac23fd8e: 4f3510e8-a867-1755-68f3-f7db04f508a5/3b39ff81b0259470090d115f6648f3b5/Data/veh_bicycle_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/4a96d00c-20c9-43f5-ba42-aedaac23fd8e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 3b39ff81b0259470090d115f6648f3b5
+  FileHash: 0e5baf1a8f648403887ce35083a449ae
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f51da010-0eb2-4f01-b7e7-7c50b678e280: 0ead77ab-d816-a299-c33b-59700cece780/9d57882914d97f9ec3fbffbbdb2b5190/Data/veh_taxi_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/f51da010-0eb2-4f01-b7e7-7c50b678e280>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 9d57882914d97f9ec3fbffbbdb2b5190
+  FileHash: dc255286d316e76e8449cd9ce6f59dd0
+  NativePackageItems:
+    []

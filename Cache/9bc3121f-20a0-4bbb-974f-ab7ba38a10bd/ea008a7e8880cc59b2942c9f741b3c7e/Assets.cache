@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8a1ab5bb-da3f-4c10-80fc-d7d9effd2d71: 9bc3121f-20a0-4bbb-974f-ab7ba38a10bd/ea008a7e8880cc59b2942c9f741b3c7e/Data/Ladder.mesh
+  Assets:
+    - !<FileMesh/8a1ab5bb-da3f-4c10-80fc-d7d9effd2d71>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 352
+        Vertices: 336
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 40.050217, y: 125.333862, z: 10.635818}
+  SourceHash: ea008a7e8880cc59b2942c9f741b3c7e
+  FileHash: 0d165c40845ec832abf4fe08c6ee887b
+  NativePackageItems:
+    []

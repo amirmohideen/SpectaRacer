@@ -1,0 +1,35 @@
+- !<NativePackageDescriptor/4d16d56b-3048-4b27-978e-f4dceb0eecad>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 0
+    build: 25101512
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: ""
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 71e58aa0-b087-4ef8-afdd-00158cf942ee
+  ComponentUid: 5e87d39e-7995-4b92-a9cd-8e220c963f5b
+  PackagePolicy: ShouldBeUnpacked
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags: []
+  Attachments: []
+  Instantiable: !<reference> 5cb0a39d-5033-4bdb-a5d3-36dea2c69d8a
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: Road Props Vol 1
+    AssetId: 4GIaJZlZgYyHx4pIHn9Ojl
+    Hash: 8bf9e02a17a7181781820bb2a383c90d
+    Version:
+      major: -1
+      minor: -1
+      patch: -1
+      build: 0

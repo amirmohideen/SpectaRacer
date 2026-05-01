@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a9270bab-f4c9-4fc9-9992-1ed9d4c8cca6: 4009fb64-2aed-0c65-6156-f52cbae82aad/24129e4235593b51c3111909b88b90be/Data/road_ticket_machine_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/a9270bab-f4c9-4fc9-9992-1ed9d4c8cca6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 24129e4235593b51c3111909b88b90be
+  FileHash: a0fb75ced0b1b1e79e0fcbba94a380a8
+  NativePackageItems:
+    []

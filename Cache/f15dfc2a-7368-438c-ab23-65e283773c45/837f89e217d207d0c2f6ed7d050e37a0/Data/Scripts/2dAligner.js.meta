@@ -1,0 +1,44 @@
+- !<AssetImportMetadata/83fc20e0-e13b-4cfe-9e1c-899ed9135565>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b3a1d2c6-2b20-46ed-b300-2963503ab852
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b3a1d2c6-2b20-46ed-b300-2963503ab852
+  PackageType: NotAPackage
+  PackagePolicy: CannotBeUnpacked
+  ExtraData: {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4948760c-6f47-4966-b995-b90b20c078f3
+  DependentFiles: []
+  ImporterSettings: !<AssetImporterSettings> {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4948760c-6f47-4966-b995-b90b20c078f3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 12f8c025-eb23-454a-9999-5f8266f07c56
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  ScriptInputsHidden:
+    alignType: false
+    bindingPoint: false
+    camera: false
+    height: false
+    onSnapEventRegionType: false
+    sourceRegionType: false
+    width: false
+  ScriptTypesHidden: {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      bindingPoint: !<Vec2> {x: 0.000000, y: 0.000000}
+      width: !<float> 1.000000
+      height: !<float> 1.000000
+      sourceRegionType: 1
+      onSnapEventRegionType: 2
+      alignType: 1
+  ScriptTypes:
+    - {}

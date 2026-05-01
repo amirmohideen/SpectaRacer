@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    17471c7b-3165-48b8-b4a2-3b79ef634b89: d3a35ea4-9153-c1e4-c789-94ad826ee097/d31f83e3db65c46d35d172f7951b86b1/Data/road_speed_bump_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/17471c7b-3165-48b8-b4a2-3b79ef634b89>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: d31f83e3db65c46d35d172f7951b86b1
+  FileHash: 6272d5046e96b3801139a652da5fdf9d
+  NativePackageItems:
+    []

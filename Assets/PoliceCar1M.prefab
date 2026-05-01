@@ -1,0 +1,62 @@
+- !<ObjectPrefab/5dedc5d8-d49a-4057-a4ef-3bab34cffefe>
+  PackagePath: ""
+  objects:
+    - !<own> 139ebd85-c0bc-40b9-89b2-6afa2febb697
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/139ebd85-c0bc-40b9-89b2-6afa2febb697>
+  PrefabRemaps:
+    - 139ebd85-c0bc-40b9-89b2-6afa2febb697: 139ebd85-c0bc-40b9-764d-9505d0144968
+    - 1d3ee3ad-243d-4d47-896a-586052d2264d: 1d3ee3ad-243d-4d47-7695-a79fad2dd9b2
+    - 4f5e9705-a468-4df5-8599-13f80233c0a0: 4f5e9705-a468-4df5-7a66-ec07fdcc3f5f
+  Name: PoliceCar
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.009000, y: 0.009000, z: 0.009000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1d3ee3ad-243d-4d47-896a-586052d2264d
+    - !<own> 4f5e9705-a468-4df5-8599-13f80233c0a0
+- !<RenderMeshVisual/1d3ee3ad-243d-4d47-896a-586052d2264d>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8365a500-a005-4cbf-856e-e242a600b67f
+  Mesh: !<reference> 459551a3-743f-402f-8928-435d71cdd78c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/4f5e9705-a468-4df5-8599-13f80233c0a0>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 120.000000, y: 200.000000, z: 200.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false

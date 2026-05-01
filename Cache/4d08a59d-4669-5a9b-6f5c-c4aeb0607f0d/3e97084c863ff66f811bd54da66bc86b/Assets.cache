@@ -1,0 +1,171 @@
+- !<AssetCache>
+  AssetFiles:
+    17f43435-13e8-4dae-b9b6-4b83aae70ec2: 4d08a59d-4669-5a9b-6f5c-c4aeb0607f0d/3e97084c863ff66f811bd54da66bc86b/Data/Heightmap Normals.ss_graph
+  Assets:
+    - !<ShaderGraphPass/17f43435-13e8-4dae-b9b6-4b83aae70ec2>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input0_N104:
+          typeIdx: 3
+          value: {x: -1.000000, y: 0.000000}
+        Port_Input0_N107:
+          typeIdx: 3
+          value: {x: 1.000000, y: 0.000000}
+        Port_Input0_N112:
+          typeIdx: 3
+          value: {x: 0.000000, y: -1.000000}
+        Port_Input0_N115:
+          typeIdx: 3
+          value: {x: 0.000000, y: 1.000000}
+        Port_LODValue_N106:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N109:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N114:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N117:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxA_N007:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N007:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N007:
+          typeIdx: 1
+          value: -1.000000
+        Port_RangeMinB_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value3_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N120:
+          typeIdx: 1
+          value: 0.300000
+        Port_Value4_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N120:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Height Map
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Step Size
+            mType: Property
+            mName: stepSize
+            mWidget: slider
+            mHint: "Property: stepSize"
+            mMin: 0.000000
+            mMax: 5.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: 4d08a59d-4669-5a9b-6f5c-c4aeb0607f0d/3e97084c863ff66f811bd54da66bc86b/Data/6a992e8/Heightmap Normals.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: 3e97084c863ff66f811bd54da66bc86b
+  FileHash: 14f957e9fbc564226cc2edce2020a30d
+  NativePackageItems:
+    []

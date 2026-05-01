@@ -1,0 +1,356 @@
+- !<AssetCache>
+  AssetFiles:
+    70bf94da-0e2d-410e-8b83-a561b3c4227f: "4fb4b493-ac34-5a6e-57dc-3410fe18f924/0f5794e3dcbb928ee5f2c7ce72f4c80b/Data/God Rays [EDIT ME].ss_graph"
+  Assets:
+    - !<ShaderGraphPass/70bf94da-0e2d-410e-8b83-a561b3c4227f>
+      PackagePath: ""
+      DefaultDefines:
+        - NODE_44_DROPLIST_ITEM 0
+      DefaultProperties:
+        Port_Center_N001:
+          typeIdx: 3
+          value: {x: 0.500000, y: 0.500000}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input0_N012:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input0_N023:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N009:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N008:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input3_N028:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N005:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N016:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Scale_N001:
+          typeIdx: 3
+          value: {x: 1.000000, y: 1.000000}
+        Port_Value2_N007:
+          typeIdx: 1
+          value: 1.000000
+        Port_Value3_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N007:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_CASTER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Blend Mode
+            mType: DefineSelect
+            mName: ""
+            mWidget: ""
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              - mLabel: Add
+                mType: DefineSelectValue
+                mName: NODE_44_DROPLIST_ITEM 0
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Screen
+                mType: DefineSelectValue
+                mName: NODE_44_DROPLIST_ITEM 1
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+              - mLabel: Average
+                mType: DefineSelectValue
+                mName: NODE_44_DROPLIST_ITEM 2
+                mWidget: ""
+                mHint: ""
+                mMin: ~
+                mMax: ~
+                mStep: ~
+                mDefaultVal: ~
+                mValues:
+                  []
+          - mLabel: Samples
+            mType: Property
+            mName: samples
+            mWidget: slider
+            mHint: "Property: samples"
+            mMin: 10.000000
+            mMax: 100.000000
+            mStep: 1.000000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Cut Off
+            mType: Property
+            mName: cutOff
+            mWidget: slider
+            mHint: "Property: cutOff"
+            mMin: 0.250000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: CutOff Frame
+            mType: Property
+            mName: cutOffFrame
+            mWidget: slider
+            mHint: "Property: cutOffFrame"
+            mMin: 0.100000
+            mMax: 0.500000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Base Texture
+            mType: Property
+            mName: baseTex
+            mWidget: texture_group
+            mHint: "Property: baseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Light Position
+            mType: Property
+            mName: lightPosition
+            mWidget: spinbox
+            mHint: "Property: lightPosition"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: density
+            mType: Property
+            mName: density
+            mWidget: spinbox
+            mHint: "Property: density"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Strength
+            mType: Property
+            mName: strength
+            mWidget: spinbox
+            mHint: "Property: strength"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Illumination Decay
+            mType: Property
+            mName: illumDecay
+            mWidget: spinbox
+            mHint: "Property: illumDecay"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Decay
+            mType: Property
+            mName: decay
+            mWidget: spinbox
+            mHint: "Property: decay"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Rays Color
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Custom Color
+            mType: Define
+            mName: Tweak_N30
+            mWidget: checkbox
+            mHint: "Define: Tweak_N30"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Rays Color
+            mType: Property
+            mName: raysColor
+            mWidget: color
+            mHint: "Property: raysColor"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mask Texture
+            mType: Define
+            mName: Tweak_N6
+            mWidget: group_start
+            mHint: "Define: Tweak_N6"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Mask Texture
+            mType: Property
+            mName: MaskTex
+            mWidget: texture_group
+            mHint: "Property: MaskTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: Tweak_N6
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: "4fb4b493-ac34-5a6e-57dc-3410fe18f924/0f5794e3dcbb928ee5f2c7ce72f4c80b/Data/6a992e8/God Rays [EDIT ME].glsl"
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: 0f5794e3dcbb928ee5f2c7ce72f4c80b
+  FileHash: e8c31f5183e2bba8a2c8e0d3d05e4903
+  NativePackageItems:
+    []

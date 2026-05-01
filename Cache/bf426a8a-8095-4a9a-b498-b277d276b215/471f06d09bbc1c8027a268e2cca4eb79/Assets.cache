@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f19bc1d6-aadf-4655-885c-312b99a28017: bf426a8a-8095-4a9a-b498-b277d276b215/471f06d09bbc1c8027a268e2cca4eb79/Data/tile_flat.mesh
+  Assets:
+    - !<FileMesh/f19bc1d6-aadf-4655-885c-312b99a28017>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 50
+        Vertices: 36
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1999.999512, y: 0.000006, z: 1999.999756}
+  SourceHash: 471f06d09bbc1c8027a268e2cca4eb79
+  FileHash: 3416e3b1e92cbde01e6bef2edac08d49
+  NativePackageItems:
+    []

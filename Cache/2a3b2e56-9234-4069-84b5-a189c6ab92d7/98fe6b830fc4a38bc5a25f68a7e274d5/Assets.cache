@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    51092dd2-2556-4de0-ab1c-462c0d84c92c: 2a3b2e56-9234-4069-84b5-a189c6ab92d7/98fe6b830fc4a38bc5a25f68a7e274d5/Data/stones_10.mesh
+  Assets:
+    - !<FileMesh/51092dd2-2556-4de0-ab1c-462c0d84c92c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 10
+        Vertices: 20
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1480.160645, y: 78.086700, z: 1445.974854}
+  SourceHash: 98fe6b830fc4a38bc5a25f68a7e274d5
+  FileHash: 951930e8b8da91c3c83236a4cb880f05
+  NativePackageItems:
+    []

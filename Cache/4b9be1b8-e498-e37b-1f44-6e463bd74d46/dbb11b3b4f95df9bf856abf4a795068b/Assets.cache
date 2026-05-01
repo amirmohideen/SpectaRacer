@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d0efa908-6605-4002-bd11-4b90d019d251: 4b9be1b8-e498-e37b-1f44-6e463bd74d46/dbb11b3b4f95df9bf856abf4a795068b/Data/Lava_BaseColor.jpg
+  Assets:
+    - !<FileTexture/d0efa908-6605-4002-bd11-4b90d019d251>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: dbb11b3b4f95df9bf856abf4a795068b
+  FileHash: ced8b563d707c024a6615c9a93d7df58
+  NativePackageItems:
+    []

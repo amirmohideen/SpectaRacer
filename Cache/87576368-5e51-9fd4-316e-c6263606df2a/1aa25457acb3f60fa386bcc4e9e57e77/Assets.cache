@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    68df49f0-9f0b-449c-8b1b-fad5d9d3ed53: 87576368-5e51-9fd4-316e-c6263606df2a/1aa25457acb3f60fa386bcc4e9e57e77/Data/road_barrier_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/68df49f0-9f0b-449c-8b1b-fad5d9d3ed53>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 1aa25457acb3f60fa386bcc4e9e57e77
+  FileHash: 8f7ce1e0da343844a3f0aad599d0589f
+  NativePackageItems:
+    []

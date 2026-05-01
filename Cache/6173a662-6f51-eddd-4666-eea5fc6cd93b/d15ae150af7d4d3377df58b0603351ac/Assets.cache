@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f2ed4279-9717-4416-a944-2f70ec7d473a: 6173a662-6f51-eddd-4666-eea5fc6cd93b/d15ae150af7d4d3377df58b0603351ac/Data/Noise_Electro_B.jpg
+  Assets:
+    - !<FileTexture/f2ed4279-9717-4416-a944-2f70ec7d473a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: d15ae150af7d4d3377df58b0603351ac
+  FileHash: b15045e98ecf0dea12e05a95b5f36dc2
+  NativePackageItems:
+    []

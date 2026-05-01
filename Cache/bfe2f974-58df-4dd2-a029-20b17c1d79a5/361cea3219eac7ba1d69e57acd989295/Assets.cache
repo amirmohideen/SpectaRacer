@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b0f40b84-8a9c-4863-aaf5-def04e806b35: bfe2f974-58df-4dd2-a029-20b17c1d79a5/361cea3219eac7ba1d69e57acd989295/Data/Rotating_arm.mesh
+  Assets:
+    - !<FileMesh/b0f40b84-8a9c-4863-aaf5-def04e806b35>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 362
+        Vertices: 301
+        Blendshapes:
+          - Rotating_arm_switch_blendshape
+        Joints: 0
+        AabbSize: {x: 42.466339, y: 47.829483, z: 35.954369}
+  SourceHash: 361cea3219eac7ba1d69e57acd989295
+  FileHash: 3650617762e769d9a6e9f7ac17fe4cba
+  NativePackageItems:
+    []

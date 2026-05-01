@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    ad299699-4711-47e1-9341-94206a1cc7f3: 00ad508d-60ef-449e-b043-5f27746c076b/4e9951ca48aad80d0c07ee611ed6a97f/Data/road_traffic_light_pole_bitmoji.mesh
+  Assets:
+    - !<FileMesh/ad299699-4711-47e1-9341-94206a1cc7f3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2042
+        Vertices: 1621
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 197.612747, y: 255.039337, z: 51.190334}
+  SourceHash: 4e9951ca48aad80d0c07ee611ed6a97f
+  FileHash: 0ce2ee8afad8dd2ddb2b689f48f50bf0
+  NativePackageItems:
+    []

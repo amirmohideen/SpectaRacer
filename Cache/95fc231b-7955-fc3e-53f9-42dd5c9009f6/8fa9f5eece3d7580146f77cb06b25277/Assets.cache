@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    81fba92e-b65e-42b7-b546-3900dc8ba423: 95fc231b-7955-fc3e-53f9-42dd5c9009f6/8fa9f5eece3d7580146f77cb06b25277/Data/off.png
+  Assets:
+    - !<FileTexture/81fba92e-b65e-42b7-b546-3900dc8ba423>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 65
+        Height: 65
+  SourceHash: 8fa9f5eece3d7580146f77cb06b25277
+  FileHash: be250d695cfc5d0576ca2c5eef839612
+  NativePackageItems:
+    []

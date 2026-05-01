@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c9481c38-6e5e-4877-92b8-942fd3fb4393: ddac13d7-3a0e-879a-3b00-698d802b05f5/643a9fcb38d54cac939d799e5cfe3b13/Data/Lava_Emissive.jpg
+  Assets:
+    - !<FileTexture/c9481c38-6e5e-4877-92b8-942fd3fb4393>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 643a9fcb38d54cac939d799e5cfe3b13
+  FileHash: c2f32fc8744c6af101af8beb9db508a0
+  NativePackageItems:
+    []

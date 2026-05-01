@@ -1,0 +1,126 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label": "Magma Control",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "Tweak_N128",
+                    	"label":       "Triplanar Scale",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "0",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "displace",
+                    	"label":       "Displace Amount",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         10,
+                    	"step":        "0.25",
+                    	"sortIndex":   "1",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "colorrampExponent",
+                    	"label":       "Color Ramp Exponent",
+                    	"widget":      "slider",
+                    	"min":         0.2,
+                    	"max":         3,
+                    	"step":        "0.01",
+                    	"sortIndex":   "10",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Lighting",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "metallic",
+                    	"label":       "Metallic",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "100",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "roughness",
+                    	"label":       "Roughness",
+                    	"widget":      "slider",
+                    	"min":         0,
+                    	"max":         1,
+                    	"step":        "0.01",
+                    	"sortIndex":   "101",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Textures",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "noiseTex", 
+                    	"label":       "Noise Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "201",
+                    	"hint":        ""
+                    },
+                    
+                    { 
+                    	"bindingName": "colorRamp", 
+                    	"label":       "Color Ramp", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "202",
+                    	"hint":        ""
+                    },
+                {
+                	"widget": "group_end"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "Mesh3d",
+	
+	"extraDefines":
+	[
+		"SC_ENABLE_RT_RECEIVER"
+	]
+}

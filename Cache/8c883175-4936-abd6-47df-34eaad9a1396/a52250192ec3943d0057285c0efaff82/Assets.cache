@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e164ab8d-16f4-499f-871c-825846cf23e5: 8c883175-4936-abd6-47df-34eaad9a1396/a52250192ec3943d0057285c0efaff82/Data/pattern_lantern.jpg
+  Assets:
+    - !<FileTexture/e164ab8d-16f4-499f-871c-825846cf23e5>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: a52250192ec3943d0057285c0efaff82
+  FileHash: 574f303630b5409826cd25b88796ac2e
+  NativePackageItems:
+    []

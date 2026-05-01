@@ -1,0 +1,851 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: f83383062b66eaeea76ae99858f46224
+  FileHash: 1dce5bbe5543fc41739aca964a25b2ce
+  NativePackageItems:
+    - !<own> 7569de3b-444b-ceac-e19d-7b850e997926
+    - !<own> f6ce69ae-8dbd-434b-b0d4-ca6bb7c00af4
+    - !<own> dceb77e4-87ba-fffe-14b1-15b54974bdb8
+    - !<own> 8f28d024-e208-e5c4-e5ea-ae0c7fa21864
+    - !<own> d30145ee-5aa6-cb76-d412-9eccfe9fc60e
+    - !<own> 0d677cbb-1dca-5185-1216-67ee1efa5923
+    - !<own> d30b3006-0014-628a-01a2-0fde0c9eda2b
+    - !<own> a101577f-2f62-33a2-ed48-9fc0211f81fc
+    - !<own> 944de0fd-e0bc-fb1f-7cb9-6ac691267bf4
+    - !<own> 459a4032-6164-5297-2ff3-41b63497a264
+    - !<own> 7df4889c-6784-edad-e5cc-ad4566a58917
+    - !<own> 26e51fb3-ca00-176a-6dfc-fa364a258775
+- !<AssetImportMetadata/0d677cbb-1dca-5185-1216-67ee1efa5923>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5439f2e0-d753-434d-a26e-9b51f621914c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5439f2e0-d753-434d-a26e-9b51f621914c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> f26eac63-e39c-4c3c-958d-e84ce9115571
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0f350945-4936-43e7-6eab-5321fc66133c>
+  PrefabRemaps:
+    []
+  Name: FastGrid
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f51059ec-ad97-4f63-5003-542cdf0941bf
+- !<TypeScriptAssetData/162cb2c1-1e8a-491a-a313-09823a6a2e70>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 1ca07f08-e0bd-4629-9060-ba3379f86afe
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<TypeScriptAssetData/16f96995-70b6-4349-9579-fb6007947ece>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 65d73355-423d-414c-97a4-813f75fb2ced
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonHeight: false
+    buttonImageMaterial: false
+    buttonImageTexture: false
+    buttonWidth: false
+    columns: false
+    draggable: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    rows: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - rows: !<float> 3.000000
+      columns: !<float> 3.000000
+      buttonWidth: !<float> 10.000000
+      buttonHeight: !<float> 10.000000
+      buttonImageTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      buttonImageMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      draggable: false
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">ℹ️ Programmatic UI Component</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Create a UI Manager script to customize buttons at runtime using:<br/>• <code>updateButtonText(index, title, subtitle)</code><br/>• <code>updateButtonImage(index, texture, material)</code><br/>• <code>setButtonCallback(index, callback)</code></span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input float rows = 2 {"hint":"Number of rows in the grid (2-4)", "widget":"slider", "min":2, "max":4, "step":1}'
+    - '// @input float columns = 4 {"hint":"Number of columns in the grid (2-8)", "widget":"slider", "min":2, "max":8, "step":1}'
+    - '// @input float buttonWidth = 10 {"hint":"Button width in cm (6-15)", "widget":"slider", "min":6, "max":15, "step":0.5}'
+    - '// @input float buttonHeight = 10 {"hint":"Button height in cm (8-15)", "widget":"slider", "min":8, "max":15, "step":0.5}'
+    - '// @input Asset.Texture buttonImageTexture {"hint":"Placeholder image texture for buttons (optional)"}'
+    - '// @input Asset.Material buttonImageMaterial {"hint":"Placeholder image material for buttons (optional)"}'
+    - '// @input bool draggable {"hint":"Enable drag-and-drop rearrangement of buttons"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<SceneObject/1bed73d3-9f5a-4add-4765-e48f0a278092>
+  PrefabRemaps:
+    []
+  Name: FastDeckParent
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 45.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.800000, y: 0.800000, z: 0.800000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c61c73ee-eff7-4d4f-7c82-e224a43ee822
+  Components:
+    []
+- !<SceneObject/214528a3-bac4-4b9a-609d-e4017d41f2f9>
+  PrefabRemaps:
+    []
+  Name: GUIDE_ReadAndDisable
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 10.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c93dbd3d-b52f-4d9c-5c3a-0cdaf057b02e
+- !<AssetImportMetadata/26e51fb3-ca00-176a-6dfc-fa364a258775>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> d48d08bb-c88f-4831-9eb5-b90b06791dc8
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> d48d08bb-c88f-4831-9eb5-b90b06791dc8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/3ab68845-4ec4-4360-acfb-2dd7dcbed5ea>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: bf34fc90-5952-4f45-b6a2-fc503f7453af
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<TypeScriptAssetData/453c7466-2605-4f51-b6c0-b60602188ea5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 636472f1-dcb6-4a5a-828c-1c0db6e29aee
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    colorStyle: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    layoutStyle: false
+    mask: false
+    testMode: false
+    textColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - textColor: white
+      colorStyle: blue_gray
+      layoutStyle: aligned
+      testMode: true
+      mask: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">FastChat – placeholder chat component</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">No prefabs. Build your own logic and use the public API: addUserMessage(string), addBotMessage(string), getCardCount(), getCard(index) → SceneObject, getCardMessage(index) → string. Only the options below are shown.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input string textColor = "white" {"hint":"Text color for all cards", "widget":"combobox", "values":[{"label":"White", "value":"white"}, {"label":"Black", "value":"black"}, {"label":"Gray", "value":"gray"}]}'
+    - '// @input string colorStyle = "blue_gray" {"hint":"Style 1: one color for user, gray for bot", "widget":"combobox", "values":[{"label":"Blue / Gray", "value":"blue_gray"}, {"label":"Green / Gray", "value":"green_gray"}]}'
+    - '// @input string layoutStyle = "aligned" {"hint":"Layout: Aligned (centered) or Shifted (user right, bot left)", "widget":"combobox", "values":[{"label":"Aligned", "value":"aligned"}, {"label":"Shifted", "value":"shifted"}]}'
+    - '// @input bool testMode = true {"hint":"Fill chat with mock-up data (multiple sample cards)"}'
+    - '// @input bool mask = true {"hint":"Clip chat content to a window (MaskingComponent only, no scroll interaction)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<AssetImportMetadata/459a4032-6164-5297-2ff3-41b63497a264>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 65dcce60-3686-4120-b146-a25f6a0401da
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 65dcce60-3686-4120-b146-a25f6a0401da
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ec4d1116-47ef-4129-beb9-9eca4de7138a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/4affb68b-5b03-464b-905c-8c40b1614c6b>
+  Prototype: !<ObjectOwner/b5acf3a8-116b-4d66-afcd-717c23519dae>
+    PackagePath: ""
+    objects:
+      - !<own> b699246b-8b1e-440b-43b9-acf12aca4ddb
+- !<ScriptComponent/5df99af2-5c31-4d5f-4f54-bc8d8e514e6d>
+  PrefabRemaps:
+    []
+  Name: FastDeck
+  Enabled: true
+  ScriptAsset: !<reference> 7ead8876-c0d3-4863-be41-81bb915aa1f0
+  ScriptInputsDefault:
+    swipeThreshold: true
+    animationSpeed: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      swipeThreshold: !<float> 50.000000
+      animationSpeed: 0.500000
+      swipeSpeedThreshold: !<float> 20.000000
+      leftCardRotationZ: !<float> 0.000000
+      rightCardRotationZ: !<float> 0.000000
+      testMode: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/7569de3b-444b-ceac-e19d-7b850e997926>
+  ImportedAssetIds:
+    JsonAsset: !<reference> 4245b3b9-0add-4223-bc1f-71db3a2eece7
+  ImporterName: JsonAssetImporter
+  PrimaryAsset: !<reference> 4245b3b9-0add-4223-bc1f-71db3a2eece7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/780596e1-103f-4714-7b0c-734f799b1579>
+  PrefabRemaps:
+    []
+  Name: FastRoundedRectangle
+  Enabled: true
+  ScriptAsset: !<reference> b0e74ef3-9d39-4803-adb5-1c2cc24679b0
+  ScriptInputsDefault:
+    content: true
+    style: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      content: Card content
+      style: bot
+      textColor: white
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/7df4889c-6784-edad-e5cc-ad4566a58917>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 435a1db8-5406-4b81-b55c-9a0713d920e4
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 435a1db8-5406-4b81-b55c-9a0713d920e4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 4affb68b-5b03-464b-905c-8c40b1614c6b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8f28d024-e208-e5c4-e5ea-ae0c7fa21864>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5c2e0d37-b2e2-468f-aede-6908e1161873
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5c2e0d37-b2e2-468f-aede-6908e1161873
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 453c7466-2605-4f51-b6c0-b60602188ea5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/8fed8908-988b-4042-72b1-631401976b78>
+  PrefabRemaps:
+    []
+  Name: FastChat
+  Enabled: true
+  ScriptAsset: !<reference> 5c2e0d37-b2e2-468f-aede-6908e1161873
+  ScriptInputsDefault:
+    textColor: true
+    colorStyle: true
+    layoutStyle: true
+    testMode: true
+    mask: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      textColor: white
+      colorStyle: blue_gray
+      layoutStyle: aligned
+      testMode: true
+      mask: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<TypeScriptAssetData/8ffb9f62-e02c-4344-9166-cc2cc5fcdf95>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 27cc09a4-4f6b-4166-9dbc-307dc85d917b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    animationSpeed: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    leftCardRotationZ: false
+    rightCardRotationZ: false
+    swipeSpeedThreshold: false
+    swipeThreshold: false
+    testMode: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - swipeThreshold: !<float> 50.000000
+      animationSpeed: 0.500000
+      swipeSpeedThreshold: !<float> 100.000000
+      leftCardRotationZ: !<float> -15.000000
+      rightCardRotationZ: !<float> 15.000000
+      testMode: false
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">FastDeck – swipeable card stack</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">No prefabs. Use addCard(string), getCardCount(), getCurrentIndex(), getCard(index). Swipe center card left = next, right = previous.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input number swipeThreshold = "50.0" {"hint":"Minimum swipe distance to trigger card change"}'
+    - '// @input number animationSpeed = "0.5" {"hint":"Animation speed for card transitions (0–1)"}'
+    - '// @input number swipeSpeedThreshold = "100.0" {"hint":"Minimum swipe speed to trigger quick swipe"}'
+    - '// @input number leftCardRotationZ = "0" {"hint":"Rotation (degrees) for left card"}'
+    - '// @input number rightCardRotationZ = "0" {"hint":"Rotation (degrees) for right card"}'
+    - '// @input bool testMode {"hint":"Fill deck with sample cards for testing"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging"}'
+- !<AssetImportMetadata/944de0fd-e0bc-fb1f-7cb9-6ac691267bf4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7ead8876-c0d3-4863-be41-81bb915aa1f0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7ead8876-c0d3-4863-be41-81bb915aa1f0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 8ffb9f62-e02c-4344-9166-cc2cc5fcdf95
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/a101577f-2f62-33a2-ed48-9fc0211f81fc>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c8be4c74-88b1-405e-afd3-ef97e392a238
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c8be4c74-88b1-405e-afd3-ef97e392a238
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 16f96995-70b6-4349-9579-fb6007947ece
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/a381c6be-ee11-4ba5-9770-55f8aeaff5d9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 07bd509f-8170-4ed6-9a42-7c8472242c23
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    content: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    style: false
+    textColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - content: Card content
+      style: bot
+      textColor: black
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">FastRoundedRectangle – resizable button from text</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">No prefabs. Size is derived from content. Use in scene or via FastRoundedRectangle.createRoundedRectangle() from FastChat.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input string content = "Card content" {"hint":"Text content (height grows with content, truncated at max lines)"}'
+    - '// @input string style = "bot" {"hint":"Visual style: Gray (bot), Blue (user), or Green (no border)", "widget":"combobox", "values":[{"label":"Gray", "value":"bot"}, {"label":"Blue", "value":"user"}, {"label":"Green", "value":"green"}]}'
+    - '// @input string textColor = "white" {"hint":"Text color (content)", "widget":"combobox", "values":[{"label":"White", "value":"white"}, {"label":"Black", "value":"black"}, {"label":"Gray", "value":"gray"}]}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<SceneObject/aa117c60-1fab-4abd-7dbc-25a8a453ce0a>
+  PrefabRemaps:
+    []
+  Name: FastRoundedRectangle
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -30.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 780596e1-103f-4714-7b0c-734f799b1579
+- !<SceneObject/b699246b-8b1e-440b-43b9-acf12aca4ddb>
+  PrefabRemaps:
+    []
+  Name: Examples__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -100.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 214528a3-bac4-4b9a-609d-e4017d41f2f9
+    - !<own> 1bed73d3-9f5a-4add-4765-e48f0a278092
+    - !<own> c51cad11-69a5-4c32-6335-2ab3a4f547e2
+    - !<own> 0f350945-4936-43e7-6eab-5321fc66133c
+    - !<own> aa117c60-1fab-4abd-7dbc-25a8a453ce0a
+  Components:
+    []
+- !<SceneObject/c51cad11-69a5-4c32-6335-2ab3a4f547e2>
+  PrefabRemaps:
+    []
+  Name: FastChatParent
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -40.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> d69db421-22ea-4f24-5694-8a8a3766791b
+  Components:
+    []
+- !<SceneObject/c61c73ee-eff7-4d4f-7c82-e224a43ee822>
+  PrefabRemaps:
+    []
+  Name: FastDeck
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5df99af2-5c31-4d5f-4f54-bc8d8e514e6d
+- !<Text/c93dbd3d-b52f-4d9c-5c3a-0cdaf057b02e>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 200
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    Fast UIs is a growing collection of programmatic UI multi-component compositions from UIKit.  Work with their own APIs or unpackage the FastUI package to modify the scripts further or provide a reference to your favorite AI tools and build UI fast. Often AI has an hard time understanding proportion across UI elements, this collection aims to mitigate that gap. 
+    
+    Zoom out to see more compositions or explore them in the scene hierarchy.   
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -15.000000
+    bottom: -2.250000
+    right: 15.000000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Wrap
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.016800, y: 0.198352, z: 1.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.500000
+      bottom: 0.500000
+      right: 0.500000
+      top: 0.500000
+    CornerRadius: 1.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<AssetImportMetadata/d30145ee-5aa6-cb76-d412-9eccfe9fc60e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 62d9fb37-fbfc-468f-b003-fbf7bb9a1c94
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 62d9fb37-fbfc-468f-b003-fbf7bb9a1c94
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3ab68845-4ec4-4360-acfb-2dd7dcbed5ea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/d30b3006-0014-628a-01a2-0fde0c9eda2b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e3e8335f-82a8-4196-b3a6-6f239ddcf411
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e3e8335f-82a8-4196-b3a6-6f239ddcf411
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 162cb2c1-1e8a-491a-a313-09823a6a2e70
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/d69db421-22ea-4f24-5694-8a8a3766791b>
+  PrefabRemaps:
+    []
+  Name: FastChat
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8fed8908-988b-4042-72b1-631401976b78
+- !<AssetImportMetadata/dceb77e4-87ba-fffe-14b1-15b54974bdb8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> b0e74ef3-9d39-4803-adb5-1c2cc24679b0
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> b0e74ef3-9d39-4803-adb5-1c2cc24679b0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> a381c6be-ee11-4ba5-9770-55f8aeaff5d9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ec4d1116-47ef-4129-beb9-9eca4de7138a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f4996e6d-9a4a-40ec-a4eb-980d4d2eeaa6
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<TypeScriptAssetData/f26eac63-e39c-4c3c-958d-e84ce9115571>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9896694f-052a-41b0-8436-3083aaf366a3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    []
+- !<ScriptComponent/f51059ec-ad97-4f63-5003-542cdf0941bf>
+  PrefabRemaps:
+    []
+  Name: FastGrid
+  Enabled: true
+  ScriptAsset: !<reference> c8be4c74-88b1-405e-afd3-ef97e392a238
+  ScriptInputsDefault:
+    rows: true
+    columns: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      rows: !<float> 3.000000
+      columns: !<float> 3.000000
+      buttonWidth: 12.500000
+      buttonHeight: 10.500000
+      buttonImageTexture: !<reference.Texture> 3e7a9034-d2b2-415a-bb22-355ee2b434e9
+      buttonImageMaterial: !<reference.Material> 762b21e5-2ddd-44ad-842c-9962f0ff8e17
+      draggable: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/f6ce69ae-8dbd-434b-b0d4-ca6bb7c00af4>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 8c62a5f1-468b-4e55-a563-fca911e154e5
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 8c62a5f1-468b-4e55-a563-fca911e154e5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

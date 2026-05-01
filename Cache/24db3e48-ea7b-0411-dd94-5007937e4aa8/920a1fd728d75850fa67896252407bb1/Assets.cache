@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b27d55e9-b236-4405-804c-749474e71492: 24db3e48-ea7b-0411-dd94-5007937e4aa8/920a1fd728d75850fa67896252407bb1/Data/pattern_cone.jpg
+  Assets:
+    - !<FileTexture/b27d55e9-b236-4405-804c-749474e71492>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 128
+  SourceHash: 920a1fd728d75850fa67896252407bb1
+  FileHash: 66fbf7758f6fa173bf188b9bbdf6bf38
+  NativePackageItems:
+    []

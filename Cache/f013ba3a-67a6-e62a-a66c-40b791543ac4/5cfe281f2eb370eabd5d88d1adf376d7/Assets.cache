@@ -1,0 +1,30 @@
+- !<AssetCache>
+  AssetFiles:
+    45f0e61d-b172-43f0-8e94-0352d7c0d8c1: f013ba3a-67a6-e62a-a66c-40b791543ac4/5cfe281f2eb370eabd5d88d1adf376d7/Data/animation_config.t3d
+    1a01301f-e53d-47a9-b6a3-622ce681290e: f013ba3a-67a6-e62a-a66c-40b791543ac4/5cfe281f2eb370eabd5d88d1adf376d7/Data/atlas_0.jpg
+  Assets:
+    - !<AnimatedTexture/45f0e61d-b172-43f0-8e94-0352d7c0d8c1>
+      PackagePath: ""
+      keyFrames:
+        default:
+          - time: 0.000000
+            value: 0
+          - time: 2.000000
+            value: 56
+      ReverseSupported: true
+      FrameSize: {x: 192, y: 341}
+      AnimationSequences:
+        default: 56
+      AutoPlay: true
+      Reversed: false
+      PingPong: false
+      CurrentSequence: default
+    - !<FileTexture/1a01301f-e53d-47a9-b6a3-622ce681290e>
+      PackagePath: atlas_0.jpg
+      FileInfo: !<FileTextureInfo>
+        Width: 1920
+        Height: 2046
+  SourceHash: 5cfe281f2eb370eabd5d88d1adf376d7
+  FileHash: 4c8844eca0ca33869140fa76c2a59b13
+  NativePackageItems:
+    []

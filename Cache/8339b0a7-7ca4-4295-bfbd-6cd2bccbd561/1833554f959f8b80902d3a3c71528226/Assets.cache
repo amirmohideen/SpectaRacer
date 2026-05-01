@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    bdbba035-64d5-49ef-a1f5-c9cc90d643aa: 8339b0a7-7ca4-4295-bfbd-6cd2bccbd561/1833554f959f8b80902d3a3c71528226/Data/Spring_coil.mesh
+  Assets:
+    - !<FileMesh/bdbba035-64d5-49ef-a1f5-c9cc90d643aa>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 922
+        Vertices: 630
+        Blendshapes:
+          - Spring_coil_blendshape
+        Joints: 0
+        AabbSize: {x: 63.765343, y: 58.619068, z: 63.765343}
+  SourceHash: 1833554f959f8b80902d3a3c71528226
+  FileHash: c69de08e5e72381316cf03b57a33a059
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e61230bf-29fa-4ca9-b0d5-177674f1fd1e: 001f6471-d4b3-2143-8b44-818d02a7e40d/ea592b7dfc2e96ef246c35d0b6228087/Data/Voice input.png
+  Assets:
+    - !<FileTexture/e61230bf-29fa-4ca9-b0d5-177674f1fd1e>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: ea592b7dfc2e96ef246c35d0b6228087
+  FileHash: 7b474672f6b886982649ffdadbe75918
+  NativePackageItems:
+    []

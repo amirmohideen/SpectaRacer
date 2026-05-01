@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    09036271-6db9-40a7-a383-eaff42b143b9: ac59c9e8-efef-4596-8a77-e1dbfdd9d84e/a04cf37a81488982eb73cc8a3037680b/Data/veh_golfcar_bitmoji.mesh
+  Assets:
+    - !<FileMesh/09036271-6db9-40a7-a383-eaff42b143b9>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 8032
+        Vertices: 5534
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 65.719795, y: 108.443604, z: 125.926300}
+  SourceHash: a04cf37a81488982eb73cc8a3037680b
+  FileHash: 49031526cc78653f6bfaba63c8fe04da
+  NativePackageItems:
+    []

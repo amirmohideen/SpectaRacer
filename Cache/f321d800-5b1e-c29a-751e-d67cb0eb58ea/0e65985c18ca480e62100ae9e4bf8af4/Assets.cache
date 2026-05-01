@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    df5e5006-505f-441c-805f-74ca3de3fe66: f321d800-5b1e-c29a-751e-d67cb0eb58ea/0e65985c18ca480e62100ae9e4bf8af4/Data/veh_taxi_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/df5e5006-505f-441c-805f-74ca3de3fe66>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 0e65985c18ca480e62100ae9e4bf8af4
+  FileHash: 38f95a1c89ac25735a40e7bdc4024740
+  NativePackageItems:
+    []

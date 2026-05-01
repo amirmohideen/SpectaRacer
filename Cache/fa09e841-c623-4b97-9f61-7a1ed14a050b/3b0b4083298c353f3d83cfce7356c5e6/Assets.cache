@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    925b91fc-ff32-4e26-9221-4700c6fa969c: fa09e841-c623-4b97-9f61-7a1ed14a050b/3b0b4083298c353f3d83cfce7356c5e6/Data/Bounce_pad.mesh
+  Assets:
+    - !<FileMesh/925b91fc-ff32-4e26-9221-4700c6fa969c>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 326
+        Vertices: 259
+        Blendshapes:
+          - Bounce_pad_switch_blendshape
+        Joints: 0
+        AabbSize: {x: 63.765343, y: 12.760527, z: 63.765343}
+  SourceHash: 3b0b4083298c353f3d83cfce7356c5e6
+  FileHash: 176276d4c703ba53507a808150683be3
+  NativePackageItems:
+    []

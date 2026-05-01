@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    033b89f9-297a-4d15-a808-5c63986663d3: cf129512-c568-4d92-b97a-9c8776866ea6/f1998f889fd01489b6d89f49e56da157/Data/road_fence_metal_bitmoji1.mesh
+  Assets:
+    - !<FileMesh/033b89f9-297a-4d15-a808-5c63986663d3>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 968
+        Vertices: 923
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 283.932861, y: 152.175919, z: 22.867767}
+  SourceHash: f1998f889fd01489b6d89f49e56da157
+  FileHash: 9dbb846408387dde870695c8982c5f40
+  NativePackageItems:
+    []

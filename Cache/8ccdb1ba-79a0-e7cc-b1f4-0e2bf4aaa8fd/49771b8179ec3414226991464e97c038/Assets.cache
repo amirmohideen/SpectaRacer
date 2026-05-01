@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ce437369-7df1-42fb-ac34-87cffcd8559c: 8ccdb1ba-79a0-e7cc-b1f4-0e2bf4aaa8fd/49771b8179ec3414226991464e97c038/Data/black.png
+  Assets:
+    - !<FileTexture/ce437369-7df1-42fb-ac34-87cffcd8559c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 32
+  SourceHash: 49771b8179ec3414226991464e97c038
+  FileHash: 89424d037ea0b9cb4f09618caf2c3055
+  NativePackageItems:
+    []

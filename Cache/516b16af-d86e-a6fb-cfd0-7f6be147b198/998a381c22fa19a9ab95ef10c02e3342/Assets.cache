@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ebccb613-2444-4a5d-b712-808988fa9b32: 516b16af-d86e-a6fb-cfd0-7f6be147b198/998a381c22fa19a9ab95ef10c02e3342/Data/road_sign_stop_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/ebccb613-2444-4a5d-b712-808988fa9b32>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 998a381c22fa19a9ab95ef10c02e3342
+  FileHash: e9aa8cb26f18e8b3ccf8944bdd7659f3
+  NativePackageItems:
+    []

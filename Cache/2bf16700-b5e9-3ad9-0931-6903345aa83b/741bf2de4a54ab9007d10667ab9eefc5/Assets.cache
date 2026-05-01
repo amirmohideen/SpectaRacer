@@ -1,0 +1,12 @@
+- !<AssetCache>
+  AssetFiles:
+    c11591fb-0d9a-4766-831f-bb7a9ac4f6de: 2bf16700-b5e9-3ad9-0931-6903345aa83b/741bf2de4a54ab9007d10667ab9eefc5/Data/Video.mp4
+  Assets:
+    - !<VideoTexture/c11591fb-0d9a-4766-831f-bb7a9ac4f6de>
+      PackagePath: ""
+      AutoPlay: false
+      Volume: 0.000000
+  SourceHash: 741bf2de4a54ab9007d10667ab9eefc5
+  FileHash: 3aac51486002a91947de5c83af6174a0
+  NativePackageItems:
+    []

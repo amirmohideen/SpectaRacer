@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    8c1b33a9-0844-4871-a3c8-2f05fb3bfc68: bb0c46e7-2f8d-d892-8dad-38519434649a/a2808e05d58f9ed401c30c377f110cd1/Data/pattern_give_way.png
+  Assets:
+    - !<FileTexture/8c1b33a9-0844-4871-a3c8-2f05fb3bfc68>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: a2808e05d58f9ed401c30c377f110cd1
+  FileHash: 2f8fedc9eba96621b0bb0f8a1488cceb
+  NativePackageItems:
+    []

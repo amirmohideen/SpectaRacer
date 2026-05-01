@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    9ab28d21-d589-4b8c-9d48-0d85a5d28472: ff811724-2050-4794-8132-5ae34ee887fa/a6fc3719fed610a7d8762313538d53bb/Data/road_speed_bump_bitmoji.mesh
+  Assets:
+    - !<FileMesh/9ab28d21-d589-4b8c-9d48-0d85a5d28472>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 140
+        Vertices: 122
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 82.847374, y: 7.089626, z: 10.602989}
+  SourceHash: a6fc3719fed610a7d8762313538d53bb
+  FileHash: ad3149783bb9fc592d4fa15eb65c45be
+  NativePackageItems:
+    []

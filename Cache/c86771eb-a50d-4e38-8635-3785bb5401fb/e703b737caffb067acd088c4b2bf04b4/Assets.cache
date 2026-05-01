@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    50b68f26-b491-41d4-83cc-d0cef5250ff0: c86771eb-a50d-4e38-8635-3785bb5401fb/e703b737caffb067acd088c4b2bf04b4/Data/tile_road_direct2.mesh
+  Assets:
+    - !<FileMesh/50b68f26-b491-41d4-83cc-d0cef5250ff0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 40
+        Vertices: 36
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1999.999878, y: 17.713333, z: 2000.000000}
+  SourceHash: e703b737caffb067acd088c4b2bf04b4
+  FileHash: 1edc2c57d53f8ae3e151af5b9b196b64
+  NativePackageItems:
+    []

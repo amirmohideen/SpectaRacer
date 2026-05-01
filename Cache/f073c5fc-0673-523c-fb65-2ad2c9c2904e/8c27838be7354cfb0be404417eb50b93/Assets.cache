@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    18dcc3f9-e884-45dc-ac6e-4aedf7e674c1: f073c5fc-0673-523c-fb65-2ad2c9c2904e/8c27838be7354cfb0be404417eb50b93/Data/veh_stroller_id.png
+  Assets:
+    - !<FileTexture/18dcc3f9-e884-45dc-ac6e-4aedf7e674c1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 8c27838be7354cfb0be404417eb50b93
+  FileHash: c0905ca670b95bb636d7dc96fce9dda0
+  NativePackageItems:
+    []

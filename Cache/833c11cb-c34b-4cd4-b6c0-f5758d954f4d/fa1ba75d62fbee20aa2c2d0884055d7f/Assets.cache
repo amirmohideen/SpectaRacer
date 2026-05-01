@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    a3ca7711-5139-4f50-a5b9-e8822c91ff99: 833c11cb-c34b-4cd4-b6c0-f5758d954f4d/fa1ba75d62fbee20aa2c2d0884055d7f/Data/Spikes.mesh
+  Assets:
+    - !<FileMesh/a3ca7711-5139-4f50-a5b9-e8822c91ff99>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 620
+        Vertices: 426
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 101.161026, y: 77.401871, z: 77.401871}
+  SourceHash: fa1ba75d62fbee20aa2c2d0884055d7f
+  FileHash: 47663e8a4964cb7ce279a5c29cda5297
+  NativePackageItems:
+    []

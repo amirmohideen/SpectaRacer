@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    68524633-6669-4279-8423-6a272e66efc8: acdf1310-6bfd-6874-b5ca-4238f00b712f/3687ffca5ebffc21059d0163d888dcd2/Data/road_trash_can_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/68524633-6669-4279-8423-6a272e66efc8>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 3687ffca5ebffc21059d0163d888dcd2
+  FileHash: c0d4f3664069dd91e66e821ec4338a04
+  NativePackageItems:
+    []

@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    5b9d8af5-9890-4159-8da6-e6d4574f6243: 3d5ecf41-19ba-41b6-84f9-08682326ead0/3fa1f41029a7bec96f2bf0b65462cc62/Data/Rain.mp3
+  Assets:
+    - !<FileAudioTrack/5b9d8af5-9890-4159-8da6-e6d4574f6243>
+      PackagePath: ""
+  SourceHash: 3fa1f41029a7bec96f2bf0b65462cc62
+  FileHash: abd7b941f522fbe663f54e58e7190182
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    0e8ca22d-f825-401a-82fe-972917a2ef3f: a47c3b21-3b27-45a8-aaee-fa87b4eaa443/1617725f06aa4b998ba405a04243f9a8/Data/veh_suv_bitmoji.mesh
+  Assets:
+    - !<FileMesh/0e8ca22d-f825-401a-82fe-972917a2ef3f>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 9671
+        Vertices: 6451
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 158.821472, y: 126.655548, z: 248.171844}
+  SourceHash: 1617725f06aa4b998ba405a04243f9a8
+  FileHash: ab614d7e94eecebbbe2169401937461c
+  NativePackageItems:
+    []

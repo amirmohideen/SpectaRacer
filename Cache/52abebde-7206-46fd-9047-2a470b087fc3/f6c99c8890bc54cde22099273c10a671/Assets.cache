@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    b8fec891-24cc-48c4-8bba-94e361d741ca: 52abebde-7206-46fd-9047-2a470b087fc3/f6c99c8890bc54cde22099273c10a671/Data/road_barrier_striped_yellow_bitmoji.mesh
+  Assets:
+    - !<FileMesh/b8fec891-24cc-48c4-8bba-94e361d741ca>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 804
+        Vertices: 654
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 28.971630, y: 54.044632, z: 18.854595}
+  SourceHash: f6c99c8890bc54cde22099273c10a671
+  FileHash: b0dcb9b67c1b081311f37ca4df4408b4
+  NativePackageItems:
+    []

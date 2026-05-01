@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9e6225a3-9ece-4811-bde5-fca4204ee634: ebd6f955-6605-7b3a-1d36-ffb382bdbf31/b86ffb8483bee58a4827a09e03813c33/Data/veh_school_bus_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/9e6225a3-9ece-4811-bde5-fca4204ee634>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: b86ffb8483bee58a4827a09e03813c33
+  FileHash: 6b72e6ad0151cbc48db3da419c71f787
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    eb507651-c446-4d60-a8e6-63b2e56fd463: bce77ceb-e5d6-c748-99e3-eadbf6bbb871/0a50027e5a45c67a8ad667fa66e9a1cc/Data/Pattern_reflect_B.png
+  Assets:
+    - !<FileTexture/eb507651-c446-4d60-a8e6-63b2e56fd463>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 0a50027e5a45c67a8ad667fa66e9a1cc
+  FileHash: 754e9c031e745bb112dd536b0d178a09
+  NativePackageItems:
+    []

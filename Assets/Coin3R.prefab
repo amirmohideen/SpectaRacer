@@ -1,0 +1,62 @@
+- !<ObjectPrefab/3fe31607-2365-48ee-a0fe-432dac1894a0>
+  PackagePath: ""
+  objects:
+    - !<own> 7236b568-f1b3-4563-be11-7e0f8667bca4
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/7236b568-f1b3-4563-be11-7e0f8667bca4>
+  PrefabRemaps:
+    - 7236b568-f1b3-4563-be11-7e0f8667bca4: 7236b568-f1b3-4563-41ee-81f07998435b
+    - ca59f1ee-1c31-4e07-b703-4fa8dbfeefd9: ca59f1ee-1c31-4e07-48fc-b05724011026
+    - e034bfd6-0001-49d3-af63-695ad18039e2: e034bfd6-0001-49d3-509c-96a52e7fc61d
+  Name: Coin3L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: -60.000000}
+    Scale: {x: 0.020000, y: 0.020000, z: 0.020000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e034bfd6-0001-49d3-af63-695ad18039e2
+    - !<own> ca59f1ee-1c31-4e07-b703-4fa8dbfeefd9
+- !<ColliderComponent/ca59f1ee-1c31-4e07-b703-4fa8dbfeefd9>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<RenderMeshVisual/e034bfd6-0001-49d3-af63-695ad18039e2>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3e2923d8-de45-4fab-8987-821dee6acb62
+  Mesh: !<reference> 5ad8ce47-f15b-4198-a62f-4294d0be702c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

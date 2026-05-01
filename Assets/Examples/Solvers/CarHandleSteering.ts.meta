@@ -1,0 +1,63 @@
+- !<AssetImportMetadata/d820242c-635b-409d-ab1d-13166ad5cb48>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9b23a2c0-3185-4344-a354-d0654083a083
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9b23a2c0-3185-4344-a354-d0654083a083
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b9d4857f-e06e-47b8-9c8e-636fd3e920e1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b9d4857f-e06e-47b8-9c8e-636fd3e920e1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 12c46544-dbe3-4f34-8a2f-2ab639b24325
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    followSpeed: false
+    handle: false
+    maxSteerAngle: false
+    stationaryTimeout: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - handle: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      maxSteerAngle: !<float> 30.000000
+      followSpeed: !<float> 8.000000
+      stationaryTimeout: !<float> 1.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - "// @ui {\"widget\":\"label\", \"label\":\"<span style=\\\"color: #60A5FA;\\\">CarHandleSteering – steer car Y from handle X delta</span><br/><span style=\\\"color: #94A3B8; font-size: 11px;\\\">Car angle = handle position relative to the last reset point. After stationary timeout the reference resets to handle's current X.</span>\"}"
+    - '// @ui {"widget":"separator"}'
+    - '// @input SceneObject handle {"hint":"The handle SceneObject whose local X position drives steering"}'
+    - '// @input float maxSteerAngle = 30 {"hint":"Maximum Y-angle offset in degrees in either direction"}'
+    - '// @input float followSpeed = 8 {"hint":"How fast the car rotation lerps toward the target angle (higher = snappier)"}'
+    - '// @input float stationaryTimeout = 1 {"hint":"Seconds the handle must be held still before the car resets and the reference X updates"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy)"}'

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    f4a58952-3955-48ee-939c-0b97da8aca88: fa11a7b6-32f4-43a3-a15e-59c7c28b0f19/a05bc6f24545825d60675abc06af904b/Data/veh_cabrio_pink_bitmoji.mesh
+  Assets:
+    - !<FileMesh/f4a58952-3955-48ee-939c-0b97da8aca88>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 7151
+        Vertices: 4774
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 127.342407, y: 94.913177, z: 193.050583}
+  SourceHash: a05bc6f24545825d60675abc06af904b
+  FileHash: d01700d5ce78f5d7f9517b15ec7c41ce
+  NativePackageItems:
+    []

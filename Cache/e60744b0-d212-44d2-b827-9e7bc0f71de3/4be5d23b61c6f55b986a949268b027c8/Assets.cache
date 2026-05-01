@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    af3aed32-6bb6-4a5d-b1cb-65537af2a1a2: e60744b0-d212-44d2-b827-9e7bc0f71de3/4be5d23b61c6f55b986a949268b027c8/Data/tile_road_direct_cross3.mesh
+  Assets:
+    - !<FileMesh/af3aed32-6bb6-4a5d-b1cb-65537af2a1a2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 84
+        Vertices: 120
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2000.000366, y: 17.713335, z: 2000.000000}
+  SourceHash: 4be5d23b61c6f55b986a949268b027c8
+  FileHash: 6ea13eb534fcba60399e07b8c45e37a6
+  NativePackageItems:
+    []

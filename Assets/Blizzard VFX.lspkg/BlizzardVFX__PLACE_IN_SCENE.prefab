@@ -1,0 +1,35 @@
+- !<ObjectPrefab/902a166a-f6af-47e7-9e6a-e8c81db4fe91>
+  PackagePath: ""
+  objects:
+    - !<own> e3407189-26a0-47b8-89ba-f42ad3889754
+  LazyLoading: false
+  RetainAssets: true
+- !<VFXComponent/2c2369a3-b01a-42cf-b133-2213d9e1c816>
+  PrefabRemaps:
+    []
+  Name: VFX Component
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  VFXAsset: !<reference> 35450bdb-c9a8-496b-9b6a-df160be15475
+- !<SceneObject/e3407189-26a0-47b8-89ba-f42ad3889754>
+  PrefabRemaps:
+    - 2c2369a3-b01a-42cf-b133-2213d9e1c816: 2c2369a3-b01a-42cf-4ecc-ddec261e37e9
+    - e3407189-26a0-47b8-89ba-f42ad3889754: e3407189-26a0-47b8-7645-0bd52c7768ab
+  Name: BlizzardVFX__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2c2369a3-b01a-42cf-b133-2213d9e1c816

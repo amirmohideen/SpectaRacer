@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    5092fe81-f411-4a46-be7e-cb089074e430: 21701175-83de-a028-0a1a-b99f53eea029/e219077ea762d2e5c8b50dcb51ead031/Data/cheering_mid.mp3
+  Assets:
+    - !<FileAudioTrack/5092fe81-f411-4a46-be7e-cb089074e430>
+      PackagePath: ""
+  SourceHash: e219077ea762d2e5c8b50dcb51ead031
+  FileHash: da13960849306336d63b81b78fe5a328
+  NativePackageItems:
+    []

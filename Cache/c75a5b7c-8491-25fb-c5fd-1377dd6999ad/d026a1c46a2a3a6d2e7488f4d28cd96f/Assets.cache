@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    472174b0-e43f-43d1-b4ab-bfb06182215c: c75a5b7c-8491-25fb-c5fd-1377dd6999ad/d026a1c46a2a3a6d2e7488f4d28cd96f/Data/cr_linear_blend.png
+  Assets:
+    - !<FileTexture/472174b0-e43f-43d1-b4ab-bfb06182215c>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 128
+        Height: 1
+  SourceHash: d026a1c46a2a3a6d2e7488f4d28cd96f
+  FileHash: 72da3f37bb0c1adbd4a499085b68002e
+  NativePackageItems:
+    []

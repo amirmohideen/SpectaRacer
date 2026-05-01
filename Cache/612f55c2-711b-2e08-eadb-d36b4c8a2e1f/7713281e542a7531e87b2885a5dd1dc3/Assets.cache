@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    bd3fc129-2977-488c-a6b3-534cef369b1a: 612f55c2-711b-2e08-eadb-d36b4c8a2e1f/7713281e542a7531e87b2885a5dd1dc3/Data/Image Picker.png
+  Assets:
+    - !<FileTexture/bd3fc129-2977-488c-a6b3-534cef369b1a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 7713281e542a7531e87b2885a5dd1dc3
+  FileHash: 8915449a6349e2dcb522b8906da69c8f
+  NativePackageItems:
+    []

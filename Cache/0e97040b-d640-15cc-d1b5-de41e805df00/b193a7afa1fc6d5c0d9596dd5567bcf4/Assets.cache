@@ -1,0 +1,409 @@
+- !<AssetCache>
+  AssetFiles:
+    f06efbe9-7ce8-4169-b540-f57260af781e: 0e97040b-d640-15cc-d1b5-de41e805df00/b193a7afa1fc6d5c0d9596dd5567bcf4/Data/Magma PBR.ss_graph
+  Assets:
+    - !<ShaderGraphPass/f06efbe9-7ce8-4169-b540-f57260af781e>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_AO_N026:
+          typeIdx: 4
+          value: {x: 0.987701, y: 1.000000, z: 0.999969}
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N056:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N116:
+          typeIdx: 1
+          value: 1.000000
+        Port_Import_N119:
+          typeIdx: 1
+          value: 0.600000
+        Port_Import_N121:
+          typeIdx: 1
+          value: 1.300000
+        Port_Import_N206:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Import_N209:
+          typeIdx: 1
+          value: 10.000000
+        Port_Input0_N126:
+          typeIdx: 5
+          value: {x: 0.500000, y: 0.500000, z: 0.500000, w: 0.000000}
+        Port_Input1_N003:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N028:
+          typeIdx: 1
+          value: 0.010000
+        Port_Input1_N035:
+          typeIdx: 1
+          value: 0.400000
+        Port_Input1_N036:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N055:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input1_N118:
+          typeIdx: 5
+          value: {x: 0.212500, y: 0.715400, z: 0.072100, w: 0.000000}
+        Port_Input1_N208:
+          typeIdx: 1
+          value: 0.100000
+        Port_Input2_N003:
+          typeIdx: 1
+          value: 0.990000
+        Port_Input2_N028:
+          typeIdx: 1
+          value: 0.990000
+        Port_LODValue_N011:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N016:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N085:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N088:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N125:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N205:
+          typeIdx: 1
+          value: 0.000000
+        Port_Normal_N210:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_Opacity_N026:
+          typeIdx: 1
+          value: 1.000000
+        Port_Position_N210:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RangeMaxA_N037:
+          typeIdx: 1
+          value: 0.500000
+        Port_RangeMaxA_N075:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N087:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxA_N089:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N037:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMaxB_N075:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N087:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMaxB_N089:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinA_N037:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N075:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N087:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinA_N089:
+          typeIdx: 1
+          value: 0.000000
+        Port_RangeMinB_N037:
+          typeIdx: 1
+          value: 1.000000
+        Port_RangeMinB_N075:
+          typeIdx: 1
+          value: -1.000000
+        Port_RangeMinB_N087:
+          typeIdx: 1
+          value: -1.000000
+        Port_RangeMinB_N089:
+          typeIdx: 1
+          value: -1.000000
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Value2_N164:
+          typeIdx: 1
+          value: 0.500000
+        Port_Value2_N165:
+          typeIdx: 1
+          value: 0.500000
+        Port_Value3_N090:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N098:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N150:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N156:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N164:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N165:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N090:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N098:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N150:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N156:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N164:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N165:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          - SC_ENABLE_RT_RECEIVER
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Magma Control
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Triplanar Scale
+            mType: Property
+            mName: Tweak_N128
+            mWidget: spinbox
+            mHint: "Property: Tweak_N128"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Displace Amount
+            mType: Property
+            mName: displace
+            mWidget: slider
+            mHint: "Property: displace"
+            mMin: 0.000000
+            mMax: 10.000000
+            mStep: 0.250000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Color Ramp Exponent
+            mType: Property
+            mName: colorrampExponent
+            mWidget: slider
+            mHint: "Property: colorrampExponent"
+            mMin: 0.200000
+            mMax: 3.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Lighting
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Metallic
+            mType: Property
+            mName: metallic
+            mWidget: slider
+            mHint: "Property: metallic"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Roughness
+            mType: Property
+            mName: roughness
+            mWidget: slider
+            mHint: "Property: roughness"
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Textures
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Noise Texture
+            mType: Property
+            mName: noiseTex
+            mWidget: texture_group
+            mHint: "Property: noiseTex"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Color Ramp
+            mType: Property
+            mName: colorRamp
+            mWidget: texture_group
+            mHint: "Property: colorRamp"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: Mesh3d
+      ShaderPath: 0e97040b-d640-15cc-d1b5-de41e805df00/b193a7afa1fc6d5c0d9596dd5567bcf4/Data/6a992e8/Magma PBR.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: b193a7afa1fc6d5c0d9596dd5567bcf4
+  FileHash: 82d50747b6360344eb312bf863edf2be
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    c650b00d-d8c5-4279-a57b-243e8cf70e52: d1a0893c-964c-4972-927a-eff95880a937/d08d9a31df6a0e2d378f20a0e1305137/Data/road_gas_pump_bitmoji.mesh
+  Assets:
+    - !<FileMesh/c650b00d-d8c5-4279-a57b-243e8cf70e52>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2734
+        Vertices: 2209
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 77.934570, y: 150.606659, z: 46.437523}
+  SourceHash: d08d9a31df6a0e2d378f20a0e1305137
+  FileHash: 58dbc20a5d59a9c14b3c818668cac934
+  NativePackageItems:
+    []

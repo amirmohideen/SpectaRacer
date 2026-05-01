@@ -1,0 +1,87 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{ 
+                	"bindingName": "Tweak_N20", 
+                	"label":       "Screen texture", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "Tweak_N3", 
+                	"label":       "Input", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                {
+                	"bindingName": "Tweak_N0",
+                	"label":       "Alpha Gain",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "0",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N19",
+                	"label":       "Alpha Contrast",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "1",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N9",
+                	"label":       "Hot areas",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "2",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N10",
+                	"label":       "Hot areas contrast",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "3",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

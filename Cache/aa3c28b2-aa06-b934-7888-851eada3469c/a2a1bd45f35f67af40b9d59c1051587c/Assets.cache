@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    c2806446-5afa-445b-a085-c9e3b1bc6586: "aa3c28b2-aa06-b934-7888-851eada3469c/a2a1bd45f35f67af40b9d59c1051587c/Data/Lock [Fill].png"
+  Assets:
+    - !<FileTexture/c2806446-5afa-445b-a085-c9e3b1bc6586>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: a2a1bd45f35f67af40b9d59c1051587c
+  FileHash: fde9c303290e872f578a0ab0d5d51629
+  NativePackageItems:
+    []

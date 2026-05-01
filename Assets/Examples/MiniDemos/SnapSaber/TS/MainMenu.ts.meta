@@ -1,0 +1,119 @@
+- !<AssetImportMetadata/ba5debc0-590a-42ad-81d6-d2109472af2e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> a6a90b0f-798c-4109-a2c9-0c80bdc9ea56
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> a6a90b0f-798c-4109-a2c9-0c80bdc9ea56
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e565ed41-0bd7-4ea2-9bc8-eb25ebbcc807
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e565ed41-0bd7-4ea2-9bc8-eb25ebbcc807>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4769aa0c-5ae3-49cd-97b4-9011eac74cd3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    levelHandleMover: false
+    mainMenuButtonPanel2: false
+    mainMenuButtonPanel3: false
+    mainMenuButtonPanel4: false
+    panel1: false
+    panel2: false
+    panel3: false
+    panel4: false
+    pauseButton1: false
+    pauseButton2: false
+    playButton: false
+    rainAudio: false
+    restartButton: false
+    restartButtonPanel4: false
+    resumeButton: false
+    tutorialButton: false
+    weatherObject: false
+    weatherToggleSwitch: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panel1: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      panel2: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      panel3: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      panel4: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      levelHandleMover: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      tutorialButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      playButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      pauseButton1: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      pauseButton2: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      resumeButton: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      weatherToggleSwitch: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      restartButton: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      mainMenuButtonPanel2: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      mainMenuButtonPanel3: !<MappingBased.AssignableType_8> 00000000-0000-0000-0000-000000000000
+      restartButtonPanel4: !<MappingBased.AssignableType_9> 00000000-0000-0000-0000-000000000000
+      mainMenuButtonPanel4: !<MappingBased.AssignableType_10> 00000000-0000-0000-0000-000000000000
+      weatherObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      rainAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #F472B6;\">MainMenu – panel navigation + game lifecycle</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Manages Panel 1 (main menu), Panel 2 (pause), Panel 3 (tutorial) and the LevelHandleMover SceneObject.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - "// @ui {\"widget\":\"label\", \"label\":\"<span style=\\\"color: #94A3B8; font-size: 11px;\\\">Panels — drag each panel's root SceneObject</span>\"}"
+    - '// @input SceneObject panel1 {"hint":"Panel 1 — main menu (tutorial + play)"}'
+    - '// @input SceneObject panel2 {"hint":"Panel 2 — pause overlay (resume, weather, restart, main menu)"}'
+    - '// @input SceneObject panel3 {"hint":"Panel 3 — tutorial screen"}'
+    - '// @input SceneObject panel4 {"hint":"Panel 4 — game over screen (restart + main menu)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input SceneObject levelHandleMover {"hint":"The root SceneObject for the entire level — disabled at start, enabled when Play is pressed"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Panel 1 — Main Menu buttons</span>"}'
+    - '// @input AssignableType tutorialButton {"hint":"Tutorial button on Panel 1"}'
+    - '// @input AssignableType_1 playButton {"hint":"Play button on Panel 1"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">In-game pause buttons — both open Panel 2</span>"}'
+    - '// @input AssignableType_2 pauseButton1 {"hint":"First pause button"}'
+    - '// @input AssignableType_3 pauseButton2 {"hint":"Second pause button"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Panel 2 — Pause overlay buttons</span>"}'
+    - '// @input AssignableType_4 resumeButton {"hint":"Resume button on Panel 2"}'
+    - '// @input AssignableType_5 weatherToggleSwitch {"hint":"Weather Switch on Panel 2 — on enables the weather object, off disables it"}'
+    - '// @input AssignableType_6 restartButton {"hint":"Restart button on Panel 2"}'
+    - '// @input AssignableType_7 mainMenuButtonPanel2 {"hint":"Main Menu button on Panel 2"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Panel 3 — Tutorial buttons</span>"}'
+    - '// @input AssignableType_8 mainMenuButtonPanel3 {"hint":"Main Menu button on Panel 3"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Panel 4 — Game Over buttons</span>"}'
+    - '// @input AssignableType_9 restartButtonPanel4 {"hint":"Restart button on Panel 4"}'
+    - '// @input AssignableType_10 mainMenuButtonPanel4 {"hint":"Main Menu button on Panel 4"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input SceneObject weatherObject {"hint":"SceneObject toggled by the weather button (enabled ↔ disabled each press)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input Component.AudioComponent rainAudio {"hint":"AudioComponent for looping rain — attach it to this same SceneObject. Stops on Panel 1 and Panel 2, plays everywhere else."}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging"}'

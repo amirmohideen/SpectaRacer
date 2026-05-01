@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    86b0e4fb-914a-42b3-9bd3-b99ac6a4b4a3: 03217bd0-3095-9ceb-f4d8-6cd63be53704/26b8334243036308af76e053db21ee23/Data/9.png
+  Assets:
+    - !<FileTexture/86b0e4fb-914a-42b3-9bd3-b99ac6a4b4a3>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 736
+        Height: 736
+  SourceHash: 26b8334243036308af76e053db21ee23
+  FileHash: 35735a13734ad8aa9ff9d7d2772ae8c1
+  NativePackageItems:
+    []

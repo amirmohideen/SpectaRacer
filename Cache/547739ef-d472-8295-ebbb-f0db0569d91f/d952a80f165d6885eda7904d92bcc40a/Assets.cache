@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    96651c89-fc94-4920-9f9f-f9dd51743df1: 547739ef-d472-8295-ebbb-f0db0569d91f/d952a80f165d6885eda7904d92bcc40a/Data/road_flower_pot_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/96651c89-fc94-4920-9f9f-f9dd51743df1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: d952a80f165d6885eda7904d92bcc40a
+  FileHash: ad7997cd849fc7d9459991a4d5c8109a
+  NativePackageItems:
+    []

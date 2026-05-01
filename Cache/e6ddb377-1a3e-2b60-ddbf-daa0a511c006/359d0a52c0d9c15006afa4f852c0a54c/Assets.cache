@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    50b0b843-2ed9-4e09-ae33-1aa329a00654: e6ddb377-1a3e-2b60-ddbf-daa0a511c006/359d0a52c0d9c15006afa4f852c0a54c/Data/veh_locomotive_bitmoji_AO.png
+  Assets:
+    - !<FileTexture/50b0b843-2ed9-4e09-ae33-1aa329a00654>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 359d0a52c0d9c15006afa4f852c0a54c
+  FileHash: 937269dae26c915ab252e609b6497e14
+  NativePackageItems:
+    []

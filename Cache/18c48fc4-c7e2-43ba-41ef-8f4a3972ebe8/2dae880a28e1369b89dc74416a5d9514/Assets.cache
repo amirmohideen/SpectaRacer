@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    02796ebf-a2fc-45e2-b117-44910d5156cb: 18c48fc4-c7e2-43ba-41ef-8f4a3972ebe8/2dae880a28e1369b89dc74416a5d9514/Data/road_traffic_cone_small_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/02796ebf-a2fc-45e2-b117-44910d5156cb>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 2dae880a28e1369b89dc74416a5d9514
+  FileHash: 6df6b826a1c1438612bbcf4930a61fce
+  NativePackageItems:
+    []

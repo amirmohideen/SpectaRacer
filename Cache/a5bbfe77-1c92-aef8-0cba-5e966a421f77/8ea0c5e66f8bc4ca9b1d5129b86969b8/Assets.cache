@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    da367ddf-9601-4185-9ed2-1865ea2ec457: "a5bbfe77-1c92-aef8-0cba-5e966a421f77/8ea0c5e66f8bc4ca9b1d5129b86969b8/Data/Camera [Fill].png"
+  Assets:
+    - !<FileTexture/da367ddf-9601-4185-9ed2-1865ea2ec457>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 8ea0c5e66f8bc4ca9b1d5129b86969b8
+  FileHash: a58cf235db17361f3cc4b9b5950f415c
+  NativePackageItems:
+    []

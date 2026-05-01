@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    aef5d9c6-a92f-4473-a298-4c8f8b6fba3b: 3e3212a7-168b-4bda-8303-6fc4b69f5562/62c88bf06a041f2b909c37bf5ed88282/Data/road_street_light_solo_bitmoji.mesh
+  Assets:
+    - !<FileMesh/aef5d9c6-a92f-4473-a298-4c8f8b6fba3b>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1072
+        Vertices: 734
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 55.210403, y: 223.689087, z: 55.210167}
+  SourceHash: 62c88bf06a041f2b909c37bf5ed88282
+  FileHash: 8d20216b00b6eaf6ddd613eb37998cc2
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ee3e803b-edac-4aab-a9cd-d1d38079a944: 78ab62f9-9ec2-435d-23ca-a03edc663511/e756199d85eb52f86701f3f0fcedbfb4/Data/pattern_post.png
+  Assets:
+    - !<FileTexture/ee3e803b-edac-4aab-a9cd-d1d38079a944>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e756199d85eb52f86701f3f0fcedbfb4
+  FileHash: 2e7b78b6e01ac1188661cb9b1af3bc08
+  NativePackageItems:
+    []

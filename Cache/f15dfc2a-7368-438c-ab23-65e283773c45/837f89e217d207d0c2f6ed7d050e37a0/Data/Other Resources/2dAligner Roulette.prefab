@@ -1,0 +1,198 @@
+- !<ObjectPrefab/611fce3c-81fd-429b-bd34-16ec8d96d7e2>
+  PackagePath: ""
+  objects:
+    - !<own> 267e45d0-88c0-4a63-9fe0-2c64d94973d3
+  LazyLoading: false
+  RetainAssets: true
+- !<InteractionComponent/0924468e-e9de-4450-8cb7-16e6f0d354f5>
+  PrefabRemaps: []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    - !<reference> 49826f12-82ac-4ca0-a051-8f28b74c9eda
+- !<SceneObject/1caa3b31-2919-4cbd-9c5f-be0cec72c197>
+  PrefabRemaps: []
+  Name: btn0 sprite
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children: []
+  Components:
+    - !<own> de0a1c72-cc76-4d4c-8eef-b175461a9c4f
+- !<SceneObject/267e45d0-88c0-4a63-9fe0-2c64d94973d3>
+  PrefabRemaps: []
+  Name: 2dAligner Roulette
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -10.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56a27a4f-f2a2-460f-8a5a-3fa0940fe64d
+  Components:
+    - !<own> 54893fac-7108-450b-905b-6bf0f971dc16
+- !<SceneObject/319c0c80-bd78-4444-a9a2-56b040ae4b06>
+  PrefabRemaps: []
+  Name: touch
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 3.784200, y: 3.784200, z: 3.784200}
+    HasSegmentScaleCompensation: false
+  Children: []
+  Components:
+    - !<own> 49826f12-82ac-4ca0-a051-8f28b74c9eda
+    - !<own> 0924468e-e9de-4450-8cb7-16e6f0d354f5
+- !<Image/48c43a22-eac8-466f-8b49-97208947fb2c>
+  PrefabRemaps: []
+  Name: Image
+  Enabled: true
+  RenderOrder: 9
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fd1c7515-2849-4135-a9c4-32b4a6464075
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<Image/49826f12-82ac-4ca0-a051-8f28b74c9eda>
+  PrefabRemaps: []
+  Name: Image
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ae425b41-1a54-44e3-a772-732fb05f64a6
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/54893fac-7108-450b-905b-6bf0f971dc16>
+  PrefabRemaps: []
+  Name: 2dAligner
+  Enabled: true
+  ScriptAsset: !<reference> b3a1d2c6-2b20-46ed-b300-2963503ab852
+  ScriptInputsDefault:
+    bindingPoint: true
+    width: true
+    height: true
+  ScriptTypesDefault: {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 000600f4-2ea3-c6c7-0000-000000037bbb
+      bindingPoint: !<Vec2> {x: 0.000000, y: 0.000000}
+      width: !<float> 1.000000
+      height: !<float> 1.000000
+      sourceRegionType: 4
+      onSnapEventRegionType: 4
+      alignType: 2
+  ScriptTypes:
+    "": {}
+- !<SceneObject/56a27a4f-f2a2-460f-8a5a-3fa0940fe64d>
+  PrefabRemaps: []
+  Name: RouletteParent
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.720000, y: 0.720000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5e139804-0dc3-4fd4-bf2f-5b29ca62108b
+    - !<own> 6bfbcbfc-b174-492c-bde2-420aa4937c18
+    - !<own> 319c0c80-bd78-4444-a9a2-56b040ae4b06
+  Components: []
+- !<SceneObject/5e139804-0dc3-4fd4-bf2f-5b29ca62108b>
+  PrefabRemaps: []
+  Name: Roulette
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 3.384200, y: 3.384200, z: 3.384200}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 631fd59b-c691-4200-98ec-8138ceeeb5b2
+  Components: []
+- !<SceneObject/631fd59b-c691-4200-98ec-8138ceeeb5b2>
+  PrefabRemaps: []
+  Name: btn0 offset-rot
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9ab3e98f-ebb4-406b-8f22-006003ba8475
+  Components: []
+- !<SceneObject/6bfbcbfc-b174-492c-bde2-420aa4937c18>
+  PrefabRemaps: []
+  Name: tap
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.507630, y: 0.846050, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 1.895151, y: 1.895151, z: 1.692100}
+    HasSegmentScaleCompensation: false
+  Children: []
+  Components:
+    - !<own> 48c43a22-eac8-466f-8b49-97208947fb2c
+- !<SceneObject/9ab3e98f-ebb4-406b-8f22-006003ba8475>
+  PrefabRemaps: []
+  Name: btn0 offset-pos
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.350000, z: 0.000000}
+    Rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    Scale: {x: 0.800000, y: 0.800000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1caa3b31-2919-4cbd-9c5f-be0cec72c197
+  Components: []
+- !<Image/de0a1c72-cc76-4d4c-8eef-b175461a9c4f>
+  PrefabRemaps: []
+  Name: Image
+  Enabled: true
+  RenderOrder: 8
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 647349c5-0ca3-44b7-9a10-a71c2665baf6
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000

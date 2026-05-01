@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e7061a82-fce1-4350-a7cd-c6bd90846911: 0e71a0c0-069b-38c1-8d19-bdea6b134448/fa77fc416ab8f5ecefa3e87f151d87ab/Data/road_barrier_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/e7061a82-fce1-4350-a7cd-c6bd90846911>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: fa77fc416ab8f5ecefa3e87f151d87ab
+  FileHash: 804e028476cc88d8c13e099196d4f7f3
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    4f00e8a9-f87d-4e3b-be56-aeb53a3bc666: 0632bb90-a29e-74a8-f3c3-9781d5613e2d/fd58e0d489ec8a67cae4a3a169f01be8/Data/pattern_bicycle.png
+  Assets:
+    - !<FileTexture/4f00e8a9-f87d-4e3b-be56-aeb53a3bc666>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: fd58e0d489ec8a67cae4a3a169f01be8
+  FileHash: 0e618543f32e2e9ff2f59c7037726c7f
+  NativePackageItems:
+    []

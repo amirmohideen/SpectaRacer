@@ -1,0 +1,178 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: ed8819c68a8367b7321e9188b6643c06
+  FileHash: 499734a8d1291b3ebd8565523b79b159
+  NativePackageItems:
+    - !<own> 2dabd52b-0a0b-0680-e1e2-4fca4f665650
+    - !<own> 609ee2ed-5a6b-05f2-653f-23d77e634dd0
+- !<AssetImportMetadata/2dabd52b-0a0b-0680-e1e2-4fca4f665650>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 9b84e21e-4816-4cc5-9332-37844952b718
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 9b84e21e-4816-4cc5-9332-37844952b718
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f61ba349-a8dc-4073-8929-20af27b3ceb1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/609ee2ed-5a6b-05f2-653f-23d77e634dd0>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> d70171c6-4db0-4e7a-b226-fd89967e9502
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> d70171c6-4db0-4e7a-b226-fd89967e9502
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f61ba349-a8dc-4073-8929-20af27b3ceb1>
+  SvgIcon: |-
+    <?xml version="1.0" encoding="UTF-8"?>
+    <svg width="110px" height="110px" viewBox="0 0 110 110" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <title>Group 19</title>
+        <g id="2023" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="Group-19">
+                <rect id="Rectangle" fill="#000000" x="30" y="0" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="40" y="10" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="10" y="10" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="50" y="20" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="60" y="10" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="70" y="0" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="80" y="0" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="90" y="10" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="100" y="20" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="100" y="40" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="100" y="50" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="90" y="60" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="0" y="20" width="10" height="10"></rect>
+                <path d="M70,90 L60,90 L60,100 L50,100 L50,90 L40,90 L40,80 L30,80 L30,70 L20,70 L20,60 L10,60 L10,20 L20,20 L20,10 L40,10 L40,20 L50,20 L50,30 L60,30 L60,20 L70,20 L70,10 L90,10 L90,20 L100,20 L100,60 L90,60 L90,70 L80,70 L80,80 L70,80 L70,90 Z" id="Rectangle-3" fill="#FF0000"></path>
+                <rect id="Rectangle" fill="#000000" x="20" y="70" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="100" y="30" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="0" y="30" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="0" y="40" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="0" y="50" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="10" y="60" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="80" y="70" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="50" y="100" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="40" y="90" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="30" y="80" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="70" y="80" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="60" y="90" width="10" height="10"></rect>
+                <rect id="Rectangle" fill="#000000" x="20" y="0" width="10" height="10"></rect>
+            </g>
+        </g>
+    </svg>
+  SetupScript:
+    code: ""
+  Description: |-
+    Heartbeat is a runtime manager that adds event layers, lets you easily start, stop, and replace update and delay events, and adds universal pause/play
+    
+    Documentation: https://hackmd.io/@aidanpwolf/HkSb_--ah 
+    
+    The purpose of Heartbeat is to make runtime events quick & easy to set up as well as remain manageable throughout the duration of your project. This is a must-have asset for real-time games and complex Lenses built in Lens Studio. Here’s an overview of the features:
+    
+    Universal pause & play
+    Runtime event layers
+    Taggable update loops
+    Taggable delays
+    Single update loop for entire project
+    Avoids execution order issues on Prefabs
+    Avoids errors when destroying Objects
+    In a nutshell, Heartbeat replaces createEvent() and makes it manageable. This is the most essential script in my entire LS game stack which is why I’m making it available to you.
+    
+    Instructions
+    Add the Heartbeat Prefab to the top of the Objects Panel hierarchy
+    Enter a new script and paste global.Heartbeat.api.add(script)
+    Note: the Heartbeat Prefab makes global.Heartbeat accessible in all your scripts…
+    
+    API
+    Add
+    global.Heartbeat.api.add(script,[optional] layer)
+    .add() makes your script Heartbeat-enabled
+    
+    layer lets you define a runtime layer for the object to live in. For example, you could make the layer “enemy” enabling you to pause, play, and manage all your game’s enemies. Other common examples might be “UI” or “Physics”. Layers are useful because you might want your Pause menu to keep updating while conveniently pausing the rest of the game.
+    
+    script.api.addInit, script.api.addUpdate, and script.api.addDelay are now available in your script to use.
+    
+    Create Init
+    script.api.addInit(function)
+    Often in Lens Studio if you attempt to access script data or functions immediately after instantiating a Prefab you will get errors. Instead, wrap that code in addInit and it will execute on the next frame avoiding this common code execution order error.
+    
+    Create Update
+    script.api.addUpdate(tag, function)
+    .addUpdate() replaces createEvent(“UpdateEvent”)
+    tag a string name to identify this update loop
+    function the code you want to call every frame
+    
+    Remove Update
+    script.api.removeUpdate(tag)
+    .removeUpdate() enables you to remove your update by its tag
+    tag a string name to identify this update loop
+    
+    Note: you can also just call addUpdate(tag, ...) to replace the current Update Loop under that tag
+    
+    Create Delay
+    script.api.addDelay(tag, time, function)
+    .addDelay() replaces createEvent(“DelayedCallbackEvent”)
+    tag a string name to identify this delay event
+    time a float value in seconds to wait before call
+    function the code you want to call after the delay
+    
+    Remove Delay
+    script.api.removeDelay(tag)
+    .removeDelay() enables you to remove your delay by its tag
+    tag a string name to identify this update loop
+    
+    Note: you can also just call addDelay(tag, ...) to replace the current Delay under that tag
+    
+    Play
+    global.Heartbeat.api.play([optional] layer)
+    .play() resumes all Update Loops and Delays
+    layer You can play an individual layer as defined in .add()
+    
+    Pause
+    global.Heartbeat.api.pause([optional] layer)
+    .pause() pauses all Update Loops and Delays
+    layer You can pause an individual layer as defined in .add()
+    
+    Clear Events
+    global.Heartbeat.api.clearAllEvents([optional] layer)
+    .clearAllEvents() removes all Update Loops and Delays
+    layer You can clear an individual layer as defined in .add()
+  VersionMajor: 3
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0006036f-c444-705b-0000-0000014b3323
+  ExportUid: 6b29dc8d-7f37-4b33-ae34-95cb3779d757
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    {}
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    -
+      {}
+  ScriptTypes:
+    -
+      {}

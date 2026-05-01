@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    1157621f-b8b6-48ae-9215-c2c9fe3dd9d8: d167888b-a600-4dc9-8856-7eac4c0cf61c/e512bd1892b916da607abdc22916c3d3/Data/Portal_vertical.mesh
+  Assets:
+    - !<FileMesh/1157621f-b8b6-48ae-9215-c2c9fe3dd9d8>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1516
+        Vertices: 1052
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 76.716766, y: 144.753906, z: 10.607530}
+  SourceHash: e512bd1892b916da607abdc22916c3d3
+  FileHash: d99bf5250aac9497a8cc3c420c322b69
+  NativePackageItems:
+    []

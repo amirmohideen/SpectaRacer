@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b7d46643-4e86-43ef-8783-2c380c5f24d7: 9a67c488-568e-672f-a579-99e98ce45192/39532cce2d2a176247f6007e536502f3/Data/road_sign_speed_limit_35_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/b7d46643-4e86-43ef-8783-2c380c5f24d7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 39532cce2d2a176247f6007e536502f3
+  FileHash: 6be85e03e957a7e85aeb2cd4047bb669
+  NativePackageItems:
+    []

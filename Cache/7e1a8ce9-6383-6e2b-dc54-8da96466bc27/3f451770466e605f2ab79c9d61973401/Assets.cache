@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    806d5068-dab0-47ee-89b6-7ff257e52410: 7e1a8ce9-6383-6e2b-dc54-8da96466bc27/3f451770466e605f2ab79c9d61973401/Data/cabrio_mask_A.png
+  Assets:
+    - !<FileTexture/806d5068-dab0-47ee-89b6-7ff257e52410>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 8
+        Height: 8
+  SourceHash: 3f451770466e605f2ab79c9d61973401
+  FileHash: e4a4999f9d46cea627ff50b547c50da5
+  NativePackageItems:
+    []

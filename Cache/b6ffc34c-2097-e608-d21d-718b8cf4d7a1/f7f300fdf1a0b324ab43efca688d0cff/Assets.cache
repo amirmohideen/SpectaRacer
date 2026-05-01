@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b2e4ca98-05a9-4ba7-a7a7-b91b8314294a: b6ffc34c-2097-e608-d21d-718b8cf4d7a1/f7f300fdf1a0b324ab43efca688d0cff/Data/VideoThumbnail.png
+  Assets:
+    - !<FileTexture/b2e4ca98-05a9-4ba7-a7a7-b91b8314294a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1968
+        Height: 1660
+  SourceHash: f7f300fdf1a0b324ab43efca688d0cff
+  FileHash: b1560b2cfc4ed1742952cf25463e6b26
+  NativePackageItems:
+    []

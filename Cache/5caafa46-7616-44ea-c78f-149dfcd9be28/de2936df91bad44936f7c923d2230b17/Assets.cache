@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    5420c9a8-c30a-45f7-9845-c750a7b45236: 5caafa46-7616-44ea-c78f-149dfcd9be28/de2936df91bad44936f7c923d2230b17/Data/blizzard.png
+  Assets:
+    - !<FileTexture/5420c9a8-c30a-45f7-9845-c750a7b45236>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 32
+        Height: 32
+  SourceHash: de2936df91bad44936f7c923d2230b17
+  FileHash: 631760b875fd6335bdfcc727a405710d
+  NativePackageItems:
+    []

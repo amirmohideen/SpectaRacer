@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    68d85322-abb9-42d7-a60a-ff46ead53957: 53bd4c0c-1998-458f-9770-f7bd3d668e8f/faa1cba35a9435d30c66025146223c99/Data/tile_road_circle_13.mesh
+  Assets:
+    - !<FileMesh/68d85322-abb9-42d7-a60a-ff46ead53957>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 125
+        Vertices: 128
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2000.000610, y: 17.713346, z: 2000.000000}
+  SourceHash: faa1cba35a9435d30c66025146223c99
+  FileHash: 32ea4aa873ca76bb803604b829f74307
+  NativePackageItems:
+    []

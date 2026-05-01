@@ -1,0 +1,460 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 8260e7a828c9cff8f47fafb20755f06a
+  FileHash: 0c7c0b3e98eec3413d171c6f01006dff
+  NativePackageItems:
+    - !<own> 53594127-4098-4af5-1dd3-766a75f1373a
+    - !<own> 0b154558-4c1c-a2c9-1f0c-bfe180dda792
+    - !<own> 1922c2b2-431e-7631-2a5f-52c484d6560c
+    - !<own> fc950e3e-8f10-b89d-6aa4-5f70d0d40815
+    - !<own> 8b0a0663-5ab7-e0c7-8b3f-fb7b08374a90
+    - !<own> 803fec19-135c-e1d0-e594-1d24a95101fb
+    - !<own> e6b2cd1f-19b1-a1a0-9223-f35310793324
+    - !<own> 2e9be5b6-48b1-4fbd-81eb-8db619bb3fb1
+    - !<own> 475864b3-94b9-6686-9805-8f10643864d2
+    - !<own> 9f1fa505-08c2-53d9-5dbc-67496682ae13
+- !<ObjectPrefabAssetData/03dc687d-53b3-4f4c-8378-f57c8cf9cbd2>
+  Prototype: !<ObjectOwner/28a97ccc-6f9d-4523-995b-72b0975cde7d>
+    PackagePath: ""
+    objects:
+      - !<own> f09a9b8f-c58d-4f96-701c-6c12e90baaff
+- !<AssetImportMetadata/0b154558-4c1c-a2c9-1f0c-bfe180dda792>
+  ImportedAssetIds:
+    Texture: !<reference> 86db1221-cd81-4093-8dda-d4b3f649a075
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 86db1221-cd81-4093-8dda-d4b3f649a075
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Text/0bfa07f4-d9be-4778-534e-d0306e5915a4>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: |-
+    Delete or remove this guideline 
+    Use the hand attacher component on the object you would 
+    like to attach to your hands.   Or use this script into an empty scene object and attach a 
+    target scene object.
+    
+    Configure what joint you want to attach 
+    Configure additional settings like offset, rotation and lerp
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 48
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -7.500000
+    bottom: -2.250000
+    right: 7.500000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Overflow
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.016800, y: 0.198352, z: 1.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.500000
+      bottom: 0.500000
+      right: 0.500000
+      top: 0.500000
+    CornerRadius: 1.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false
+- !<ScriptComponent/17c8080a-f969-4dfa-5d31-8eaff6b35697>
+  PrefabRemaps:
+    []
+  Name: HandAttacher
+  Enabled: true
+  ScriptAsset: !<reference> fe643aa1-f904-4888-a7ef-2394207215d7
+  ScriptInputsDefault:
+    handSide: true
+    handJoint: true
+    usePositionSmoothing: true
+    positionSmoothSpeed: true
+    useRotationSmoothing: true
+    rotationSmoothSpeed: true
+    hideWhenNotTracked: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      targetObject: !<reference.SceneObject> 9e64a1b6-1ef2-4374-8785-89cb5ecc07d1
+      handSide: right
+      handJoint: indexTip
+      positionOffset: !<Vec3> {x: 0.000000, y: 2.000000, z: 0.000000}
+      rotationOffset: !<Vec3> {x: 2.000000, y: 0.000000, z: 0.000000}
+      usePositionSmoothing: true
+      positionSmoothSpeed: !<float> 10.000000
+      useRotationSmoothing: true
+      rotationSmoothSpeed: !<float> 8.000000
+      updatePositionOnly: true
+      updateRotationOnly: true
+      hideWhenNotTracked: true
+      debugMode: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/1922c2b2-431e-7631-2a5f-52c484d6560c>
+  ImportedAssetIds:
+    Texture: !<reference> e401791c-500a-4425-843b-7615f0766c5c
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> e401791c-500a-4425-843b-7615f0766c5c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2e9be5b6-48b1-4fbd-81eb-8db619bb3fb1>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fe643aa1-f904-4888-a7ef-2394207215d7
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fe643aa1-f904-4888-a7ef-2394207215d7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ab515a98-745a-4c93-842b-e2b6da07be75
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/475864b3-94b9-6686-9805-8f10643864d2>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 43e3058d-4135-4fa7-981a-f7995149ffc0
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 43e3058d-4135-4fa7-981a-f7995149ffc0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/53594127-4098-4af5-1dd3-766a75f1373a>
+  ImportedAssetIds:
+    Texture: !<reference> 00716d3c-0375-44fc-9a3e-e45f581ebe18
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 00716d3c-0375-44fc-9a3e-e45f581ebe18
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/803fec19-135c-e1d0-e594-1d24a95101fb>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 101e7a1b-98c6-4d09-bd8d-5dd7a1aa707e
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 101e7a1b-98c6-4d09-bd8d-5dd7a1aa707e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 03dc687d-53b3-4f4c-8378-f57c8cf9cbd2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8b0a0663-5ab7-e0c7-8b3f-fb7b08374a90>
+  ImportedAssetIds:
+    JsonAsset: !<reference> 75720839-8d0f-4c9d-82c6-9f126ad21e4a
+  ImporterName: JsonAssetImporter
+  PrimaryAsset: !<reference> 75720839-8d0f-4c9d-82c6-9f126ad21e4a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/9e64a1b6-1ef2-4374-8785-89cb5ecc07d1>
+  PrefabRemaps:
+    []
+  Name: Box
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 9.999999, y: 9.999999, z: 9.999999}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a9e0237a-6dc8-4b17-a8d5-d5048a7d8c38
+- !<AssetImportMetadata/9f1fa505-08c2-53d9-5dbc-67496682ae13>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> e8cdfd39-a9eb-44ae-ae2e-401549beb344
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> e8cdfd39-a9eb-44ae-ae2e-401549beb344
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/a9e0237a-6dc8-4b17-a8d5-d5048a7d8c38>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cb616a14-5a00-4055-8e2b-d733da3d085b
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<TypeScriptAssetData/ab515a98-745a-4c93-842b-e2b6da07be75>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 3cee8ae7-456e-4e1a-a3fb-15a5e0e7c208
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugMode: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    handJoint: false
+    handSide: false
+    hideWhenNotTracked: false
+    positionOffset: false
+    positionSmoothSpeed: false
+    rotationOffset: false
+    rotationSmoothSpeed: false
+    targetObject: false
+    updatePositionOnly: false
+    updateRotationOnly: false
+    usePositionSmoothing: false
+    useRotationSmoothing: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handSide: right
+      handJoint: indexTip
+      positionOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      rotationOffset: !<Vec3> {x: 0.000000, y: 0.000000, z: 0.000000}
+      usePositionSmoothing: true
+      positionSmoothSpeed: !<float> 10.000000
+      useRotationSmoothing: true
+      rotationSmoothSpeed: !<float> 8.000000
+      updatePositionOnly: false
+      updateRotationOnly: false
+      hideWhenNotTracked: true
+      debugMode: false
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Target Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Specify the object to attach to the hand joint (leave empty to use this object)</span>"}'
+    - '// @input SceneObject targetObject {"hint":"Object to attach to hand joint (leave empty to use this object)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Hand Joint Selection</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Choose which hand and joint to attach to</span>"}'
+    - '// @input string handSide = "right" {"hint":"Hand: left | right | dominant | nondominant"}'
+    - '// @input string handJoint = "indexTip" {"hint":"Joint: wrist | thumbToWrist | thumbKnuckle | thumbMidJoint | thumbTip | indexToWrist | indexKnuckle | indexMidJoint | indexUpperJoint | indexTip | middleToWrist | middleKnuckle | middleMidJoint | middleUpperJoint | middleTip | ringToWrist | ringKnuckle | ringMidJoint | ringUpperJoint | ringTip | pinkyToWrist | pinkyKnuckle | pinkyMidJoint | pinkyUpperJoint | pinkyTip"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Position & Rotation Offsets</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Adjust position and rotation offsets relative to the joint</span>"}'
+    - "// @input vec3 positionOffset {\"hint\":\"Position offset from joint (in joint's local space)\"}"
+    - '// @input vec3 rotationOffset {"hint":"Rotation offset (in degrees)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Smoothing Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure interpolation smoothing for position and rotation tracking</span>"}'
+    - '// @input bool usePositionSmoothing = true {"hint":"Enable smooth position interpolation"}'
+    - '// @input float positionSmoothSpeed = 10 {"hint":"Position smoothing speed (higher = faster response)"}'
+    - '// @input bool useRotationSmoothing = true {"hint":"Enable smooth rotation interpolation"}'
+    - '// @input float rotationSmoothSpeed = 8 {"hint":"Rotation smoothing speed (higher = faster response)"}'
+    - '// @input bool updatePositionOnly {"hint":"Only update position"}'
+    - '// @input bool updateRotationOnly {"hint":"Only update rotation"}'
+    - '// @input bool hideWhenNotTracked = true {"hint":"Hide object when hand is not tracked"}'
+    - '// @input bool debugMode {"hint":"Debug: Show tracking status in console"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<SceneObject/c99da876-275a-4287-79f0-968e7fa68b74>
+  PrefabRemaps:
+    []
+  Name: Guide_ReadAndDisable
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -70.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 0bfa07f4-d9be-4778-534e-d0306e5915a4
+- !<AssetImportMetadata/e6b2cd1f-19b1-a1a0-9223-f35310793324>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 95dbfb18-9bc4-4f3b-8002-35458c1aea0c
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 95dbfb18-9bc4-4f3b-8002-35458c1aea0c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/f09a9b8f-c58d-4f96-701c-6c12e90baaff>
+  PrefabRemaps:
+    []
+  Name: HandAttacher__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.000000, y: 3.000000, z: 3.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c99da876-275a-4287-79f0-968e7fa68b74
+    - !<own> 9e64a1b6-1ef2-4374-8785-89cb5ecc07d1
+  Components:
+    - !<own> 17c8080a-f969-4dfa-5d31-8eaff6b35697
+- !<AssetImportMetadata/fc950e3e-8f10-b89d-6aa4-5f70d0d40815>
+  ImportedAssetIds:
+    Material: !<reference> cb616a14-5a00-4055-8e2b-d733da3d085b
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> cb616a14-5a00-4055-8e2b-d733da3d085b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000

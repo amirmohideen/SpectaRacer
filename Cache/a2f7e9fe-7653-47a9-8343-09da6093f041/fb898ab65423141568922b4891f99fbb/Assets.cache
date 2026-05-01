@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    044b67bb-e36a-4d31-916b-34fce82995f5: a2f7e9fe-7653-47a9-8343-09da6093f041/fb898ab65423141568922b4891f99fbb/Data/road_bus_stop.mesh
+  Assets:
+    - !<FileMesh/044b67bb-e36a-4d31-916b-34fce82995f5>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1092
+        Vertices: 994
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 222.963425, y: 143.365372, z: 100.672134}
+  SourceHash: fb898ab65423141568922b4891f99fbb
+  FileHash: fc013ff7f209cb36ef64e6dbbd957ac1
+  NativePackageItems:
+    []

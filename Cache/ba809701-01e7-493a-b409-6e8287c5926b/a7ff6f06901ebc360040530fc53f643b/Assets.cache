@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    af70b728-1cb4-4504-af81-20bdc4df18c2: ba809701-01e7-493a-b409-6e8287c5926b/a7ff6f06901ebc360040530fc53f643b/Data/road_barrier_white_orange_bitmoji.mesh
+  Assets:
+    - !<FileMesh/af70b728-1cb4-4504-af81-20bdc4df18c2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 476
+        Vertices: 301
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 75.461914, y: 60.564735, z: 47.615784}
+  SourceHash: a7ff6f06901ebc360040530fc53f643b
+  FileHash: 66155d5a6d71cb230dc6ffbf72218652
+  NativePackageItems:
+    []

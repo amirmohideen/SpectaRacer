@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2c2f3666-aa6b-4e81-90dc-35cf6a55df88: 19d81501-14fd-9e47-a240-6dd7588f63a4/238fcf6d9b642aa665f307739f1504dd/Data/veh_ambulance_AO.jpg
+  Assets:
+    - !<FileTexture/2c2f3666-aa6b-4e81-90dc-35cf6a55df88>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 238fcf6d9b642aa665f307739f1504dd
+  FileHash: 950b600d6bbbfbe61b81f935b4c3af23
+  NativePackageItems:
+    []

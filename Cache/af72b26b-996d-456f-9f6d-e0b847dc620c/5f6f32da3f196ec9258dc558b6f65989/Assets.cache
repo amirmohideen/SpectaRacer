@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    bef2c8cc-73a7-4537-bfa8-f64630eb8e68: af72b26b-996d-456f-9f6d-e0b847dc620c/5f6f32da3f196ec9258dc558b6f65989/Data/fredoka_one_regular.ttf
+  Assets:
+    - !<Font/bef2c8cc-73a7-4537-bfa8-f64630eb8e68>
+      PackagePath: ""
+  SourceHash: 5f6f32da3f196ec9258dc558b6f65989
+  FileHash: ec4ca28bca4b40d1720a21ef285498fa
+  NativePackageItems:
+    []

@@ -1,0 +1,102 @@
+- !<AssetImportMetadata/cb649a23-85a8-4def-9615-19295ea7a683>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 24d0bf13-e12c-446e-9ef1-7003522e19ef
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 24d0bf13-e12c-446e-9ef1-7003522e19ef
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 29e15a52-815c-48c3-932c-3c9dd11ae696
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/29e15a52-815c-48c3-932c-3c9dd11ae696>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b898dd5b-af94-4b2f-bd05-f4099e183984
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    coinLeft: false
+    coinMiddle: false
+    coinRight: false
+    damageText: false
+    distanceText: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    laneController: false
+    roadLeft: false
+    roadMiddle: false
+    roadRight: false
+    scoreText: false
+    startPaused: false
+    treeLeft: false
+    treeMiddle: false
+    treeRight: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - laneController: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      coinLeft: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      coinMiddle: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      coinRight: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      treeLeft: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      treeMiddle: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      treeRight: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      roadLeft: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      roadMiddle: !<MappingBased.AssignableType_8> 00000000-0000-0000-0000-000000000000
+      roadRight: !<MappingBased.AssignableType_9> 00000000-0000-0000-0000-000000000000
+      damageText: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      distanceText: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      startPaused: false
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #F472B6;\">PlayPauseManager – central play/pause + HUD controller</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Pauses all instantiators, displays damage % and distance travelled.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input AssignableType laneController {"hint":"The LanePatternController driving the game speed (used for speed ramp + pause)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Coin Instantiators</span>"}'
+    - '// @input AssignableType_1 coinLeft {"hint":"Left lane CoinInstantiator"}'
+    - '// @input AssignableType_2 coinMiddle {"hint":"Middle lane CoinInstantiator"}'
+    - '// @input AssignableType_3 coinRight {"hint":"Right lane CoinInstantiator"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Tree Instantiators</span>"}'
+    - '// @input AssignableType_4 treeLeft {"hint":"Left lane TreeInstantiator"}'
+    - '// @input AssignableType_5 treeMiddle {"hint":"Middle lane TreeInstantiator"}'
+    - '// @input AssignableType_6 treeRight {"hint":"Right lane TreeInstantiator"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Road Instantiators</span>"}'
+    - '// @input AssignableType_7 roadLeft {"hint":"Left lane RoadInstantiator"}'
+    - '// @input AssignableType_8 roadMiddle {"hint":"Middle lane RoadInstantiator"}'
+    - '// @input AssignableType_9 roadRight {"hint":"Right lane RoadInstantiator"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">HUD Outputs</span>"}'
+    - '// @input Component.Component damageText {"hint":"Text component that shows damage percentage (0% → 33% → 67% → 100%)"}'
+    - '// @input Component.Component distanceText {"hint":"Text component that shows distance travelled in metres"}'
+    - '// @input Component.Component scoreText {"hint":"Text component that shows the score (format: x 42)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input bool startPaused {"hint":"If true the game starts paused — useful for testing; in production MainMenu controls this via Play button"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging"}'

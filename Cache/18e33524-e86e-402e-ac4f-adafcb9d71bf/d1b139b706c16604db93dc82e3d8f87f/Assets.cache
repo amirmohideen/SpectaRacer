@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    620ffc4b-3be6-4936-aa39-e56227dd3b87: 18e33524-e86e-402e-ac4f-adafcb9d71bf/d1b139b706c16604db93dc82e3d8f87f/Data/Finish_gate_shadow.mesh
+  Assets:
+    - !<FileMesh/620ffc4b-3be6-4936-aa39-e56227dd3b87>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 4
+        Vertices: 8
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 203.853821, y: 0.000000, z: 54.720985}
+  SourceHash: d1b139b706c16604db93dc82e3d8f87f
+  FileHash: 69a8db5c7e0bf396105a6124dce734c2
+  NativePackageItems:
+    []

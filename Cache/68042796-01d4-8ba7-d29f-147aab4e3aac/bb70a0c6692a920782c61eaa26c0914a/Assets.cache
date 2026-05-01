@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6d707434-5f98-4968-9ff5-713ef57e13f7: 68042796-01d4-8ba7-d29f-147aab4e3aac/bb70a0c6692a920782c61eaa26c0914a/Data/veh_sports_car_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/6d707434-5f98-4968-9ff5-713ef57e13f7>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: bb70a0c6692a920782c61eaa26c0914a
+  FileHash: 52d0fec3fc1e0a6d45a6d195222a2fa7
+  NativePackageItems:
+    []

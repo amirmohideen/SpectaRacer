@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a8b09554-0068-4e11-a66f-8dc3eec65c97: 81ee17d5-a4fc-c0ca-8a16-260e43e27e49/8ffffa15dfb3af84fe847a53adcaa4d2/Data/Refresh.png
+  Assets:
+    - !<FileTexture/a8b09554-0068-4e11-a66f-8dc3eec65c97>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 8ffffa15dfb3af84fe847a53adcaa4d2
+  FileHash: d0a12124408c902e4862ad3ba45afa29
+  NativePackageItems:
+    []

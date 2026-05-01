@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f8f380e0-ad03-4fc4-b269-13217d3569ea: 4debdaee-2030-2199-e196-084cc93df984/73e5152c65b05383cf093f93e5ad1a38/Data/Light On.png
+  Assets:
+    - !<FileTexture/f8f380e0-ad03-4fc4-b269-13217d3569ea>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 73e5152c65b05383cf093f93e5ad1a38
+  FileHash: 5b8722db9aed8c40f5963e874b5ccee8
+  NativePackageItems:
+    []

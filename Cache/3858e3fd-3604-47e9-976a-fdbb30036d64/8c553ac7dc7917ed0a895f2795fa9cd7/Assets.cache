@@ -1,0 +1,2515 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 8c553ac7dc7917ed0a895f2795fa9cd7
+  FileHash: a303a3fd41939a4c324de2caf4fbcf67
+  NativePackageItems:
+    - !<own> eb0f289f-90a8-ac18-0018-f4b5a2e682dc
+    - !<own> 3b06e1d0-88e8-5155-09f9-bfeb2cde9e8c
+    - !<own> c045a8dc-f548-9ee3-ddb6-c908da90e065
+    - !<own> 2bd68418-8ecc-f0ee-6558-2ccd1fc5e0be
+    - !<own> ad9edca9-493e-2874-6c6c-589017e30527
+    - !<own> d508553d-d780-faa3-4d74-503c60b8e4a6
+    - !<own> f15a3ec0-dbe7-5cea-4744-50dafdaa55e1
+    - !<own> e37f13e7-e4ac-9901-ceaf-aa2faec0dee7
+    - !<own> af2ed677-8c20-bd50-d7a0-f227d98fbd0b
+    - !<own> 3b0bfc03-2e92-005e-7e89-523b11a76b5f
+    - !<own> f073c5fc-0673-523c-fb65-2ad2c9c2904e
+    - !<own> ebd6f955-6605-7b3a-1d36-ffb382bdbf31
+    - !<own> 3630ef59-3a5b-caa2-40b2-c18f2e6a9c2d
+    - !<own> fd371dcb-2899-b38b-5952-28cb95516ed2
+    - !<own> e6ddb377-1a3e-2b60-ddbf-daa0a511c006
+    - !<own> 3d07eb9e-4140-629c-5bfb-834202076c73
+    - !<own> 5db16bca-bcd0-4944-7cbb-2e0b358e6bb8
+    - !<own> 9f473011-7bfc-ae54-093a-32797726fade
+    - !<own> 598f0bc8-fe3f-2474-2092-e7df2d436433
+    - !<own> 267ff11b-03b3-9fe7-fb6f-c502cc6bc73a
+    - !<own> 0f914ec7-515f-b820-5f6d-a8ac7cbf7b52
+    - !<own> 6500d848-c86d-48bf-e18d-c194516d7385
+    - !<own> b75934b0-6997-8cf9-3617-31f634d59939
+    - !<own> 2c7d4ce1-4ce9-3c05-054a-0e84448583a7
+    - !<own> bce77ceb-e5d6-c748-99e3-eadbf6bbb871
+    - !<own> 58e3575b-5684-a344-0783-5b02cfd976da
+    - !<own> 9d79f3cf-4d6e-e4cf-26c1-317cea90cb13
+    - !<own> 7e1a8ce9-6383-6e2b-dc54-8da96466bc27
+    - !<own> 1ee4549d-49d2-f757-770f-c799a7ee9254
+    - !<own> 0ead77ab-d816-a299-c33b-59700cece780
+    - !<own> cdecb92b-73f9-918c-29b0-f1ff09df4470
+    - !<own> a215184b-05d4-80a0-a75f-1af5a8fa7bb6
+    - !<own> f943efee-8735-4083-5c91-4b0a6bbab97e
+    - !<own> 19d81501-14fd-9e47-a240-6dd7588f63a4
+    - !<own> 4f3510e8-a867-1755-68f3-f7db04f508a5
+    - !<own> f321d800-5b1e-c29a-751e-d67cb0eb58ea
+    - !<own> 68042796-01d4-8ba7-d29f-147aab4e3aac
+    - !<own> e8270287-e6d1-41e9-bd92-3b755761c022
+    - !<own> 2c2552b9-ea6c-d35f-7bb1-59b70c0928fa
+    - !<own> 555ac0e2-3e1b-afe2-00bc-8ff83611c594
+    - !<own> 38458a5c-2855-ce40-d031-2c88747200e1
+    - !<own> d43ce7d2-94f4-1f15-5db4-718422c38fd6
+    - !<own> 350062a8-0cfe-6f3e-aefe-01b3850048c0
+    - !<own> 01d2000f-dbc4-5ad0-fb76-73aa46fcd6b6
+    - !<own> b5425ae8-41ad-ee0a-5087-a2206038fbb3
+    - !<own> 1a489c15-eeaa-64cb-b5c3-dfea28a9e646
+    - !<own> 15ff37f9-15f6-fa1e-a401-216640ea74a4
+    - !<own> 6769c08b-89d0-fbc5-4a8e-89dbbaba9b4c
+    - !<own> 00e64328-f191-b6dc-331d-298d6146338a
+    - !<own> 6f0cfe38-5365-d1f9-1578-3ee3a722f787
+    - !<own> 1b5f009c-d26a-9bd1-1fc1-7c613a14cece
+    - !<own> 7c875a61-237f-4118-22e8-9550b99584a3
+    - !<own> 87df8453-bf57-b01d-7d84-97d88c49fca6
+    - !<own> c3559985-8e3b-1188-7123-aabdb451f728
+    - !<own> 1e254dd5-8fc4-4728-8acc-c1f95136502e
+    - !<own> 8bdd25fb-0114-791c-4f0a-e209d1328775
+    - !<own> fcbe3f47-81a9-2211-3150-7c9841f5f484
+    - !<own> cbef7d9a-b036-a440-2c98-974afe37b4a1
+    - !<own> 5eda73ed-d69d-94c0-4e4b-7d8377a526f6
+    - !<own> add9aca2-c041-0223-c80a-b1491542636e
+    - !<own> 7094004a-a1fa-9021-4aa2-157a57e653ec
+- !<AssetImportMetadata/00e64328-f191-b6dc-331d-298d6146338a>
+  ImportedAssetIds:
+    Material: !<reference> 076843e0-a81a-4897-95c2-f3b088dd500c
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 076843e0-a81a-4897-95c2-f3b088dd500c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/01d2000f-dbc4-5ad0-fb76-73aa46fcd6b6>
+  ImportedAssetIds:
+    Material: !<reference> 5929ef69-ee30-4977-b8e4-7c58473022d6
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 5929ef69-ee30-4977-b8e4-7c58473022d6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0b8e8cd8-384e-48ed-6d1d-97f222cccb21>
+  PrefabRemaps:
+    []
+  Name: veh_pickup_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 190.000000, y: -0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 53863790-b3d6-4277-7f88-2bba96c1c315
+- !<AssetImportMetadata/0ead77ab-d816-a299-c33b-59700cece780>
+  ImportedAssetIds:
+    Texture: !<reference> f51da010-0eb2-4f01-b7e7-7c50b678e280
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> f51da010-0eb2-4f01-b7e7-7c50b678e280
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/0f914ec7-515f-b820-5f6d-a8ac7cbf7b52>
+  ImportedAssetIds:
+    Texture: !<reference> 565799c1-7524-48b3-bcf0-d0879f09b274
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 565799c1-7524-48b3-bcf0-d0879f09b274
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<SceneObject/0fb654db-f0b2-4a9a-4300-15d09b53cec8>
+  PrefabRemaps:
+    []
+  Name: Vehicles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -250.000000, z: -800.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 989bf740-e1e6-4bf5-51d3-b2b595284b4c
+    - !<own> 4bb2f93f-3057-4f3a-7953-80af538571a3
+    - !<own> 2f2969db-f428-4204-4032-8ef974c73065
+    - !<own> 56d3f84a-1ff3-4a77-4e15-78f34dce450b
+    - !<own> eb4235e0-44c3-4ea7-615a-3b02d996cd95
+    - !<own> 98d3c34c-df7a-46f0-6532-681d38beeca0
+    - !<own> fef84ad0-d314-4eba-5b87-d170a17016d9
+    - !<own> a8cfc725-b3c7-4437-75f9-a16b94d8be8c
+    - !<own> c2fa2775-dc92-4ef7-7b5d-82d6b7f2b845
+    - !<own> fff35476-ead5-4636-5d80-a16b6a277b90
+    - !<own> bfd067e7-66ab-4d98-60b0-dc8f1708d8c3
+    - !<own> 215f0877-1586-40db-4376-157c25c6a288
+    - !<own> f6e68b40-b198-4939-43e9-3cd2f862effc
+    - !<own> a4b57904-7297-4039-5884-1325f4523677
+    - !<own> 610cd941-c467-4a5c-5d6f-73d0da65840e
+    - !<own> 50d341dc-ca10-4e2b-7d43-80f24c8c8123
+    - !<own> defefa0e-0ae7-4c1b-4d3d-131df89c5195
+  Components:
+    []
+- !<RenderMeshVisual/12132b11-3fca-4841-4a86-a843a1469d63>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> e9fff4d0-9f38-4e0b-a607-cb004fd4aaef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/15ff37f9-15f6-fa1e-a401-216640ea74a4>
+  ImportedAssetIds:
+    Material: !<reference> 3b7ffc4c-5fd1-4cf3-afee-e7ee506f2668
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 3b7ffc4c-5fd1-4cf3-afee-e7ee506f2668
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/196ae2d6-cd79-48d9-5fae-132d8fc11a5e>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -150.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 946c6ca2-3ce0-4a44-4b7f-f262331bedab
+- !<AssetImportMetadata/19d81501-14fd-9e47-a240-6dd7588f63a4>
+  ImportedAssetIds:
+    Texture: !<reference> 2c2f3666-aa6b-4e81-90dc-35cf6a55df88
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 2c2f3666-aa6b-4e81-90dc-35cf6a55df88
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/1a489c15-eeaa-64cb-b5c3-dfea28a9e646>
+  ImportedAssetIds:
+    Material: !<reference> 6bb41df9-3182-4602-bf1b-4c03268e0330
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 6bb41df9-3182-4602-bf1b-4c03268e0330
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/1b5f009c-d26a-9bd1-1fc1-7c613a14cece>
+  ImportedAssetIds:
+    Material: !<reference> 51a26ee9-1389-47ef-9dbf-21f539c0df0e
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 51a26ee9-1389-47ef-9dbf-21f539c0df0e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/1e254dd5-8fc4-4728-8acc-c1f95136502e>
+  ImportedAssetIds:
+    Material: !<reference> 85874071-065a-4842-969e-ff1b78e60c00
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 85874071-065a-4842-969e-ff1b78e60c00
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/1ee4549d-49d2-f757-770f-c799a7ee9254>
+  ImportedAssetIds:
+    Texture: !<reference> 03b4c2f0-8de0-4623-8749-62e8ff8522d5
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 03b4c2f0-8de0-4623-8749-62e8ff8522d5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/1f9bbae3-43b4-466b-7126-35fd9bf0347d>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 106272ef-656b-49e8-ae63-9d45ba402869
+  Mesh: !<reference> a3e1d12e-0454-4ef3-9b14-fd0d03ec5313
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/215f0877-1586-40db-4376-157c25c6a288>
+  PrefabRemaps:
+    []
+  Name: veh_golfcar_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 470.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 67cd41d8-b2db-4c28-6cc0-e9a699ddb6ef
+- !<AssetImportMetadata/267ff11b-03b3-9fe7-fb6f-c502cc6bc73a>
+  ImportedAssetIds:
+    Texture: !<reference> 4b88a14b-5993-4a1d-9202-2721b96753b1
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 4b88a14b-5993-4a1d-9202-2721b96753b1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2bd68418-8ecc-f0ee-6558-2ccd1fc5e0be>
+  ImportedAssetIds:
+    Texture: !<reference> 55ad4069-1638-4dbf-b91f-1ae7a8300de6
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 55ad4069-1638-4dbf-b91f-1ae7a8300de6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/2c2552b9-ea6c-d35f-7bb1-59b70c0928fa>
+  ImportedAssetIds:
+    Material: !<reference> 56844df6-bacb-4cc9-bf9e-d693baba9415
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 56844df6-bacb-4cc9-bf9e-d693baba9415
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2c7d4ce1-4ce9-3c05-054a-0e84448583a7>
+  ImportedAssetIds:
+    Texture: !<reference> 7ed0931a-4860-4ba8-8c56-b7d4e8ca8c24
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 7ed0931a-4860-4ba8-8c56-b7d4e8ca8c24
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<SceneObject/2df422ee-8a80-4079-56e3-5573db659418>
+  PrefabRemaps:
+    []
+  Name: veh_suv_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 450.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d189727c-5571-4b7d-6575-555a8d7280ab
+- !<SceneObject/2f2969db-f428-4204-4032-8ef974c73065>
+  PrefabRemaps:
+    []
+  Name: veh_pickup_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 190.000000, y: -0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 713a42c4-3b05-461c-768e-312f01e6ddfd
+- !<SceneObject/2f3c5741-38e2-40a6-7471-1a80c6e03d51>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_red_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 290.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> eac35efd-83ef-47d6-69e2-962386147cbc
+- !<RenderMeshVisual/30358f8b-94f3-4894-6c69-89592df1ed3a>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 5929ef69-ee30-4977-b8e4-7c58473022d6
+  Mesh: !<reference> 46345602-6299-4b31-8fba-e48b9a4acf44
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/350062a8-0cfe-6f3e-aefe-01b3850048c0>
+  ImportedAssetIds:
+    Material: !<reference> b0f99a98-e488-4bef-bc85-1521885b3288
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> b0f99a98-e488-4bef-bc85-1521885b3288
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/3630ef59-3a5b-caa2-40b2-c18f2e6a9c2d>
+  ImportedAssetIds:
+    Texture: !<reference> 7a59045c-e317-41eb-90a6-d3151d6a0e48
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 7a59045c-e317-41eb-90a6-d3151d6a0e48
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/38458a5c-2855-ce40-d031-2c88747200e1>
+  ImportedAssetIds:
+    Material: !<reference> 3c19d241-ca8f-40d0-9b25-1c9b160cb098
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 3c19d241-ca8f-40d0-9b25-1c9b160cb098
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/3b06e1d0-88e8-5155-09f9-bfeb2cde9e8c>
+  ImportedAssetIds:
+    Texture: !<reference> 00c297a5-b512-4d42-a0cf-d8d5e9c91e42
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 00c297a5-b512-4d42-a0cf-d8d5e9c91e42
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/3b0bfc03-2e92-005e-7e89-523b11a76b5f>
+  ImportedAssetIds:
+    Texture: !<reference> 7d23f941-79f2-4886-a7b7-06181ab3f310
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 7d23f941-79f2-4886-a7b7-06181ab3f310
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/3d07eb9e-4140-629c-5bfb-834202076c73>
+  ImportedAssetIds:
+    Texture: !<reference> f3049ee3-e50a-4866-bf51-dec7699d4f83
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> f3049ee3-e50a-4866-bf51-dec7699d4f83
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: Medium
+- !<SceneObject/433c208e-ec12-425a-4180-fd550fdadc46>
+  PrefabRemaps:
+    []
+  Name: veh_stroller_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 670.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 748e0efe-72b3-48dc-5c71-2c0510e45a34
+- !<SceneObject/4bb2f93f-3057-4f3a-7953-80af538571a3>
+  PrefabRemaps:
+    []
+  Name: veh_suv_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 450.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 85a471ed-7843-4647-48a9-ed088b1ca490
+- !<ObjectPrefabAssetData/4bff2cef-8d0e-42bf-ba67-67217bee6d41>
+  Prototype: !<ObjectOwner/32442a20-3533-4f0b-9281-c0504d3bf431>
+    PackagePath: ""
+    objects:
+      - !<own> 894062d3-9313-42cb-4c2f-d275bdecefc7
+- !<RenderMeshVisual/4e99c750-66ce-4038-4494-b3f4a9317f90>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6a8c570c-a3ed-4de3-bfbb-cdb9e3159149
+  Mesh: !<reference> 517e9efd-99c6-4691-89f5-ff12d055d3ae
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/4f3510e8-a867-1755-68f3-f7db04f508a5>
+  ImportedAssetIds:
+    Texture: !<reference> 4a96d00c-20c9-43f5-ba42-aedaac23fd8e
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 4a96d00c-20c9-43f5-ba42-aedaac23fd8e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<SceneObject/50d341dc-ca10-4e2b-7d43-80f24c8c8123>
+  PrefabRemaps:
+    []
+  Name: veh_fire_truck_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -400.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e2c6f582-750a-45f3-57c1-3cf0cc4afb54
+- !<SceneObject/50e127ef-3625-4461-71b1-fe36775abe4f>
+  PrefabRemaps:
+    []
+  Name: veh_locomotive_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -600.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f4dcbdf9-6c4d-4129-50c3-d3263d75b82e
+- !<RenderMeshVisual/50f663fc-dcc7-4e2e-6705-020f38a198d8>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 09036271-6db9-40a7-a383-eaff42b143b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/53863790-b3d6-4277-7f88-2bba96c1c315>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 1f4fc7a3-364d-45c5-9aca-3933179b871a
+  Mesh: !<reference> 326239b3-e2ce-41bf-a593-14b64baec79c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/555ac0e2-3e1b-afe2-00bc-8ff83611c594>
+  ImportedAssetIds:
+    Material: !<reference> 291c4993-2a99-4ddc-9fd7-e98574dd5185
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 291c4993-2a99-4ddc-9fd7-e98574dd5185
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/5630d2fd-8b00-4eb5-437e-7aa493f574ee>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85874071-065a-4842-969e-ff1b78e60c00
+  Mesh: !<reference> f3b6cba2-7ce6-465e-9b79-8aeb38d449ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/56d3f84a-1ff3-4a77-4e15-78f34dce450b>
+  PrefabRemaps:
+    []
+  Name: veh_taxi_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -310.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a3e99c54-af9c-4399-70e7-9fdeb8e0ba23
+- !<RenderMeshVisual/579c0f7c-aa1d-4d7e-5994-98f98602c64c>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 3e600886-03ac-43dc-9b38-f39361ab9d00
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/58e3575b-5684-a344-0783-5b02cfd976da>
+  ImportedAssetIds:
+    Texture: !<reference> d2d165fd-de57-4013-9e00-2d578e59b840
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> d2d165fd-de57-4013-9e00-2d578e59b840
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/598f0bc8-fe3f-2474-2092-e7df2d436433>
+  ImportedAssetIds:
+    Texture: !<reference> 62a63b97-d61a-44d4-900b-20e2a0094e99
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 62a63b97-d61a-44d4-900b-20e2a0094e99
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/5db16bca-bcd0-4944-7cbb-2e0b358e6bb8>
+  ImportedAssetIds:
+    Texture: !<reference> 8bad5f56-8a8e-4d39-9c4f-cde8e77c7a6f
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 8bad5f56-8a8e-4d39-9c4f-cde8e77c7a6f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/5eda73ed-d69d-94c0-4e4b-7d8377a526f6>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 815c60c7-8182-457f-ad1c-50d43164c591
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 815c60c7-8182-457f-ad1c-50d43164c591
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/610cd941-c467-4a5c-5d6f-73d0da65840e>
+  PrefabRemaps:
+    []
+  Name: veh_ambulance_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -200.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c5dbd618-fe9f-4f27-6e47-59f729725252
+- !<RenderMeshVisual/64e51ab9-a82d-4b33-691e-e40d4cae73e7>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> ec9efe2f-ffd5-4338-a328-e9d940648b99
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/6500d848-c86d-48bf-e18d-c194516d7385>
+  ImportedAssetIds:
+    Texture: !<reference> cdcc3016-94f2-4a53-9efa-e66e8deeabeb
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> cdcc3016-94f2-4a53-9efa-e66e8deeabeb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/6769c08b-89d0-fbc5-4a8e-89dbbaba9b4c>
+  ImportedAssetIds:
+    Material: !<reference> 2b155699-6f9c-4622-9844-139c93ed0e5a
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 2b155699-6f9c-4622-9844-139c93ed0e5a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/67cd41d8-b2db-4c28-6cc0-e9a699ddb6ef>
+  PrefabRemaps:
+    []
+  Name: component_11
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a05bbfa7-2c8e-4542-944b-a82f5b44a161
+  Mesh: !<reference> 09036271-6db9-40a7-a383-eaff42b143b9
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/68042796-01d4-8ba7-d29f-147aab4e3aac>
+  ImportedAssetIds:
+    Texture: !<reference> 6d707434-5f98-4968-9ff5-713ef57e13f7
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 6d707434-5f98-4968-9ff5-713ef57e13f7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/6f0cfe38-5365-d1f9-1578-3ee3a722f787>
+  ImportedAssetIds:
+    Material: !<reference> 6a8c570c-a3ed-4de3-bfbb-cdb9e3159149
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 6a8c570c-a3ed-4de3-bfbb-cdb9e3159149
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/7094004a-a1fa-9021-4aa2-157a57e653ec>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 6311e12a-095e-4c64-8f57-b4e5743afcc8
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 6311e12a-095e-4c64-8f57-b4e5743afcc8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/713a42c4-3b05-461c-768e-312f01e6ddfd>
+  PrefabRemaps:
+    []
+  Name: component_2
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 51a26ee9-1389-47ef-9dbf-21f539c0df0e
+  Mesh: !<reference> 326239b3-e2ce-41bf-a593-14b64baec79c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/748e0efe-72b3-48dc-5c71-2c0510e45a34>
+  PrefabRemaps:
+    []
+  Name: component_4
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 517e9efd-99c6-4691-89f5-ff12d055d3ae
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/75efd617-fae6-4aac-734c-4f97c2b7b5d3>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_pink_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 350.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d44a2df4-b0a3-43f9-4c68-1a048c349971
+- !<SceneObject/785b1db5-03b9-418d-4915-8d8f0babd3ee>
+  PrefabRemaps:
+    []
+  Name: veh_hatchback_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 150.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 64e51ab9-a82d-4b33-691e-e40d4cae73e7
+- !<AssetImportMetadata/7c875a61-237f-4118-22e8-9550b99584a3>
+  ImportedAssetIds:
+    Material: !<reference> 4b14f045-13ac-401d-aae7-b8dd7474e60c
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 4b14f045-13ac-401d-aae7-b8dd7474e60c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/7d61948c-29d8-40bc-67d4-ca60c4728449>
+  PrefabRemaps:
+    []
+  Name: veh_scooter_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 550.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d83c1cde-f883-4735-6213-ebd3cb7dbbe1
+- !<AssetImportMetadata/7e1a8ce9-6383-6e2b-dc54-8da96466bc27>
+  ImportedAssetIds:
+    Texture: !<reference> 806d5068-dab0-47ee-89b6-7ff257e52410
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 806d5068-dab0-47ee-89b6-7ff257e52410
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/851d3a49-55c4-46ee-8493-ded937cc224b>
+  Prototype: !<ObjectOwner/39ac39fb-cf4c-42f1-a891-6eebf79998b3>
+    PackagePath: ""
+    objects:
+      - !<own> 0fb654db-f0b2-4a9a-4300-15d09b53cec8
+- !<RenderMeshVisual/85a471ed-7843-4647-48a9-ed088b1ca490>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 534833f2-7286-4a46-85cc-b903cf3e399e
+  Mesh: !<reference> 0e8ca22d-f825-401a-82fe-972917a2ef3f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/85f964c0-3075-46ef-7dc4-8366c96a1739>
+  PrefabRemaps:
+    []
+  Name: component_10
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 291c4993-2a99-4ddc-9fd7-e98574dd5185
+  Mesh: !<reference> 3e600886-03ac-43dc-9b38-f39361ab9d00
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8744c62b-21d9-4c73-54f8-e519b81269c1>
+  PrefabRemaps:
+    []
+  Name: veh_school_bus_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f348d88f-d226-45bf-4258-6188c99bfc63
+- !<AssetImportMetadata/87df8453-bf57-b01d-7d84-97d88c49fca6>
+  ImportedAssetIds:
+    Material: !<reference> 7a72c43b-3fe6-4d50-b7c0-92f6d0b6c441
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 7a72c43b-3fe6-4d50-b7c0-92f6d0b6c441
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/894062d3-9313-42cb-4c2f-d275bdecefc7>
+  PrefabRemaps:
+    []
+  Name: Vehicles
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 75efd617-fae6-4aac-734c-4f97c2b7b5d3
+    - !<own> 2df422ee-8a80-4079-56e3-5573db659418
+    - !<own> 0b8e8cd8-384e-48ed-6d1d-97f222cccb21
+    - !<own> 8cfb07ce-fb89-4326-79c2-4ba03cfdec79
+    - !<own> 433c208e-ec12-425a-4180-fd550fdadc46
+    - !<own> 7d61948c-29d8-40bc-67d4-ca60c4728449
+    - !<own> 8f505485-4fe1-4e95-6ca1-e3b8f2802a98
+    - !<own> 785b1db5-03b9-418d-4915-8d8f0babd3ee
+    - !<own> 196ae2d6-cd79-48d9-5fae-132d8fc11a5e
+    - !<own> a093b230-a02a-4988-5183-a35891fcf89c
+    - !<own> b21af2a1-0a01-4dd2-7940-b32c07db3131
+    - !<own> e70011c5-356c-4cb4-6e01-c48c9b0eaaf7
+    - !<own> 2f3c5741-38e2-40a6-7471-1a80c6e03d51
+    - !<own> 8744c62b-21d9-4c73-54f8-e519b81269c1
+    - !<own> b549ace7-4ac0-428f-55be-1121c92ecb9d
+    - !<own> e9d7399f-2c5b-4693-5d53-c5aa016198de
+    - !<own> 50e127ef-3625-4461-71b1-fe36775abe4f
+  Components:
+    []
+- !<AssetImportMetadata/8bdd25fb-0114-791c-4f0a-e209d1328775>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8fcf1a47-8ca8-4004-afb3-66fc8ad9fbeb
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8fcf1a47-8ca8-4004-afb3-66fc8ad9fbeb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 851d3a49-55c4-46ee-8493-ded937cc224b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8cfb07ce-fb89-4326-79c2-4ba03cfdec79>
+  PrefabRemaps:
+    []
+  Name: veh_taxi_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -310.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 12132b11-3fca-4841-4a86-a843a1469d63
+- !<SceneObject/8f505485-4fe1-4e95-6ca1-e3b8f2802a98>
+  PrefabRemaps:
+    []
+  Name: veh_bicycle_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 610.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ac6628cd-f0d3-4aff-7cb2-90d5097055fc
+- !<RenderMeshVisual/900631ba-1a57-4372-5f1c-4d75b181c284>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 38762c65-f724-497a-ab86-05b62c86046a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/946c6ca2-3ce0-4a44-4b7f-f262331bedab>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 42022da3-dc5d-457d-842d-a9d92b914f8e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/989bf740-e1e6-4bf5-51d3-b2b595284b4c>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_pink_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 350.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d2768925-e446-4148-51dc-a2cd7e12df49
+- !<SceneObject/98d3c34c-df7a-46f0-6532-681d38beeca0>
+  PrefabRemaps:
+    []
+  Name: veh_scooter_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 550.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b21f1bc6-c955-4f6a-6a2a-a75ca5d24062
+- !<AssetImportMetadata/9d79f3cf-4d6e-e4cf-26c1-317cea90cb13>
+  ImportedAssetIds:
+    Texture: !<reference> b5475af0-878f-4f80-82b1-df307ef35c6e
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> b5475af0-878f-4f80-82b1-df307ef35c6e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/9f473011-7bfc-ae54-093a-32797726fade>
+  ImportedAssetIds:
+    Texture: !<reference> 7a0e981a-9801-41c6-8927-1f0bfc299b28
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 7a0e981a-9801-41c6-8927-1f0bfc299b28
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<SceneObject/a093b230-a02a-4988-5183-a35891fcf89c>
+  PrefabRemaps:
+    []
+  Name: veh_police_car_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -470.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fcbd0d35-4835-43ed-7616-852b99603dff
+- !<AssetImportMetadata/a215184b-05d4-80a0-a75f-1af5a8fa7bb6>
+  ImportedAssetIds:
+    Texture: !<reference> 382577a3-d7d5-4c74-8f0f-336df80c678a
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 382577a3-d7d5-4c74-8f0f-336df80c678a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/a3e99c54-af9c-4399-70e7-9fdeb8e0ba23>
+  PrefabRemaps:
+    []
+  Name: component_3
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3c19d241-ca8f-40d0-9b25-1c9b160cb098
+  Mesh: !<reference> e9fff4d0-9f38-4e0b-a607-cb004fd4aaef
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a4b57904-7297-4039-5884-1325f4523677>
+  PrefabRemaps:
+    []
+  Name: veh_school_bus_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1f9bbae3-43b4-466b-7126-35fd9bf0347d
+- !<SceneObject/a8cfc725-b3c7-4437-75f9-a16b94d8be8c>
+  PrefabRemaps:
+    []
+  Name: veh_hatchback_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 150.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b4a1b5b3-4792-4afd-42ab-8ff04933985d
+- !<RenderMeshVisual/ac6628cd-f0d3-4aff-7cb2-90d5097055fc>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 6120bed9-181f-427e-9ab2-a4978377ad52
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/ad929732-e6e1-4ef1-5ce1-118daf682f15>
+  PrefabRemaps:
+    []
+  Name: component_6
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 2b155699-6f9c-4622-9844-139c93ed0e5a
+  Mesh: !<reference> 6120bed9-181f-427e-9ab2-a4978377ad52
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/ad9edca9-493e-2874-6c6c-589017e30527>
+  ImportedAssetIds:
+    Texture: !<reference> 391a306f-ce52-4d5e-9dc4-bf218b74f761
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 391a306f-ce52-4d5e-9dc4-bf218b74f761
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/add9aca2-c041-0223-c80a-b1491542636e>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> ef134ffb-6a4f-459a-9ce4-fb9b1983a82e
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> ef134ffb-6a4f-459a-9ce4-fb9b1983a82e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/af2ed677-8c20-bd50-d7a0-f227d98fbd0b>
+  ImportedAssetIds:
+    Texture: !<reference> dc99aa88-0465-443a-8552-e3a3541b92ee
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> dc99aa88-0465-443a-8552-e3a3541b92ee
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<SceneObject/b21af2a1-0a01-4dd2-7940-b32c07db3131>
+  PrefabRemaps:
+    []
+  Name: veh_sports_car_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 579c0f7c-aa1d-4d7e-5994-98f98602c64c
+- !<RenderMeshVisual/b21f1bc6-c955-4f6a-6a2a-a75ca5d24062>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4b14f045-13ac-401d-aae7-b8dd7474e60c
+  Mesh: !<reference> 63b6aa64-e0d9-44cf-a6b3-c443eafbe88c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/b4a1b5b3-4792-4afd-42ab-8ff04933985d>
+  PrefabRemaps:
+    []
+  Name: component_7
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 6bb41df9-3182-4602-bf1b-4c03268e0330
+  Mesh: !<reference> ec9efe2f-ffd5-4338-a328-e9d940648b99
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/b5425ae8-41ad-ee0a-5087-a2206038fbb3>
+  ImportedAssetIds:
+    Material: !<reference> a05bbfa7-2c8e-4542-944b-a82f5b44a161
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> a05bbfa7-2c8e-4542-944b-a82f5b44a161
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/b549ace7-4ac0-428f-55be-1121c92ecb9d>
+  PrefabRemaps:
+    []
+  Name: veh_ambulance_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -200.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 900631ba-1a57-4372-5f1c-4d75b181c284
+- !<AssetImportMetadata/b75934b0-6997-8cf9-3617-31f634d59939>
+  ImportedAssetIds:
+    Texture: !<reference> ecbce4e9-316f-465d-a8de-35019e726527
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> ecbce4e9-316f-465d-a8de-35019e726527
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/b7672b14-7f07-4f5b-6f97-8ad537441cfd>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 4956edeb-d601-4af6-86d1-ef15a90202e7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/bce77ceb-e5d6-c748-99e3-eadbf6bbb871>
+  ImportedAssetIds:
+    Texture: !<reference> eb507651-c446-4d60-a8e6-63b2e56fd463
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> eb507651-c446-4d60-a8e6-63b2e56fd463
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<SceneObject/bfd067e7-66ab-4d98-60b0-dc8f1708d8c3>
+  PrefabRemaps:
+    []
+  Name: veh_sports_car_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 85f964c0-3075-46ef-7dc4-8366c96a1739
+- !<AssetImportMetadata/c045a8dc-f548-9ee3-ddb6-c908da90e065>
+  ImportedAssetIds:
+    Texture: !<reference> 45192ff5-3437-43b1-ab33-95af4c250070
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 45192ff5-3437-43b1-ab33-95af4c250070
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c2fa2775-dc92-4ef7-7b5d-82d6b7f2b845>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -150.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f33e5c82-148b-474c-61d0-5b2226223ba5
+- !<AssetImportMetadata/c3559985-8e3b-1188-7123-aabdb451f728>
+  ImportedAssetIds:
+    Material: !<reference> 534833f2-7286-4a46-85cc-b903cf3e399e
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 534833f2-7286-4a46-85cc-b903cf3e399e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/c5dbd618-fe9f-4f27-6e47-59f729725252>
+  PrefabRemaps:
+    []
+  Name: component_14
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 076843e0-a81a-4897-95c2-f3b088dd500c
+  Mesh: !<reference> 38762c65-f724-497a-ab86-05b62c86046a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/cbef7d9a-b036-a440-2c98-974afe37b4a1>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> b9678707-ee30-48e1-a8c6-976ec1292e5b
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> b9678707-ee30-48e1-a8c6-976ec1292e5b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/cdecb92b-73f9-918c-29b0-f1ff09df4470>
+  ImportedAssetIds:
+    Texture: !<reference> 80402b7f-52b6-426a-bcb2-e436152bc7ba
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 80402b7f-52b6-426a-bcb2-e436152bc7ba
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/d189727c-5571-4b7d-6575-555a8d7280ab>
+  PrefabRemaps:
+    []
+  Name: component_1
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 8905ba04-2109-441f-884d-aefab8275077
+  Mesh: !<reference> 0e8ca22d-f825-401a-82fe-972917a2ef3f
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/d2768925-e446-4148-51dc-a2cd7e12df49>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 7a72c43b-3fe6-4d50-b7c0-92f6d0b6c441
+  Mesh: !<reference> f4a58952-3955-48ee-939c-0b97da8aca88
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/d43ce7d2-94f4-1f15-5db4-718422c38fd6>
+  ImportedAssetIds:
+    Material: !<reference> 106272ef-656b-49e8-ae63-9d45ba402869
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 106272ef-656b-49e8-ae63-9d45ba402869
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/d44a2df4-b0a3-43f9-4c68-1a048c349971>
+  PrefabRemaps:
+    []
+  Name: component_0
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4a4945a4-25f7-4552-9620-9fc00457def3
+  Mesh: !<reference> f4a58952-3955-48ee-939c-0b97da8aca88
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/d508553d-d780-faa3-4d74-503c60b8e4a6>
+  ImportedAssetIds:
+    Texture: !<reference> 0bd2bae6-f816-4a3e-a4bd-4d9e14c3c76e
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 0bd2bae6-f816-4a3e-a4bd-4d9e14c3c76e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/d83c1cde-f883-4735-6213-ebd3cb7dbbe1>
+  PrefabRemaps:
+    []
+  Name: component_5
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 63b6aa64-e0d9-44cf-a6b3-c443eafbe88c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/defefa0e-0ae7-4c1b-4d3d-131df89c5195>
+  PrefabRemaps:
+    []
+  Name: veh_locomotive_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -600.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 30358f8b-94f3-4894-6c69-89592df1ed3a
+- !<RenderMeshVisual/e2c6f582-750a-45f3-57c1-3cf0cc4afb54>
+  PrefabRemaps:
+    []
+  Name: component_15
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 56844df6-bacb-4cc9-bf9e-d693baba9415
+  Mesh: !<reference> 4956edeb-d601-4af6-86d1-ef15a90202e7
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/e37f13e7-e4ac-9901-ceaf-aa2faec0dee7>
+  ImportedAssetIds:
+    Texture: !<reference> d45b29af-de0a-4c66-907b-3760e7434b18
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> d45b29af-de0a-4c66-907b-3760e7434b18
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/e6ddb377-1a3e-2b60-ddbf-daa0a511c006>
+  ImportedAssetIds:
+    Texture: !<reference> 50b0b843-2ed9-4e09-ae33-1aa329a00654
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 50b0b843-2ed9-4e09-ae33-1aa329a00654
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<SceneObject/e70011c5-356c-4cb4-6e01-c48c9b0eaaf7>
+  PrefabRemaps:
+    []
+  Name: veh_golfcar_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 470.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 50f663fc-dcc7-4e2e-6705-020f38a198d8
+- !<RenderMeshVisual/e7836ae6-0b51-49f3-7d2d-22e87bb00ee7>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 3b7ffc4c-5fd1-4cf3-afee-e7ee506f2668
+  Mesh: !<reference> c2e3e436-89ed-48da-81f9-e35ca3994a42
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/e8270287-e6d1-41e9-bd92-3b755761c022>
+  ImportedAssetIds:
+    Texture: !<reference> b4348a47-3301-4365-aa10-b731bdbec00d
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> b4348a47-3301-4365-aa10-b731bdbec00d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<SceneObject/e9d7399f-2c5b-4693-5d53-c5aa016198de>
+  PrefabRemaps:
+    []
+  Name: veh_fire_truck_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -400.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b7672b14-7f07-4f5b-6f97-8ad537441cfd
+- !<RenderMeshVisual/eac35efd-83ef-47d6-69e2-962386147cbc>
+  PrefabRemaps:
+    []
+  Name: component_12
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> c2e3e436-89ed-48da-81f9-e35ca3994a42
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/eb0f289f-90a8-ac18-0018-f4b5a2e682dc>
+  ImportedAssetIds:
+    Texture: !<reference> fed6ba5f-646a-4caa-a1fe-9f6df45ff407
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> fed6ba5f-646a-4caa-a1fe-9f6df45ff407
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/eb4235e0-44c3-4ea7-615a-3b02d996cd95>
+  PrefabRemaps:
+    []
+  Name: veh_stroller_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 670.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4e99c750-66ce-4038-4494-b3f4a9317f90
+- !<AssetImportMetadata/ebd6f955-6605-7b3a-1d36-ffb382bdbf31>
+  ImportedAssetIds:
+    Texture: !<reference> 9e6225a3-9ece-4811-bde5-fca4204ee634
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 9e6225a3-9ece-4811-bde5-fca4204ee634
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f073c5fc-0673-523c-fb65-2ad2c9c2904e>
+  ImportedAssetIds:
+    Texture: !<reference> 18dcc3f9-e884-45dc-ac6e-4aedf7e674c1
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 18dcc3f9-e884-45dc-ac6e-4aedf7e674c1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/f15a3ec0-dbe7-5cea-4744-50dafdaa55e1>
+  ImportedAssetIds:
+    Texture: !<reference> 3039e968-306e-4bb2-a7d8-52a74a66b496
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 3039e968-306e-4bb2-a7d8-52a74a66b496
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Size
+    CompressionSettings: !<TextureCompressionSettings>
+      Level: High
+- !<AssetImportMetadata/f321d800-5b1e-c29a-751e-d67cb0eb58ea>
+  ImportedAssetIds:
+    Texture: !<reference> df5e5006-505f-441c-805f-74ca3de3fe66
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> df5e5006-505f-441c-805f-74ca3de3fe66
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/f33e5c82-148b-474c-61d0-5b2226223ba5>
+  PrefabRemaps:
+    []
+  Name: component_8
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> b0f99a98-e488-4bef-bc85-1521885b3288
+  Mesh: !<reference> 42022da3-dc5d-457d-842d-a9d92b914f8e
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f348d88f-d226-45bf-4258-6188c99bfc63>
+  PrefabRemaps:
+    []
+  Name: component_13
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> a3e1d12e-0454-4ef3-9b14-fd0d03ec5313
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/f4dcbdf9-6c4d-4129-50c3-d3263d75b82e>
+  PrefabRemaps:
+    []
+  Name: component_16
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> 46345602-6299-4b31-8fba-e48b9a4acf44
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/f6e68b40-b198-4939-43e9-3cd2f862effc>
+  PrefabRemaps:
+    []
+  Name: veh_cabrio_red_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 290.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e7836ae6-0b51-49f3-7d2d-22e87bb00ee7
+- !<AssetImportMetadata/f943efee-8735-4083-5c91-4b0a6bbab97e>
+  ImportedAssetIds:
+    Texture: !<reference> 2e0a374d-7630-47cd-bed7-c146f2bcfe5e
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 2e0a374d-7630-47cd-bed7-c146f2bcfe5e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<RenderMeshVisual/fcbd0d35-4835-43ed-7616-852b99603dff>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> d7d901a6-17cd-4e43-ac14-78b6dd88744b
+  Mesh: !<reference> f3b6cba2-7ce6-465e-9b79-8aeb38d449ca
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/fcbe3f47-81a9-2211-3150-7c9841f5f484>
+  ImportedAssetIds:
+    .hidden/phong1: !<reference> 08f64ec7-feab-4b23-a7b1-fdb0d6e2bca3
+    .hidden/white: !<reference> 64f5a7f1-94c7-4c0a-8e67-0da34cca3154
+    04af457a09373404: !<reference> d3178f50-f27f-4482-bf57-e523585c1614
+    0dd8950ee62de8c7: !<reference> d189727c-5571-4b7d-9a8a-aaa5728d7f54
+    1cc634835ec1f397: !<reference> 748e0efe-72b3-48dc-a38e-d3faef1ba5cb
+    1e2c6e8aaa40d8a8: !<reference> b21af2a1-0a01-4dd2-86bf-4cd3f824cece
+    1f23dcbd2cd253b1: !<reference> d44a2df4-b0a3-43f9-b397-e5fb73cb668e
+    3707ecb2f440c3c1: !<reference> 98bbc54b-78b0-4d1b-9953-04e404a66fe2
+    3ba508536a3e1148: !<reference> ac6628cd-f0d3-4aff-834d-6f2af68faa03
+    3c98cf9eb490d7a8: !<reference> 75efd617-fae6-4aac-8cb3-b0683d484a2c
+    51d8bc471de61714: !<reference> dcc080a4-2332-4b82-8c8c-f8f372adcfc5
+    538f1c9f135dd00d: !<reference> fcbd0d35-4835-43ed-89e9-7ad4669fc200
+    58f8aa34dea18723: !<reference> 8f505485-4fe1-4e95-935e-1c470d7fd567
+    59eac7681182cd9d: !<reference> d83c1cde-f883-4735-9dec-142c3482441e
+    5ce926d16ed51a7b: !<reference> b7672b14-7f07-4f5b-9068-752ac8bbe302
+    5d802010fdc97253: !<reference> 55d38e2f-4463-464f-b0b4-e8c5168dad7d
+    66780cf3a4dcb2b8: !<reference> 894062d3-9313-42cb-b3d0-2d8a42131038
+    67a5fa1a94cdc6d5: !<reference> e6ca34d9-e72f-449d-b900-9f0b5572f144
+    6e931916ed2cf758: !<reference> a5acdfdf-a917-4b1f-b554-9bfd10cc4fd7
+    80e882ff79f7b26b: !<reference> 53863790-b3d6-4277-8077-d445693e3cea
+    8c37d0303cca106b: !<reference> 50f663fc-dcc7-4e2e-98fa-fdf0c75e6727
+    8d5693acff4168f4: !<reference> eac35efd-83ef-47d6-961d-69dc79eb8343
+    8e474fcf868c10c7: !<reference> 7d61948c-29d8-40bc-982b-359f3b8d7bb6
+    Materials/phong1: !<reference> ad3d2f1d-2ee7-48f8-ab90-5e9ede043e16
+    Materials/phong1|phong1|GraphPassInfo: !<reference> fcb57cee-3bbf-4953-b3b8-5449d31dfcd1
+    Meshes/veh_ambulance_bitmoji: !<reference> 38762c65-f724-497a-ab86-05b62c86046a
+    Meshes/veh_bicycle_bitmoji: !<reference> 6120bed9-181f-427e-9ab2-a4978377ad52
+    Meshes/veh_cabrio_bitmoji: !<reference> 42022da3-dc5d-457d-842d-a9d92b914f8e
+    Meshes/veh_cabrio_pink_bitmoji: !<reference> f4a58952-3955-48ee-939c-0b97da8aca88
+    Meshes/veh_cabrio_red_bitmoji: !<reference> c2e3e436-89ed-48da-81f9-e35ca3994a42
+    Meshes/veh_fire_truck_bitmoji: !<reference> 4956edeb-d601-4af6-86d1-ef15a90202e7
+    Meshes/veh_golfcar_bitmoji: !<reference> 09036271-6db9-40a7-a383-eaff42b143b9
+    Meshes/veh_hatchback_bitmoji: !<reference> ec9efe2f-ffd5-4338-a328-e9d940648b99
+    Meshes/veh_locomotive_bitmoji: !<reference> 46345602-6299-4b31-8fba-e48b9a4acf44
+    Meshes/veh_pickup_bitmoji: !<reference> 326239b3-e2ce-41bf-a593-14b64baec79c
+    Meshes/veh_police_car_bitmoji: !<reference> f3b6cba2-7ce6-465e-9b79-8aeb38d449ca
+    Meshes/veh_school_bus_bitmoji: !<reference> a3e1d12e-0454-4ef3-9b14-fd0d03ec5313
+    Meshes/veh_scooter_bitmoji: !<reference> 63b6aa64-e0d9-44cf-a6b3-c443eafbe88c
+    Meshes/veh_sports_car_bitmoji: !<reference> 3e600886-03ac-43dc-9b38-f39361ab9d00
+    Meshes/veh_stroller_bitmoji: !<reference> 517e9efd-99c6-4691-89f5-ff12d055d3ae
+    Meshes/veh_suv_bitmoji: !<reference> 0e8ca22d-f825-401a-82fe-972917a2ef3f
+    Meshes/veh_taxi_bitmoji: !<reference> e9fff4d0-9f38-4e0b-a607-cb004fd4aaef
+    Scene: !<reference> 98675cd7-1d19-44c9-819e-6b2e4decc425
+    a2616b98928d4025: !<reference> 64e51ab9-a82d-4b33-96e1-1bf2b3518c18
+    b1b67588c66540f2: !<reference> 900631ba-1a57-4372-a0e3-b28a4e7e3d7b
+    b8302a45269594d5: !<reference> 785b1db5-03b9-418d-b6ea-7270f4542c11
+    c943f125d29cb19e: !<reference> 2df422ee-8a80-4079-a91c-aa8c249a6be7
+    ca925f9ed426356a: !<reference> f348d88f-d226-45bf-bda7-9e773664039c
+    ccb1a92e5daa966c: !<reference> 0b8e8cd8-384e-48ed-92e2-680ddd3334de
+    d32237e9e1f394ac: !<reference> 433c208e-ec12-425a-be7f-02aaf02523b9
+    d8c1572cdfdcb637: !<reference> 946c6ca2-3ce0-4a44-b480-0d9dcce41254
+    dbbd29a3bbd2dcd8: !<reference> f4dcbdf9-6c4d-4129-af3c-2cd9c28a47d1
+    dc399335e1ad7efb: !<reference> 196ae2d6-cd79-48d9-a051-ecd2703ee5a1
+    dff17ee0ce44e9af: !<reference> a093b230-a02a-4988-ae7c-5ca76e030763
+    eb0710e392745c81: !<reference> 12132b11-3fca-4841-b579-57bc5eb9629c
+    ecc75ea5538208e7: !<reference> 579c0f7c-aa1d-4d7e-a66b-670679fd39b3
+    f5820a0c936824b7: !<reference> 8cfb07ce-fb89-4326-863d-b45fc3021386
+  ImporterName: FbxImporter
+  PrimaryAsset: !<reference> 98675cd7-1d19-44c9-819e-6b2e4decc425
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CanBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    Scene: !<own> 4bff2cef-8d0e-42bf-ba67-67217bee6d41
+  DependentFiles:
+    []
+  ImporterSettings: !<FbxImporterSettings>
+    UseLegacyImporter: false
+    WithMaterials: true
+    NamingConvention: ByCategorySanitizeV2
+    PersistentIdGenerationAlgorithm: DescriptorBased
+    AnimationCurveOptimization: true
+    CustomAnimationSamplingRate: 30.000000
+    ImportVertexColor: true
+    ImportTangentsAndBinormals: true
+    RegenerateTangentsAndBinormals: false
+    RegenerateNormalsForSkinnedMeshes: true
+    ImportBlendShapeAnimation: true
+    ImportVertexAnimation: true
+    GeneratePivots: false
+    TriangulateNURBS: true
+    UseLegacyFbxLoader: false
+  CompressionSettings: !<ComplexCompressionSettings>
+    Presets:
+      None Compression: !<SingleCompressionSettings>
+        CompressorName: None
+        CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+      Performance Compression: !<SingleCompressionSettings>
+        CompressorName: Draco
+        CompressionSettings: !<MeshCompressionSettings>
+          EnableDracoCompression: true
+          CompressionLevel: 10
+          PositionBits: 11
+          TexcoordBits: 10
+          NormalBits: 8
+          ColorBits: 8
+    ExtensionMappings:
+      mesh: None Compression
+      jpg: Performance Compression
+    Overrides:
+      Meshes/veh_ambulance_bitmoji: Performance Compression
+      Meshes/veh_bicycle_bitmoji: Performance Compression
+      Meshes/veh_cabrio_bitmoji: Performance Compression
+      Meshes/veh_cabrio_pink_bitmoji: Performance Compression
+      Meshes/veh_cabrio_red_bitmoji: Performance Compression
+      Meshes/veh_fire_truck_bitmoji: Performance Compression
+      Meshes/veh_golfcar_bitmoji: Performance Compression
+      Meshes/veh_hatchback_bitmoji: Performance Compression
+      Meshes/veh_locomotive_bitmoji: Performance Compression
+      Meshes/veh_pickup_bitmoji: Performance Compression
+      Meshes/veh_police_car_bitmoji: Performance Compression
+      Meshes/veh_school_bus_bitmoji: Performance Compression
+      Meshes/veh_scooter_bitmoji: Performance Compression
+      Meshes/veh_sports_car_bitmoji: Performance Compression
+      Meshes/veh_stroller_bitmoji: Performance Compression
+      Meshes/veh_suv_bitmoji: Performance Compression
+      Meshes/veh_taxi_bitmoji: Performance Compression
+- !<AssetImportMetadata/fd371dcb-2899-b38b-5952-28cb95516ed2>
+  ImportedAssetIds:
+    Texture: !<reference> 57c18683-d4e6-4f4c-a82a-6f571f588814
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 57c18683-d4e6-4f4c-a82a-6f571f588814
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/fef84ad0-d314-4eba-5b87-d170a17016d9>
+  PrefabRemaps:
+    []
+  Name: veh_bicycle_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 610.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ad929732-e6e1-4ef1-5ce1-118daf682f15
+- !<SceneObject/fff35476-ead5-4636-5d80-a16b6a277b90>
+  PrefabRemaps:
+    []
+  Name: veh_police_car_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -470.000000, y: 0.000000, z: 300.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5630d2fd-8b00-4eb5-437e-7aa493f574ee

@@ -1,0 +1,50 @@
+- !<AssetImportMetadata/c1fd0496-d15f-e148-5812-69078aa37e97>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8ad0d4be-8a4d-4636-8fa4-78954797ea56
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8ad0d4be-8a4d-4636-8fa4-78954797ea56
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    AssetLibraryId: N1oDmrPgywEc8cBsPHTZW
+  AssetDataMap:
+    ObjectPrefab: !<own> d8e58b0b-d05f-47cd-93be-9617be3fca3a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/265a9ae0-ad65-4d6c-4583-e7b3b0e657ad>
+  PrefabRemaps:
+    []
+  Name: God Rays Post Effect__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 45dee9ec-0dd4-444f-704d-74ee977874b3
+- !<PostEffectVisual/45dee9ec-0dd4-444f-704d-74ee977874b3>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85715a38-e3c8-452c-94fa-84935b94a8bd
+- !<ObjectPrefabAssetData/d8e58b0b-d05f-47cd-93be-9617be3fca3a>
+  Prototype: !<ObjectOwner/9ebef817-08f5-4515-ae98-af0630d25152>
+    PackagePath: ""
+    objects:
+      - !<own> 265a9ae0-ad65-4d6c-4583-e7b3b0e657ad

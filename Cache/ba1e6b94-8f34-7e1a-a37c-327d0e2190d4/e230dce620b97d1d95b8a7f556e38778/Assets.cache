@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    f932598a-cd07-4820-bb8f-8c2938f747cd: ba1e6b94-8f34-7e1a-a37c-327d0e2190d4/e230dce620b97d1d95b8a7f556e38778/Data/checker.png
+  Assets:
+    - !<FileTexture/f932598a-cd07-4820-bb8f-8c2938f747cd>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: e230dce620b97d1d95b8a7f556e38778
+  FileHash: f7c74cc144472b612dab9c4db1b3d4ce
+  NativePackageItems:
+    []

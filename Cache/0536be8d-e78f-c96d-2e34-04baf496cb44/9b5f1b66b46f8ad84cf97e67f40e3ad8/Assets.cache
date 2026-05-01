@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    97940805-0847-4936-a04c-67e05acb91a2: 0536be8d-e78f-c96d-2e34-04baf496cb44/9b5f1b66b46f8ad84cf97e67f40e3ad8/Data/road_sign_street1_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/97940805-0847-4936-a04c-67e05acb91a2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 9b5f1b66b46f8ad84cf97e67f40e3ad8
+  FileHash: 4dad373bbe36bd2e1e1abc15b9e9c875
+  NativePackageItems:
+    []

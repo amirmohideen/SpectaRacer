@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7cc775b6-7d5f-4403-a2b0-23bb1e5774dc: 6c555923-7a80-4338-9f8c-565370c23a28/b9e1036b4e239e69d2b1c8bda776abf2/Data/stones_31.mesh
+  Assets:
+    - !<FileMesh/7cc775b6-7d5f-4403-a2b0-23bb1e5774dc>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 12
+        Vertices: 24
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 1565.128418, y: 68.205132, z: 1497.490723}
+  SourceHash: b9e1036b4e239e69d2b1c8bda776abf2
+  FileHash: 43185c167dce23475d83e91a24a8eaff
+  NativePackageItems:
+    []

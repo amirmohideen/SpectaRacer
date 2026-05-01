@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    7a25171e-2e08-4c91-b601-9e69ac5d1ecf: d34b451c-9aaa-42bb-bbfd-017305bf3d99/64b1bfb7bc00f5d6b3b3ed54a3b69fbf/Data/road_bollard_yellow_bitmoji.mesh
+  Assets:
+    - !<FileMesh/7a25171e-2e08-4c91-b601-9e69ac5d1ecf>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 556
+        Vertices: 387
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 18.108622, y: 62.523445, z: 18.108715}
+  SourceHash: 64b1bfb7bc00f5d6b3b3ed54a3b69fbf
+  FileHash: 344beef4fcf67f1d89f471d7adec5aae
+  NativePackageItems:
+    []

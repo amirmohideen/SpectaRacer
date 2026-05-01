@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    55ad4069-1638-4dbf-b91f-1ae7a8300de6: 2bd68418-8ecc-f0ee-6558-2ccd1fc5e0be/938ac4b248859c35417204ac90b7684e/Data/veh_golfcar_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/55ad4069-1638-4dbf-b91f-1ae7a8300de6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 938ac4b248859c35417204ac90b7684e
+  FileHash: 6041728ce95306aa2d27791ac0406e31
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    530cca1d-48da-40bc-bee6-2d514e61efaa: 7e5c9b86-a3e2-47cb-925d-69a8ba1e6c0b/e58f8fdc117044517254f8b0f5027acb/Data/road_barrier_bitmoji.mesh
+  Assets:
+    - !<FileMesh/530cca1d-48da-40bc-bee6-2d514e61efaa>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 392
+        Vertices: 257
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 140.281128, y: 61.468258, z: 47.800430}
+  SourceHash: e58f8fdc117044517254f8b0f5027acb
+  FileHash: 4429f95d38f2b8992c6ab2dd315d295e
+  NativePackageItems:
+    []

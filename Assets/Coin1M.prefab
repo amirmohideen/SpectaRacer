@@ -1,0 +1,62 @@
+- !<ObjectPrefab/c3fc50a7-9aeb-4751-875f-cd6ac498bfe3>
+  PackagePath: ""
+  objects:
+    - !<own> c38fe07f-9af0-4d11-bd08-a9912e9d7070
+  LazyLoading: false
+  RetainAssets: true
+- !<RenderMeshVisual/603fcffc-5657-45c4-996e-7d85cce3841f>
+  PrefabRemaps:
+    []
+  Name: component_20
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> cba9077a-c9da-4d11-b78d-b09a7a88e0d4
+  Mesh: !<reference> 35846f73-e25e-4117-8a00-8afefa614faf
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/a3b3d04a-dca0-4ae9-9d13-6e8fac757965>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/c38fe07f-9af0-4d11-bd08-a9912e9d7070>
+  PrefabRemaps:
+    - 603fcffc-5657-45c4-996e-7d85cce3841f: 603fcffc-5657-45c4-6691-827a331c7be0
+    - a3b3d04a-dca0-4ae9-9d13-6e8fac757965: a3b3d04a-dca0-4ae9-62ec-9170538a869a
+    - c38fe07f-9af0-4d11-bd08-a9912e9d7070: c38fe07f-9af0-4d11-42f7-566ed1628f8f
+  Name: Coin
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.020000, y: 0.020000, z: 0.020000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 603fcffc-5657-45c4-996e-7d85cce3841f
+    - !<own> a3b3d04a-dca0-4ae9-9d13-6e8fac757965

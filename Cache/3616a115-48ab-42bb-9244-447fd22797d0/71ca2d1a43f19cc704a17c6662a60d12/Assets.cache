@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    d53e9b3f-0578-445e-acd6-156e5d8fcdc7: 3616a115-48ab-42bb-9244-447fd22797d0/71ca2d1a43f19cc704a17c6662a60d12/Data/tile_crossroads_44.mesh
+  Assets:
+    - !<FileMesh/d53e9b3f-0578-445e-acd6-156e5d8fcdc7>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 32
+        Vertices: 64
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2000.000000, y: 17.713375, z: 2000.000000}
+  SourceHash: 71ca2d1a43f19cc704a17c6662a60d12
+  FileHash: 6356e13dbd9a1b89e146c42acb024ee9
+  NativePackageItems:
+    []

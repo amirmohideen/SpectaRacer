@@ -1,0 +1,368 @@
+{ 
+	"ui": 
+	[
+		{
+        	"label": "Graph Parameters",
+        	"widget": "group_start"
+        },
+{
+                	"label":       "Output",
+                	"bindingType": "defineSelect",
+                	"values":      
+                	[
+                		
+                		{
+                			"value": "NODE_3_DROPLIST_ITEM 0",
+                			"label": "Final Render"
+                		},
+                		
+                		{
+                			"value": "NODE_3_DROPLIST_ITEM 1",
+                			"label": "3D Noise Force"
+                		},
+                		
+                		{
+                			"value": "NODE_3_DROPLIST_ITEM 2",
+                			"label": "Radial force"
+                		}
+                	],
+                	"sortIndex":   "0",
+                	"hint":        ""
+                },
+                
+                { 
+                	"bindingName": "prev_frame", 
+                	"label":       "Sim_Camera_RT", 
+                	"widget":      "texture_group",
+                	"sortIndex":   "1",
+                	"hint":        ""
+                },
+                
+                {
+                	"label": "Source",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "Tweak_N52", 
+                    	"label":       "Source Map", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "2",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N128",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Black is Alpha",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "3",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N38",
+                    	"label":       "Source Intensity",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "4",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "Tweak_N113",
+                    	"bindingType": "define",
+                    	"optimize":    true,
+                    	"label":       "Use Noise",
+                    	"widget":      "checkbox",
+                    	"sortIndex":   "5",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label": "Noise",
+                    	"widget": "group_start"
+                    },                        
+                        { 
+                        	"bindingName": "Tweak_N9", 
+                        	"label":       "3D Texture Noise", 
+                        	"widget":      "texture_group",
+                        	"sortIndex":   "6",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N27",
+                        	"label":       "Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "7",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N26",
+                        	"label":       "Flow Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "8",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N12",
+                        	"label":       "Color Contrast",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "9",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N41",
+                        	"label":       "Alpha Contrast",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "10",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N58",
+                        	"label":       "Color01",
+                        	"widget":      "color",
+                        	"sortIndex":   "11",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "Tweak_N73",
+                        	"label":       "Color02",
+                        	"widget":      "color",
+                        	"sortIndex":   "12",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "3D Noise Force",
+                	"widget": "group_start"
+                },                    
+                    { 
+                    	"bindingName": "Tweak_N80", 
+                    	"label":       "3D Texture", 
+                    	"widget":      "texture_group",
+                    	"sortIndex":   "15",
+                    	"hint":        ""
+                    },
+                    
+                    {
+                    	"label": "UV Settings",
+                    	"widget": "group_start"
+                    },                        
+                        {
+                        	"bindingName": "Tweak_N66",
+                        	"bindingType": "define",
+                        	"optimize":    true,
+                        	"label":       "Radial UV",
+                        	"widget":      "checkbox",
+                        	"sortIndex":   "16",
+                        	"hint":        ""
+                        },
+                        
+                        {
+                        	"bindingName": "noisePivotPos",
+                        	"label":       "Radial Pivot Pos",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "17",
+                        	"hint":        "",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "radial_offset_pivot_os",
+                        	"label":       "Radial Offset Pivot Pos",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "18",
+                        	"hint":        "",
+                        	"default":     "0.0"
+                        },
+                        
+                        {
+                        	"bindingName": "scroll_dir",
+                        	"label":       "Scroll Dir",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "21",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "scroll_speed",
+                        	"label":       "Scroll Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "22",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "scale",
+                        	"label":       "Scale",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "23",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                        
+                        {
+                        	"bindingName": "flow_speed",
+                        	"label":       "Flow Speed",
+                        	"widget":      "spinbox",
+                        	"step":        "0.01",
+                        	"sortIndex":   "24",
+                        	"hint":        "",
+                        	"default":     "1.0"
+                        },
+                    {
+                    	"widget": "group_end"
+                    },
+                    
+                    {
+                    	"bindingName": "strenght_noise_force",
+                    	"label":       "Strength",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "25",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Radial_force",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "strength",
+                    	"label":       "Strength",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "28",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "radialPivotPos",
+                    	"label":       "Pivot pos",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "29",
+                    	"hint":        "",
+                    	"default":     "0.0"
+                    },
+                    
+                    {
+                    	"bindingName": "offset_pivot_pos",
+                    	"label":       "Offset pivot pos",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "30",
+                    	"hint":        "",
+                    	"default":     "0.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"label": "Direction Force",
+                	"widget": "group_start"
+                },                    
+                    {
+                    	"bindingName": "direction_df",
+                    	"label":       "Direction",
+                    	"widget":      "spinbox",
+                    	"step":        "1",
+                    	"sortIndex":   "33",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                    
+                    {
+                    	"bindingName": "strenght_direction_force",
+                    	"label":       "Strength",
+                    	"widget":      "spinbox",
+                    	"step":        "0.01",
+                    	"sortIndex":   "34",
+                    	"hint":        "",
+                    	"default":     "1.0"
+                    },
+                {
+                	"widget": "group_end"
+                },
+                
+                {
+                	"bindingName": "Tweak_N32",
+                	"label":       "Attenuation",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "37",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+                
+                {
+                	"bindingName": "Tweak_N29",
+                	"label":       "Attenuation Exponent",
+                	"widget":      "spinbox",
+                	"step":        "0.01",
+                	"sortIndex":   "38",
+                	"hint":        "",
+                	"default":     "1.0"
+                },
+
+        {
+        	"widget": "group_end"
+        },
+        
+		
+	{
+		"bindingName": "alphaTestThreshold",
+		"widget": "slider",
+		"min" : 0.0,
+		"max" : 1.0,
+		"step": 0.001,
+		"default": 0.5,
+		"hint": "When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear."
+	}
+	
+	],
+	
+	"shaderType": "PostProcessing",
+	
+	"extraDefines":
+	[
+		
+	]
+}

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    74963a49-b62c-453c-b7c3-78e1aa811626: 5cb55e6c-6d1a-4f9e-8e3d-b4370250517e/0ef83fed342f84e97e33b00ea0928f7f/Data/road_flower_pot_bitmoji.mesh
+  Assets:
+    - !<FileMesh/74963a49-b62c-453c-b7c3-78e1aa811626>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 7770
+        Vertices: 4939
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 34.063812, y: 33.857979, z: 33.415588}
+  SourceHash: 0ef83fed342f84e97e33b00ea0928f7f
+  FileHash: 9e51b890d54aaf6dae2e92a94caf2d78
+  NativePackageItems:
+    []

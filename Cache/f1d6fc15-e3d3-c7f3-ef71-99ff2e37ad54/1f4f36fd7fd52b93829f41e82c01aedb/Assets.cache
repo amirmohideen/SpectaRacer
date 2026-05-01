@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e44c8202-f027-40d5-9095-d0b734f22df6: f1d6fc15-e3d3-c7f3-ef71-99ff2e37ad54/1f4f36fd7fd52b93829f41e82c01aedb/Data/Erase.png
+  Assets:
+    - !<FileTexture/e44c8202-f027-40d5-9095-d0b734f22df6>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 1f4f36fd7fd52b93829f41e82c01aedb
+  FileHash: 07887694391a4f5688a5233209cf2268
+  NativePackageItems:
+    []

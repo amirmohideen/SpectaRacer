@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    a941111a-9fd3-4508-8c2d-ffc7ae7e55db: 34e6440f-87fb-2e3b-59cb-8749cdc9a1d1/da9c0d95a6fee5dacfa2e3e014f2c364/Data/FocusOn.png
+  Assets:
+    - !<FileTexture/a941111a-9fd3-4508-8c2d-ffc7ae7e55db>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: da9c0d95a6fee5dacfa2e3e014f2c364
+  FileHash: a60d584335ee909e6a207847bfd4b883
+  NativePackageItems:
+    []

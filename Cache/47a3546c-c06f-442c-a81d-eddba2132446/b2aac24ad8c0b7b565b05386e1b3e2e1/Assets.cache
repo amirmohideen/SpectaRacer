@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    3055a698-4402-4e24-bcc3-0ea3018f97f4: 47a3546c-c06f-442c-a81d-eddba2132446/b2aac24ad8c0b7b565b05386e1b3e2e1/Data/Portal_horizontal.mesh
+  Assets:
+    - !<FileMesh/3055a698-4402-4e24-bcc3-0ea3018f97f4>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1896
+        Vertices: 1298
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 99.692116, y: 18.826759, z: 99.692116}
+  SourceHash: b2aac24ad8c0b7b565b05386e1b3e2e1
+  FileHash: 26d8e87568931cbab4f4fae962a2576e
+  NativePackageItems:
+    []

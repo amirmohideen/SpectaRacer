@@ -1,0 +1,127 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 8b35fff932529612abc56ad2fd7d2028
+  FileHash: d171aa34afcaa9c56f680298f8cb71a0
+  NativePackageItems:
+    - !<own> b4e2c47b-84e5-8fa6-8f2f-aba521460b29
+    - !<own> c1fd0496-d15f-e148-5812-69078aa37e97
+    - !<own> 4a0c1062-3050-ef05-355d-37d8bdadfd5f
+    - !<own> 6c554f91-63ce-c15f-b7cc-2e51bb41ed41
+    - !<own> 340b2eb1-b2c0-98c1-7e26-04284e49778a
+- !<SceneObject/265a9ae0-ad65-4d6c-4583-e7b3b0e657ad>
+  PrefabRemaps:
+    []
+  Name: God Rays Post Effect__PLACE_IN_SCENE
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -40.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 45dee9ec-0dd4-444f-704d-74ee977874b3
+- !<AssetImportMetadata/340b2eb1-b2c0-98c1-7e26-04284e49778a>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> b23b2711-f221-4294-af8c-9b2409d5e807
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> b23b2711-f221-4294-af8c-9b2409d5e807
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<PostEffectVisual/45dee9ec-0dd4-444f-704d-74ee977874b3>
+  PrefabRemaps:
+    []
+  Name: Post Effect
+  Enabled: true
+  RenderOrder: 5
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 85715a38-e3c8-452c-94fa-84935b94a8bd
+- !<AssetImportMetadata/4a0c1062-3050-ef05-355d-37d8bdadfd5f>
+  ImportedAssetIds:
+    Texture: !<reference> 9cd729b7-1fc3-4eea-9f18-615a76e5361e
+  ImporterName: ScreenTextureImporter
+  PrimaryAsset: !<reference> 9cd729b7-1fc3-4eea-9f18-615a76e5361e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/6c554f91-63ce-c15f-b7cc-2e51bb41ed41>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> a41dc944-b404-4075-a376-5efa0545790f
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> a41dc944-b404-4075-a376-5efa0545790f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/b4e2c47b-84e5-8fa6-8f2f-aba521460b29>
+  ImportedAssetIds:
+    Material: !<reference> 85715a38-e3c8-452c-94fa-84935b94a8bd
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 85715a38-e3c8-452c-94fa-84935b94a8bd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/c1fd0496-d15f-e148-5812-69078aa37e97>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 8ad0d4be-8a4d-4636-8fa4-78954797ea56
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 8ad0d4be-8a4d-4636-8fa4-78954797ea56
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> d8e58b0b-d05f-47cd-93be-9617be3fca3a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/d8e58b0b-d05f-47cd-93be-9617be3fca3a>
+  Prototype: !<ObjectOwner/9ebef817-08f5-4515-ae98-af0630d25152>
+    PackagePath: ""
+    objects:
+      - !<own> 265a9ae0-ad65-4d6c-4583-e7b3b0e657ad

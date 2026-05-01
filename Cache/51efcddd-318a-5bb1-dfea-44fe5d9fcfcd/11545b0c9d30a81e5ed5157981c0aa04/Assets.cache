@@ -1,0 +1,221 @@
+- !<AssetCache>
+  AssetFiles:
+    a4023fcb-9fe5-423e-ae04-00d7c3da6cb7: 51efcddd-318a-5bb1-dfea-44fe5d9fcfcd/11545b0c9d30a81e5ed5157981c0aa04/Data/Smoke_Output.ss_graph
+  Assets:
+    - !<ShaderGraphPass/a4023fcb-9fe5-423e-ae04-00d7c3da6cb7>
+      PackagePath: ""
+      DefaultDefines:
+        []
+      DefaultProperties:
+        Port_Depth_N004:
+          typeIdx: 1
+          value: 1.000000
+        Port_FinalColor1_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor2_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_FinalColor3_N004:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_GSplatPointSize_N004:
+          typeIdx: 1
+          value: 0.000000
+        Port_GSplatRotation_N004:
+          typeIdx: 5
+          value: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+        Port_GSplatScale_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_Input0_N019:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input0_N032:
+          typeIdx: 1
+          value: 0.500000
+        Port_Input1_N002:
+          typeIdx: 5
+          value: {x: 0.501656, y: 0.501656, z: 0.501656, w: 0.000000}
+        Port_Input1_N019:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input1_N024:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input1_N025:
+          typeIdx: 1
+          value: 1.200000
+        Port_Input1_N029:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Input1_N033:
+          typeIdx: 1
+          value: 0.000000
+        Port_Input2_N002:
+          typeIdx: 5
+          value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+        Port_Input2_N024:
+          typeIdx: 1
+          value: 1.000000
+        Port_Input2_N033:
+          typeIdx: 1
+          value: 1.000000
+        Port_LODValue_N003:
+          typeIdx: 1
+          value: 0.000000
+        Port_LODValue_N014:
+          typeIdx: 1
+          value: 0.000000
+        Port_PrevWorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_RayDirection_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_RayOrigin_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_UVCoord_N003:
+          typeIdx: 3
+          value: {x: 0.000000, y: 0.000000}
+        Port_Value3_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value3_N018:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N000:
+          typeIdx: 1
+          value: 0.000000
+        Port_Value4_N018:
+          typeIdx: 1
+          value: 0.000000
+        Port_WorldNormal_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 1.000000, z: 0.000000}
+        Port_WorldPosition_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 0.000000}
+        Port_WorldTangent_N004:
+          typeIdx: 4
+          value: {x: 0.000000, y: 0.000000, z: 1.000000}
+      PassUiData: !<PassUiData>
+        ExtraDefines:
+          []
+        PassBindings:
+          - mLabel: Graph Parameters
+            mType: Invalid
+            mName: ""
+            mWidget: group_start
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Screen texture
+            mType: Property
+            mName: Tweak_N20
+            mWidget: texture_group
+            mHint: "Property: Tweak_N20"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Input
+            mType: Property
+            mName: Tweak_N3
+            mWidget: texture_group
+            mHint: "Property: Tweak_N3"
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Gain
+            mType: Property
+            mName: Tweak_N0
+            mWidget: spinbox
+            mHint: "Property: Tweak_N0"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Alpha Contrast
+            mType: Property
+            mName: Tweak_N19
+            mWidget: spinbox
+            mHint: "Property: Tweak_N19"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Hot areas
+            mType: Property
+            mName: Tweak_N9
+            mWidget: spinbox
+            mHint: "Property: Tweak_N9"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: Hot areas contrast
+            mType: Property
+            mName: Tweak_N10
+            mWidget: spinbox
+            mHint: "Property: Tweak_N10"
+            mMin: ~
+            mMax: ~
+            mStep: 0.010000
+            mDefaultVal: 1.000000
+            mValues:
+              []
+          - mLabel: ""
+            mType: GroupEnd
+            mName: ""
+            mWidget: group_end
+            mHint: ""
+            mMin: ~
+            mMax: ~
+            mStep: ~
+            mDefaultVal: ~
+            mValues:
+              []
+          - mLabel: Alpha Test Threshold
+            mType: Property
+            mName: alphaTestThreshold
+            mWidget: slider
+            mHint: |-
+              Property: alphaTestThreshold
+              
+              When the 'Alpha Test' blend mode is enabled, pixels with alpha values lower than this disappear.
+            mMin: 0.000000
+            mMax: 1.000000
+            mStep: 0.001000
+            mDefaultVal: 0.500000
+            mValues:
+              []
+        ShaderType: PostProcessing
+      ShaderPath: 51efcddd-318a-5bb1-dfea-44fe5d9fcfcd/11545b0c9d30a81e5ed5157981c0aa04/Data/6a992e8/Smoke_Output.glsl
+      Defines:
+        []
+      Properties:
+        {}
+      ReferencedAssets:
+        []
+      GraphStatus: Evaluated
+  SourceHash: 11545b0c9d30a81e5ed5157981c0aa04
+  FileHash: 56f129e7ba068f917e1134d137d9a246
+  NativePackageItems:
+    []

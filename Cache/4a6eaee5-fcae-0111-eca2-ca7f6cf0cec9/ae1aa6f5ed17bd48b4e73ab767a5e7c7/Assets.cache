@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    2575413a-c0e0-4857-a4d9-16f01e9fd3b2: 4a6eaee5-fcae-0111-eca2-ca7f6cf0cec9/ae1aa6f5ed17bd48b4e73ab767a5e7c7/Data/triangle.mesh
+  Assets:
+    - !<FileMesh/2575413a-c0e0-4857-a4d9-16f01e9fd3b2>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 126
+        Vertices: 123
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 2.749500, y: 0.843634, z: 3.174849}
+  SourceHash: ae1aa6f5ed17bd48b4e73ab767a5e7c7
+  FileHash: a98c5c9d591a68af2fb1adcd3484e23c
+  NativePackageItems:
+    []

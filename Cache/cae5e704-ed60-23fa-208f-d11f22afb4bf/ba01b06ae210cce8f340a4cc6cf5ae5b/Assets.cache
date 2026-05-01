@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    6f8f6b31-fa9b-485b-be09-49e8162bcd44: cae5e704-ed60-23fa-208f-d11f22afb4bf/ba01b06ae210cce8f340a4cc6cf5ae5b/Data/road_parking_meter_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/6f8f6b31-fa9b-485b-be09-49e8162bcd44>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: ba01b06ae210cce8f340a4cc6cf5ae5b
+  FileHash: 81260b2c59f3e397d41057e9faa856f0
+  NativePackageItems:
+    []

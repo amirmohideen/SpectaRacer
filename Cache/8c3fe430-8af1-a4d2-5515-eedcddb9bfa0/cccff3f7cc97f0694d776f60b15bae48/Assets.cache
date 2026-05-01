@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    9ddef8e1-612a-4bb8-ad4f-ece89ad2b856: 8c3fe430-8af1-a4d2-5515-eedcddb9bfa0/cccff3f7cc97f0694d776f60b15bae48/Data/Reveal.png
+  Assets:
+    - !<FileTexture/9ddef8e1-612a-4bb8-ad4f-ece89ad2b856>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: cccff3f7cc97f0694d776f60b15bae48
+  FileHash: 439ba86792d2ce7e7c35119867ef39b0
+  NativePackageItems:
+    []

@@ -1,0 +1,68 @@
+- !<AssetImportMetadata/df49cbed-5f41-4dff-b0da-c677fe6ae5fa>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 07aa9a6f-40b0-4864-8d88-0c7578ddace2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 07aa9a6f-40b0-4864-8d88-0c7578ddace2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> ff9d51fe-eef9-495b-a561-38bc08a457fa
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/ff9d51fe-eef9-495b-a561-38bc08a457fa>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c3a564c8-97c3-4f3e-b4d6-ddc603bd27a0
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    coinAudio: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    maxTreeStrikes: false
+    pointsPerHit: false
+    scoreText: false
+    treeAudio: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - scoreText: !<reference.Component> 00000000-0000-0000-0000-000000000000
+      pointsPerHit: !<float> 10.000000
+      maxTreeStrikes: !<float> 3.000000
+      coinAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      treeAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">SnapSaberGlobalManager – singleton score & damage manager</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Tracks score from coin hits and tree damage strikes. 3 tree hits = game over.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input Component.Component scoreText {"hint":"Text component that displays the score"}'
+    - '// @input float pointsPerHit = 10 {"hint":"Points awarded for each coin hit"}'
+    - '// @input float maxTreeStrikes = 3 {"hint":"Number of tree hits before game over"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Sound Effects</span>"}'
+    - '// @input Component.AudioComponent coinAudio {"hint":"AudioComponent to play when a coin is collected — assign your coin SFX AudioComponent here"}'
+    - '// @input Component.AudioComponent treeAudio {"hint":"AudioComponent to play when the car hits a tree — assign your crash SFX AudioComponent here"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy)"}'

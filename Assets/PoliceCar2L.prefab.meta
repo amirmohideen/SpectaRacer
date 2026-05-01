@@ -1,0 +1,75 @@
+- !<AssetImportMetadata/70e8e4c8-c586-4c3b-9f34-1e76fdeac259>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 40b3b878-ddbb-4f74-91d4-f20de5b9bfe8
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 40b3b878-ddbb-4f74-91d4-f20de5b9bfe8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 362c02ab-7593-4359-8207-58dcdc643667
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/362c02ab-7593-4359-8207-58dcdc643667>
+  Prototype: !<ObjectOwner/47026cf7-474b-4ee4-8722-639f03401f90>
+    PackagePath: ""
+    objects:
+      - !<own> b7ce5046-8ca8-4551-762f-d3bd08e2c836
+- !<ColliderComponent/8aec829b-62cd-4f8f-7993-cbbdd0292e66>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: false
+    Size: {x: 120.000000, y: 200.000000, z: 200.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 0.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/b7ce5046-8ca8-4551-762f-d3bd08e2c836>
+  PrefabRemaps:
+    []
+  Name: PoliceCar2L
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 60.000000}
+    Scale: {x: 0.009000, y: 0.009000, z: 0.009000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dcc92917-4702-435a-789e-b2e9656d6358
+    - !<own> 8aec829b-62cd-4f8f-7993-cbbdd0292e66
+- !<RenderMeshVisual/dcc92917-4702-435a-789e-b2e9656d6358>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 350239e1-c046-4d3d-951e-35c71ce4ebe1
+  Mesh: !<reference> ba5f662b-60cc-4c39-b8bc-1c5464533c5b
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}

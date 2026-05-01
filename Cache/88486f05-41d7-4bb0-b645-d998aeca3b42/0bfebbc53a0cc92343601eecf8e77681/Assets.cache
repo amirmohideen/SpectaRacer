@@ -1,0 +1,10 @@
+- !<AssetCache>
+  AssetFiles:
+    64e8e9a0-8aa7-4bd0-950a-98f0a3962c8e: 88486f05-41d7-4bb0-b645-d998aeca3b42/0bfebbc53a0cc92343601eecf8e77681/Data/CoinSound 2.mp3
+  Assets:
+    - !<FileAudioTrack/64e8e9a0-8aa7-4bd0-950a-98f0a3962c8e>
+      PackagePath: ""
+  SourceHash: 0bfebbc53a0cc92343601eecf8e77681
+  FileHash: c02e313e9ce22caa26e56b3e2c3cfc57
+  NativePackageItems:
+    []

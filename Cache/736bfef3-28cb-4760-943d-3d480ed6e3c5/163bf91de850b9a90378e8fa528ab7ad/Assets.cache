@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    8f19c31a-e5ed-4b1e-be56-b70d01bd300e: 736bfef3-28cb-4760-943d-3d480ed6e3c5/163bf91de850b9a90378e8fa528ab7ad/Data/road_street_electric_pole_bitmoji.mesh
+  Assets:
+    - !<FileMesh/8f19c31a-e5ed-4b1e-be56-b70d01bd300e>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1740
+        Vertices: 1145
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 131.712967, y: 275.642029, z: 45.586269}
+  SourceHash: 163bf91de850b9a90378e8fa528ab7ad
+  FileHash: 25c3137463d3db6aed6cd7ab870e8cc1
+  NativePackageItems:
+    []

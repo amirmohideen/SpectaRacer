@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2ee16a62-a35e-4388-90d1-023db1d597b1: b81ed40b-74d0-9861-36be-ac81256c066f/7c30ce6c689c6a078f8e5080078c8e3d/Data/marker-tracking_image_marker_source.png
+  Assets:
+    - !<FileTexture/2ee16a62-a35e-4388-90d1-023db1d597b1>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1024
+  SourceHash: 7c30ce6c689c6a078f8e5080078c8e3d
+  FileHash: 48b921f6f7bcc39fe78679905a9b92b4
+  NativePackageItems:
+    []

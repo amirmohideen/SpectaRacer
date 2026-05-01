@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    7ac5b17f-a98b-4a27-9339-892c91b88da0: a08e3052-3895-7188-155e-c1e2b434861b/900d4bf7d8c24b945764f1f5ad5fc08b/Data/Road_Tileset_snow.jpg
+  Assets:
+    - !<FileTexture/7ac5b17f-a98b-4a27-9339-892c91b88da0>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 900d4bf7d8c24b945764f1f5ad5fc08b
+  FileHash: 713b9640daad97d9a661ae545856670a
+  NativePackageItems:
+    []

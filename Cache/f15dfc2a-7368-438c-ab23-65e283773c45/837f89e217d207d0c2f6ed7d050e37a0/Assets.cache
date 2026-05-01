@@ -1,0 +1,552 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 837f89e217d207d0c2f6ed7d050e37a0
+  FileHash: 836ff094e0cc635fc7ef1486e5b4cfb8
+  NativePackageItems:
+    - !<own> 35e39479-056d-263e-af8a-4c09b92e6a36
+    - !<own> dc3818ca-01c6-8d3b-8454-20ca3220a8d2
+    - !<own> 4d67ef66-8d71-41fb-b5f6-46a00a7fe3a0
+    - !<own> 95fc231b-7955-fc3e-53f9-42dd5c9009f6
+    - !<own> a3a06f78-0e69-a105-896a-0f0cd23446c5
+    - !<own> 9747ef94-f57e-2f82-2a00-b9632eb205ca
+    - !<own> 143b752a-1810-5740-2ce9-c0ad2e247ce2
+    - !<own> 7afa0f7a-2e9f-d112-2324-a561b13e343d
+    - !<own> 9efa1dd5-daa6-99ad-6c6e-52b8ba90924e
+    - !<own> 65ac8c3d-5fde-c8ec-c4b4-64af266eb592
+    - !<own> 3e977f61-d1b9-4d53-a500-31e21f63395c
+    - !<own> c45c27d2-0341-f284-3fac-8f64f28c06a8
+- !<InteractionComponent/0924468e-e9de-4450-7348-e9190f2cab0a>
+  PrefabRemaps:
+    []
+  Name: Interaction
+  Enabled: true
+  Camera: !<reference> 00000000-0000-0000-0000-000000000000
+  MinimumTouchSize: 0.000000
+  DepthFilter: true
+  MeshVisuals:
+    - !<reference> 49826f12-82ac-4ca0-5fae-70d748b36125
+- !<AssetImportMetadata/143b752a-1810-5740-2ce9-c0ad2e247ce2>
+  ImportedAssetIds:
+    Material: !<reference> fd1c7515-2849-4135-a9c4-32b4a6464075
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> fd1c7515-2849-4135-a9c4-32b4a6464075
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/1caa3b31-2919-4cbd-63a0-41f3138d3e68>
+  PrefabRemaps:
+    []
+  Name: btn0 sprite
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> de0a1c72-cc76-4d4c-7110-4e8ab9e563b0
+- !<SceneObject/267e45d0-88c0-4a63-601f-d39b26b68c2c>
+  PrefabRemaps:
+    []
+  Name: 2dAligner Roulette
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -10.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 56a27a4f-f2a2-460f-75a5-c05f6bf019b2
+  Components:
+    - !<own> 54893fac-7108-450b-6fa4-940f068e23e9
+- !<SceneObject/319c0c80-bd78-4444-565d-a94fbf51b4f9>
+  PrefabRemaps:
+    []
+  Name: touch
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.784200, y: 3.784200, z: 3.784200}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 49826f12-82ac-4ca0-5fae-70d748b36125
+    - !<own> 0924468e-e9de-4450-7348-e9190f2cab0a
+- !<AssetImportMetadata/35e39479-056d-263e-af8a-4c09b92e6a36>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> 8832a9da-8c3f-45c9-9301-6ac8020b1d69
+    LPD_87_Hint_TAP_out_v01.png: !<reference> 606109ba-bbc2-4425-baff-55de0884b17a
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> 8832a9da-8c3f-45c9-9301-6ac8020b1d69
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    {}
+  AssetDataMap:
+    AnimatedTexture: !<own> a7eae5af-4bf3-455a-8d87-6c893afc88cf
+  DependentFiles:
+    - LPD_87_Hint_TAP_out_v01.png
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/3e977f61-d1b9-4d53-a500-31e21f63395c>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0dcbf84f-bc7e-4454-8909-ede8fe662bd9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0dcbf84f-bc7e-4454-8909-ede8fe662bd9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c5e8a45b-395a-40e2-9da0-85f66d86c0b4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/48c43a22-eac8-466f-74b6-68df76b804d3>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 9
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> fd1c7515-2849-4135-a9c4-32b4a6464075
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/4948760c-6f47-4966-b995-b90b20c078f3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 12f8c025-eb23-454a-9999-5f8266f07c56
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    alignType: false
+    bindingPoint: false
+    camera: false
+    height: false
+    onSnapEventRegionType: false
+    sourceRegionType: false
+    width: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      bindingPoint: !<Vec2> {x: 0.000000, y: 0.000000}
+      width: !<float> 1.000000
+      height: !<float> 1.000000
+      sourceRegionType: 1
+      onSnapEventRegionType: 2
+      alignType: 1
+  ScriptTypes:
+    -
+      {}
+- !<Image/49826f12-82ac-4ca0-5fae-70d748b36125>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ae425b41-1a54-44e3-a772-732fb05f64a6
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/4d67ef66-8d71-41fb-b5f6-46a00a7fe3a0>
+  ImportedAssetIds:
+    Texture: !<reference> 9c8636c1-7d8e-4ca0-9c26-adec09e43934
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 9c8636c1-7d8e-4ca0-9c26-adec09e43934
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<ObjectPrefabAssetData/5244abe7-47c4-49ed-bb53-016465bb715c>
+  Prototype: !<ObjectOwner/9be08b33-df21-4723-8a2b-e3b4e55b48eb>
+    PackagePath: ""
+    objects:
+      - !<own> 267e45d0-88c0-4a63-601f-d39b26b68c2c
+- !<ScriptComponent/54893fac-7108-450b-6fa4-940f068e23e9>
+  PrefabRemaps:
+    []
+  Name: 2dAligner
+  Enabled: true
+  ScriptAsset: !<reference> b3a1d2c6-2b20-46ed-b300-2963503ab852
+  ScriptInputsDefault:
+    bindingPoint: true
+    width: true
+    height: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      camera: !<reference.Camera> 000600f4-2ea3-c6c7-0000-000000037bbb
+      bindingPoint: !<Vec2> {x: 0.000000, y: 0.000000}
+      width: !<float> 1.000000
+      height: !<float> 1.000000
+      sourceRegionType: 4
+      onSnapEventRegionType: 4
+      alignType: 2
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/56a27a4f-f2a2-460f-75a5-c05f6bf019b2>
+  PrefabRemaps:
+    []
+  Name: RouletteParent
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.720000, y: 0.720000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5e139804-0dc3-4fd4-40d0-a4d6359def74
+    - !<own> 6bfbcbfc-b174-492c-421d-bdf55b6c83e7
+    - !<own> 319c0c80-bd78-4444-565d-a94fbf51b4f9
+  Components:
+    []
+- !<SceneObject/5e139804-0dc3-4fd4-40d0-a4d6359def74>
+  PrefabRemaps:
+    []
+  Name: Roulette
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 3.384200, y: 3.384200, z: 3.384200}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 631fd59b-c691-4200-6713-7ec731114a4d
+  Components:
+    []
+- !<SceneObject/631fd59b-c691-4200-6713-7ec731114a4d>
+  PrefabRemaps:
+    []
+  Name: btn0 offset-rot
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 9ab3e98f-ebb4-406b-70dd-ff9ffc457b8a
+  Components:
+    []
+- !<AssetImportMetadata/65ac8c3d-5fde-c8ec-c4b4-64af266eb592>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b3a1d2c6-2b20-46ed-b300-2963503ab852
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b3a1d2c6-2b20-46ed-b300-2963503ab852
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 4948760c-6f47-4966-b995-b90b20c078f3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/6bfbcbfc-b174-492c-421d-bdf55b6c83e7>
+  PrefabRemaps:
+    []
+  Name: tap
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.507630, y: 0.846050, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.895151, y: 1.895151, z: 1.692100}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48c43a22-eac8-466f-74b6-68df76b804d3
+- !<AssetImportMetadata/7afa0f7a-2e9f-d112-2324-a561b13e343d>
+  ImportedAssetIds:
+    Material: !<reference> 647349c5-0ca3-44b7-9a10-a71c2665baf6
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> 647349c5-0ca3-44b7-9a10-a71c2665baf6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/95fc231b-7955-fc3e-53f9-42dd5c9009f6>
+  ImportedAssetIds:
+    Texture: !<reference> 81fba92e-b65e-42b7-b546-3900dc8ba423
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 81fba92e-b65e-42b7-b546-3900dc8ba423
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: Performance
+    CompressionSettings: !<TextureCompressionMipmapSettings>
+      Level: Medium
+      Mipmap: false
+- !<AssetImportMetadata/9747ef94-f57e-2f82-2a00-b9632eb205ca>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 22b9c293-5a49-4089-a915-52b69f498b26
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 22b9c293-5a49-4089-a915-52b69f498b26
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/9ab3e98f-ebb4-406b-70dd-ff9ffc457b8a>
+  PrefabRemaps:
+    []
+  Name: btn0 offset-pos
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.350000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.800000, y: 0.800000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1caa3b31-2919-4cbd-63a0-41f3138d3e68
+  Components:
+    []
+- !<AssetImportMetadata/9efa1dd5-daa6-99ad-6c6e-52b8ba90924e>
+  ImportedAssetIds:
+    Material: !<reference> ae425b41-1a54-44e3-a772-732fb05f64a6
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> ae425b41-1a54-44e3-a772-732fb05f64a6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/a3a06f78-0e69-a105-896a-0f0cd23446c5>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 31342d36-3033-4ead-8e0f-9bc0f03b7227
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 31342d36-3033-4ead-8e0f-9bc0f03b7227
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimatedTextureData/a7eae5af-4bf3-455a-8d87-6c893afc88cf>
+  AutoPlay: true
+  Reversed: false
+  PingPong: false
+  CurrentSequence: LPD_87_Hint_TAP_out_v01
+  KeyFramesData:
+    LPD_87_Hint_TAP_out_v01:
+      - time: 0.000000
+        value: 0
+      - time: 1.000000
+        value: 22
+- !<AssetImportMetadata/c45c27d2-0341-f284-3fac-8f64f28c06a8>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> c786d3f0-e727-4ebe-af0e-7f6e313edf76
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> c786d3f0-e727-4ebe-af0e-7f6e313edf76
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c5e8a45b-395a-40e2-9da0-85f66d86c0b4>
+  SvgIcon: '<svg id="svg" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" viewBox="0, 0, 400,400"><g id="svgg"><path id="path0" d="M48.800 131.572 C 28.058 134.491,14.381 153.992,19.181 173.800 C 27.495 208.107,75.038 209.538,85.602 175.800 C 87.715 169.053,86.794 157.728,83.575 150.869 C 77.593 138.120,62.355 129.664,48.800 131.572 " stroke="none" fill="#fcd42c" fill-rule="evenodd"></path><path id="path1" d="M261.400 62.260 C 251.587 63.812,244.372 66.282,226.800 74.102 C 223.610 75.522,219.885 76.912,218.522 77.192 L 216.043 77.700 215.195 81.350 C 214.729 83.358,213.088 90.310,211.548 96.800 C 210.007 103.290,208.401 110.320,207.979 112.423 C 207.556 114.525,206.573 118.935,205.795 122.223 C 205.017 125.510,203.831 130.538,203.160 133.395 C 202.489 136.252,201.728 138.725,201.470 138.889 C 201.020 139.175,201.112 139.214,202.202 139.197 C 205.047 139.152,216.400 148.278,216.400 150.610 C 216.400 150.744,216.850 151.443,217.400 152.164 C 217.950 152.886,218.400 153.684,218.400 153.938 C 218.400 154.192,218.541 154.400,218.714 154.400 C 218.886 154.400,219.343 154.933,219.728 155.585 C 220.113 156.237,220.648 157.002,220.916 157.285 C 221.184 157.568,222.198 158.761,223.169 159.936 C 228.155 165.968,234.770 170.981,243.545 175.380 C 246.180 176.700,250.642 179.498,251.856 180.590 C 252.106 180.815,252.811 181.360,253.421 181.800 C 262.146 188.093,267.194 195.225,267.335 201.460 C 267.371 203.033,267.510 204.143,267.645 203.926 C 267.779 203.709,267.992 203.592,268.117 203.666 C 268.241 203.740,270.561 202.064,273.272 199.941 C 275.982 197.819,288.820 187.852,301.800 177.791 C 314.780 167.731,326.256 158.791,327.303 157.924 C 328.840 156.651,329.251 156.468,329.445 156.974 C 329.577 157.318,329.850 157.600,330.052 157.600 C 330.254 157.600,330.131 157.161,329.779 156.625 C 326.908 152.243,325.213 138.629,326.559 130.765 C 331.819 100.028,312.200 70.601,281.600 63.331 C 277.471 62.350,265.007 61.689,261.400 62.260 M21.200 244.754 C -0.398 251.737,3.447 283.734,26.048 285.097 C 45.945 286.297,55.685 262.090,40.742 248.577 C 36.184 244.454,27.426 242.741,21.200 244.754 " stroke="none" fill="#eb4c9c" fill-rule="evenodd"></path><path id="path2" d="M145.800 51.864 C 134.514 53.219,122.838 59.911,115.590 69.177 C 99.997 89.114,103.231 119.937,122.369 133.800 C 123.280 134.460,124.497 135.389,125.074 135.865 C 128.239 138.478,136.701 141.699,142.896 142.650 C 149.362 143.642,152.565 143.347,171.200 140.041 C 176.461 139.107,186.350 137.963,189.600 137.912 C 190.810 137.893,191.405 137.803,190.922 137.714 C 190.439 137.624,190.123 137.336,190.220 137.075 C 190.317 136.814,190.740 134.980,191.161 133.000 C 192.726 125.645,198.452 101.372,198.804 100.600 C 199.005 100.160,199.909 96.560,200.812 92.600 C 201.715 88.640,202.883 83.614,203.408 81.431 C 203.932 79.248,204.270 77.313,204.157 77.131 C 204.045 76.949,204.368 76.794,204.876 76.786 C 205.447 76.777,204.992 76.480,203.684 76.010 C 199.606 74.542,190.725 69.406,184.200 64.742 C 182.660 63.641,180.770 62.317,180.000 61.799 C 179.230 61.282,177.610 60.130,176.400 59.239 C 168.526 53.444,156.593 50.568,145.800 51.864 " stroke="none" fill="#70c7d9" fill-rule="evenodd"></path><path id="path3" d="M204.157 77.131 C 204.270 77.313,203.932 79.248,203.408 81.431 C 202.883 83.614,201.715 88.640,200.812 92.600 C 199.909 96.560,199.005 100.160,198.804 100.600 C 198.452 101.372,192.726 125.645,191.161 133.000 C 190.740 134.980,190.312 136.825,190.210 137.100 C 190.108 137.375,190.334 137.623,190.713 137.651 C 191.091 137.679,191.760 137.757,192.200 137.824 C 192.640 137.891,194.506 138.133,196.346 138.361 C 198.187 138.589,199.987 138.867,200.346 138.979 C 201.846 139.445,201.752 139.745,206.165 120.400 C 207.144 116.110,208.403 110.530,208.964 108.000 C 209.524 105.470,211.337 97.677,212.991 90.683 C 214.646 83.688,216.000 77.910,216.000 77.842 C 216.000 77.773,215.145 77.799,214.100 77.899 C 213.055 77.998,210.535 77.792,208.500 77.440 C 204.251 76.705,203.878 76.679,204.157 77.131 M328.655 156.711 C 328.515 156.938,317.195 165.816,303.500 176.440 C 289.805 187.064,276.262 197.597,273.403 199.847 C 269.183 203.169,268.098 203.849,267.627 203.469 C 267.307 203.211,267.152 203.180,267.282 203.400 C 267.411 203.620,267.257 205.060,266.939 206.600 C 266.622 208.140,266.346 209.670,266.326 210.000 C 266.307 210.330,266.156 210.780,265.992 211.000 C 265.827 211.220,265.570 212.030,265.420 212.800 C 265.270 213.570,264.705 216.090,264.163 218.400 C 261.110 231.424,261.879 247.316,265.992 256.200 C 266.400 257.080,267.293 259.240,267.977 261.000 C 281.422 295.587,323.161 310.756,357.400 293.498 C 397.349 273.363,405.564 218.786,373.343 187.572 C 371.170 185.467,368.854 183.402,368.196 182.984 C 367.538 182.566,366.370 181.738,365.600 181.145 C 364.830 180.552,363.480 179.662,362.600 179.168 C 356.469 175.722,354.587 174.718,351.925 173.471 C 344.278 169.891,336.903 164.706,331.755 159.292 C 330.189 157.645,328.795 156.484,328.655 156.711 " stroke="none" fill="#b76bec" fill-rule="evenodd"></path><path id="path4" d="M151.400 161.270 C 140.596 162.358,118.396 169.729,115.600 173.156 C 115.490 173.291,114.908 173.655,114.307 173.965 C 113.705 174.274,112.895 174.820,112.507 175.176 C 112.118 175.532,110.910 176.448,109.822 177.212 C 108.735 177.975,107.545 178.870,107.178 179.200 C 106.812 179.530,105.829 180.340,104.993 181.000 C 101.162 184.027,91.600 194.307,91.600 195.399 C 91.600 195.505,90.864 196.628,89.965 197.896 C 72.485 222.536,69.940 256.920,83.587 284.071 C 112.124 340.843,189.238 348.267,228.281 298.000 C 250.947 268.818,251.335 225.485,229.196 195.628 C 225.158 190.182,214.027 178.848,212.678 178.809 C 212.501 178.804,211.781 178.261,211.078 177.602 C 210.375 176.943,209.684 176.403,209.542 176.402 C 209.401 176.401,208.748 175.899,208.093 175.287 C 205.571 172.931,195.061 167.803,187.800 165.385 C 176.133 161.500,163.406 160.061,151.400 161.270 M170.272 177.376 C 184.343 179.805,197.581 186.447,208.159 196.384 C 214.570 202.406,223.467 215.193,224.777 220.269 C 224.995 221.111,225.813 223.944,226.595 226.565 C 232.040 244.804,229.717 265.241,220.463 280.508 C 214.093 291.016,203.513 301.667,195.229 305.910 C 194.003 306.538,191.200 307.976,189.000 309.107 C 173.414 317.115,147.885 317.606,133.500 310.174 C 132.455 309.634,131.597 309.329,131.594 309.496 C 131.591 309.663,131.456 309.607,131.294 309.372 C 131.132 309.136,129.223 308.013,127.051 306.876 C 92.433 288.755,80.314 242.246,101.652 209.400 C 112.129 193.272,124.660 184.453,146.000 178.190 C 147.665 177.701,151.971 177.020,155.800 176.641 C 158.489 176.374,166.962 176.804,170.272 177.376 " stroke="none" fill="#241c3c" fill-rule="evenodd"></path></g></svg>'
+  SetupScript:
+    code: ""
+  Description: |+
+    Roulette
+    Provides a roulette UI around the Snap Button. Requires a Camera.
+    
+    API:
+    * addCallbackOnSelection(cb funtion): void 
+       Adds a callback that is called when the button is selected.
+    
+    * popCallbackOnSelection(): void
+       Removes the last added onSelection callback.
+    
+    * moveToButton(idx: int): void
+      Smoothly moves the roulette to the button with the number idx.
+    
+    * selectButton(idx: int): void
+       Selects and centers the button with the number idx.
+    
+    * getSelectedButton(): int
+       Returns index of the selected button.
+    
+    
+  VersionMajor: 3
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 00060169-5012-b1cd-0000-000000006588
+  ExportUid: 2cf20e48-b8d0-49c4-afd0-8a2a4a3228d3
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttons: false
+    buttonsNumber: false
+    camera: false
+    hint: false
+    roulettePrefab: true
+    selectedButtonOnInit: false
+    texOff: true
+    texOn: true
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttonsNumber: 8
+      selectedButtonOnInit: 3
+      camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      hint: true
+      buttons:
+        []
+      roulettePrefab: !<reference.ObjectPrefab> 611fce3c-81fd-429b-bd34-16ec8d96d7e2
+      texOn: !<reference.Texture> 9c8636c1-7d8e-4ca0-9c26-adec09e43934
+      texOff: !<reference.Texture> 81fba92e-b65e-42b7-b546-3900dc8ba423
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/dc3818ca-01c6-8d3b-8454-20ca3220a8d2>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 611fce3c-81fd-429b-bd34-16ec8d96d7e2
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 611fce3c-81fd-429b-bd34-16ec8d96d7e2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 5244abe7-47c4-49ed-bb53-016465bb715c
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<Image/de0a1c72-cc76-4d4c-7110-4e8ab9e563b0>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 8
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 647349c5-0ca3-44b7-9a10-a71c2665baf6
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000

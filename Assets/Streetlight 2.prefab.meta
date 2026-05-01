@@ -1,0 +1,125 @@
+- !<AssetImportMetadata/6846515c-65fe-4dfd-9e8f-bed20dc86f15>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> f439bbd1-20e3-4c60-81b9-5be7d1c56e54
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> f439bbd1-20e3-4c60-81b9-5be7d1c56e54
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 7fe4453a-31f8-4750-b60b-6bfbadbb09ee
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/02886623-c3cf-422b-704d-6aa6806abd4c>
+  PrefabRemaps:
+    []
+  Name: Collider
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 82f9ff38-9383-4d42-4dbe-092265a8cb9b
+- !<SceneObject/1750ae58-1450-40ae-60e8-b43e83c7f6c1>
+  PrefabRemaps:
+    []
+  Name: road_street_light_duo_bitmoji
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: -0.600000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.010000, y: 0.010000, z: 0.010000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 558ea5a6-08bd-4b1a-41c8-3a894a7fa8ee
+    - !<own> 6b78ec4f-5d21-4966-7aa6-9c079e649237
+- !<RenderMeshVisual/558ea5a6-08bd-4b1a-41c8-3a894a7fa8ee>
+  PrefabRemaps:
+    []
+  Name: component_9
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 80737f16-4dcd-42e4-aae9-97175bc86fd0
+  Mesh: !<reference> 9e972239-a5bc-4ab6-b21c-d29da1cc6df8
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ColliderComponent/6b78ec4f-5d21-4966-7aa6-9c079e649237>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Cylinder>
+    Axis: Y
+    Length: 18.000000
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+- !<ObjectPrefabAssetData/7fe4453a-31f8-4750-b60b-6bfbadbb09ee>
+  Prototype: !<ObjectOwner/411ec1e3-1ff0-45eb-ba39-73a2dcde0074>
+    PackagePath: ""
+    objects:
+      - !<own> d3221cb4-f59a-4dad-640d-c1aaeed5672a
+- !<ColliderComponent/82f9ff38-9383-4d42-4dbe-092265a8cb9b>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<SceneObject/d3221cb4-f59a-4dad-640d-c1aaeed5672a>
+  PrefabRemaps:
+    []
+  Name: Streetlight
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 1750ae58-1450-40ae-60e8-b43e83c7f6c1
+    - !<own> 02886623-c3cf-422b-704d-6aa6806abd4c
+  Components:
+    []

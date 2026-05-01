@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    b4aae184-f56a-4334-adca-96ab93c4af89: 14522087-5c17-4d5e-47c0-148b9cadbe5a/c1dffb9ca3443e25e19a9bf26ddb3fbb/Data/Flag_ID.png
+  Assets:
+    - !<FileTexture/b4aae184-f56a-4334-adca-96ab93c4af89>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: c1dffb9ca3443e25e19a9bf26ddb3fbb
+  FileHash: 235624fdcc01e92237b59d4802e26bf9
+  NativePackageItems:
+    []

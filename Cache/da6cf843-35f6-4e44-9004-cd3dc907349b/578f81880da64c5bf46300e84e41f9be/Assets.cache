@@ -1,0 +1,4743 @@
+- !<AssetCache>
+  AssetFiles:
+    {}
+  Assets:
+    []
+  SourceHash: 578f81880da64c5bf46300e84e41f9be
+  FileHash: f282bf1978acb213dc60a159fdb0fbb1
+  NativePackageItems:
+    - !<own> b3311978-b166-da17-13ca-f644f92a66aa
+    - !<own> 8421f234-a08a-9a4c-cc66-d4f5a51d3cdf
+    - !<own> c7e63783-5760-c046-6014-7af3bb43faed
+    - !<own> f05ef127-fa72-1942-197e-c259504eab05
+    - !<own> 2c0187af-d7de-6b5e-8b4a-49ccdb16a0c9
+    - !<own> f32d82d9-cf6b-ddb8-c38b-d69f6983e8f0
+    - !<own> cc8c9557-d636-bf68-d567-e9e024cf347d
+    - !<own> 5034582d-50f2-5c5e-a685-8755aa6d78c4
+    - !<own> 84ff8110-d6c4-54a2-b42e-00cfc0f0a090
+    - !<own> d5a1968c-3822-5037-5d93-02e77f2a4eaa
+    - !<own> 7df5dac3-cdbe-e1d4-1ee8-4f59951154ba
+    - !<own> 4b31c472-3953-694c-cf12-4d91ea12f809
+    - !<own> 9a40d583-562d-8154-cf70-61cc251af8c0
+    - !<own> 57746eb7-ec91-6af1-938d-670a1d63cbcd
+    - !<own> aca197a2-c5c7-5020-856e-4aedc2151be8
+    - !<own> 966c3930-c7aa-ed00-44e7-368ed19d0375
+    - !<own> 944763c8-f5da-660b-a27f-5c6e905cf496
+    - !<own> 8624beaa-d8b5-5bea-782b-4a203db9e88b
+    - !<own> 140e72f1-bb4f-1780-70a1-74f06395d118
+    - !<own> 477723af-5837-f648-faa6-71575ad3238e
+    - !<own> 420cf417-0a9a-bdc1-77e3-9f8fc57af113
+    - !<own> 7620c995-2baf-200b-c41d-e82603fd2060
+    - !<own> 9ee7a5d1-8809-4d77-9467-233791691f58
+    - !<own> 260f52c0-c23a-93be-704a-116e990ac38e
+    - !<own> 45a14f37-49b0-f090-d86e-954cbe31c15f
+    - !<own> 007af239-7cb7-1203-8ca8-dbf3b54d9855
+    - !<own> 78c42d7a-e193-83c8-3f98-97505a7777fe
+    - !<own> fb68efb5-3bdf-3a32-25fc-b799dba4c248
+    - !<own> d72eea37-3382-7c53-82ba-034c352d09f7
+    - !<own> 2184377a-3428-a8d7-d669-ddcf967a80e4
+    - !<own> c7ec2353-a4e0-ca88-a343-770969b4d9a7
+    - !<own> d1a261a4-a3b0-577f-5d84-d3d89bcbef94
+    - !<own> bf5c2d03-993d-21ef-d410-ad717c3f1275
+    - !<own> 092c410b-e017-416f-bee3-b9d6b8b92095
+    - !<own> 02f8cd2b-8e80-403c-97dc-938390d13452
+    - !<own> 6a6850c9-d8eb-4449-f414-1af0c30255ba
+    - !<own> fd94d148-505e-8f10-ecaf-03f37a5753e4
+    - !<own> e1eb46eb-09c0-c30b-6f6d-71c03f591069
+    - !<own> dddb1190-7fd5-b072-2cf2-affc003e9196
+    - !<own> fb648ea1-e351-f21c-b5a5-44e978f66fb2
+    - !<own> e8cd84d1-df98-be03-d56e-1bc488ef12e6
+    - !<own> 2f794f31-0dde-b693-3c9f-9be60709439c
+    - !<own> 06deee0d-1f15-e514-a262-57a1c9af5b8f
+    - !<own> 33fb5852-3ef1-570f-0d13-900268650c11
+    - !<own> f25ae8ab-670d-fe0b-3e5d-67a34ad9de84
+    - !<own> f1c23c5e-5c0b-fb0d-bd31-14c878ffd9a1
+    - !<own> f3c3d5ae-1c6d-fa11-da07-8a0e6c8320db
+    - !<own> 2665e29e-30e1-a4c2-f607-48b81ef7e193
+- !<AssetImportMetadata/007af239-7cb7-1203-8ca8-dbf3b54d9855>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f74eb34b-36b1-4bb3-a66b-b4ef56ef60b0
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f74eb34b-36b1-4bb3-a66b-b4ef56ef60b0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 221b531f-61c3-4700-93d1-bdbc91035e65
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/01d5e5b5-6995-483c-afdb-5d336fe547c3>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: aa45999a-f5ca-48ca-a035-473229e4b458
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPoints: false
+    prefab: false
+    radius: false
+    sphere: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      radius: !<float> 1.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Sphere Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the sphere center and prefab to instantiate on the surface</span>"}'
+    - '// @input SceneObject sphere {"hint":"Reference to the sphere (center point)"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of random points and sphere radius</span>"}'
+    - '// @input float numberOfPoints = 10 {"hint":"Number of random points to generate"}'
+    - '// @input float radius = 1 {"hint":"Radius of the sphere"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<SceneObject/0252df96-a9fd-4edf-4e58-ad19e9e9155f>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn3DGridsJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c6ebea81-3171-49f3-7337-e94deb3381be
+- !<SceneObject/02dcd72a-3955-4897-5367-436ce9104307>
+  PrefabRemaps:
+    []
+  Name: "[SimpleColliderInstantiatoreditor]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> a9b59709-aee8-420e-6c9a-07c48dc02241
+    - !<own> 672fba8d-7379-454e-785c-2a298922e1fb
+    - !<own> b0e7fbeb-8828-41e1-57b4-db4899b204b8
+    - !<own> 34d604d8-cdc4-443b-6beb-f7d9b7e2ebd3
+  Components:
+    []
+- !<AssetImportMetadata/02f8cd2b-8e80-403c-97dc-938390d13452>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 742cb1ce-8c96-43b8-bd4a-9b863e4284bc
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 742cb1ce-8c96-43b8-bd4a-9b863e4284bc
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0db5f1fa-0be4-4073-a4aa-16b836dd168f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/043f3695-9fa8-4a81-ae38-aa1ed79d2da9>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9a7f746b-17ac-4d81-92bc-f9e07222b8c7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    instantiateInside: false
+    numberOfInstances: false
+    prefab: false
+    prefabScale: false
+    randomScaleVariation: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      numberOfInstances: !<float> 10.000000
+      instantiateInside: true
+      prefabScale: !<float> 1.000000
+      randomScaleVariation: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+- !<RenderMeshVisual/04d0a651-cf55-4257-780b-4fc48f919766>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ee1073b-935e-4720-87ab-0219afccb6f9
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/050c840c-5eb6-48e3-40f1-bbd3ad9f8a31>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnSphereSurfaceTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a70e4cc3-7714-4029-612c-1249dfc8ef99
+- !<ScriptAssetData/05f8f57e-aff5-4c9f-905e-9d623fbbc265>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: ecca2e12-acd1-4f77-bb24-dd4415a6d34d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    prefab: false
+    radius: false
+    xSlices: false
+    yElementsPerSlice: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      xSlices: !<float> 8.000000
+      yElementsPerSlice: !<float> 5.000000
+      radius: !<float> 5.000000
+      center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/06deee0d-1f15-e514-a262-57a1c9af5b8f>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> 572b03cc-1607-4fcc-897a-3155966eebe7
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> 572b03cc-1607-4fcc-897a-3155966eebe7
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/074843b4-249c-4c00-76fb-ae18e5a1f578>
+  PrefabRemaps:
+    []
+  Name: CircleAreaInstantiatorTS
+  Enabled: true
+  ScriptAsset: !<reference> 5fd91f90-7201-427d-b2e5-9fe0d434e3b6
+  ScriptInputsDefault:
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 39fb5de9-040d-4cd9-503c-11e1b4e645aa
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPrefabs: !<float> 20.000000
+      radius: !<float> 100.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<TypeScriptAssetData/07c466fa-47d6-49ea-8080-7d701f984224>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 17fe7711-86ee-4e02-8845-960843ee60ab
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    endPoint: false
+    fixedDistance: false
+    prefab: false
+    startPoint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      startPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      fixedDistance: !<float> 1.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Line Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the prefab and start/end points for the line</span>"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"The prefab to instantiate"}'
+    - '// @input SceneObject startPoint {"hint":"The start point of the line"}'
+    - '// @input SceneObject endPoint {"hint":"The end point of the line"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Spacing Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Set the fixed distance between each object</span>"}'
+    - '// @input float fixedDistance = 1 {"hint":"Fixed distance between each instantiated object"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<AssetImportMetadata/092c410b-e017-416f-bee3-b9d6b8b92095>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 07566a15-2c52-4ba3-99ca-47e9ecb48a0f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 07566a15-2c52-4ba3-99ca-47e9ecb48a0f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 377b0034-6f31-4205-9ab7-1633d9fced09
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/0bbff561-c226-4cb9-7ff3-62ddfd1f4cea>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7fed589a-910d-4480-7c65-36b0aeab7179
+- !<TypeScriptAssetData/0db5f1fa-0be4-4073-a4aa-16b836dd168f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: b2a66b5b-6bd5-4222-a847-b74b806a04d8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPrefabs: false
+    prefab: false
+    size: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      size: !<float> 10.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Square Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the center point and prefab to instantiate within the square area</span>"}'
+    - '// @input SceneObject center {"hint":"Center of the square area"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of objects and square size</span>"}'
+    - '// @input float numberOfPrefabs = 10 {"hint":"Number of prefabs to instantiate"}'
+    - '// @input float size = 5 {"hint":"Size of the square (half-width/half-height)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<TypeScriptAssetData/0e0d23b4-fead-43d9-bf6d-b1f88d1ee3ff>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 577a064a-a92c-40b3-b1c8-4cfeee933e86
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 5.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Circle Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the center point and prefab to instantiate within the circular area</span>"}'
+    - '// @input SceneObject center {"hint":"Center of the circle area"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure how many objects to spawn and the radius of the circular area</span>"}'
+    - '// @input float numberOfPrefabs = 10 {"hint":"Number of prefabs to instantiate"}'
+    - '// @input float radius = 5 {"hint":"Radius of the circle"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ScriptComponent/1298939a-6ece-4607-704a-548abd277269>
+  PrefabRemaps:
+    []
+  Name: SimpleCircleAreaInstantiatorTS
+  Enabled: true
+  ScriptAsset: !<reference> 4dd3408b-f78b-45cb-8936-f8f69e4ba764
+  ScriptInputsDefault:
+    numberOfPrefabs: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 557fe707-5138-4c6c-52cc-df4848324286
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 20.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/12bc1eaf-7e8b-40db-6793-136ff8d1912c>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 6ce385df-429b-44bc-6873-8bdfe17a28a2
+- !<RenderMeshVisual/12ed7094-c725-46cd-5b91-585e940edaf0>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptComponent/1343f956-59bf-41a2-647e-f7093c224157>
+  PrefabRemaps:
+    []
+  Name: CircleSlicingInstantiatorTS
+  Enabled: true
+  ScriptAsset: !<reference> 1eb8bc9e-7a41-42ac-aafd-97305c0ead06
+  ScriptInputsDefault:
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      center: !<reference.SceneObject> b20138f3-cc10-4b64-5f1f-3afd6dc3c693
+      xSlices: !<float> 10.000000
+      yElementsPerSlice: !<float> 3.000000
+      radius: !<float> 40.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/140e72f1-bb4f-1780-70a1-74f06395d118>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4c6445d2-db57-407a-9e1d-9704a05a7dcd
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4c6445d2-db57-407a-9e1d-9704a05a7dcd
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 22af8f88-4024-4393-a0bb-85f0fc2f61a2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/14ff4bd8-9443-4444-7f6e-32e155b53c64>
+  PrefabRemaps:
+    []
+  Name: "[InstantiateAlongLineWithFixedDistance]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 601b7cd5-bc62-402d-56e7-18afb627a44b
+    - !<own> c4171ea0-4de6-45e3-7724-4a86e76da2da
+    - !<own> fdf9cfcf-e4b1-428f-667a-a1d6b4fcbb72
+  Components:
+    []
+- !<SceneObject/15732ef5-e4ed-4d92-63e4-b8e6fe41acbf>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorWithFixedArcLengthJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 709d0fa7-d628-4945-4159-3dd94f33ce52
+- !<ScriptComponent/15c74d3c-cced-442b-50e4-90ff5d58aa73>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideBoxTS
+  Enabled: true
+  ScriptAsset: !<reference> 07566a15-2c52-4ba3-99ca-47e9ecb48a0f
+  ScriptInputsDefault:
+    numberOfPoints: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      boxObject: !<reference.SceneObject> 79db9057-affb-44cb-7d96-0dbcef18da2a
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 40.000000
+      sizeY: !<float> 40.000000
+      sizeZ: !<float> 40.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/16f48107-0ed5-4e79-67c6-dd7104d4d0e8>
+  PrefabRemaps:
+    []
+  Name: CircleSlicingInstantiatorJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7bd740b1-f590-4796-7dc2-d82bb3cba100
+- !<ObjectPrefabAssetData/18ce0654-277f-4eca-a143-c75a00825d02>
+  Prototype: !<ObjectOwner/1305bdb7-84c5-4aaa-8040-9982f6b085b3>
+    PackagePath: ""
+    objects:
+      - !<own> a2e736dc-08f8-4147-56a9-3a785827c979
+- !<SceneObject/1b475299-8b19-4f0a-6e77-1eeaf517d762>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5b9b5032-5ec6-4db9-5f0c-0519753f0dc7
+- !<SceneObject/1f26aa59-4155-4b75-41f9-23f84ac9d1b1>
+  PrefabRemaps:
+    []
+  Name: SimpleCircleAreaInstantiatorJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7f591485-c9d9-4fcb-7b97-a5407eef465a
+- !<SceneObject/21291142-948f-4ff9-7839-4dba4584e747>
+  PrefabRemaps:
+    []
+  Name: LineEnds
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 10.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4a148495-24d2-4e42-65ad-501b99e7acc6
+- !<AssetImportMetadata/2184377a-3428-a8d7-d669-ddcf967a80e4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1eb8bc9e-7a41-42ac-aafd-97305c0ead06
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1eb8bc9e-7a41-42ac-aafd-97305c0ead06
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 99a8904a-4fb5-44df-b1d8-1433dbc9dec8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/221b531f-61c3-4700-93d1-bdbc91035e65>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: a386b63f-9a89-4029-bd2b-a7ef595dceb3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gridCenter: false
+    gridDepth: false
+    gridHeight: false
+    gridWidth: false
+    prefab: false
+    spacingX: false
+    spacingY: false
+    spacingZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      gridCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      gridDepth: !<float> 5.000000
+      spacingX: 1.500000
+      spacingY: 1.500000
+      spacingZ: 1.500000
+  ScriptTypes:
+    -
+      {}
+- !<SceneObject/225a300e-4f09-49f1-4a67-e16f17b424ca>
+  PrefabRemaps:
+    []
+  Name: SquareAreaInstantiatorJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b08c965a-a3d8-4484-6c2e-2c7f8293da05
+- !<ScriptAssetData/22af8f88-4024-4393-a0bb-85f0fc2f61a2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 08993f59-af26-4ec1-89e8-ecbdf15047a3
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arcAngleSpan: false
+    arcLength: false
+    center: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+    startAngle: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      radius: !<float> 5.000000
+      numberOfPrefabs: !<float> 10.000000
+      arcLength: !<float> 2.000000
+      startAngle: !<float> 0.000000
+      arcAngleSpan: !<float> 360.000000
+  ScriptTypes:
+    -
+      {}
+- !<ScriptAssetData/23aa97f0-09b9-464b-bdc3-d90496889004>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8c66617b-b90c-4e5b-b965-13ce299eb015
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    endPoint: false
+    numberOfObjects: false
+    prefab: false
+    startPoint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      startPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      numberOfObjects: !<float> 10.000000
+  ScriptTypes:
+    -
+      {}
+- !<ObjectPrefabAssetData/243dc8c6-525c-4cb0-b5c6-47a5bae5c9f6>
+  Prototype: !<ObjectOwner/e60d6dc7-96e9-41e3-9512-0a568a8632f3>
+    PackagePath: ""
+    objects:
+      - !<own> ce172210-4de7-44d7-45eb-129a33f22b8f
+- !<ScriptComponent/249c0928-010b-452f-465d-f9a2a66c919c>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineJS
+  Enabled: true
+  ScriptAsset: !<reference> d12b2a3e-31cf-47ef-b0e9-2fd352a21f90
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      startPoint: !<reference.SceneObject> 59db6719-fd24-4b68-4677-5b49798d7a4c
+      endPoint: !<reference.SceneObject> 26730ae9-e3e8-457e-7bf0-5e13deca313c
+      numberOfObjects: !<float> 3.000000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/260f52c0-c23a-93be-704a-116e990ac38e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f7e7871d-fb09-4b60-84ed-584f34a6aa35
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f7e7871d-fb09-4b60-84ed-584f34a6aa35
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 3313f4a4-aa46-43f9-8f97-ae69000d0f4a
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/2665e29e-30e1-a4c2-f607-48b81ef7e193>
+  ImportedAssetIds:
+    NativePackageDescriptor: !<reference> 2df471e3-6317-4dd7-97b8-b307c997a881
+  ImporterName: NativePackageDescriptorImporter
+  PrimaryAsset: !<reference> 2df471e3-6317-4dd7-97b8-b307c997a881
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/26730ae9-e3e8-457e-7bf0-5e13deca313c>
+  PrefabRemaps:
+    []
+  Name: LineEnds
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 10.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.500000, y: 0.500000, z: 0.500000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c6ef5669-8256-4662-57d9-803d2be16e00
+- !<SceneObject/275ab3ea-b772-4867-49e3-0b7212b10b50>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> df111461-bb3c-4810-67dd-303ca95646c4
+- !<TypeScriptAssetData/2b60cf92-2958-49a9-af21-a21fb5b109ee>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2c0f33d9-8ec6-4593-a2d6-720bce430c44
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boxObject: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPoints: false
+    prefab: false
+    sizeX: false
+    sizeY: false
+    sizeZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boxObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 1.000000
+      sizeY: !<float> 1.000000
+      sizeZ: !<float> 1.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Box Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the box center and prefab to instantiate on the surface</span>"}'
+    - '// @input SceneObject boxObject {"hint":"Reference to the box (a SceneObject that defines the box center)"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of random points and box dimensions</span>"}'
+    - '// @input float numberOfPoints = 10 {"hint":"Number of random points to generate"}'
+    - '// @input float sizeX = 1 {"hint":"Size of the box in x direction"}'
+    - '// @input float sizeY = 1 {"hint":"Size of the box in y direction"}'
+    - '// @input float sizeZ = 1 {"hint":"Size of the box in z direction"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<AssetImportMetadata/2c0187af-d7de-6b5e-8b4a-49ccdb16a0c9>
+  ImportedAssetIds:
+    Material: !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/2def8b80-6760-416e-45c0-76c4eaf78b00>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn3DGridsTS
+  Enabled: true
+  ScriptAsset: !<reference> 33e6a4af-f8c5-4c27-993f-de59b005b422
+  ScriptInputsDefault:
+    gridWidth: true
+    gridHeight: true
+    gridDepth: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      gridCenter: !<reference.SceneObject> f3687caa-c24e-429b-5d97-c9ee94a0c13c
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      gridDepth: !<float> 5.000000
+      spacingX: !<float> 10.000000
+      spacingY: !<float> 10.000000
+      spacingZ: !<float> 10.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/2f794f31-0dde-b693-3c9f-9be60709439c>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 2c9a6d9f-5c17-4951-b6ea-ccbac4b9fc96
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 2c9a6d9f-5c17-4951-b6ea-ccbac4b9fc96
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 3b721940-ee2f-432c-b5d8-66989633d2c2
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/3313f4a4-aa46-43f9-8f97-ae69000d0f4a>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 76ffda1d-9edd-407f-b0c8-c217f46d0f7d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    numberOfPrefabs: false
+    prefab: false
+    size: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      size: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+- !<SceneObject/336f511c-260a-4fd4-6ba0-ca9ccf263849>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnBoxSurfaceTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> caff6812-bba1-4a7f-43d9-45c1b7c158e5
+- !<AssetImportMetadata/33fb5852-3ef1-570f-0d13-900268650c11>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> b3ed153e-2204-42df-979e-134018f6b770
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> b3ed153e-2204-42df-979e-134018f6b770
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/34381146-3a6c-470c-64c8-0cb68068b564>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideSphereTS
+  Enabled: true
+  ScriptAsset: !<reference> 50f7682d-008b-4062-ba82-808e04d28566
+  ScriptInputsDefault:
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sphere: !<reference.SceneObject> 1b475299-8b19-4f0a-6e77-1eeaf517d762
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 5.000000
+      radius: !<float> 20.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/34cb56aa-3dae-492a-6180-525cae1a9c09>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/34d604d8-cdc4-443b-6beb-f7d9b7e2ebd3>
+  PrefabRemaps:
+    []
+  Name: Box
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> dfc0c9d4-3d7e-45dc-775d-edf07d672c82
+    - !<own> 56277107-8a20-459a-7e21-4020d152a0f9
+- !<TypeScriptAssetData/353cc707-16b2-4a9f-984c-d55da7d8c4e8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 4f0e5f70-4cd0-4e44-817a-c36a84a76554
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 5.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Circle Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the center point and prefab to instantiate within the circular area</span>"}'
+    - '// @input SceneObject center {"hint":"Center of the circle area"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of objects and circle radius</span>"}'
+    - '// @input float numberOfPrefabs = 10 {"hint":"Number of prefabs to instantiate"}'
+    - '// @input float radius = 5 {"hint":"Radius of the circle"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<TypeScriptAssetData/377b0034-6f31-4205-9ab7-1633d9fced09>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f07c64e4-5939-4897-bd9f-2d77df4452f4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boxObject: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPoints: false
+    prefab: false
+    sizeX: false
+    sizeY: false
+    sizeZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boxObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 1.000000
+      sizeY: !<float> 1.000000
+      sizeZ: !<float> 1.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Box Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the box center and prefab to instantiate inside the volume</span>"}'
+    - '// @input SceneObject boxObject {"hint":"Reference to the box (a SceneObject that defines the box center)"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of random points and box dimensions</span>"}'
+    - '// @input float numberOfPoints = 10 {"hint":"Number of random points to generate"}'
+    - '// @input float sizeX = 1 {"hint":"Size of the box in x direction"}'
+    - '// @input float sizeY = 1 {"hint":"Size of the box in y direction"}'
+    - '// @input float sizeZ = 1 {"hint":"Size of the box in z direction"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ObjectPrefabAssetData/390f6d58-c4f7-4bf1-b48a-559cedc7cfca>
+  Prototype: !<ObjectOwner/dd364113-8a91-4592-aaec-365b373b4686>
+    PackagePath: ""
+    objects:
+      - !<own> 8bb4f07d-6512-4eae-523e-0f84ed5800cf
+- !<SceneObject/39fb5de9-040d-4cd9-503c-11e1b4e645aa>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 5f5354ed-d6fd-4aa5-5b5f-5c403b433d81
+- !<TypeScriptAssetData/3b721940-ee2f-432c-b5d8-66989633d2c2>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6e4d9219-cf9d-41c4-b07d-70ccb0b8f5df
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    instantiateInside: false
+    numberOfInstances: false
+    prefab: false
+    prefabScale: false
+    randomScaleVariation: false
+    targetObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      targetObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      numberOfInstances: !<float> 10.000000
+      instantiateInside: true
+      prefabScale: !<float> 1.000000
+      randomScaleVariation: !<float> 0.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Collider Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the prefab and target object with collider shape</span>"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @input SceneObject targetObject {"hint":"Target object with shape"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure number of instances and placement mode (inside or surface)</span>"}'
+    - '// @input float numberOfInstances = 10 {"hint":"Number of instances to spawn"}'
+    - '// @input bool instantiateInside = true {"hint":"Toggle for inside or on surface instantiation"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Scale Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control prefab scaling with optional random variation</span>"}'
+    - '// @input float prefabScale = 1 {"hint":"Scale factor for instantiated prefabs"}'
+    - '// @input float randomScaleVariation {"hint":"Random scale variation (0 = uniform size, 1 = fully random between 0 and prefabScale*2)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<SceneObject/3c5e8c95-49a4-43cd-7bf1-0249f1417957>
+  PrefabRemaps:
+    []
+  Name: CircleSlicingInstantiatorTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1343f956-59bf-41a2-647e-f7093c224157
+- !<RenderMeshVisual/40966528-b0ac-496d-5a56-ecb13760378f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> a35b1a73-38c2-49b5-bcdb-aa0941fa51ad
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<TypeScriptAssetData/41d831ea-94ef-40bd-ac76-5cf2008d02d5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 8231d790-4e16-49f6-bd7b-2893aeefb4d4
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    arcAngleSpan: false
+    arcLength: false
+    center: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+    startAngle: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      radius: !<float> 5.000000
+      numberOfPrefabs: !<float> 0.000000
+      arcLength: !<float> 2.000000
+      startAngle: !<float> 0.000000
+      arcAngleSpan: !<float> 360.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Circle Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the center point, prefab, and radius for the circular layout</span>"}'
+    - '// @input SceneObject center {"hint":"Center of the circle"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @input float radius = 5 {"hint":"Radius of the circle"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of objects or arc length between them</span>"}'
+    - '// @input float numberOfPrefabs = 10 {"hint":"Number of prefabs to instantiate around the circle"}'
+    - '// @input float arcLength = 2 {"hint":"Fixed arc length between instantiated prefabs (used only when numberOfPrefabs is 0)"}'
+    - '// @input float startAngle {"hint":"Start angle of the arc in degrees (0-360)"}'
+    - '// @input float arcAngleSpan = 360 {"hint":"Angular span of the arc in degrees (0-360, where 360 is a full circle)"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<AssetImportMetadata/420cf417-0a9a-bdc1-77e3-9f8fc57af113>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 07a887c9-1a8d-4182-ab88-363c5799d2a9
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 07a887c9-1a8d-4182-ab88-363c5799d2a9
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 043f3695-9fa8-4a81-ae38-aa1ed79d2da9
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/43565d20-ed55-4c23-50fa-a29a17da5f28>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideBoxTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 15c74d3c-cced-442b-50e4-90ff5d58aa73
+- !<AssetImportMetadata/45a14f37-49b0-f090-d86e-954cbe31c15f>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d12b2a3e-31cf-47ef-b0e9-2fd352a21f90
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d12b2a3e-31cf-47ef-b0e9-2fd352a21f90
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 23aa97f0-09b9-464b-bdc3-d90496889004
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/477723af-5837-f648-faa6-71575ad3238e>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 761b89c7-cbda-4dfc-8f80-cd413a7765c8
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 761b89c7-cbda-4dfc-8f80-cd413a7765c8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 99cdbdac-2a95-4b9f-9d79-df5e32e5c647
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/4788e227-0810-4301-4974-1f5ebc3ca903>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn3DGridsTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 2def8b80-6760-416e-45c0-76c4eaf78b00
+- !<RenderMeshVisual/48fadeca-dadb-4850-6fc9-84ed2bb8b530>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  Mesh: !<reference> 61fea7af-4298-4786-9c36-f20c0f943033
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<RenderMeshVisual/4a148495-24d2-4e42-65ad-501b99e7acc6>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ee1073b-935e-4720-87ab-0219afccb6f9
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/4a25ff29-606d-443a-6c24-417a1a8ac389>
+  PrefabRemaps:
+    []
+  Name: "[CirclePerimeterInstantiatorWithFixedArcLength]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 55f7feed-774f-41b5-6a39-321f9757ef24
+    - !<own> 15732ef5-e4ed-4d92-63e4-b8e6fe41acbf
+    - !<own> 275ab3ea-b772-4867-49e3-0b7212b10b50
+  Components:
+    []
+- !<AssetImportMetadata/4b31c472-3953-694c-cf12-4d91ea12f809>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> ff5b0d7e-3fe5-4582-a29e-e9a4f14d27b0
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> ff5b0d7e-3fe5-4582-a29e-e9a4f14d27b0
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 18ce0654-277f-4eca-a143-c75a00825d02
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/4b352b25-e3bd-49ee-4406-d786776f6f76>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideSphereJS
+  Enabled: true
+  ScriptAsset: !<reference> 0c4d81ed-0f26-4307-aeaf-14f92a0f7821
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sphere: !<reference.SceneObject> 1b475299-8b19-4f0a-6e77-1eeaf517d762
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 5.000000
+      radius: !<float> 20.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/4b7e9137-cb00-46b5-6b73-34b0d8d65411>
+  PrefabRemaps:
+    []
+  Name: "[RandomPointsInsideSphere]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 8d040fb3-35a8-4809-4f10-6244a6b9a070
+    - !<own> 7e96494e-706e-4d2b-516e-7fde72556735
+    - !<own> 1b475299-8b19-4f0a-6e77-1eeaf517d762
+  Components:
+    []
+- !<ScriptComponent/4d83342f-6eec-4644-7cfb-e0aac335b1bf>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnBoxSurfaceJS
+  Enabled: true
+  ScriptAsset: !<reference> ecc47119-832b-4752-9042-a1dd9dc513b4
+  ScriptInputsDefault:
+    numberOfPoints: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      boxObject: !<reference.SceneObject> eaabdffa-cc41-4f44-69fd-dbbf5547d334
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 20.000000
+      sizeY: !<float> 20.000000
+      sizeZ: !<float> 20.000000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/5034582d-50f2-5c5e-a685-8755aa6d78c4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9d25c108-aee3-4447-a244-cc250e8de417
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9d25c108-aee3-4447-a244-cc250e8de417
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 911610e6-5fbb-419b-aa11-00a7a9c39278
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/516ba7dd-9f38-4250-6011-034d7da87797>
+  PrefabRemaps:
+    []
+  Name: SquareAreaInstantiatorTS
+  Enabled: true
+  ScriptAsset: !<reference> 742cb1ce-8c96-43b8-bd4a-9b863e4284bc
+  ScriptInputsDefault:
+    numberOfPrefabs: true
+    size: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> a4caec4d-146e-4901-7be8-8a726cbf6b49
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      numberOfPrefabs: !<float> 10.000000
+      size: !<float> 10.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/51e100a6-17e9-4d43-43f9-53997b197171>
+  PrefabRemaps:
+    []
+  Name: InstantiateBox
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 48fadeca-dadb-4850-6fc9-84ed2bb8b530
+- !<SceneObject/557fe707-5138-4c6c-52cc-df4848324286>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> c596c056-4931-4255-7553-264dd5e89066
+- !<SceneObject/55f7feed-774f-41b5-6a39-321f9757ef24>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorWithFixedArcLengthTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ab561bb8-0624-4f53-4c86-c3098bec87be
+- !<ColliderComponent/56277107-8a20-459a-7e21-4020d152a0f9>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+- !<SceneObject/5746c734-a393-4ee1-402b-00209f7ed2ff>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 34cb56aa-3dae-492a-6180-525cae1a9c09
+- !<AssetImportMetadata/57746eb7-ec91-6af1-938d-670a1d63cbcd>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 123dfc1d-25d4-42ef-9a42-8f0ae9d98041
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 123dfc1d-25d4-42ef-9a42-8f0ae9d98041
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 05f8f57e-aff5-4c9f-905e-9d623fbbc265
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/57f2e7df-a474-4e37-57c0-0411e9b880b8>
+  PrefabRemaps:
+    []
+  Name: SimpleColliderInstantiatorJS
+  Enabled: true
+  ScriptAsset: !<reference> 07a887c9-1a8d-4182-ab88-363c5799d2a9
+  ScriptInputsDefault:
+    numberOfInstances: true
+    instantiateInside: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 07dd45dd-19db-4a0d-b07d-b4f49600179e
+      targetObject: !<reference.SceneObject> 34d604d8-cdc4-443b-6beb-f7d9b7e2ebd3
+      numberOfInstances: !<float> 10.000000
+      instantiateInside: true
+      prefabScale: !<float> 3.000000
+      randomScaleVariation: !<float> 8.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/586e6c7c-56bb-4345-6665-f9d07b0c4572>
+  PrefabRemaps:
+    []
+  Name: LineManager
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9744a2a3-c377-4733-5d56-e48afe53ed54
+- !<SceneObject/59db6719-fd24-4b68-4677-5b49798d7a4c>
+  PrefabRemaps:
+    []
+  Name: LineStart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -10.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a9e688e3-9879-47ca-7ae5-9e0c1077e8fa
+- !<ScriptAssetData/5a5fcc02-4715-4d25-b7ba-766b534c5fac>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 659b8229-4369-4994-98d8-263ef541333d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    gridCenter: false
+    gridHeight: false
+    gridWidth: false
+    prefab: false
+    spacingX: false
+    spacingY: false
+    zPosition: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      gridCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      spacingX: 1.500000
+      spacingY: 1.500000
+      zPosition: !<float> 0.000000
+  ScriptTypes:
+    -
+      {}
+- !<RenderMeshVisual/5b9b5032-5ec6-4db9-5f0c-0519753f0dc7>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5d65f098-5663-48e1-461e-b5518e10e66c>
+  PrefabRemaps:
+    []
+  Name: CircleAreaInstantiatorTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 074843b4-249c-4c00-76fb-ae18e5a1f578
+- !<ScriptAssetData/5e20beda-ede0-41f6-9e90-699cd5948fd0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: e9ec7fef-70b6-4165-b3ba-918945119282
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    numberOfPoints: false
+    prefab: false
+    radius: false
+    sphere: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      radius: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<SceneObject/5e4d9463-1eb4-49a7-7dad-8a3b8a6984fb>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9d456f20-9efa-4618-66d2-cbcc71b019c8
+- !<RenderMeshVisual/5f5354ed-d6fd-4aa5-5b5f-5c403b433d81>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/5f53ccaf-7397-44c6-425b-39bc159e7530>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnSphereSurfaceJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> add06774-ab78-4059-5028-b76496dcc998
+- !<SceneObject/601b7cd5-bc62-402d-56e7-18afb627a44b>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineWithFixedDistanceTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 94744b8a-8f5d-4a04-5788-bbcd3cad483c
+- !<SceneObject/6325a43d-8b8d-4551-634b-cc9ab184a724>
+  PrefabRemaps:
+    []
+  Name: LineManager
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b544fb22-708c-4911-5f6d-44ee4b995793
+- !<SceneObject/660fe018-89df-47d0-5aaa-fcc15f8ed137>
+  PrefabRemaps:
+    []
+  Name: BoxInstantiate2
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 99bcfd45-69fd-41c7-536e-30b26c8ea16c
+    - !<own> fe5ea502-65e3-4302-756b-417a8e0a9330
+- !<SceneObject/66c516a1-998a-4bab-773d-23507779f804>
+  PrefabRemaps:
+    []
+  Name: SquareAreaInstantiatorTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 516ba7dd-9f38-4250-6011-034d7da87797
+- !<SceneObject/672fba8d-7379-454e-785c-2a298922e1fb>
+  PrefabRemaps:
+    []
+  Name: SimpleColliderInstantiatorJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 57f2e7df-a474-4e37-57c0-0411e9b880b8
+- !<AssetImportMetadata/6a6850c9-d8eb-4449-f414-1af0c30255ba>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c2c6a908-1825-4ee5-b341-287eaaadc8fb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c2c6a908-1825-4ee5-b341-287eaaadc8fb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d7db59ee-f614-4086-abb8-bcca1d380c27
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/6ce385df-429b-44bc-6873-8bdfe17a28a2>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorTS
+  Enabled: true
+  ScriptAsset: !<reference> 9e441b7f-b49f-4bf2-a045-cc5777e839e1
+  ScriptInputsDefault:
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 5e4d9463-1eb4-49a7-7dad-8a3b8a6984fb
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPrefabs: !<float> 20.000000
+      radius: !<float> 40.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/6d99d40d-ec1a-4c48-578d-f99d970dfbd6>
+  PrefabRemaps:
+    []
+  Name: "[CirclePerimeterInstantiator]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 12bc1eaf-7e8b-40db-6793-136ff8d1912c
+    - !<own> a31e8145-14d7-4a60-6ce7-4fe35c6eaa96
+    - !<own> 5e4d9463-1eb4-49a7-7dad-8a3b8a6984fb
+  Components:
+    []
+- !<SceneObject/6ee52bc2-b954-41eb-4ebb-d6ed05b3112a>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideBoxJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 927bf742-1a84-46df-6a31-eeeff035e9f4
+- !<TypeScriptAssetData/7083edfd-2a71-4052-a0b2-10f451ece81d>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 47e5948f-74b6-435a-a43b-8e4b80486a5d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPoints: false
+    prefab: false
+    radius: false
+    sphere: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      radius: !<float> 1.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Sphere Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the sphere center and prefab to instantiate inside the volume</span>"}'
+    - '// @input SceneObject sphere {"hint":"Reference to the sphere (center point)"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of random points and sphere radius</span>"}'
+    - '// @input float numberOfPoints = 10 {"hint":"Number of random points to generate"}'
+    - '// @input float radius = 1 {"hint":"Radius of the sphere"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ScriptComponent/709d0fa7-d628-4945-4159-3dd94f33ce52>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorWithFixedArcLengthJS
+  Enabled: true
+  ScriptAsset: !<reference> 4c6445d2-db57-407a-9e1d-9704a05a7dcd
+  ScriptInputsDefault:
+    startAngle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 275ab3ea-b772-4867-49e3-0b7212b10b50
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      radius: !<float> 20.000000
+      numberOfPrefabs: !<float> 8.000000
+      arcLength: !<float> 4.000000
+      startAngle: !<float> 0.000000
+      arcAngleSpan: !<float> 60.000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/7234814d-109f-4e88-5a4d-9490187697b6>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  Mesh: !<reference> 8bf77adf-6549-4a67-9410-e10a601ff0e2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/7620c995-2baf-200b-c41d-e82603fd2060>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> ecc47119-832b-4752-9042-a1dd9dc513b4
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> ecc47119-832b-4752-9042-a1dd9dc513b4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c36e459f-b053-4cf4-9e0e-a91bdf4bf73f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/763f8960-8f44-48ec-61d3-b24125d29233>
+  PrefabRemaps:
+    []
+  Name: "[InstantiateAlongLine]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 0bbff561-c226-4cb9-7ff3-62ddfd1f4cea
+    - !<own> b155bbd8-21f1-413b-77a1-30db0736276b
+    - !<own> 7b5bae67-4e1c-4836-71a1-4942cd3c82f9
+  Components:
+    []
+- !<RenderMeshVisual/7773f731-ef84-4c31-6e2f-34239766541e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/78c42d7a-e193-83c8-3f98-97505a7777fe>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 4c4c2e2b-6916-473f-a8cb-df608923c102
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 4c4c2e2b-6916-473f-a8cb-df608923c102
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> d904dde1-a43c-474b-b19c-444e28869cd7
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/79db9057-affb-44cb-7d96-0dbcef18da2a>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> b37cb1e7-38c2-4030-5e3c-d5d690136955
+- !<SceneObject/7b5bae67-4e1c-4836-71a1-4942cd3c82f9>
+  PrefabRemaps:
+    []
+  Name: LineTS Copy
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 6325a43d-8b8d-4551-634b-cc9ab184a724
+    - !<own> 59db6719-fd24-4b68-4677-5b49798d7a4c
+    - !<own> 26730ae9-e3e8-457e-7bf0-5e13deca313c
+  Components:
+    []
+- !<ScriptComponent/7bd740b1-f590-4796-7dc2-d82bb3cba100>
+  PrefabRemaps:
+    []
+  Name: CircleSlicingInstantiatorJS
+  Enabled: true
+  ScriptAsset: !<reference> 123dfc1d-25d4-42ef-9a42-8f0ae9d98041
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      xSlices: !<float> 10.000000
+      yElementsPerSlice: !<float> 3.000000
+      radius: !<float> 40.000000
+      center: !<reference.SceneObject> b20138f3-cc10-4b64-5f1f-3afd6dc3c693
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/7df5dac3-cdbe-e1d4-1ee8-4f59951154ba>
+  ImportedAssetIds:
+    FileMesh: !<reference> 8bf77adf-6549-4a67-9410-e10a601ff0e2
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 8bf77adf-6549-4a67-9410-e10a601ff0e2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/7e96494e-706e-4d2b-516e-7fde72556735>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideSphereJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4b352b25-e3bd-49ee-4406-d786776f6f76
+- !<ScriptComponent/7f591485-c9d9-4fcb-7b97-a5407eef465a>
+  PrefabRemaps:
+    []
+  Name: SimpleCircleAreaInstantiatorJS
+  Enabled: true
+  ScriptAsset: !<reference> 761b89c7-cbda-4dfc-8f80-cd413a7765c8
+  ScriptInputsDefault:
+    numberOfPrefabs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 557fe707-5138-4c6c-52cc-df4848324286
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 20.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ColliderComponent/7f93a8b9-3139-43d9-4187-4917bd6f57b0>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Sphere>
+    FitVisual: true
+    Radius: 6.000000
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: true
+- !<ScriptComponent/7fed589a-910d-4480-7c65-36b0aeab7179>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineTS
+  Enabled: true
+  ScriptAsset: !<reference> c2c6a908-1825-4ee5-b341-287eaaadc8fb
+  ScriptInputsDefault:
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      startPoint: !<reference.SceneObject> 59db6719-fd24-4b68-4677-5b49798d7a4c
+      endPoint: !<reference.SceneObject> 26730ae9-e3e8-457e-7bf0-5e13deca313c
+      numberOfObjects: !<float> 3.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/8421f234-a08a-9a4c-cc66-d4f5a51d3cdf>
+  ImportedAssetIds:
+    Texture: !<reference> 6dcbea42-50b5-4758-a40e-d84cb4f3cb6e
+  ImporterName: FileTextureImporter
+  PrimaryAsset: !<reference> 6dcbea42-50b5-4758-a40e-d84cb4f3cb6e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/84ff8110-d6c4-54a2-b42e-00cfc0f0a090>
+  ImportedAssetIds:
+    MarkdownAsset: !<reference> 36283bee-e276-44df-b26c-b58ab33b11c5
+  ImporterName: MarkdownAssetImporter
+  PrimaryAsset: !<reference> 36283bee-e276-44df-b26c-b58ab33b11c5
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/8624beaa-d8b5-5bea-782b-4a203db9e88b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 3231aa44-73ba-4f46-bfc5-461417144552
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 3231aa44-73ba-4f46-bfc5-461417144552
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5a5fcc02-4715-4d25-b7ba-766b534c5fac
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/8bb4f07d-6512-4eae-523e-0f84ed5800cf>
+  PrefabRemaps:
+    []
+  Name: InstantiateSphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 5.000000, y: 5.000000, z: 5.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 9fa39259-4206-469c-5efe-eb0f9c43a46f
+- !<RenderMeshVisual/8bbcc622-1658-46c4-7600-1d78fc3faa80>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  Mesh: !<reference> 61fea7af-4298-4786-9c36-f20c0f943033
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/8d040fb3-35a8-4809-4f10-6244a6b9a070>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideSphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 34381146-3a6c-470c-64c8-0cb68068b564
+- !<TypeScriptAssetData/911610e6-5fbb-419b-aa11-00a7a9c39278>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c24c686b-c2d9-4b67-b783-8525fd95a7b2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    _beginColor: false
+    _endColor: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    endPointObject: false
+    lineLength: false
+    lineMaterial: false
+    lineStyle: false
+    lineWidth: false
+    shouldStick: false
+    startPointObject: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - startPointObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endPointObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      lineMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      _beginColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      _endColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      lineWidth: 0.500000
+      lineLength: !<float> 160.000000
+      lineStyle: !<float> 2.000000
+      shouldStick: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Line Endpoints</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the start and end points for the line visualization</span>"}'
+    - // @input SceneObject startPointObject
+    - // @input SceneObject endPointObject
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Line Material</span>"}'
+    - // @input Asset.Material lineMaterial
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Line Colors</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Set gradient colors from start to end point</span>"}'
+    - '// @input vec3 _beginColor = "{1, 1, 0}" {"widget":"color"}'
+    - '// @input vec3 _endColor = "{1, 1, 0}" {"widget":"color"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Line Appearance</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure line width, length, and visual style</span>"}'
+    - // @input float lineWidth = 0.5
+    - // @input float lineLength = 160
+    - '// @input float lineStyle = 2 {"widget":"combobox", "values":[{"label":"Full", "value":0}, {"label":"Split", "value":1}, {"label":"FadedEnd", "value":2}]}'
+    - // @input bool shouldStick = true
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ScriptComponent/927bf742-1a84-46df-6a31-eeeff035e9f4>
+  PrefabRemaps:
+    []
+  Name: RandomPointsInsideBoxJS
+  Enabled: true
+  ScriptAsset: !<reference> 4c4c2e2b-6916-473f-a8cb-df608923c102
+  ScriptInputsDefault:
+    numberOfPoints: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      boxObject: !<reference.SceneObject> 79db9057-affb-44cb-7d96-0dbcef18da2a
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 40.000000
+      sizeY: !<float> 40.000000
+      sizeZ: !<float> 40.000000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/944763c8-f5da-660b-a27f-5c6e905cf496>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> b4ab33a2-e542-486b-969b-3c989b03d01d
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> b4ab33a2-e542-486b-969b-3c989b03d01d
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b0a3290e-7b24-436d-bea6-7c32af6e9f66
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/94744b8a-8f5d-4a04-5788-bbcd3cad483c>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineWithFixedDistanceTS
+  Enabled: true
+  ScriptAsset: !<reference> 931b77a6-90f6-47e6-9f6f-0a5345457ef2
+  ScriptInputsDefault:
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      startPoint: !<reference.SceneObject> e818f67a-7a08-444d-7f53-96655b585697
+      endPoint: !<reference.SceneObject> 21291142-948f-4ff9-7839-4dba4584e747
+      fixedDistance: !<float> 8.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/94f660a0-3dcc-472f-7566-78ccb55a51d3>
+  PrefabRemaps:
+    []
+  Name: "[SquareAreaInstantiator]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 66c516a1-998a-4bab-773d-23507779f804
+    - !<own> 225a300e-4f09-49f1-4a67-e16f17b424ca
+    - !<own> a4caec4d-146e-4901-7be8-8a726cbf6b49
+  Components:
+    []
+- !<AssetImportMetadata/966c3930-c7aa-ed00-44e7-368ed19d0375>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 0c4d81ed-0f26-4307-aeaf-14f92a0f7821
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 0c4d81ed-0f26-4307-aeaf-14f92a0f7821
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> f6d07d45-5799-4175-a430-19a2f9ea97e6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/9744a2a3-c377-4733-5d56-e48afe53ed54>
+  PrefabRemaps:
+    []
+  Name: Line
+  Enabled: true
+  ScriptAsset: !<reference> 9d25c108-aee3-4447-a244-cc250e8de417
+  ScriptInputsDefault:
+    _beginColor: true
+    _endColor: true
+    lineWidth: true
+    lineLength: true
+    lineStyle: true
+    shouldStick: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      startPointObject: !<reference.SceneObject> e818f67a-7a08-444d-7f53-96655b585697
+      endPointObject: !<reference.SceneObject> 21291142-948f-4ff9-7839-4dba4584e747
+      lineMaterial: !<reference.Material> 515adedb-808a-4b69-af91-2565a9dc2a21
+      _beginColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      _endColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      lineWidth: 0.500000
+      lineLength: !<float> 160.000000
+      lineStyle: !<float> 2.000000
+      shouldStick: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/982e670f-b208-4b99-518b-de41e11ac395>
+  PrefabRemaps:
+    []
+  Name: "[RandomPointsOnSphereSurface]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 050c840c-5eb6-48e3-40f1-bbd3ad9f8a31
+    - !<own> 5f53ccaf-7397-44c6-425b-39bc159e7530
+    - !<own> 5746c734-a393-4ee1-402b-00209f7ed2ff
+  Components:
+    []
+- !<SceneObject/9906ca43-526b-4300-79b6-5bc4fe355b56>
+  PrefabRemaps:
+    []
+  Name: "[CircleSlicingInstantiator]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 3c5e8c95-49a4-43cd-7bf1-0249f1417957
+    - !<own> 16f48107-0ed5-4e79-67c6-dd7104d4d0e8
+    - !<own> b20138f3-cc10-4b64-5f1f-3afd6dc3c693
+  Components:
+    []
+- !<TypeScriptAssetData/99a8904a-4fb5-44df-b1d8-1433dbc9dec8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 9a8e0fd2-60fe-4a95-b73e-c366223a0142
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    prefab: false
+    radius: false
+    xSlices: false
+    yElementsPerSlice: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      xSlices: !<float> 8.000000
+      yElementsPerSlice: !<float> 5.000000
+      radius: !<float> 5.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Slice Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the prefab and center point for the radial slice pattern</span>"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @input SceneObject center {"hint":"Center point of the circle"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Pattern Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of radial slices and elements per slice</span>"}'
+    - '// @input float xSlices = 8 {"hint":"Number of slices (radial divisions)"}'
+    - '// @input float yElementsPerSlice = 5 {"hint":"Number of elements per slice"}'
+    - '// @input float radius = 5 {"hint":"Radius of the circle"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<RenderMeshVisual/99bcfd45-69fd-41c7-536e-30b26c8ea16c>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  Mesh: !<reference> 61fea7af-4298-4786-9c36-f20c0f943033
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<ScriptAssetData/99cdbdac-2a95-4b9f-9d79-df5e32e5c647>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: eb178796-7203-42fa-9f1f-930deb65e603
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/9a40d583-562d-8154-cf70-61cc251af8c0>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> d94fcf1c-f2eb-44b5-a487-7d61d9885a83
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> d94fcf1c-f2eb-44b5-a487-7d61d9885a83
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 5e20beda-ede0-41f6-9e90-699cd5948fd0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/9d456f20-9efa-4618-66d2-cbcc71b019c8>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/9ee7a5d1-8809-4d77-9467-233791691f58>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 35956e7c-71d9-4fa2-a94e-c492f7e4efca
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 35956e7c-71d9-4fa2-a94e-c492f7e4efca
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> fc57760b-6397-4fb5-84ba-a27f9858d1ea
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/9fa39259-4206-469c-5efe-eb0f9c43a46f>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f01de7c0-8779-4d73-9e07-41ad5742d8cb
+  Mesh: !<reference> 8bf77adf-6549-4a67-9410-e10a601ff0e2
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/a2e736dc-08f8-4147-56a9-3a785827c979>
+  PrefabRemaps:
+    []
+  Name: "[Instantiation]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> dd62f69e-ec50-4478-47f7-37bc3706e568
+    - !<own> b1c90adb-4873-4139-436a-f820f032d95c
+    - !<own> 6d99d40d-ec1a-4c48-578d-f99d970dfbd6
+    - !<own> 4a25ff29-606d-443a-6c24-417a1a8ac389
+    - !<own> 9906ca43-526b-4300-79b6-5bc4fe355b56
+    - !<own> 763f8960-8f44-48ec-61d3-b24125d29233
+    - !<own> 14ff4bd8-9443-4444-7f6e-32e155b53c64
+    - !<own> c5c69b19-fb9f-4489-4dde-472dc5dd3887
+    - !<own> cc281062-0e5a-454a-525f-db0f66321f89
+    - !<own> b2060fb9-1106-4c68-612c-9d7d00a7cc28
+    - !<own> 4b7e9137-cb00-46b5-6b73-34b0d8d65411
+    - !<own> e47fb0cb-9073-4c6f-7c77-5b1f78178105
+    - !<own> 982e670f-b208-4b99-518b-de41e11ac395
+    - !<own> b1daf219-2f64-4428-6d3d-638972bb8b06
+    - !<own> 94f660a0-3dcc-472f-7566-78ccb55a51d3
+    - !<own> 02dcd72a-3955-4897-5367-436ce9104307
+  Components:
+    []
+- !<SceneObject/a31e8145-14d7-4a60-6ce7-4fe35c6eaa96>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> cd51aafb-bf16-4e87-7d17-aebaf1f02971
+- !<SceneObject/a4caec4d-146e-4901-7be8-8a726cbf6b49>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ea545f8c-5f32-4442-66f0-e574f2bb5e8a
+- !<ScriptComponent/a60be1a8-f6ff-49a5-6e42-0dcaaf2b32dd>
+  PrefabRemaps:
+    []
+  Name: SimpleColliderInstantiatorTS
+  Enabled: true
+  ScriptAsset: !<reference> 2c9a6d9f-5c17-4951-b6ea-ccbac4b9fc96
+  ScriptInputsDefault:
+    numberOfInstances: true
+    instantiateInside: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 07dd45dd-19db-4a0d-b07d-b4f49600179e
+      targetObject: !<reference.SceneObject> 34d604d8-cdc4-443b-6beb-f7d9b7e2ebd3
+      numberOfInstances: !<float> 10.000000
+      instantiateInside: true
+      prefabScale: !<float> 3.000000
+      randomScaleVariation: !<float> 8.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/a70e4cc3-7714-4029-612c-1249dfc8ef99>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnSphereSurfaceTS
+  Enabled: true
+  ScriptAsset: !<reference> cc776ae8-0ef9-4d9f-bd45-a6a77c48384b
+  ScriptInputsDefault:
+    numberOfPoints: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sphere: !<reference.SceneObject> 5746c734-a393-4ee1-402b-00209f7ed2ff
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 10.000000
+      radius: !<float> 20.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/a9b59709-aee8-420e-6c9a-07c48dc02241>
+  PrefabRemaps:
+    []
+  Name: SimpleColliderInstantiatorTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> a60be1a8-f6ff-49a5-6e42-0dcaaf2b32dd
+- !<RenderMeshVisual/a9e688e3-9879-47ca-7ae5-9e0c1077e8fa>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ee1073b-935e-4720-87ab-0219afccb6f9
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<TypeScriptAssetData/aa7c2782-0afb-46b2-a75c-de192849c404>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: fac90ae7-e802-4c0f-b8a2-0bcbb9dbddb8
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    gridCenter: false
+    gridDepth: false
+    gridHeight: false
+    gridWidth: false
+    prefab: false
+    spacingX: false
+    spacingY: false
+    spacingZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      gridCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      gridDepth: !<float> 5.000000
+      spacingX: 1.500000
+      spacingY: 1.500000
+      spacingZ: 1.500000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Grid Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Specify the prefab and center point for the 3D grid layout</span>"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"The prefab to instantiate"}'
+    - '// @input SceneObject gridCenter {"hint":"The center of the grid"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Grid Dimensions</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the grid size along X, Y, and Z axes</span>"}'
+    - '// @input float gridWidth = 5 {"hint":"Number of elements along the X axis"}'
+    - '// @input float gridHeight = 5 {"hint":"Number of elements along the Y axis"}'
+    - '// @input float gridDepth = 5 {"hint":"Number of elements along the Z axis"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Spacing Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure spacing between elements in all three dimensions</span>"}'
+    - '// @input float spacingX = 1.5 {"hint":"Spacing between elements in the X direction"}'
+    - '// @input float spacingY = 1.5 {"hint":"Spacing between elements in the Y direction"}'
+    - '// @input float spacingZ = 1.5 {"hint":"Spacing between elements in the Z direction"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ScriptComponent/ab561bb8-0624-4f53-4c86-c3098bec87be>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorWithFixedArcLengthTS
+  Enabled: true
+  ScriptAsset: !<reference> 7e5193c1-99e9-447a-b0eb-0844989a52df
+  ScriptInputsDefault:
+    startAngle: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 275ab3ea-b772-4867-49e3-0b7212b10b50
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      radius: !<float> 20.000000
+      numberOfPrefabs: !<float> 8.000000
+      arcLength: !<float> 4.000000
+      startAngle: !<float> 0.000000
+      arcAngleSpan: !<float> 60.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/aca197a2-c5c7-5020-856e-4aedc2151be8>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> 51814681-9c44-47af-bd48-a16e611a286a
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> 51814681-9c44-47af-bd48-a16e611a286a
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> b2982ee8-ee4c-42cf-a032-aea9bc1d46e5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/add06774-ab78-4059-5028-b76496dcc998>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnSphereSurfaceJS
+  Enabled: true
+  ScriptAsset: !<reference> d94fcf1c-f2eb-44b5-a487-7d61d9885a83
+  ScriptInputsDefault:
+    numberOfPoints: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      sphere: !<reference.SceneObject> 5746c734-a393-4ee1-402b-00209f7ed2ff
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 10.000000
+      radius: !<float> 20.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/ae7cf280-e52d-43ee-4588-3fb092e6518c>
+  PrefabRemaps:
+    []
+  Name: CircleAreaInstantiatorJS
+  Enabled: true
+  ScriptAsset: !<reference> 35956e7c-71d9-4fa2-a94e-c492f7e4efca
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 39fb5de9-040d-4cd9-503c-11e1b4e645aa
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPrefabs: !<float> 20.000000
+      radius: !<float> 40.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptComponent/af5e9619-2b09-49fe-49ab-83c946350a25>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineWithFixedDistanceJS
+  Enabled: true
+  ScriptAsset: !<reference> b4ab33a2-e542-486b-969b-3c989b03d01d
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      startPoint: !<reference.SceneObject> e818f67a-7a08-444d-7f53-96655b585697
+      endPoint: !<reference.SceneObject> 21291142-948f-4ff9-7839-4dba4584e747
+      fixedDistance: !<float> 8.000000
+  ScriptTypes:
+    "":
+      {}
+- !<TypeScriptAssetData/b02ff28d-6444-40d4-8837-599996cc8422>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: cd41d8b8-0f80-4da2-907f-3b0aa5f475af
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 5.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Circle Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the center point and prefab to instantiate along the circle perimeter</span>"}'
+    - '// @input SceneObject center {"hint":"Center of the circle"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure the number of objects and radius of the circle</span>"}'
+    - '// @input float numberOfPrefabs = 10 {"hint":"Number of prefabs to instantiate"}'
+    - '// @input float radius = 5 {"hint":"Radius of the circle"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ScriptComponent/b08c965a-a3d8-4484-6c2e-2c7f8293da05>
+  PrefabRemaps:
+    []
+  Name: SquareAreaInstantiatorJS
+  Enabled: true
+  ScriptAsset: !<reference> f7e7871d-fb09-4b60-84ed-584f34a6aa35
+  ScriptInputsDefault:
+    numberOfPrefabs: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> a4caec4d-146e-4901-7be8-8a726cbf6b49
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      numberOfPrefabs: !<float> 10.000000
+      size: !<float> 10.000000
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptAssetData/b0a3290e-7b24-436d-bea6-7c32af6e9f66>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 0eda1001-4396-4fbf-a54a-e4dded4016b7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    endPoint: false
+    fixedDistance: false
+    prefab: false
+    startPoint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      startPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      fixedDistance: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<SceneObject/b0e7fbeb-8828-41e1-57b4-db4899b204b8>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 100.000000, y: 100.000000, z: 100.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 40966528-b0ac-496d-5a56-ecb13760378f
+    - !<own> 7f93a8b9-3139-43d9-4187-4917bd6f57b0
+- !<SceneObject/b155bbd8-21f1-413b-77a1-30db0736276b>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 249c0928-010b-452f-465d-f9a2a66c919c
+- !<SceneObject/b1c90adb-4873-4139-436a-f820f032d95c>
+  PrefabRemaps:
+    []
+  Name: "[CircleAreaInstantiator]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 5d65f098-5663-48e1-461e-b5518e10e66c
+    - !<own> c2bec7be-c5a7-4b47-794e-4b56d8bbc9f1
+    - !<own> 39fb5de9-040d-4cd9-503c-11e1b4e645aa
+  Components:
+    []
+- !<SceneObject/b1daf219-2f64-4428-6d3d-638972bb8b06>
+  PrefabRemaps:
+    []
+  Name: "[SimpleCircleAreaInstantiator]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> df366d7d-ba83-42f8-4179-8335160a8082
+    - !<own> 1f26aa59-4155-4b75-41f9-23f84ac9d1b1
+    - !<own> 557fe707-5138-4c6c-52cc-df4848324286
+  Components:
+    []
+- !<SceneObject/b20138f3-cc10-4b64-5f1f-3afd6dc3c693>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7773f731-ef84-4c31-6e2f-34239766541e
+- !<SceneObject/b2060fb9-1106-4c68-612c-9d7d00a7cc28>
+  PrefabRemaps:
+    []
+  Name: "[RandomPointsInsideBox]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 43565d20-ed55-4c23-50fa-a29a17da5f28
+    - !<own> 6ee52bc2-b954-41eb-4ebb-d6ed05b3112a
+    - !<own> 79db9057-affb-44cb-7d96-0dbcef18da2a
+  Components:
+    []
+- !<ScriptAssetData/b2982ee8-ee4c-42cf-a032-aea9bc1d46e5>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 991f8458-eee5-4117-8ead-2f1905a7af4d
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/b3311978-b166-da17-13ca-f644f92a66aa>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 243dc8c6-525c-4cb0-b5c6-47a5bae5c9f6
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/b37cb1e7-38c2-4030-5e3c-d5d690136955>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/b4bf225d-fbbf-44ef-5693-dd2dc0806be5>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnBoxSurfaceJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 4d83342f-6eec-4644-7cfb-e0aac335b1bf
+- !<ScriptComponent/b544fb22-708c-4911-5f6d-44ee4b995793>
+  PrefabRemaps:
+    []
+  Name: Line
+  Enabled: true
+  ScriptAsset: !<reference> 9d25c108-aee3-4447-a244-cc250e8de417
+  ScriptInputsDefault:
+    _beginColor: true
+    _endColor: true
+    lineWidth: true
+    lineLength: true
+    lineStyle: true
+    shouldStick: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      startPointObject: !<reference.SceneObject> 59db6719-fd24-4b68-4677-5b49798d7a4c
+      endPointObject: !<reference.SceneObject> 26730ae9-e3e8-457e-7bf0-5e13deca313c
+      lineMaterial: !<reference.Material> 515adedb-808a-4b69-af91-2565a9dc2a21
+      _beginColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      _endColor: !<Vec3> {x: 1.000000, y: 1.000000, z: 0.000000}
+      lineWidth: 0.500000
+      lineLength: !<float> 160.000000
+      lineStyle: !<float> 2.000000
+      shouldStick: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<TypeScriptAssetData/b6139cbf-d06c-44e9-be10-1e5290b5c5e0>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: c45ebe85-6c1a-424d-ba12-338bf8d67fbe
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    gridCenter: false
+    gridHeight: false
+    gridWidth: false
+    prefab: false
+    spacingX: false
+    spacingY: false
+    zPosition: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      gridCenter: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      spacingX: 1.500000
+      spacingY: 1.500000
+      zPosition: !<float> 0.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Grid Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Specify the prefab and center point for the grid layout</span>"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"The prefab to instantiate"}'
+    - '// @input SceneObject gridCenter {"hint":"The center of the grid"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Grid Dimensions</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the grid size along X and Z axes</span>"}'
+    - '// @input float gridWidth = 5 {"hint":"Number of elements along the X axis"}'
+    - '// @input float gridHeight = 5 {"hint":"Number of elements along the Z axis"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Spacing & Position</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Configure spacing between elements and Z position offset</span>"}'
+    - '// @input float spacingX = 1.5 {"hint":"Spacing between elements in the X direction"}'
+    - '// @input float spacingY = 1.5 {"hint":"Spacing between elements in the Z direction"}'
+    - '// @input float zPosition {"hint":"Fixed Y position for all elements on the XZ plane"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<AssetImportMetadata/bf5c2d03-993d-21ef-d410-ad717c3f1275>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cc776ae8-0ef9-4d9f-bd45-a6a77c48384b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cc776ae8-0ef9-4d9f-bd45-a6a77c48384b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 01d5e5b5-6995-483c-afdb-5d336fe547c3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/c2bec7be-c5a7-4b47-794e-4b56d8bbc9f1>
+  PrefabRemaps:
+    []
+  Name: CircleAreaInstantiatorJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> ae7cf280-e52d-43ee-4588-3fb092e6518c
+- !<ScriptAssetData/c36e459f-b053-4cf4-9e0e-a91bdf4bf73f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 259b1e10-444d-4a3d-9900-cf267441c39e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boxObject: false
+    numberOfPoints: false
+    prefab: false
+    sizeX: false
+    sizeY: false
+    sizeZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boxObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 1.000000
+      sizeY: !<float> 1.000000
+      sizeZ: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<SceneObject/c3b741a5-546f-489e-7775-ec513d99863e>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn2DGrids
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> d8b87953-7142-4fbc-5a5a-9215d3482e0d
+- !<SceneObject/c412a57c-94a3-4f6f-526f-8da0841ab09d>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fd9bcd79-ab82-4856-7ae2-7e998e18d64e
+- !<SceneObject/c4171ea0-4de6-45e3-7724-4a86e76da2da>
+  PrefabRemaps:
+    []
+  Name: InstantiateAlongLineWithFixedDistanceJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> af5e9619-2b09-49fe-49ab-83c946350a25
+- !<RenderMeshVisual/c596c056-4931-4255-7553-264dd5e89066>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/c5c69b19-fb9f-4489-4dde-472dc5dd3887>
+  PrefabRemaps:
+    []
+  Name: "[InstantiateOn2DGrids]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> c3b741a5-546f-489e-7775-ec513d99863e
+    - !<own> d6e004db-0cc5-4e30-56e8-cc4ad33ff92b
+    - !<own> c412a57c-94a3-4f6f-526f-8da0841ab09d
+  Components:
+    []
+- !<ScriptComponent/c6ebea81-3171-49f3-7337-e94deb3381be>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn3DGridsJS
+  Enabled: true
+  ScriptAsset: !<reference> f74eb34b-36b1-4bb3-a66b-b4ef56ef60b0
+  ScriptInputsDefault:
+    gridWidth: true
+    gridHeight: true
+    gridDepth: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+      gridCenter: !<reference.SceneObject> f3687caa-c24e-429b-5d97-c9ee94a0c13c
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      gridDepth: !<float> 5.000000
+      spacingX: !<float> 10.000000
+      spacingY: !<float> 10.000000
+      spacingZ: !<float> 10.000000
+  ScriptTypes:
+    "":
+      {}
+- !<RenderMeshVisual/c6ef5669-8256-4662-57d9-803d2be16e00>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 9ee1073b-935e-4720-87ab-0219afccb6f9
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/c7e63783-5760-c046-6014-7af3bb43faed>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 07dd45dd-19db-4a0d-b07d-b4f49600179e
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 07dd45dd-19db-4a0d-b07d-b4f49600179e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> e4883041-bf7f-47f6-9e61-64758fba7e8f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/c7ec2353-a4e0-ca88-a343-770969b4d9a7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 9e441b7f-b49f-4bf2-a045-cc5777e839e1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 9e441b7f-b49f-4bf2-a045-cc5777e839e1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b02ff28d-6444-40d4-8837-599996cc8422
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/caff6812-bba1-4a7f-43d9-45c1b7c158e5>
+  PrefabRemaps:
+    []
+  Name: RandomPointsOnBoxSurfaceTS
+  Enabled: true
+  ScriptAsset: !<reference> 1a63a19a-d7c6-423f-9cbc-7ff094ea6552
+  ScriptInputsDefault:
+    numberOfPoints: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      boxObject: !<reference.SceneObject> eaabdffa-cc41-4f44-69fd-dbbf5547d334
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 20.000000
+      sizeY: !<float> 20.000000
+      sizeZ: !<float> 20.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/cc281062-0e5a-454a-525f-db0f66321f89>
+  PrefabRemaps:
+    []
+  Name: "[InstantiateOn3DGrids]"
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 4788e227-0810-4301-4974-1f5ebc3ca903
+    - !<own> 0252df96-a9fd-4edf-4e58-ad19e9e9155f
+    - !<own> f3687caa-c24e-429b-5d97-c9ee94a0c13c
+  Components:
+    []
+- !<AssetImportMetadata/cc8c9557-d636-bf68-d567-e9e024cf347d>
+  ImportedAssetIds:
+    JsonAsset: !<reference> f53941d1-b04e-44d3-9cc0-dbd04f1346e4
+  ImporterName: JsonAssetImporter
+  PrimaryAsset: !<reference> f53941d1-b04e-44d3-9cc0-dbd04f1346e4
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/cd51aafb-bf16-4e87-7d17-aebaf1f02971>
+  PrefabRemaps:
+    []
+  Name: CirclePerimeterInstantiatorJS
+  Enabled: true
+  ScriptAsset: !<reference> 51814681-9c44-47af-bd48-a16e611a286a
+  ScriptInputsDefault:
+    {}
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      center: !<reference.SceneObject> 5e4d9463-1eb4-49a7-7dad-8a3b8a6984fb
+      prefab: !<reference.ObjectPrefab> 405fc0a1-70c1-49c4-aade-3a09eeb11276
+      numberOfPrefabs: !<float> 20.000000
+      radius: !<float> 40.000000
+  ScriptTypes:
+    "":
+      {}
+- !<SceneObject/ce172210-4de7-44d7-45eb-129a33f22b8f>
+  PrefabRemaps:
+    []
+  Name: Sphere
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 10.000000, y: 10.000000, z: 10.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 7234814d-109f-4e88-5a4d-9490187697b6
+- !<AssetImportMetadata/d1a261a4-a3b0-577f-5d84-d3d89bcbef94>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 50f7682d-008b-4062-ba82-808e04d28566
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 50f7682d-008b-4062-ba82-808e04d28566
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7083edfd-2a71-4052-a0b2-10f451ece81d
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ObjectPrefabAssetData/d3d37b69-8d55-4481-a690-2a1d7f6c01a3>
+  Prototype: !<ObjectOwner/af24e772-adb2-43f6-9d7f-aeaaf8fafe89>
+    PackagePath: ""
+    objects:
+      - !<own> 51e100a6-17e9-4d43-43f9-53997b197171
+- !<AssetImportMetadata/d5a1968c-3822-5037-5d93-02e77f2a4eaa>
+  ImportedAssetIds:
+    FileMesh: !<reference> 61fea7af-4298-4786-9c36-f20c0f943033
+  ImporterName: FileMeshImporter
+  PrimaryAsset: !<reference> 61fea7af-4298-4786-9c36-f20c0f943033
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<FileMeshImporterSettings>
+    ModifiedVertexFormats:
+      normal: Float
+      position: Float
+      tangent: Float
+      texture0: Float
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/d6e004db-0cc5-4e30-56e8-cc4ad33ff92b>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn2DGridsJS
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> f0c8d454-6f1e-4bf5-50ed-62d35f5f4f44
+- !<AssetImportMetadata/d72eea37-3382-7c53-82ba-034c352d09f7>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 931b77a6-90f6-47e6-9f6f-0a5345457ef2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 931b77a6-90f6-47e6-9f6f-0a5345457ef2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 07c466fa-47d6-49ea-8080-7d701f984224
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d7db59ee-f614-4086-abb8-bcca1d380c27>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f1d6e89e-c0db-425c-9a65-242f12397cce
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    enableLogging: false
+    enableLoggingLifecycle: false
+    endPoint: false
+    numberOfObjects: false
+    prefab: false
+    startPoint: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      startPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endPoint: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      numberOfObjects: !<float> 10.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Line Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Define the prefab and start/end points for the line</span>"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"The prefab to instantiate"}'
+    - '// @input SceneObject startPoint {"hint":"The start point of the line"}'
+    - '// @input SceneObject endPoint {"hint":"The end point of the line"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Distribution Settings</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Specify how many objects to place along the line</span>"}'
+    - '// @input float numberOfObjects = 10 {"hint":"Number of objects to instantiate along the line"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging Configuration</span>"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Control logging output for this script instance</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging (animation cycles, events, etc.)"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy, etc.)"}'
+- !<ScriptComponent/d8b87953-7142-4fbc-5a5a-9215d3482e0d>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn2DGridsTS
+  Enabled: true
+  ScriptAsset: !<reference> 23b8201f-6b52-4718-b1dd-dc0d7b3821cb
+  ScriptInputsDefault:
+    zPosition: true
+    enableLogging: true
+    enableLoggingLifecycle: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> d6b9ce71-b4ae-4827-8134-77b317b35bc8
+      gridCenter: !<reference.SceneObject> c412a57c-94a3-4f6f-526f-8da0841ab09d
+      gridWidth: !<float> 10.000000
+      gridHeight: !<float> 10.000000
+      spacingX: !<float> 50.000000
+      spacingY: !<float> 50.000000
+      zPosition: !<float> 0.000000
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    "":
+      {}
+- !<ScriptAssetData/d904dde1-a43c-474b-b19c-444e28869cd7>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 61049a96-a4de-42f7-8b9d-cad315ceebf2
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boxObject: false
+    numberOfPoints: false
+    prefab: false
+    sizeX: false
+    sizeY: false
+    sizeZ: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - boxObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      sizeX: !<float> 1.000000
+      sizeY: !<float> 1.000000
+      sizeZ: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<SceneObject/dd62f69e-ec50-4478-47f7-37bc3706e568>
+  PrefabRemaps:
+    []
+  Name: GUIDE_ReadAndDisable
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -150.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> fedc2f97-8215-475f-5a5f-d7e48f14dec5
+- !<AssetImportMetadata/dddb1190-7fd5-b072-2cf2-affc003e9196>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 5fd91f90-7201-427d-b2e5-9fe0d434e3b6
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 5fd91f90-7201-427d-b2e5-9fe0d434e3b6
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 0e0d23b4-fead-43d9-bf6d-b1f88d1ee3ff
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/df111461-bb3c-4810-67dd-303ca95646c4>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/df366d7d-ba83-42f8-4179-8335160a8082>
+  PrefabRemaps:
+    []
+  Name: SimpleCircleAreaInstantiatorTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 1298939a-6ece-4607-704a-548abd277269
+- !<RenderMeshVisual/dfc0c9d4-3d7e-45dc-775d-edf07d672c82>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: false
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 467d7528-8dad-404c-9d53-23515a675f92
+  Mesh: !<reference> e542623c-1432-4bfa-881d-a28905bd9e57
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<AssetImportMetadata/e1eb46eb-09c0-c30b-6f6d-71c03f591069>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 1a63a19a-d7c6-423f-9cbc-7ff094ea6552
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 1a63a19a-d7c6-423f-9cbc-7ff094ea6552
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 2b60cf92-2958-49a9-af21-a21fb5b109ee
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/e47fb0cb-9073-4c6f-7c77-5b1f78178105>
+  PrefabRemaps:
+    []
+  Name: "[RandomPointsOnBoxSurface]"
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -50.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 336f511c-260a-4fd4-6ba0-ca9ccf263849
+    - !<own> b4bf225d-fbbf-44ef-5693-dd2dc0806be5
+    - !<own> eaabdffa-cc41-4f44-69fd-dbbf5547d334
+  Components:
+    []
+- !<ObjectPrefabAssetData/e4883041-bf7f-47f6-9e61-64758fba7e8f>
+  Prototype: !<ObjectOwner/dda04cae-28f0-4b98-8351-2ee44fa690f0>
+    PackagePath: ""
+    objects:
+      - !<own> 660fe018-89df-47d0-5aaa-fcc15f8ed137
+- !<SceneObject/e818f67a-7a08-444d-7f53-96655b585697>
+  PrefabRemaps:
+    []
+  Name: LineStart
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: -10.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 2.000000, y: 2.000000, z: 2.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 04d0a651-cf55-4257-780b-4fc48f919766
+- !<AssetImportMetadata/e8cd84d1-df98-be03-d56e-1bc488ef12e6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 4dd3408b-f78b-45cb-8936-f8f69e4ba764
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 4dd3408b-f78b-45cb-8936-f8f69e4ba764
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 353cc707-16b2-4a9f-984c-d55da7d8c4e8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/ea545f8c-5f32-4442-66f0-e574f2bb5e8a>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/eaabdffa-cc41-4f44-69fd-dbbf5547d334>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 12ed7094-c725-46cd-5b91-585e940edaf0
+- !<AssetImportMetadata/f05ef127-fa72-1942-197e-c259504eab05>
+  ImportedAssetIds:
+    Material: !<reference> c1492b54-db21-4312-8d92-1dda7ffb2a9e
+  ImporterName: MaterialImporter
+  PrimaryAsset: !<reference> c1492b54-db21-4312-8d92-1dda7ffb2a9e
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptComponent/f0c8d454-6f1e-4bf5-50ed-62d35f5f4f44>
+  PrefabRemaps:
+    []
+  Name: InstantiateOn2DGridsJS
+  Enabled: true
+  ScriptAsset: !<reference> 3231aa44-73ba-4f46-bfc5-461417144552
+  ScriptInputsDefault:
+    gridWidth: true
+    gridHeight: true
+    zPosition: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      prefab: !<reference.ObjectPrefab> d6b9ce71-b4ae-4827-8134-77b317b35bc8
+      gridCenter: !<reference.SceneObject> c412a57c-94a3-4f6f-526f-8da0841ab09d
+      gridWidth: !<float> 5.000000
+      gridHeight: !<float> 5.000000
+      spacingX: !<float> 10.000000
+      spacingY: !<float> 10.000000
+      zPosition: !<float> 0.000000
+  ScriptTypes:
+    "":
+      {}
+- !<AssetImportMetadata/f1c23c5e-5c0b-fb0d-bd31-14c878ffd9a1>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> cf63a360-c581-43dc-9e37-3bbaf4c5be34
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> cf63a360-c581-43dc-9e37-3bbaf4c5be34
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f25ae8ab-670d-fe0b-3e5d-67a34ad9de84>
+  ImportedAssetIds:
+    ShaderGraph: !<reference> c8842644-8f90-4dd2-bace-4e60e63ec2fa
+  ImporterName: ShaderGraphPassImporter
+  PrimaryAsset: !<reference> c8842644-8f90-4dd2-bace-4e60e63ec2fa
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    {}
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/f32d82d9-cf6b-ddb8-c38b-d69f6983e8f0>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> d6b9ce71-b4ae-4827-8134-77b317b35bc8
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> d6b9ce71-b4ae-4827-8134-77b317b35bc8
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> 390f6d58-c4f7-4bf1-b48a-559cedc7cfca
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/f3687caa-c24e-429b-5d97-c9ee94a0c13c>
+  PrefabRemaps:
+    []
+  Name: Center
+  Enabled: false
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 8bbcc622-1658-46c4-7600-1d78fc3faa80
+- !<AssetImportMetadata/f3c3d5ae-1c6d-fa11-da07-8a0e6c8320db>
+  ImportedAssetIds:
+    ObjectPrefab: !<reference> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+  ImporterName: ObjectPrefabImporter
+  PrimaryAsset: !<reference> 872c2c3d-9c78-48cb-baaf-d5f9bffd652c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    ObjectPrefab: !<own> d3d37b69-8d55-4481-a690-2a1d7f6c01a3
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/f6d07d45-5799-4175-a430-19a2f9ea97e6>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: f6d179ba-6e16-4435-b2a7-c6428520343a
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    numberOfPoints: false
+    prefab: false
+    radius: false
+    sphere: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - sphere: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPoints: !<float> 10.000000
+      radius: !<float> 1.000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/fb648ea1-e351-f21c-b5a5-44e978f66fb2>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 7e5193c1-99e9-447a-b0eb-0844989a52df
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 7e5193c1-99e9-447a-b0eb-0844989a52df
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 41d831ea-94ef-40bd-ac76-5cf2008d02d5
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AssetImportMetadata/fb68efb5-3bdf-3a32-25fc-b799dba4c248>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 23b8201f-6b52-4718-b1dd-dc0d7b3821cb
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 23b8201f-6b52-4718-b1dd-dc0d7b3821cb
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b6139cbf-d06c-44e9-be10-1e5290b5c5e0
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/fc57760b-6397-4fb5-84ba-a27f9858d1ea>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 395b27b8-a9ac-4820-9ee9-667d801135f7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    center: false
+    numberOfPrefabs: false
+    prefab: false
+    radius: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - center: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      numberOfPrefabs: !<float> 10.000000
+      radius: !<float> 5.000000
+  ScriptTypes:
+    -
+      {}
+- !<AssetImportMetadata/fd94d148-505e-8f10-ecaf-03f37a5753e4>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 33e6a4af-f8c5-4c27-993f-de59b005b422
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 33e6a4af-f8c5-4c27-993f-de59b005b422
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> aa7c2782-0afb-46b2-a75c-de192849c404
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<RenderMeshVisual/fd9bcd79-ab82-4856-7ae2-7e998e18d64e>
+  PrefabRemaps:
+    []
+  Name: Render Mesh Visual
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4da119c4-907b-46f1-bd35-9afcf7fa2524
+  Mesh: !<reference> f3cc8afc-cb20-4193-bb1a-39f896f0cd9a
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
+- !<SceneObject/fdf9cfcf-e4b1-428f-667a-a1d6b4fcbb72>
+  PrefabRemaps:
+    []
+  Name: LineTS
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 586e6c7c-56bb-4345-6665-f9d07b0c4572
+    - !<own> e818f67a-7a08-444d-7f53-96655b585697
+    - !<own> 21291142-948f-4ff9-7839-4dba4584e747
+  Components:
+    []
+- !<ColliderComponent/fe5ea502-65e3-4302-756b-417a8e0a9330>
+  PrefabRemaps:
+    []
+  Name: Physics Collider
+  Enabled: true
+  Shape: !<Box>
+    FitVisual: true
+    Size: {x: 15.000000, y: 15.000000, z: 15.000000}
+  Matter: !<reference> 00000000-0000-0000-0000-000000000000
+  Filter: !<reference> 00000000-0000-0000-0000-000000000000
+  OverlapFilter: !<reference> 00000000-0000-0000-0000-000000000000
+  WorldSettings: !<reference> 00000000-0000-0000-0000-000000000000
+  EnableSmoothing: false
+  PositionTension: 30.000000
+  RotationTension: 30.000000
+  ForceCompound: false
+  Intangible: false
+  ShowCollider: false
+- !<Text/fedc2f97-8215-475f-5a5f-d7e48f14dec5>
+  PrefabRemaps:
+    []
+  Name: Text
+  Enabled: true
+  RenderOrder: 10
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Left
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Text: Toggle through all of the examples of instantiation in Typescript and Javascript in the Scene hierarchy
+  Editable: false
+  ShowEditingPreview: true
+  TouchHandler: !<reference> 00000000-0000-0000-0000-000000000000
+  SizeToFit: false
+  FontSize: 100
+  Font: !<reference> 00000000-0000-0000-0000-000000000000
+  LayoutRect:
+    left: -20.000000
+    bottom: -2.250000
+    right: 20.000000
+    top: 2.250000
+  OverflowVertical: Overflow
+  OverflowHorizontal: Wrap
+  Fill: !<TextFill>
+    Mode: Solid
+    Color: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    Texture: !<reference> 00000000-0000-0000-0000-000000000000
+    ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+    TileCount: 5.000000
+    TileZone: Rect
+    TextureStretch: FitWidth
+  BlendMode: PremultipliedAlpha
+  Outline: !<OutlineSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Size: 0.250000
+  Dropshadow: !<DropshadowSettings>
+    Enabled: false
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.000000, y: 0.000000, z: 0.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    OffsetX: 0.250000
+    OffsetY: 0.250000
+  Background: !<BackgroundSettings>
+    Enabled: true
+    Fill: !<TextFill>
+      Mode: Solid
+      Color: {x: 0.016800, y: 0.198352, z: 1.000000, w: 1.000000}
+      Texture: !<reference> 00000000-0000-0000-0000-000000000000
+      ColorTint: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      TileCount: 5.000000
+      TileZone: Rect
+      TextureStretch: FitWidth
+    Margins:
+      left: 0.500000
+      bottom: 0.500000
+      right: 0.500000
+      top: 0.500000
+    CornerRadius: 1.000000
+  AdvancedLayout: !<TextAdvancedLayout>
+    ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+    LetterSpacing: 0.000000
+    LineSpacing: 1.000000
+    CapitalizationOverride: None
+  DepthTest: false
+  TwoSided: false

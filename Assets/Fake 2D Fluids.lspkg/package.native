@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/7e805323-dde2-4674-8014-a46c652cc30e>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Fake 2D Fluids This asset allows you to create interactive 2d fluid effects for any fire and smoke simulations. It is fully customizable. Click here to learn more about Material Editor
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 53f6f628-633a-47d1-a250-ed812aab46b8
+  ComponentUid: 97984710-39b8-4c43-86a9-ecb1155a86f3
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

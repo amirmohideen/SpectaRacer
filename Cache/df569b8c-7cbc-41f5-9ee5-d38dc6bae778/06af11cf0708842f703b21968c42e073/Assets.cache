@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    dbae9316-359e-4f62-9db3-e972cb17e8cc: df569b8c-7cbc-41f5-9ee5-d38dc6bae778/06af11cf0708842f703b21968c42e073/Data/road_sign_give_way_bitmoji.mesh
+  Assets:
+    - !<FileMesh/dbae9316-359e-4f62-9db3-e972cb17e8cc>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 244
+        Vertices: 220
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 61.355385, y: 151.086761, z: 9.658806}
+  SourceHash: 06af11cf0708842f703b21968c42e073
+  FileHash: d6d44c50d88fe9a42707ca0d69aa69d5
+  NativePackageItems:
+    []

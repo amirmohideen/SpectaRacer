@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    45192ff5-3437-43b1-ab33-95af4c250070: c045a8dc-f548-9ee3-ddb6-c908da90e065/20320cb5198ae621177691f9b8cf1125/Data/veh_cabrio_pink_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/45192ff5-3437-43b1-ab33-95af4c250070>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 20320cb5198ae621177691f9b8cf1125
+  FileHash: 96e117b00ed2dbfb724603b92d66b9fd
+  NativePackageItems:
+    []

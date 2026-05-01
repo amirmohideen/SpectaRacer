@@ -1,0 +1,37 @@
+- !<NativePackageDescriptor/aa4e5bac-8d3b-4424-8891-048f290085b7>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: Blizzard VFX This package contains the high quality Blizzard VFX asset. You can customize this particle system using VFX Editor. Click here to learn more about VFX Editor
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: ec18f7ef-2877-41f1-af3b-8d62a6d4e422
+  ComponentUid: 01ab3223-98d7-41e6-9aa1-9735bfe978b7
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

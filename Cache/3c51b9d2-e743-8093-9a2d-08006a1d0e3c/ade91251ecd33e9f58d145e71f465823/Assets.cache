@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e476dc1f-094e-4517-b490-4a3c438da24a: 3c51b9d2-e743-8093-9a2d-08006a1d0e3c/ade91251ecd33e9f58d145e71f465823/Data/pattern_sign_stop.png
+  Assets:
+    - !<FileTexture/e476dc1f-094e-4517-b490-4a3c438da24a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: ade91251ecd33e9f58d145e71f465823
+  FileHash: b618017c293d1a8c8a88487c92a330ea
+  NativePackageItems:
+    []

@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    79ab0882-caf4-4fa5-bcb2-9886a638c287: e5a672a4-bb13-4524-9f12-c16efad7454c/c2e3d9c3c4a521ebec0588f1be48725c/Data/Coin3R 2.mesh
+  Assets:
+    - !<FileMesh/79ab0882-caf4-4fa5-bcb2-9886a638c287>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 132
+        Vertices: 222
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 52.553986, y: 52.553986, z: 16.354961}
+  SourceHash: c2e3d9c3c4a521ebec0588f1be48725c
+  FileHash: eb247d4d3c537e2b94b5e4d3e01e52e3
+  NativePackageItems:
+    []

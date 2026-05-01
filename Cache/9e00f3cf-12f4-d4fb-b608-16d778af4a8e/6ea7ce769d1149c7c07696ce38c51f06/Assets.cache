@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    d18e96d6-b2c8-41fe-a997-98ffed9882c2: 9e00f3cf-12f4-d4fb-b608-16d778af4a8e/6ea7ce769d1149c7c07696ce38c51f06/Data/Road_tileset_shadow.jpg
+  Assets:
+    - !<FileTexture/d18e96d6-b2c8-41fe-a997-98ffed9882c2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 6ea7ce769d1149c7c07696ce38c51f06
+  FileHash: c2f55cd8c8cdb4b0dbb510636ee5356c
+  NativePackageItems:
+    []

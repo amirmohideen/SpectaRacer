@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    da1da058-fa58-4f7e-9a51-56397ded43d0: 9ae7815b-1ccf-4350-9f57-7ab416b055fe/be7e1fb83339d9305214fa2c66191562/Data/road_parking_meter_bitmoji.mesh
+  Assets:
+    - !<FileMesh/da1da058-fa58-4f7e-9a51-56397ded43d0>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 1648
+        Vertices: 1208
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 22.940430, y: 99.960327, z: 13.748021}
+  SourceHash: be7e1fb83339d9305214fa2c66191562
+  FileHash: 5490e075bc4b8243d032d82812db7d85
+  NativePackageItems:
+    []

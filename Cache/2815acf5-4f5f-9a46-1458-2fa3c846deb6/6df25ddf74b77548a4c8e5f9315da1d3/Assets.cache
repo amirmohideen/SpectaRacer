@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    0925e85f-a07e-4fd2-b0fb-cd20f47c65ad: 2815acf5-4f5f-9a46-1458-2fa3c846deb6/6df25ddf74b77548a4c8e5f9315da1d3/Data/road_bike_sign_stand_bitmoji_ID.jpg
+  Assets:
+    - !<FileTexture/0925e85f-a07e-4fd2-b0fb-cd20f47c65ad>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 6df25ddf74b77548a4c8e5f9315da1d3
+  FileHash: ef235781188632df11850fd87150850f
+  NativePackageItems:
+    []

@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    ba297e83-1294-4ce7-97b5-7a4d68d52cf4: ee523696-8ead-991d-91c4-3a0eaf30e8b6/d165f87989d0d8d0d84b36c91572f85b/Data/road_street_light_AO.jpg
+  Assets:
+    - !<FileTexture/ba297e83-1294-4ce7-97b5-7a4d68d52cf4>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: d165f87989d0d8d0d84b36c91572f85b
+  FileHash: d5088f681349e799c70e58dded73e416
+  NativePackageItems:
+    []

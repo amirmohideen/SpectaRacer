@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    fed6ba5f-646a-4caa-a1fe-9f6df45ff407: eb0f289f-90a8-ac18-0018-f4b5a2e682dc/833f943b46426407bb4de7caa642b782/Data/veh_pickup_bitmoji_ID.png
+  Assets:
+    - !<FileTexture/fed6ba5f-646a-4caa-a1fe-9f6df45ff407>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 833f943b46426407bb4de7caa642b782
+  FileHash: 42c4595298ce42c9f1453c90efbc5267
+  NativePackageItems:
+    []

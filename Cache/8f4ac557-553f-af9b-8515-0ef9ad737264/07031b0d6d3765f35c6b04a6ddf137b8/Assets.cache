@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    aaa7f601-a7c5-4f89-b185-6c4f05ede3b2: 8f4ac557-553f-af9b-8515-0ef9ad737264/07031b0d6d3765f35c6b04a6ddf137b8/Data/road_traffic_light_bitmoji_AO.jpg
+  Assets:
+    - !<FileTexture/aaa7f601-a7c5-4f89-b185-6c4f05ede3b2>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 256
+        Height: 256
+  SourceHash: 07031b0d6d3765f35c6b04a6ddf137b8
+  FileHash: 113a14f68aed4e917b6628374fa86e36
+  NativePackageItems:
+    []

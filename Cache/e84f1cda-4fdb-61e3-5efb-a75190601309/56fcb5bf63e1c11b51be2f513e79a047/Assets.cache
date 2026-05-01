@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    dd537596-bf5e-4c17-b25f-8f87f3b07a23: e84f1cda-4fdb-61e3-5efb-a75190601309/56fcb5bf63e1c11b51be2f513e79a047/Data/1d_ramp_magma.png
+  Assets:
+    - !<FileTexture/dd537596-bf5e-4c17-b25f-8f87f3b07a23>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 1024
+        Height: 1
+  SourceHash: 56fcb5bf63e1c11b51be2f513e79a047
+  FileHash: 11e48ec48213ad76b5351e0b33d493bd
+  NativePackageItems:
+    []

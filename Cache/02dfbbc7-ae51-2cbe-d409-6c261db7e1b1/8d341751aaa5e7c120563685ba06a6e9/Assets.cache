@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    e61f838a-58f0-4947-9368-0516de334d0a: 02dfbbc7-ae51-2cbe-d409-6c261db7e1b1/8d341751aaa5e7c120563685ba06a6e9/Data/UpperBody.png
+  Assets:
+    - !<FileTexture/e61f838a-58f0-4947-9368-0516de334d0a>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 200
+        Height: 200
+  SourceHash: 8d341751aaa5e7c120563685ba06a6e9
+  FileHash: 636effa00e3c9c8d014c652edb62d8ca
+  NativePackageItems:
+    []

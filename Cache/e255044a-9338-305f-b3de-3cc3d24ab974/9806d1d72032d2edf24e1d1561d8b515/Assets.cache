@@ -1,0 +1,13 @@
+- !<AssetCache>
+  AssetFiles:
+    2cf83b06-b4e4-480d-86d5-7bc8bf73ce96: e255044a-9338-305f-b3de-3cc3d24ab974/9806d1d72032d2edf24e1d1561d8b515/Data/Matcap_Silver.jpg
+  Assets:
+    - !<FileTexture/2cf83b06-b4e4-480d-86d5-7bc8bf73ce96>
+      PackagePath: ""
+      FileInfo: !<FileTextureInfo>
+        Width: 512
+        Height: 512
+  SourceHash: 9806d1d72032d2edf24e1d1561d8b515
+  FileHash: 1ed4443d5e12481e9786b46c8ac7274a
+  NativePackageItems:
+    []

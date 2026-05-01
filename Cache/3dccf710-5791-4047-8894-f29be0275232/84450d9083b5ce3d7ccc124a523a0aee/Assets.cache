@@ -1,0 +1,17 @@
+- !<AssetCache>
+  AssetFiles:
+    44820082-478a-46c2-85fc-02f9b5ae7170: 3dccf710-5791-4047-8894-f29be0275232/84450d9083b5ce3d7ccc124a523a0aee/Data/Finish_gate.mesh
+  Assets:
+    - !<FileMesh/44820082-478a-46c2-85fc-02f9b5ae7170>
+      PackagePath: ""
+      Info: !<MeshInfo>
+        Triangles: 2092
+        Vertices: 1493
+        Blendshapes:
+          []
+        Joints: 0
+        AabbSize: {x: 213.403076, y: 85.626244, z: 44.635742}
+  SourceHash: 84450d9083b5ce3d7ccc124a523a0aee
+  FileHash: 37c0eb9f9867b68eea33014dfe98fdd3
+  NativePackageItems:
+    []
