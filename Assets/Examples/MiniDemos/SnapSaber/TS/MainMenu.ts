@@ -161,6 +161,7 @@ export class MainMenu extends BaseScriptComponent {
   private logger: Logger
 
   private startRain(): void {
+    if (this.weatherToggleSwitch && !this.weatherToggleSwitch.isOn) return
     if (this.rainAudio && !this.rainAudio.isPlaying()) {
       this.rainAudio.play(-1)
     }
@@ -281,8 +282,10 @@ export class MainMenu extends BaseScriptComponent {
       this.logger.warn("weatherObject not assigned")
       return
     }
-    this.weatherObject.enabled = value > 0.5
-    this.logger.info(`Weather switch changed — weather now ${this.weatherObject.enabled ? "enabled" : "disabled"}`)
+    const on = value > 0.5
+    this.weatherObject.enabled = on
+    if (!on) this.stopRain()
+    this.logger.info(`Weather switch changed — weather now ${on ? "enabled" : "disabled"}`)
   }
 
   private restartGame(): void {

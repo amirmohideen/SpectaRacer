@@ -1,0 +1,195 @@
+- !<ObjectPrefab/4b9e2489-ce4f-44d4-b174-28a2368c3426>
+  PackagePath: ""
+  objects:
+    - !<own> bf522178-a06e-49ee-9587-aae54d8228c0
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/31f426ff-7831-49f1-ab57-2aa6bfedc60e>
+  PrefabRemaps:
+    []
+  Name: Surface Onboarding 2 Fingers Dot
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: -0.105767, y: -0.386462, z: -80.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 92b12d75-2a81-41fa-9e7a-c1134cb9a8fa
+    - !<own> 4504bfad-febe-4740-8092-deef979abdcd
+    - !<own> 3ced78bd-652b-465c-a1a5-819dd83781b9
+- !<Image/3ced78bd-652b-465c-a1a5-819dd83781b9>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 39
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> 4f5c471c-89fd-434f-8d4a-25f29c04287f
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<ScreenTransform/3d8c0b84-fe3d-4143-a007-24b7c2aa18c7>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -2.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScriptComponent/4504bfad-febe-4740-8092-deef979abdcd>
+  PrefabRemaps:
+    []
+  Name: VisualDemonstration
+  Enabled: true
+  ScriptAsset: !<reference> f705ac27-bd04-41fe-8cf3-6d3f651318bf
+  ScriptInputsDefault:
+    autostart: true
+    showType: true
+    appearDelay: true
+    advanced: true
+    disableHiding: true
+    hideOnCapture: true
+    hideOnCameraSwitch: true
+    eventCallbacks: true
+    callbackType: true
+    onVisualDemonstrationStartBehaviors: true
+    onVisualDemonstrationFinishBehaviors: true
+    onVisualDemonstrationStartCustomTriggers: true
+    onVisualDemonstrationFinishCustomTriggers: true
+    customFunctionScript: true
+    onVisualDemonstrationStartFunctions: true
+    onVisualDemonstrationFinishFunctions: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      autostart: true
+      visualDemonstration: !<reference.BaseMeshVisual> 3ced78bd-652b-465c-a1a5-819dd83781b9
+      showType: 2
+      appearDelay: !<float> 0.000000
+      appearDuration: !<float> 0.000000
+      screenDuration: !<float> 4.000000
+      disappearDuration: 0.300000
+      repeatCount: 1
+      advanced: false
+      disableHiding: false
+      showOnce: true
+      hideOnCapture: true
+      hideOnCameraSwitch: true
+      eventCallbacks: false
+      callbackType: 0
+      onVisualDemonstrationStartBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationFinishBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationStartCustomTriggers: !<string[]>
+        []
+      onVisualDemonstrationFinishCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onVisualDemonstrationStartFunctions: !<string[]>
+        []
+      onVisualDemonstrationFinishFunctions: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenRegionComponent/6ca4b792-12d3-49c8-b669-29ba955a09d1>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<ScreenTransform/92b12d75-2a81-41fa-9e7a-c1134cb9a8fa>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: -0.105767, y: -0.386462, z: -80.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.356982
+    bottom: -0.224446
+    right: 0.317684
+    top: 0.147153
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<SceneObject/bf522178-a06e-49ee-9587-aae54d8228c0>
+  PrefabRemaps:
+    - 31f426ff-7831-49f1-ab57-2aa6bfedc60e: 31f426ff-7831-49f1-54a8-d559401239f1
+    - 3ced78bd-652b-465c-a1a5-819dd83781b9: 3ced78bd-652b-465c-5e5a-7e6227c87e46
+    - 3d8c0b84-fe3d-4143-a007-24b7c2aa18c7: 3d8c0b84-fe3d-4143-5ff8-db483d55e738
+    - 4504bfad-febe-4740-8092-deef979abdcd: 4504bfad-febe-4740-7f6d-211068654232
+    - 6ca4b792-12d3-49c8-b669-29ba955a09d1: 6ca4b792-12d3-49c8-4996-d6456aa5f62e
+    - 92b12d75-2a81-41fa-9e7a-c1134cb9a8fa: 92b12d75-2a81-41fa-6185-3eecb3465705
+    - bf522178-a06e-49ee-9587-aae54d8228c0: bf522178-a06e-49ee-6a78-551ab27dd73f
+  Name: Hint - Manipulate Dots 2F
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 31f426ff-7831-49f1-ab57-2aa6bfedc60e
+  Components:
+    - !<own> 6ca4b792-12d3-49c8-b669-29ba955a09d1
+    - !<own> 3d8c0b84-fe3d-4143-a007-24b7c2aa18c7

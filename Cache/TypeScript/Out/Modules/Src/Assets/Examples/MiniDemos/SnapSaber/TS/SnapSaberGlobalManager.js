@@ -67,15 +67,14 @@ let SnapSaberGlobalManager = (() => {
     var SnapSaberGlobalManager = _classThis = class extends _classSuper {
         constructor() {
             super();
-            this.scoreText = (__runInitializers(this, _instanceExtraInitializers), this.scoreText);
-            this.pointsPerHit = this.pointsPerHit;
-            this.maxTreeStrikes = this.maxTreeStrikes;
+            this.pointsPerHit = (__runInitializers(this, _instanceExtraInitializers), this.pointsPerHit);
+            this.maxEnemyStrikes = this.maxEnemyStrikes;
             this.coinAudio = this.coinAudio;
-            this.treeAudio = this.treeAudio;
+            this.enemyAudio = this.enemyAudio;
             this.enableLogging = this.enableLogging;
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
             this.score = 0;
-            this.treeStrikes = 0;
+            this.enemyStrikes = 0;
             this.isGameOver = false;
             this.lastHitTime = 0;
             this.hitCooldown = 0.1;
@@ -84,15 +83,14 @@ let SnapSaberGlobalManager = (() => {
         }
         __initialize() {
             super.__initialize();
-            this.scoreText = (__runInitializers(this, _instanceExtraInitializers), this.scoreText);
-            this.pointsPerHit = this.pointsPerHit;
-            this.maxTreeStrikes = this.maxTreeStrikes;
+            this.pointsPerHit = (__runInitializers(this, _instanceExtraInitializers), this.pointsPerHit);
+            this.maxEnemyStrikes = this.maxEnemyStrikes;
             this.coinAudio = this.coinAudio;
-            this.treeAudio = this.treeAudio;
+            this.enemyAudio = this.enemyAudio;
             this.enableLogging = this.enableLogging;
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
             this.score = 0;
-            this.treeStrikes = 0;
+            this.enemyStrikes = 0;
             this.isGameOver = false;
             this.lastHitTime = 0;
             this.hitCooldown = 0.1;
@@ -111,9 +109,8 @@ let SnapSaberGlobalManager = (() => {
             if (this.enableLoggingLifecycle)
                 this.logger.debug("LIFECYCLE: onStart()");
             this.score = 0;
-            this.treeStrikes = 0;
+            this.enemyStrikes = 0;
             this.isGameOver = false;
-            this.updateScoreDisplay();
             this.isInitialized = true;
             this.logger.info("SnapSaber Global Manager started");
         }
@@ -137,7 +134,6 @@ let SnapSaberGlobalManager = (() => {
             this.lastHitTime = currentTime;
             if (this.coinAudio)
                 this.coinAudio.play(1);
-            this.updateScoreDisplay();
             this.logger.info(`Coin hit! Score: ${this.score}`);
             if (targetObject) {
                 try {
@@ -152,19 +148,19 @@ let SnapSaberGlobalManager = (() => {
         registerHit(targetObject) {
             this.registerCoinHit(targetObject);
         }
-        registerTreeHit(targetObject) {
+        registerEnemyHit(targetObject) {
             if (!this.isInitialized || this.isGameOver)
                 return;
             const currentTime = getTime();
             if (currentTime - this.lastHitTime < this.hitCooldown)
                 return;
-            this.treeStrikes++;
+            this.enemyStrikes++;
             this.lastHitTime = currentTime;
-            if (this.treeAudio)
-                this.treeAudio.play(1);
-            this.logger.info(`Tree hit! Strikes: ${this.treeStrikes} / ${this.maxTreeStrikes}`);
-            print(`[SnapSaberGlobalManager] Tree hit! Strikes: ${this.treeStrikes} / ${this.maxTreeStrikes}`);
-            if (this.treeStrikes >= this.maxTreeStrikes) {
+            if (this.enemyAudio)
+                this.enemyAudio.play(1);
+            this.logger.info(`Enemy hit! Strikes: ${this.enemyStrikes} / ${this.maxEnemyStrikes}`);
+            print(`[SnapSaberGlobalManager] Enemy hit! Strikes: ${this.enemyStrikes} / ${this.maxEnemyStrikes}`);
+            if (this.enemyStrikes >= this.maxEnemyStrikes) {
                 this.isGameOver = true;
                 print("[SnapSaberGlobalManager] GAME OVER");
                 this.logger.info("GAME OVER");
@@ -174,37 +170,25 @@ let SnapSaberGlobalManager = (() => {
                     targetObject.destroy();
                 }
                 catch (e) {
-                    this.logger.error("Error destroying tree: " + e);
+                    this.logger.error("Error destroying enemy: " + e);
                 }
             }
         }
         getScore() {
             return this.score;
         }
-        getTreeStrikes() {
-            return this.treeStrikes;
+        getEnemyStrikes() {
+            return this.enemyStrikes;
         }
         isOver() {
             return this.isGameOver;
         }
         reset() {
             this.score = 0;
-            this.treeStrikes = 0;
+            this.enemyStrikes = 0;
             this.isGameOver = false;
             this.lastHitTime = 0;
-            this.updateScoreDisplay();
             this.logger.info("SnapSaberGlobalManager reset");
-        }
-        updateScoreDisplay() {
-            if (this.scoreText) {
-                try {
-                    ;
-                    this.scoreText.text = `Score: ${this.score}`;
-                }
-                catch (e) {
-                    this.logger.error("Error updating score display: " + e);
-                }
-            }
         }
     };
     __setFunctionName(_classThis, "SnapSaberGlobalManager");

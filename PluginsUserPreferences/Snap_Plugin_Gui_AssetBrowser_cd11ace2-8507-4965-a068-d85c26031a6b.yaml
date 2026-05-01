@@ -1,9 +1,8 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 2483
+    size: 2389
     values:
-      - ""
       - 3-2-1 Countdown.lspkg
       - 3-2-1 Countdown.lspkg/Countdown321_PUT_IN_ORTHO_CAM__PUT_IN_ORTHO_CAM.prefab
       - 3-2-1 Countdown.lspkg/Fonts
@@ -124,8 +123,7 @@ CollapsedEntities:
       - Coin1M.prefab
       - Coin2L.prefab
       - Coin3R.prefab
-      - CoinSound 2.mp3
-      - CoinSound.mp3
+      - CoinSoundEffect.mp3
       - Elite Casual Controls.lspkg
       - Elite Casual Controls.lspkg/1.png
       - Elite Casual Controls.lspkg/2.png
@@ -211,6 +209,7 @@ CollapsedEntities:
       - Examples/MiniDemos/SnapSaber
       - Examples/MiniDemos/SnapSaber/TS
       - Examples/MiniDemos/SnapSaber/TS/CoinInstantiator.ts
+      - Examples/MiniDemos/SnapSaber/TS/EnemyInstantiator.ts
       - Examples/MiniDemos/SnapSaber/TS/LanePatternController.ts
       - Examples/MiniDemos/SnapSaber/TS/MainMenu.ts
       - Examples/MiniDemos/SnapSaber/TS/PlayPauseManager.ts
@@ -220,7 +219,6 @@ CollapsedEntities:
       - Examples/MiniDemos/SnapSaber/TS/SnapSaberGhost.prefab
       - Examples/MiniDemos/SnapSaber/TS/SnapSaberGlobalManager.ts
       - Examples/MiniDemos/SnapSaber/TS/SnapSaberInstantiator.ts
-      - Examples/MiniDemos/SnapSaber/TS/TreeInstantiator.ts
       - Examples/Physics-Collision
       - Examples/Physics-Collision/SoftPressControllerJS.js
       - Examples/Physics-Collision/SoftPressControllerTS.ts
@@ -235,36 +233,6 @@ CollapsedEntities:
       - Examples/Solvers
       - Examples/Solvers/CarHandleSteering.ts
       - Examples/Solvers/HandleReturnToStart.ts
-      - Fake 2D Fluids.lspkg
-      - Fake 2D Fluids.lspkg/2D_Fluids__PLACE_IN_SCENE.prefab
-      - Fake 2D Fluids.lspkg/Materials
-      - Fake 2D Fluids.lspkg/Materials/Face Mask.mat
-      - Fake 2D Fluids.lspkg/Materials/Fire_Output.mat
-      - Fake 2D Fluids.lspkg/Materials/Fire_Solver.mat
-      - Fake 2D Fluids.lspkg/Materials/Smoke_Output.mat
-      - Fake 2D Fluids.lspkg/Materials/Smoke_Solver.mat
-      - Fake 2D Fluids.lspkg/Materials/Vignette.mat
-      - Fake 2D Fluids.lspkg/Render Targets
-      - Fake 2D Fluids.lspkg/Render Targets/Fire RT Sim.renderTarget
-      - Fake 2D Fluids.lspkg/Render Targets/Smoke RT Sim.renderTarget
-      - Fake 2D Fluids.lspkg/Render Targets/Source RT.renderTarget
-      - Fake 2D Fluids.lspkg/Screen Texture.screenTexture
-      - Fake 2D Fluids.lspkg/Scripts
-      - Fake 2D Fluids.lspkg/Scripts/Bind Head Pos.js
-      - Fake 2D Fluids.lspkg/Scripts/README.js
-      - Fake 2D Fluids.lspkg/Shaders
-      - Fake 2D Fluids.lspkg/Shaders/Face Mask.ss_graph
-      - Fake 2D Fluids.lspkg/Shaders/Fire_Output.ss_graph
-      - Fake 2D Fluids.lspkg/Shaders/Fire_Solver.ss_graph
-      - Fake 2D Fluids.lspkg/Shaders/Smoke_Output.ss_graph
-      - Fake 2D Fluids.lspkg/Shaders/Smoke_Solver.ss_graph
-      - Fake 2D Fluids.lspkg/Shaders/Vignette.ss_graph
-      - Fake 2D Fluids.lspkg/Textures
-      - Fake 2D Fluids.lspkg/Textures/Face Mask Opacity.jpg
-      - Fake 2D Fluids.lspkg/Textures/eyes_mask.jpg
-      - Fake 2D Fluids.lspkg/flow_noise3_3D.png
-      - Fake 2D Fluids.lspkg/package.native
-      - Fake 2D Fluids.lspkg/warped_noise2_3D.png
       - FastUI.lspkg
       - FastUI.lspkg/Examples__PLACE_IN_SCENE.prefab
       - FastUI.lspkg/README.md
@@ -481,46 +449,6 @@ CollapsedEntities:
       - GPU Particles Technical Demo.lspkg/Textures/red_panda_base.png
       - GPU Particles Technical Demo.lspkg/Textures/red_panda_param.png
       - GPU Particles Technical Demo.lspkg/package.native
-      - GPU Particles Trail Mesh Builder.lspkg
-      - GPU Particles Trail Mesh Builder.lspkg/GPU Particles Trails__PLACE_IN_SCENE.prefab
-      - GPU Particles Trail Mesh Builder.lspkg/Materials
-      - GPU Particles Trail Mesh Builder.lspkg/Materials/GPU Particles Trails.mat
-      - GPU Particles Trail Mesh Builder.lspkg/Scripts
-      - GPU Particles Trail Mesh Builder.lspkg/Scripts/GPU Particles Trail Mesh Builder.js
-      - GPU Particles Trail Mesh Builder.lspkg/Shaders
-      - GPU Particles Trail Mesh Builder.lspkg/Shaders/gpu_particles.ss_graph
-      - GPU Particles Trail Mesh Builder.lspkg/Textures
-      - GPU Particles Trail Mesh Builder.lspkg/Textures/GPUParticlesTrailsBaseTexure.png
-      - GPU Particles Trail Mesh Builder.lspkg/Textures/GPUParticlesTrailsColorRamp.png
-      - GPU Particles Trail Mesh Builder.lspkg/Textures/GPUParticlesTrails_TrailTexture.png
-      - GPU Particles Trail Mesh Builder.lspkg/package.native
-      - Game UI buttons and frames with green borders..lspkg
-      - Game UI buttons and frames with green borders..lspkg/1.png
-      - Game UI buttons and frames with green borders..lspkg/10.png
-      - Game UI buttons and frames with green borders..lspkg/2.png
-      - Game UI buttons and frames with green borders..lspkg/3.png
-      - Game UI buttons and frames with green borders..lspkg/4.png
-      - Game UI buttons and frames with green borders..lspkg/5.png
-      - Game UI buttons and frames with green borders..lspkg/6.png
-      - Game UI buttons and frames with green borders..lspkg/7.png
-      - Game UI buttons and frames with green borders..lspkg/8.png
-      - Game UI buttons and frames with green borders..lspkg/9.png
-      - Game UI buttons and frames with green borders..lspkg/Device Camera Texture.deviceCameraTexture
-      - Game UI buttons and frames with green borders..lspkg/Image 10.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 11.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 2.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 3.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 4.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 5.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 6.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 7.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 8.mat
-      - Game UI buttons and frames with green borders..lspkg/Image 9.mat
-      - Game UI buttons and frames with green borders..lspkg/Image.mat
-      - Game UI buttons and frames with green borders..lspkg/Render Target.renderTarget
-      - Game UI buttons and frames with green borders..lspkg/c.png
-      - Game UI buttons and frames with green borders..lspkg/flat.ss_graph
-      - Game UI buttons and frames with green borders..lspkg/game-buttons-frames-with-green-border.prefab
       - God Rays.lspkg
       - God Rays.lspkg/God Rays Post Effect__PLACE_IN_SCENE.prefab
       - God Rays.lspkg/Materials
@@ -544,7 +472,6 @@ CollapsedEntities:
       - HandAttacher.lspkg/Textures/Normal.png
       - HandAttacher.lspkg/package.native
       - HandAttacher.lspkg/package_dependencies.json
-      - Heartbeat.lsc
       - Hexagonal_prism_v1.fbx
       - Hexagonal_prism_v1.fbx/.hidden
       - Hexagonal_prism_v1.fbx/.hidden/mat0
@@ -554,6 +481,102 @@ CollapsedEntities:
       - Hexagonal_prism_v1.fbx/Materials/mat0
       - Hexagonal_prism_v1.fbx/Meshes
       - Hexagonal_prism_v1.fbx/Meshes/imagetostl_mesh0
+      - Hint - Manipulation on surface (1 finger cube).lspkg
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Hint - Manipulate 1f__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Materials
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Shaders
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Textures
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Textures/Hint_Surface_1_Finger_cube.lensanim
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Textures/Hint_Surface_1_Finger_cube.lensanim/HINT_Manipulate_on_surface_1_finger_cube.png
+      - Hint - Manipulation on surface (1 finger cube).lspkg/Textures/Hint_Surface_1_Finger_cube.lensanim/Hint_Surface_1_Finger_cube
+      - Hint - Manipulation on surface (1 finger cube).lspkg/package.native
+      - Hint - Manipulation on surface (1 finger cube).lspkg/package_dependencies.json
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Hint - Manipulate Dots 2F__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Materials
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Shaders
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Textures
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Textures/Hint_Surface_2_Fingers_Dot.lensanim
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Textures/Hint_Surface_2_Fingers_Dot.lensanim/Hint_Surface_2_Fingers_Dot
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/Textures/Hint_Surface_2_Fingers_Dot.lensanim/Hint_Surface_2_Fingers_Dot.png
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/package.native
+      - Hint - Manipulation on surface (2 fingers rotate) 2.lspkg/package_dependencies.json
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Hint - Manipulate Dots 2F__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Materials
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Shaders
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Textures
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Textures/Hint_Surface_2_Fingers_Dot.lensanim
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Textures/Hint_Surface_2_Fingers_Dot.lensanim/Hint_Surface_2_Fingers_Dot
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/Textures/Hint_Surface_2_Fingers_Dot.lensanim/Hint_Surface_2_Fingers_Dot.png
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/package.native
+      - Hint - Manipulation on surface (2 fingers rotate).lspkg/package_dependencies.json
+      - Hint - Pinch Zoom.lspkg
+      - Hint - Pinch Zoom.lspkg/Hint - Pinch Zoom In__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Pinch Zoom.lspkg/Materials
+      - Hint - Pinch Zoom.lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Pinch Zoom.lspkg/Shaders
+      - Hint - Pinch Zoom.lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Pinch Zoom.lspkg/Textures
+      - Hint - Pinch Zoom.lspkg/Textures/Hint_Zoom_In.lensanim
+      - Hint - Pinch Zoom.lspkg/Textures/Hint_Zoom_In.lensanim/Hint_Zoom_In
+      - Hint - Pinch Zoom.lspkg/Textures/Hint_Zoom_In.lensanim/LPD_111_Zoom_in_v01.png
+      - Hint - Pinch Zoom.lspkg/package.native
+      - Hint - Pinch Zoom.lspkg/package_dependencies.json
+      - Hint - Rotate (with Feedback) 2.lspkg
+      - Hint - Rotate (with Feedback) 2.lspkg/Hint - Rotate With Feedback__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Rotate (with Feedback) 2.lspkg/Materials
+      - Hint - Rotate (with Feedback) 2.lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Rotate (with Feedback) 2.lspkg/Shaders
+      - Hint - Rotate (with Feedback) 2.lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Rotate (with Feedback) 2.lspkg/Textures
+      - Hint - Rotate (with Feedback) 2.lspkg/Textures/Hint_Rotate_5.lensanim
+      - Hint - Rotate (with Feedback) 2.lspkg/Textures/Hint_Rotate_5.lensanim/Hint_Rotate_5
+      - Hint - Rotate (with Feedback) 2.lspkg/Textures/Hint_Rotate_5.lensanim/LPD_246_rotate_v05.png
+      - Hint - Rotate (with Feedback) 2.lspkg/package.native
+      - Hint - Rotate (with Feedback) 2.lspkg/package_dependencies.json
+      - Hint - Rotate (with Feedback).lspkg
+      - Hint - Rotate (with Feedback).lspkg/Hint - Rotate With Feedback__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Rotate (with Feedback).lspkg/Materials
+      - Hint - Rotate (with Feedback).lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Rotate (with Feedback).lspkg/Shaders
+      - Hint - Rotate (with Feedback).lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Rotate (with Feedback).lspkg/Textures
+      - Hint - Rotate (with Feedback).lspkg/Textures/Hint_Rotate_5.lensanim
+      - Hint - Rotate (with Feedback).lspkg/Textures/Hint_Rotate_5.lensanim/Hint_Rotate_5
+      - Hint - Rotate (with Feedback).lspkg/Textures/Hint_Rotate_5.lensanim/LPD_246_rotate_v05.png
+      - Hint - Rotate (with Feedback).lspkg/package.native
+      - Hint - Rotate (with Feedback).lspkg/package_dependencies.json
+      - Hint - Select Area.lspkg
+      - Hint - Select Area.lspkg/Hint - Select Area__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Select Area.lspkg/Materials
+      - Hint - Select Area.lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Select Area.lspkg/Shaders
+      - Hint - Select Area.lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Select Area.lspkg/Textures
+      - Hint - Select Area.lspkg/Textures/Hint_Select_Area.lensanim
+      - Hint - Select Area.lspkg/Textures/Hint_Select_Area.lensanim/Hint_Select_Area
+      - Hint - Select Area.lspkg/Textures/Hint_Select_Area.lensanim/LPD_366_Select_Area.png
+      - Hint - Select Area.lspkg/package.native
+      - Hint - Select Area.lspkg/package_dependencies.json
+      - Hint - Tap and Hold.lspkg
+      - Hint - Tap and Hold.lspkg/Hint - Tap And Hold__PUT_IN_ORTHO_CAM.prefab
+      - Hint - Tap and Hold.lspkg/Materials
+      - Hint - Tap and Hold.lspkg/Materials/SpriteGraphPreset.mat
+      - Hint - Tap and Hold.lspkg/Shaders
+      - Hint - Tap and Hold.lspkg/Shaders/SpriteGraphPreset.ss_graph
+      - Hint - Tap and Hold.lspkg/Textures
+      - Hint - Tap and Hold.lspkg/Textures/Hint_Press_And_Hold_Big_Circle.lensanim
+      - Hint - Tap and Hold.lspkg/Textures/Hint_Press_And_Hold_Big_Circle.lensanim/Hint_Press_And_Hold_Big_Circle
+      - Hint - Tap and Hold.lspkg/Textures/Hint_Press_And_Hold_Big_Circle.lensanim/LPD_166_Press_and_Hold_big_circle_v03.png
+      - Hint - Tap and Hold.lspkg/package.native
+      - Hint - Tap and Hold.lspkg/package_dependencies.json
       - Instantiation.lspkg
       - Instantiation.lspkg/ExamplePrefabInstantiateBox1.prefab
       - Instantiation.lspkg/ExamplePrefabInstantiateBox2.prefab
@@ -705,27 +728,6 @@ CollapsedEntities:
       - LSTween.lspkg/TweenJS/mainGroup.ts
       - LSTween.lspkg/package.native
       - LSTween.lspkg/package_dependencies.json
-      - Magma.lspkg
-      - Magma.lspkg/Magma__PLACE_IN_SCENE.prefab
-      - Magma.lspkg/Materials
-      - Magma.lspkg/Materials/Heightmap Normals.mat
-      - Magma.lspkg/Materials/Magma Noise.mat
-      - Magma.lspkg/Materials/Magma PBR.mat
-      - Magma.lspkg/Materials/Make Tileable.mat
-      - Magma.lspkg/Meshes
-      - Magma.lspkg/Meshes/Resource 2.mesh
-      - Magma.lspkg/Render Targets
-      - Magma.lspkg/Render Targets/Render Target - Noise.renderTarget
-      - Magma.lspkg/Screen Texture.screenTexture
-      - Magma.lspkg/Shaders
-      - Magma.lspkg/Shaders/Heightmap Normals.ss_graph
-      - Magma.lspkg/Shaders/Magma Noise.ss_graph
-      - Magma.lspkg/Shaders/Magma PBR.ss_graph
-      - Magma.lspkg/Shaders/Make Tileable.ss_graph
-      - Magma.lspkg/Textures
-      - Magma.lspkg/Textures/1d_ramp_magma.png
-      - Magma.lspkg/Textures/Perlin Noise.png
-      - Magma.lspkg/package.native
       - MarkerTrackingHelper.lspkg
       - MarkerTrackingHelper.lspkg/Extended_Marker_Tracking__PLACE_IN_SCENE.prefab
       - "MarkerTrackingHelper.lspkg/Image Marker [EDIT_ME].imgmarker"
@@ -929,7 +931,7 @@ CollapsedEntities:
       - Rain VFX.lspkg/VFX
       - Rain VFX.lspkg/VFX/VFX_Rain.vfxgraph
       - Rain VFX.lspkg/package.native
-      - Rain.mp3
+      - RainSoundEffect.mp3
       - Render
       - Render/Device Camera Texture.deviceCameraTexture
       - Render/Echopark.hdr
@@ -1249,7 +1251,6 @@ CollapsedEntities:
       - Road Tileset.lspkg/Textures/Road_Tileset_spots.jpg
       - Road Tileset.lspkg/Textures/Road_Tileset_stone_AO.jpg
       - Road Tileset.lspkg/Textures/Road_tileset_shadow.jpg
-      - Roulette UI.lsc
       - RuntimeGizmos.lspkg
       - RuntimeGizmos.lspkg/Materials
       - RuntimeGizmos.lspkg/Materials/PBR 2.mat
@@ -2142,7 +2143,27 @@ CollapsedEntities:
       - SpectaclesUIKit.lspkg/Textures/test-image.jpg
       - SpectaclesUIKit.lspkg/package.native
       - SpectaclesUIKit.lspkg/package_dependencies.json
-      - Streetlight 2.prefab
+      - Steering Wheel Tinker
+      - Steering Wheel Tinker/.hidden
+      - Steering Wheel Tinker/.hidden/color_11107152.ss_graph
+      - Steering Wheel Tinker/.hidden/white.jpg
+      - Steering Wheel Tinker/Materials
+      - Steering Wheel Tinker/Materials/color_11107152.mat
+      - Steering Wheel Tinker/Materials/color_12568524.mat
+      - Steering Wheel Tinker/Materials/color_14541540.mat
+      - Steering Wheel Tinker/Materials/color_16448250.mat
+      - Steering Wheel Tinker/Materials/color_16768282.mat
+      - Steering Wheel Tinker/Materials/color_2829873.mat
+      - Steering Wheel Tinker/Materials/color_8768998.mat
+      - Steering Wheel Tinker/Meshes
+      - Steering Wheel Tinker/Meshes/g group_0_11107152.mesh
+      - Steering Wheel Tinker/Meshes/g group_0_12568524.mesh
+      - Steering Wheel Tinker/Meshes/g group_0_14541540.mesh
+      - Steering Wheel Tinker/Meshes/g group_0_16448250.mesh
+      - Steering Wheel Tinker/Meshes/g group_0_16768282.mesh
+      - Steering Wheel Tinker/Meshes/g group_0_2829873.mesh
+      - Steering Wheel Tinker/Meshes/g group_0_8768998.mesh
+      - Steering Wheel Tinker/Steering Wheel Tinker.prefab
       - Streetlight.prefab
       - SurfacePlacement.lspkg
       - SurfacePlacement.lspkg/Decorators
@@ -2257,101 +2278,6 @@ CollapsedEntities:
       - Texture/Base.png
       - Texture/MaterialParams.png
       - Texture/Normal.png
-      - Trail Effect.lspkg
-      - Trail Effect.lspkg/Animation
-      - Trail Effect.lspkg/Animation/Layer0.animationMixerLayer
-      - Trail Effect.lspkg/Animation/Moving_Empty_Object.animationLayer
-      - Trail Effect.lspkg/Fonts
-      - Trail Effect.lspkg/Fonts/fredoka_one_regular.ttf
-      - Trail Effect.lspkg/Materials
-      - Trail Effect.lspkg/Materials/UberDiffuse.mat
-      - Trail Effect.lspkg/Materials/trail_material.mat
-      - Trail Effect.lspkg/Meshes
-      - Trail Effect.lspkg/Meshes/Sphere.mesh
-      - Trail Effect.lspkg/Scripts
-      - Trail Effect.lspkg/Scripts/TrailMeshBuilderController.js
-      - Trail Effect.lspkg/Shaders
-      - Trail Effect.lspkg/Shaders/UberDiffuse1.ss_graph
-      - Trail Effect.lspkg/Shaders/trail_material.ss_graph
-      - Trail Effect.lspkg/Textures
-      - Trail Effect.lspkg/Textures/Base.png
-      - Trail Effect.lspkg/Textures/Normal.png
-      - Trail Effect.lspkg/TrailEffect__PLACE_IN_SCENE.prefab
-      - Trail Effect.lspkg/package.native
-      - Turn Based.lsc
-      - UI Button Textures Pack.lspkg
-      - UI Button Textures Pack.lspkg/Materials
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset10.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset11.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset12.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset13.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset14.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset15.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset16.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset17.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset18.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset19.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset2.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset20.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset21.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset22.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset23.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset24.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset25.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset26.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset27.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset28.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset29.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset3.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset30.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset31.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset32.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset4.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset5.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset6.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset7.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset8.mat
-      - UI Button Textures Pack.lspkg/Materials/SpritePreset9.mat
-      - UI Button Textures Pack.lspkg/Scripts
-      - UI Button Textures Pack.lspkg/Scripts/LayoutGrid.js
-      - UI Button Textures Pack.lspkg/Shaders
-      - UI Button Textures Pack.lspkg/Shaders/SpritePreset1.ss_graph
-      - UI Button Textures Pack.lspkg/Textures
-      - UI Button Textures Pack.lspkg/Textures/Add.png
-      - UI Button Textures Pack.lspkg/Textures/Back.png
-      - "UI Button Textures Pack.lspkg/Textures/Camera [Fill].png"
-      - "UI Button Textures Pack.lspkg/Textures/Camera [Outline].png"
-      - UI Button Textures Pack.lspkg/Textures/Check.png
-      - UI Button Textures Pack.lspkg/Textures/Close.png
-      - UI Button Textures Pack.lspkg/Textures/Color Filter.png
-      - UI Button Textures Pack.lspkg/Textures/Earrings.png
-      - UI Button Textures Pack.lspkg/Textures/Erase.png
-      - UI Button Textures Pack.lspkg/Textures/Face.png
-      - UI Button Textures Pack.lspkg/Textures/FocusOn.png
-      - UI Button Textures Pack.lspkg/Textures/Forward.png
-      - UI Button Textures Pack.lspkg/Textures/Image Picker.png
-      - UI Button Textures Pack.lspkg/Textures/Light Off.png
-      - UI Button Textures Pack.lspkg/Textures/Light On.png
-      - UI Button Textures Pack.lspkg/Textures/Location.png
-      - "UI Button Textures Pack.lspkg/Textures/Lock [Fill].png"
-      - "UI Button Textures Pack.lspkg/Textures/Lock [Outline].png"
-      - UI Button Textures Pack.lspkg/Textures/Map.png
-      - UI Button Textures Pack.lspkg/Textures/Play.png
-      - UI Button Textures Pack.lspkg/Textures/Preview.png
-      - UI Button Textures Pack.lspkg/Textures/Randomize.png
-      - UI Button Textures Pack.lspkg/Textures/Refresh.png
-      - UI Button Textures Pack.lspkg/Textures/Reveal.png
-      - UI Button Textures Pack.lspkg/Textures/Select.png
-      - UI Button Textures Pack.lspkg/Textures/Settings.png
-      - UI Button Textures Pack.lspkg/Textures/Trash.png
-      - UI Button Textures Pack.lspkg/Textures/Undo.png
-      - "UI Button Textures Pack.lspkg/Textures/Unlock [Fill].png"
-      - "UI Button Textures Pack.lspkg/Textures/Unlock [Outline].png"
-      - UI Button Textures Pack.lspkg/Textures/UpperBody.png
-      - UI Button Textures Pack.lspkg/Textures/Voice input.png
-      - UI Button Textures Pack.lspkg/UI_Button_Textures__PLACE_IN_SCENE.prefab
-      - UI Button Textures Pack.lspkg/package.native
       - Utilities.lspkg
       - Utilities.lspkg/README.md
       - Utilities.lspkg/Scripts
@@ -2459,31 +2385,11 @@ CollapsedEntities:
       - Vehicles.lspkg/Textures/veh_taxi_bitmoji_ID.png
       - Vehicles.lspkg/Textures/veh_taxi_pattern_B.png
       - Vehicles.lspkg/Vehicles.prefab
+      - Visual Demonstration.lsc
       - WheelTS.ts
       - "[SnapSaberInstantiator1] 2.prefab"
       - "[SnapSaberInstantiator1].prefab"
       - tile_road_direct.prefab
       - tile_road_direct2.prefab
       - tile_road_direct3.prefab
-      - tinker
-      - tinker/.hidden
-      - tinker/.hidden/color_11107152.ss_graph
-      - tinker/.hidden/white.jpg
-      - tinker/Materials
-      - tinker/Materials/color_11107152.mat
-      - tinker/Materials/color_12568524.mat
-      - tinker/Materials/color_14541540.mat
-      - tinker/Materials/color_16448250.mat
-      - tinker/Materials/color_16768282.mat
-      - tinker/Materials/color_2829873.mat
-      - tinker/Materials/color_8768998.mat
-      - tinker/Meshes
-      - tinker/Meshes/g group_0_11107152.mesh
-      - tinker/Meshes/g group_0_12568524.mesh
-      - tinker/Meshes/g group_0_14541540.mesh
-      - tinker/Meshes/g group_0_16448250.mesh
-      - tinker/Meshes/g group_0_16768282.mesh
-      - tinker/Meshes/g group_0_2829873.mesh
-      - tinker/Meshes/g group_0_8768998.mesh
-      - tinker/tinker.prefab
   options: 4

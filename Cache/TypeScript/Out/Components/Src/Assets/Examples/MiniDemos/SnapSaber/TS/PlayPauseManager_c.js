@@ -21,10 +21,10 @@ function checkUndefined(property, showIfData) {
 // @input AssignableType_2 coinMiddle {"hint":"Middle lane CoinInstantiator"}
 // @input AssignableType_3 coinRight {"hint":"Right lane CoinInstantiator"}
 // @ui {"widget":"separator"}
-// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Tree Instantiators</span>"}
-// @input AssignableType_4 treeLeft {"hint":"Left lane TreeInstantiator"}
-// @input AssignableType_5 treeMiddle {"hint":"Middle lane TreeInstantiator"}
-// @input AssignableType_6 treeRight {"hint":"Right lane TreeInstantiator"}
+// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Enemy Instantiators</span>"}
+// @input AssignableType_4 enemyLeft {"hint":"Left lane EnemyInstantiator"}
+// @input AssignableType_5 enemyMiddle {"hint":"Middle lane EnemyInstantiator"}
+// @input AssignableType_6 enemyRight {"hint":"Right lane EnemyInstantiator"}
 // @ui {"widget":"separator"}
 // @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Road Instantiators</span>"}
 // @input AssignableType_7 roadLeft {"hint":"Left lane RoadInstantiator"}
@@ -35,6 +35,10 @@ function checkUndefined(property, showIfData) {
 // @input Component.Component damageText {"hint":"Text component that shows damage percentage (0% → 33% → 67% → 100%)"}
 // @input Component.Component distanceText {"hint":"Text component that shows distance travelled in metres"}
 // @input Component.Component scoreText {"hint":"Text component that shows the score (format: x 42)"}
+// @ui {"widget":"separator"}
+// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">VFX</span>"}
+// @input Component.VFXComponent rainVFX {"hint":"Rain VFXComponent — will be paused/resumed alongside the game"}
+// @input Component.VFXComponent cloudVFX {"hint":"Cloud VFXComponent — will be paused/resumed alongside the game"}
 // @ui {"widget":"separator"}
 // @input bool startPaused {"hint":"If true the game starts paused — useful for testing; in production MainMenu controls this via Play button"}
 // @ui {"widget":"separator"}

@@ -1,0 +1,196 @@
+- !<ObjectPrefab/4640c882-8696-42a4-bf2d-49fc45350b1f>
+  PackagePath: ""
+  objects:
+    - !<own> 1642b968-9272-4398-b4dc-0d2a87d5f01a
+  LazyLoading: false
+  RetainAssets: true
+- !<SceneObject/1642b968-9272-4398-b4dc-0d2a87d5f01a>
+  PrefabRemaps:
+    - 1642b968-9272-4398-b4dc-0d2a87d5f01a: 1642b968-9272-4398-4b23-f2d5782a0fe5
+    - 1d8afbf9-38e0-4b04-be1b-e094dad933f2: 1d8afbf9-38e0-4b04-41e4-1f6b2526cc0d
+    - 2d5fbe7a-0f78-49a6-848b-d43b58f2f5f5: 2d5fbe7a-0f78-49a6-7b74-2bc4a70d0a0a
+    - 3b21baeb-e929-4737-b0c9-523d5d9aaa49: 3b21baeb-e929-4737-4f36-adc2a26555b6
+    - 5d304552-438b-4eb7-94a2-bc497a918770: 5d304552-438b-4eb7-6b5d-43b6856e788f
+    - a47170b7-5af4-448c-be6f-76d2166c2485: a47170b7-5af4-448c-4190-892de993db7a
+    - e87264c9-4c1e-4b28-a3cb-2b29c6be0bd2: e87264c9-4c1e-4b28-5c34-d4d63941f42d
+  Name: Hint - Select Area
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 0.000000, z: -2.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    - !<own> 2d5fbe7a-0f78-49a6-848b-d43b58f2f5f5
+  Components:
+    - !<own> 5d304552-438b-4eb7-94a2-bc497a918770
+    - !<own> 3b21baeb-e929-4737-b0c9-523d5d9aaa49
+- !<Image/1d8afbf9-38e0-4b04-be1b-e094dad933f2>
+  PrefabRemaps:
+    []
+  Name: Image
+  Enabled: true
+  RenderOrder: 35
+  StretchMode: Fit
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> f48306a9-c6e1-487f-8ab1-069306ffb4ea
+  FlipX: false
+  FlipY: false
+  RotationAngle: 0
+  Pivot: {x: 0.000000, y: 0.000000}
+  ExtentsTarget: !<reference> 00000000-0000-0000-0000-000000000000
+- !<SceneObject/2d5fbe7a-0f78-49a6-848b-d43b58f2f5f5>
+  PrefabRemaps:
+    []
+  Name: Select_area
+  Enabled: true
+  Layers: 1048576
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.683171, y: 0.419371, z: -80.000000}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> e87264c9-4c1e-4b28-a3cb-2b29c6be0bd2
+    - !<own> a47170b7-5af4-448c-be6f-76d2166c2485
+    - !<own> 1d8afbf9-38e0-4b04-be1b-e094dad933f2
+- !<ScreenTransform/3b21baeb-e929-4737-b0c9-523d5d9aaa49>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.000000, y: 0.000000, z: -2.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -1.000000
+    bottom: -1.000000
+    right: 1.000000
+    top: 1.000000
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000
+- !<ScreenRegionComponent/5d304552-438b-4eb7-94a2-bc497a918770>
+  PrefabRemaps:
+    []
+  Name: Screen Region
+  Enabled: true
+  ScreenRegionType: FullFrame
+  ResizeWithKeyboard: false
+- !<ScriptComponent/a47170b7-5af4-448c-be6f-76d2166c2485>
+  PrefabRemaps:
+    []
+  Name: VisualDemonstration
+  Enabled: true
+  ScriptAsset: !<reference> f705ac27-bd04-41fe-8cf3-6d3f651318bf
+  ScriptInputsDefault:
+    autostart: true
+    showType: true
+    appearDelay: true
+    repeatCount: true
+    advanced: true
+    disableHiding: true
+    hideOnCapture: true
+    hideOnCameraSwitch: true
+    eventCallbacks: true
+    callbackType: true
+    onVisualDemonstrationStartBehaviors: true
+    onVisualDemonstrationFinishBehaviors: true
+    onVisualDemonstrationStartCustomTriggers: true
+    onVisualDemonstrationFinishCustomTriggers: true
+    customFunctionScript: true
+    onVisualDemonstrationStartFunctions: true
+    onVisualDemonstrationFinishFunctions: true
+  ScriptTypesDefault:
+    {}
+  ScriptInputs:
+    "":
+      autostart: true
+      visualDemonstration: !<reference.BaseMeshVisual> 1d8afbf9-38e0-4b04-be1b-e094dad933f2
+      showType: 2
+      appearDelay: !<float> 0.000000
+      appearDuration: !<float> 0.000000
+      screenDuration: !<float> 5.000000
+      disappearDuration: 0.300000
+      repeatCount: 3
+      advanced: false
+      disableHiding: false
+      showOnce: true
+      hideOnCapture: true
+      hideOnCameraSwitch: true
+      eventCallbacks: false
+      callbackType: 0
+      onVisualDemonstrationStartBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationFinishBehaviors: !<reference.ScriptComponent[]>
+        []
+      onVisualDemonstrationStartCustomTriggers: !<string[]>
+        []
+      onVisualDemonstrationFinishCustomTriggers: !<string[]>
+        []
+      customFunctionScript: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      onVisualDemonstrationStartFunctions: !<string[]>
+        []
+      onVisualDemonstrationFinishFunctions: !<string[]>
+        []
+  ScriptTypes:
+    "":
+      {}
+- !<ScreenTransform/e87264c9-4c1e-4b28-a3cb-2b29c6be0bd2>
+  PrefabRemaps:
+    []
+  Name: Screen Transform
+  Enabled: true
+  IsAdvanced: false
+  Constraints:
+    pinToLeft: false
+    pinToTop: false
+    pinToRight: false
+    pinToBottom: false
+    fixedWidth: false
+    fixedHeight: false
+    deactivatedFixedSprite: false
+    deactivatedFixedPivot: false
+  Pivot: {x: 0.000000, y: 0.000000}
+  Transform:
+    position: {x: 0.683171, y: 0.419371, z: -80.000000}
+    rotation: {x: 0.000000, y: -0.000000, z: 0.000000}
+    scale: {x: 1.000000, y: 1.000000, z: 1.000000}
+    hasSegmentScaleCompensation: false
+  RawMode: true
+  ForceBasic: true
+  Anchor:
+    left: -0.558313
+    bottom: -0.297910
+    right: 0.797433
+    top: 0.272290
+  Offset:
+    left: 0.000000
+    bottom: 0.000000
+    right: 0.000000
+    top: 0.000000

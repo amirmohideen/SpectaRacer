@@ -1,8 +1,8 @@
-- !<Material/0f26bf97-1aa9-4354-8308-898d5b889c88>
+- !<Material/e7677557-5367-44a0-a9dc-e5a2e2261bc7>
   PackagePath: ""
   PassesInfo:
-    - !<own> c2e12fff-7923-47cd-abbb-ff67e5d54ffe
-- !<PassInfo/c2e12fff-7923-47cd-abbb-ff67e5d54ffe>
+    - !<own> e679e5e7-34a7-43f2-86fd-80c4768709b8
+- !<PassInfo/e679e5e7-34a7-43f2-86fd-80c4768709b8>
   CachedProperties:
     - renderTarget0:
         typeIdx: 9

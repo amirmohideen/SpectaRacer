@@ -1,0 +1,41 @@
+- !<NativePackageDescriptor/5a9f58ba-41ee-49af-8ec0-cd59930debfa>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Tap and Hold Provides an animated graphic hint and a helper script that allows to configure hint behavior Most common hint for interactions. Using it when need to emphasize an interactive element. For a clickable area prefer to use the design with feedback instead.
+    
+    Usage:
+    Drag and drop the asset "Hint - Tap And Hold__PUT_IN_ORTHO_CAM" into your scene, under the Orthographic Camera. The hint will start playing automatically when the Lens is opened.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 7d4583f8-7ec1-4a64-bf6f-fef55f35695c
+  ComponentUid: 91c6ce1b-358c-45be-b2a9-ee020f0e41ff
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

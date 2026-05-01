@@ -12,15 +12,14 @@ function checkUndefined(property, showIfData) {
         throw new Error("Input " + property + " was not provided for the object " + script.getSceneObject().name);
     }
 }
-// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">SnapSaberGlobalManager – singleton score & damage manager</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Tracks score from coin hits and tree damage strikes. 3 tree hits = game over.</span>"}
+// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">SnapSaberGlobalManager – singleton score & damage manager</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Tracks score from coin hits and enemy damage strikes. 3 enemy hits = game over.</span>"}
 // @ui {"widget":"separator"}
-// @input Component.Component scoreText {"hint":"Text component that displays the score"}
 // @input float pointsPerHit = 10 {"hint":"Points awarded for each coin hit"}
-// @input float maxTreeStrikes = 3 {"hint":"Number of tree hits before game over"}
+// @input float maxEnemyStrikes = 3 {"hint":"Number of enemy hits before game over"}
 // @ui {"widget":"separator"}
 // @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Sound Effects</span>"}
 // @input Component.AudioComponent coinAudio {"hint":"AudioComponent to play when a coin is collected — assign your coin SFX AudioComponent here"}
-// @input Component.AudioComponent treeAudio {"hint":"AudioComponent to play when the car hits a tree — assign your crash SFX AudioComponent here"}
+// @input Component.AudioComponent enemyAudio {"hint":"AudioComponent to play when the car hits an enemy — assign your crash SFX AudioComponent here"}
 // @ui {"widget":"separator"}
 // @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}
 // @input bool enableLogging {"hint":"Enable general logging"}
@@ -39,9 +38,8 @@ Object.setPrototypeOf(script, Module.SnapSaberGlobalManager.prototype);
 script.__initialize();
 let awakeEvent = script.createEvent("OnAwakeEvent");
 awakeEvent.bind(() => {
-    checkUndefined("scoreText", []);
     checkUndefined("pointsPerHit", []);
-    checkUndefined("maxTreeStrikes", []);
+    checkUndefined("maxEnemyStrikes", []);
     checkUndefined("enableLogging", []);
     checkUndefined("enableLoggingLifecycle", []);
     if (script.onAwake) {

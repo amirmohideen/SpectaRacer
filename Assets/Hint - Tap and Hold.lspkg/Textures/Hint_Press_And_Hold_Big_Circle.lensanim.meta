@@ -1,0 +1,30 @@
+- !<AssetImportMetadata/ec19e724-5410-3d98-6cdc-a94505335ad7>
+  ImportedAssetIds:
+    AnimatedTexture: !<reference> f30b0fdc-6694-444c-a7a7-580f4e11cf07
+    LPD_166_Press_and_Hold_big_circle_v03.png: !<reference> dcfe317e-d499-46a4-bf1b-769b55035717
+  ImporterName: LensAnimationImporter
+  PrimaryAsset: !<reference> f30b0fdc-6694-444c-a7a7-580f4e11cf07
+  PackageType: LegacyPackage
+  LegacyPackagePolicy: CannotBeUnpackedTransparent
+  ExtraData:
+    AssetLibraryId: 5lYL2ln0cxtxrLhofFqzoV
+  AssetDataMap:
+    AnimatedTexture: !<own> 395128d0-5675-446b-ad92-f9b209bec87b
+  DependentFiles:
+    - LPD_166_Press_and_Hold_big_circle_v03.png
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<SingleCompressionSettings>
+    CompressorName: None
+    CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<AnimatedTextureData/395128d0-5675-446b-ad92-f9b209bec87b>
+  AutoPlay: false
+  Reversed: false
+  PingPong: false
+  CurrentSequence: default
+  KeyFramesData:
+    default:
+      - time: 0.000000
+        value: 0
+      - time: 1.866667
+        value: 28

@@ -1,6 +1,6 @@
 /**
  * Specs Inc. 2026
- * Lane Pattern Controller — orchestrates the existing CoinInstantiator and TreeInstantiator
+ * Lane Pattern Controller — orchestrates the existing CoinInstantiator and EnemyInstantiator
  * scripts to produce structured, skill-based spawning across three lanes.
  *
  * Nothing about the instantiators changes — their prefabs, orientations, spawn positions,
@@ -8,9 +8,9 @@
  * WHICH instantiators are allowed to spawn at any given moment.
  *
  * Pattern format per wave:  [left, middle, right]
- *   0 = EMPTY  — both coin and tree disabled on this lane
- *   1 = COIN   — coin instantiator enabled, tree disabled
- *   2 = TREE   — tree instantiator enabled, coin disabled
+ *   0 = EMPTY  — both coin and enemy disabled on this lane
+ *   1 = COIN   — coin instantiator enabled, enemy disabled
+ *   2 = ENEMY  — enemy instantiator enabled, coin disabled
  *
  * State machine:
  *   initial gap → WAVE (pattern active) → gap → WAVE → ... → rest wave every N → ...
@@ -18,12 +18,12 @@
 import { Logger } from "Utilities.lspkg/Scripts/Utils/Logger"
 import { bindStartEvent, bindUpdateEvent } from "SnapDecorators.lspkg/decorators"
 import { CoinInstantiator } from "./CoinInstantiator"
-import { TreeInstantiator } from "./TreeInstantiator"
+import { EnemyInstantiator } from "./EnemyInstantiator"
 import { RoadInstantiator } from "./RoadInstantiator"
 
 const EMPTY = 0
 const COIN  = 1
-const TREE  = 2
+const ENEMY = 2
 
 @component
 export class LanePatternController extends BaseScriptComponent {
@@ -45,19 +45,19 @@ export class LanePatternController extends BaseScriptComponent {
   coinRight!: CoinInstantiator
 
   @ui.separator
-  @ui.label('<span style="color: #94A3B8; font-size: 11px;">Tree Instantiators — drag the SceneObject with the TreeInstantiator script for each lane</span>')
+  @ui.label('<span style="color: #94A3B8; font-size: 11px;">Enemy Instantiators — drag the SceneObject with the EnemyInstantiator script for each lane</span>')
 
   @input
-  @hint("Left lane TreeInstantiator")
-  treeLeft!: TreeInstantiator
+  @hint("Left lane EnemyInstantiator")
+  enemyLeft!: EnemyInstantiator
 
   @input
-  @hint("Middle lane TreeInstantiator")
-  treeMiddle!: TreeInstantiator
+  @hint("Middle lane EnemyInstantiator")
+  enemyMiddle!: EnemyInstantiator
 
   @input
-  @hint("Right lane TreeInstantiator")
-  treeRight!: TreeInstantiator
+  @hint("Right lane EnemyInstantiator")
+  enemyRight!: EnemyInstantiator
 
   @ui.separator
   @ui.label('<span style="color: #94A3B8; font-size: 11px;">Road Instantiators — drag the SceneObject with the RoadInstantiator script for each lane</span>')
@@ -131,30 +131,30 @@ export class LanePatternController extends BaseScriptComponent {
   // ─── Pattern library ───────────────────────────────────────────────────────
   // Safety invariant: every pattern has ≥1 lane that is EMPTY or COIN.
 
-  /** Easy — 1 tree max, clear safe options */
+  /** Easy — 1 enemy max, clear safe options */
   private readonly PATTERNS_EASY: number[][] = [
     [COIN, COIN, COIN],   // pure reward
     [COIN, COIN, EMPTY],
     [EMPTY, COIN, COIN],
     [COIN, EMPTY, COIN],
-    [TREE, COIN, COIN],   // one obstacle, two escapes
-    [COIN, TREE, COIN],
-    [COIN, COIN, TREE],
-    [TREE, COIN, EMPTY],  // one obstacle, coin + empty escape
-    [TREE, EMPTY, COIN],
-    [COIN, EMPTY, TREE],
-    [EMPTY, TREE, COIN],
-    [EMPTY, COIN, TREE],
-    [COIN, TREE, EMPTY],
+    [ENEMY, COIN, COIN],   // one obstacle, two escapes
+    [COIN, ENEMY, COIN],
+    [COIN, COIN, ENEMY],
+    [ENEMY, COIN, EMPTY],  // one obstacle, coin + empty escape
+    [ENEMY, EMPTY, COIN],
+    [COIN, EMPTY, ENEMY],
+    [EMPTY, ENEMY, COIN],
+    [EMPTY, COIN, ENEMY],
+    [COIN, ENEMY, EMPTY],
   ]
 
-  /** Medium — two trees, exactly one escape lane */
+  /** Medium — two enemies, exactly one escape lane */
   private readonly PATTERNS_MEDIUM: number[][] = [
-    [TREE, TREE, COIN],
-    [TREE, COIN, TREE],
-    [COIN, TREE, TREE],
-    [TREE, TREE, EMPTY],
-    [EMPTY, TREE, TREE],
+    [ENEMY, ENEMY, COIN],
+    [ENEMY, COIN, ENEMY],
+    [COIN, ENEMY, ENEMY],
+    [ENEMY, ENEMY, EMPTY],
+    [EMPTY, ENEMY, ENEMY],
   ]
 
   /** Rest — breathing room inserted every gapFrequency waves */
@@ -171,7 +171,7 @@ export class LanePatternController extends BaseScriptComponent {
   public isPaused: boolean = false
 
   private coins: CoinInstantiator[]
-  private trees: TreeInstantiator[]
+  private enemies: EnemyInstantiator[]
   private roads: (RoadInstantiator | undefined)[]
 
   private elapsedTime: number = 0
@@ -200,19 +200,19 @@ export class LanePatternController extends BaseScriptComponent {
     if (this.enableLoggingLifecycle) this.logger.debug("LIFECYCLE: onStart()")
 
     this.coins = [this.coinLeft,  this.coinMiddle,  this.coinRight]
-    this.trees = [this.treeLeft,  this.treeMiddle,  this.treeRight]
+    this.enemies = [this.enemyLeft,  this.enemyMiddle,  this.enemyRight]
     this.roads = [this.roadLeft,  this.roadMiddle,  this.roadRight]
 
     for (let i = 0; i < 3; i++) {
       if (!this.coins[i]) this.logger.warn(`coinInstantiator[${i}] not assigned`)
-      if (!this.trees[i]) this.logger.warn(`treeInstantiator[${i}] not assigned`)
+      if (!this.enemies[i]) this.logger.warn(`enemyInstantiator[${i}] not assigned`)
     }
 
     // Fix coin interval to 0.3 s on all lanes — controller owns this value
     for (let i = 0; i < 3; i++) {
       if (this.coins[i]) this.coins[i].spawnInterval = 0.3
-      // Large interval so each tree fires exactly once per wave regardless of wave duration
-      if (this.trees[i]) this.trees[i].spawnInterval = 9999
+      // Large interval so each enemy fires exactly once per wave regardless of wave duration
+      if (this.enemies[i]) this.enemies[i].spawnInterval = 9999
     }
 
     // Disable all instantiators immediately — controller takes full ownership
@@ -232,17 +232,17 @@ export class LanePatternController extends BaseScriptComponent {
     this.isPaused = true
     for (let i = 0; i < 3; i++) {
       if (this.coins[i]) { this.coins[i].moveSpeed = 0; this.coins[i].spawnEnabled = false }
-      if (this.trees[i]) { this.trees[i].moveSpeed = 0; this.trees[i].spawnEnabled = false }
+      if (this.enemies[i]) { this.enemies[i].moveSpeed = 0; this.enemies[i].spawnEnabled = false }
       if (this.roads[i]) { this.roads[i].moveSpeed = 0; this.roads[i].spawnEnabled = false }
     }
-    this.logger.info(`pauseAll called — coins[0] ok:${!!this.coins[0]}, trees[0] ok:${!!this.trees[0]}, roads[0] ok:${!!this.roads[0]}`)
+    this.logger.info(`pauseAll called — coins[0] ok:${!!this.coins[0]}, enemies[0] ok:${!!this.enemies[0]}, roads[0] ok:${!!this.roads[0]}`)
   }
 
   public resumeAll(): void {
     this.isPaused = false
     for (let i = 0; i < 3; i++) {
       if (this.roads[i]) this.roads[i].spawnEnabled = true
-      // coins/trees spawnEnabled is restored by the state machine on its next wave/gap transition
+      // coins/enemies spawnEnabled is restored by the state machine on its next wave/gap transition
     }
     // updateMoveSpeed() runs on the very next onUpdate frame and restores the correct ramped speed
     this.logger.info("resumeAll called — LPC resuming")
@@ -253,24 +253,24 @@ export class LanePatternController extends BaseScriptComponent {
   private disableAll(): void {
     for (let i = 0; i < 3; i++) {
       if (this.coins[i]) this.coins[i].spawnEnabled = false
-      if (this.trees[i]) this.trees[i].spawnEnabled = false
+      if (this.enemies[i]) this.enemies[i].spawnEnabled = false
     }
   }
 
   private applyPattern(pattern: number[]): void {
     for (let i = 0; i < 3; i++) {
       const wantCoin = pattern[i] === COIN
-      const wantTree = pattern[i] === TREE
+      const wantEnemy = pattern[i] === ENEMY
 
       if (this.coins[i]) {
         this.coins[i].spawnEnabled = wantCoin
         // delay = 0 → first coin spawns on the very next frame
         if (wantCoin) this.coins[i].resetSpawnTimer(0)
       }
-      if (this.trees[i]) {
-        this.trees[i].spawnEnabled = wantTree
-        // delay = 0 → tree spawns immediately; interval is 9999 so it won't fire again this wave
-        if (wantTree) this.trees[i].resetSpawnTimer(0)
+      if (this.enemies[i]) {
+        this.enemies[i].spawnEnabled = wantEnemy
+        // delay = 0 → enemy spawns immediately; interval is 9999 so it won't fire again this wave
+        if (wantEnemy) this.enemies[i].resetSpawnTimer(0)
       }
     }
   }
@@ -302,9 +302,9 @@ export class LanePatternController extends BaseScriptComponent {
     }
 
     // Lane-switching enforcement: if the same safe lane appeared ≥2 times in a row,
-    // bias toward patterns that put a TREE on that lane so the player must rotate
+    // bias toward patterns that put a ENEMY on that lane so the player must rotate
     if (this.lastSafeLane >= 0 && this.consecutiveSafe >= 2) {
-      const forcing = candidates.filter(p => p[this.lastSafeLane] === TREE)
+      const forcing = candidates.filter(p => p[this.lastSafeLane] === ENEMY)
       if (forcing.length > 0) {
         candidates = forcing
         this.logger.info(`Forcing switch away from lane ${this.lastSafeLane}`)
@@ -386,7 +386,7 @@ export class LanePatternController extends BaseScriptComponent {
     this.disableAll()
     for (let i = 0; i < 3; i++) {
       if (this.coins[i]) this.coins[i].moveSpeed = this.initialMoveSpeed
-      if (this.trees[i]) this.trees[i].moveSpeed = this.initialMoveSpeed
+      if (this.enemies[i]) this.enemies[i].moveSpeed = this.initialMoveSpeed
       if (this.roads[i]) this.roads[i].moveSpeed = this.initialMoveSpeed
     }
     this.logger.info("LanePatternController reset")
@@ -414,7 +414,7 @@ export class LanePatternController extends BaseScriptComponent {
     this.currentSpeed = this.initialMoveSpeed + (this.maxMoveSpeed - this.initialMoveSpeed) * t
     for (let i = 0; i < 3; i++) {
       if (this.coins[i]) this.coins[i].moveSpeed = this.currentSpeed
-      if (this.trees[i]) this.trees[i].moveSpeed = this.currentSpeed
+      if (this.enemies[i]) this.enemies[i].moveSpeed = this.currentSpeed
       if (this.roads[i]) this.roads[i].moveSpeed = this.currentSpeed
     }
   }

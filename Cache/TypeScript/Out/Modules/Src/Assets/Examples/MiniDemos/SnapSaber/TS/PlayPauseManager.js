@@ -56,7 +56,7 @@ function component(target) {
  *
  * Responsibilities:
  *   - Pause / resume all lane instantiators and the LanePatternController
- *   - Display live damage percentage (each tree hit = 1/3; 3 hits = 100%)
+ *   - Display live damage percentage (each enemy hit = 1/3; 3 hits = 100%)
  *   - Display cumulative distance travelled (speed × time, converted to metres)
  *
  * Button wiring is handled by MainMenu.ts — call pause() / resume() / restart()
@@ -81,15 +81,17 @@ let PlayPauseManager = (() => {
             this.coinLeft = this.coinLeft;
             this.coinMiddle = this.coinMiddle;
             this.coinRight = this.coinRight;
-            this.treeLeft = this.treeLeft;
-            this.treeMiddle = this.treeMiddle;
-            this.treeRight = this.treeRight;
+            this.enemyLeft = this.enemyLeft;
+            this.enemyMiddle = this.enemyMiddle;
+            this.enemyRight = this.enemyRight;
             this.roadLeft = this.roadLeft;
             this.roadMiddle = this.roadMiddle;
             this.roadRight = this.roadRight;
             this.damageText = this.damageText;
             this.distanceText = this.distanceText;
             this.scoreText = this.scoreText;
+            this.rainVFX = this.rainVFX;
+            this.cloudVFX = this.cloudVFX;
             this.startPaused = this.startPaused;
             this.enableLogging = this.enableLogging;
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
@@ -100,7 +102,7 @@ let PlayPauseManager = (() => {
             // Registered by MainMenu — called once when damage hits 100%
             this.onGameOver = null;
             this.coins = [];
-            this.trees = [];
+            this.enemies = [];
             this.roads = [];
         }
         __initialize() {
@@ -109,15 +111,17 @@ let PlayPauseManager = (() => {
             this.coinLeft = this.coinLeft;
             this.coinMiddle = this.coinMiddle;
             this.coinRight = this.coinRight;
-            this.treeLeft = this.treeLeft;
-            this.treeMiddle = this.treeMiddle;
-            this.treeRight = this.treeRight;
+            this.enemyLeft = this.enemyLeft;
+            this.enemyMiddle = this.enemyMiddle;
+            this.enemyRight = this.enemyRight;
             this.roadLeft = this.roadLeft;
             this.roadMiddle = this.roadMiddle;
             this.roadRight = this.roadRight;
             this.damageText = this.damageText;
             this.distanceText = this.distanceText;
             this.scoreText = this.scoreText;
+            this.rainVFX = this.rainVFX;
+            this.cloudVFX = this.cloudVFX;
             this.startPaused = this.startPaused;
             this.enableLogging = this.enableLogging;
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
@@ -128,7 +132,7 @@ let PlayPauseManager = (() => {
             // Registered by MainMenu — called once when damage hits 100%
             this.onGameOver = null;
             this.coins = [];
-            this.trees = [];
+            this.enemies = [];
             this.roads = [];
         }
         static getInstance() {
@@ -155,7 +159,7 @@ let PlayPauseManager = (() => {
                 this.logger.warn("laneController is not assigned — pause/resume will have no effect");
             }
             this.coins = [this.coinLeft, this.coinMiddle, this.coinRight];
-            this.trees = [this.treeLeft, this.treeMiddle, this.treeRight];
+            this.enemies = [this.enemyLeft, this.enemyMiddle, this.enemyRight];
             this.roads = [this.roadLeft, this.roadMiddle, this.roadRight];
             if (this.startPaused) {
                 this.pause();
@@ -176,6 +180,10 @@ let PlayPauseManager = (() => {
             else {
                 this.logger.warn("pause() — laneController not assigned, movement will not stop!");
             }
+            if (this.rainVFX)
+                this.rainVFX.paused = true;
+            if (this.cloudVFX)
+                this.cloudVFX.paused = true;
             this.logger.info("Game paused");
         }
         resume() {
@@ -188,6 +196,10 @@ let PlayPauseManager = (() => {
             if (this.laneController) {
                 this.laneController.resumeAll();
             }
+            if (this.rainVFX)
+                this.rainVFX.paused = false;
+            if (this.cloudVFX)
+                this.cloudVFX.paused = false;
             this.logger.info("Game resumed");
         }
         restart() {
@@ -195,8 +207,8 @@ let PlayPauseManager = (() => {
             for (let i = 0; i < 3; i++) {
                 if (this.coins[i])
                     this.coins[i].reset();
-                if (this.trees[i])
-                    this.trees[i].reset();
+                if (this.enemies[i])
+                    this.enemies[i].reset();
                 if (this.roads[i])
                     this.roads[i].reset();
             }
@@ -213,6 +225,10 @@ let PlayPauseManager = (() => {
             this.distanceTravelled = 0;
             this.isPaused = false;
             this.gameOverTriggered = false;
+            if (this.rainVFX)
+                this.rainVFX.paused = false;
+            if (this.cloudVFX)
+                this.cloudVFX.paused = false;
             this.logger.info("Game restarted");
         }
         getIsPaused() {
@@ -252,8 +268,8 @@ let PlayPauseManager = (() => {
             const gm = SnapSaberGlobalManager_1.SnapSaberGlobalManager.getInstance();
             if (!gm)
                 return;
-            const strikes = gm.getTreeStrikes();
-            const max = gm.maxTreeStrikes;
+            const strikes = gm.getEnemyStrikes();
+            const max = gm.maxEnemyStrikes;
             const pct = Math.min(Math.round((strikes / max) * 100), 100);
             try {
                 ;

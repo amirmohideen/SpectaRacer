@@ -8,7 +8,7 @@ import {SnapSaberGlobalManager} from "./SnapSaberGlobalManager"
 
 @component
 export class SnapSaberCollisionHandler extends BaseScriptComponent {
-  @ui.label('<span style="color: #60A5FA;">SnapSaberCollisionHandler – detect saber-to-target collisions</span><br/><span style="color: #94A3B8; font-size: 11px;">Coin hits award points; tree hits deal damage (3 strikes = game over).</span>')
+  @ui.label('<span style="color: #60A5FA;">SnapSaberCollisionHandler – detect saber-to-target collisions</span><br/><span style="color: #94A3B8; font-size: 11px;">Coin hits award points; enemy hits deal damage (3 strikes = game over).</span>')
   @ui.separator
 
   @input
@@ -20,8 +20,8 @@ export class SnapSaberCollisionHandler extends BaseScriptComponent {
   coinIdentifier: string = "CoinCube"
 
   @input
-  @hint("Name prefix to identify tree obstacle objects")
-  treeIdentifier: string = "TreeCube"
+  @hint("Name prefix to identify enemy obstacle objects")
+  enemyIdentifier: string = "EnemyCube"
 
   @ui.separator
   @ui.label('<span style="color: #60A5FA;">Logging</span>')
@@ -82,12 +82,12 @@ export class SnapSaberCollisionHandler extends BaseScriptComponent {
         this.logger.warn("No global manager — destroying coin directly")
         collidingObject.destroy()
       }
-    } else if (name.includes(this.treeIdentifier)) {
-      this.logger.info(`Saber hit tree: ${name}`)
+    } else if (name.includes(this.enemyIdentifier)) {
+      this.logger.info(`Saber hit enemy: ${name}`)
       if (globalManager) {
-        globalManager.registerTreeHit(collidingObject)
+        globalManager.registerEnemyHit(collidingObject)
       } else {
-        this.logger.warn("No global manager — destroying tree directly")
+        this.logger.warn("No global manager — destroying enemy directly")
         collidingObject.destroy()
       }
     }

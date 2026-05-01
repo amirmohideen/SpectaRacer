@@ -2,22 +2,18 @@ data:
   externalSources:
     - 0d9e3189-0e5b-4ca2-a81d-9b3805ae0db0: /Users/amir/Library/Preferences/Snap/Lens Studio/LibraryComponents/SpectaclesShaderLibrary@0.2.0/SpectaclesShaderLibrary.lspkg
     - 0f35b931-e887-4635-af37-b450f30fa54f: /private/var/folders/b7/cyc7b9yn3pvbq4c9qxpy1_hc0000gn/T/LensStudio_feUKTq/Elite Casual Controls.lspkg
-    - 1c7dc714-d9df-413a-8c2c-c073f9ae6b4f: /Users/amir/Downloads/CarHit.mp3
+    - 2fe5545b-aa2c-4c82-8406-183b6e23528d: /Users/amir/Library/Preferences/Snap/Lens Studio/LibraryComponents/Visual Demonstration@1.0.1/Visual Demonstration.lsc
     - 3d5ecf41-19ba-41b6-84f9-08682326ead0: /Users/amir/Downloads/Rain.mp3
     - 3fab1177-40c4-4cea-bd42-e53a39cfcd65: /Users/amir/Downloads/Hexagonal_prism_v1.fbx
     - 4028e9a8-c8b5-4379-86c0-9619b9d6e404: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Vehicles.lspkg/Meshes/Vehicles/Meshes/veh_police_car_bitmoji.mesh
     - 625856bb-74b6-4f67-90de-b3d643224c9c: /Users/amir/Library/Preferences/Snap/Lens Studio/LibraryComponents/GPU Particles Technical Demo@1.0.2/GPU Particles Technical Demo.lspkg
     - 77d77135-90e3-48f1-abca-66bb37d2fb80: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Vehicles.lspkg/Meshes/Vehicles/Meshes/veh_police_car_bitmoji.mesh
     - 7ff98361-7dd2-40db-96d7-e9a08d1131d2: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Road Tileset.lspkg/Meshes/Road_Tileset/Meshes/tile_road_direct4.mesh
-    - 88486f05-41d7-4bb0-b645-d998aeca3b42: /Users/amir/Downloads/CoinSound.mp3
     - 8aa1fdd7-62e3-4a93-83c2-1132d85c537e: /Applications/Lens Studio.app/Contents/Plugins/Es_ShaderGraph_Model.bundle/InstantiationResources/Base.png
     - b25bf655-4d99-4000-940d-3070adc1a060: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Platformer Obstacles Kit.lspkg/Meshes/Platformer_Obstacles_Kit/Meshes/Coin.mesh
-    - bdbce562-4c14-4f2b-b012-e4151f293a86: /Users/amir/Library/Preferences/Snap/Lens Studio/LibraryComponents/Heartbeat@3.0.0/Heartbeat.lsc
-    - d43a244b-b994-4438-a484-7d2642855474: /Users/amir/Library/Preferences/Snap/Lens Studio/LibraryComponents/Turn Based@1.1.4/Turn Based.lsc
     - d4c84d95-edcf-442a-a028-aabf0566b370: /Users/amir/Downloads/CoinSound.mp3
     - d5016659-0041-4ee2-81b1-12814891ea7f: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Road Tileset.lspkg/Meshes/Road_Tileset/Meshes/tile_road_direct3.mesh
     - e5a672a4-bb13-4524-9f12-c16efad7454c: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Platformer Obstacles Kit.lspkg/Meshes/Platformer_Obstacles_Kit/Meshes/Coin3R.mesh
     - eab3e1a6-1a5c-44df-a546-aa4177c16c35: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Road Tileset.lspkg/Meshes/Road_Tileset/Meshes/tile_road_direct4 2.mesh
     - f0384e26-7382-4010-8862-12497a853832: /Users/amir/Downloads/CarHit.mp3
-    - f15dfc2a-7368-438c-ab23-65e283773c45: /Users/amir/Library/Preferences/Snap/Lens Studio/LibraryComponents/Roulette UI@3.0.0/Roulette UI.lsc
     - f7cccd64-62d6-42f2-807e-1737197c2b92: /Users/amir/Documents/SnapVibeCoded/SpectaCar2/Assets/Road Tileset.lspkg/Meshes/Road_Tileset/Meshes/tile_road_direct3 2.mesh

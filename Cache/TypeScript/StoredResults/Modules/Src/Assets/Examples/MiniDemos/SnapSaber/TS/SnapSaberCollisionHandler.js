@@ -70,7 +70,7 @@ let SnapSaberCollisionHandler = (() => {
             super();
             this.saberObject = (__runInitializers(this, _instanceExtraInitializers), this.saberObject);
             this.coinIdentifier = this.coinIdentifier;
-            this.treeIdentifier = this.treeIdentifier;
+            this.enemyIdentifier = this.enemyIdentifier;
             this.enableLogging = this.enableLogging;
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
         }
@@ -78,7 +78,7 @@ let SnapSaberCollisionHandler = (() => {
             super.__initialize();
             this.saberObject = (__runInitializers(this, _instanceExtraInitializers), this.saberObject);
             this.coinIdentifier = this.coinIdentifier;
-            this.treeIdentifier = this.treeIdentifier;
+            this.enemyIdentifier = this.enemyIdentifier;
             this.enableLogging = this.enableLogging;
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
         }
@@ -125,13 +125,13 @@ let SnapSaberCollisionHandler = (() => {
                     collidingObject.destroy();
                 }
             }
-            else if (name.includes(this.treeIdentifier)) {
-                this.logger.info(`Saber hit tree: ${name}`);
+            else if (name.includes(this.enemyIdentifier)) {
+                this.logger.info(`Saber hit enemy: ${name}`);
                 if (globalManager) {
-                    globalManager.registerTreeHit(collidingObject);
+                    globalManager.registerEnemyHit(collidingObject);
                 }
                 else {
-                    this.logger.warn("No global manager — destroying tree directly");
+                    this.logger.warn("No global manager — destroying enemy directly");
                     collidingObject.destroy();
                 }
             }

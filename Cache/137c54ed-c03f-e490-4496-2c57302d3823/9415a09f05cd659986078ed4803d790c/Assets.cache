@@ -81,7 +81,7 @@
     {}
   CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
 - !<ObjectPrefabAssetData/819f0d08-545e-4527-bcf6-ff10a507fef0>
-  Prototype: !<ObjectOwner/18f51cdb-83f3-4e46-8edd-99e7306ca99a>
+  Prototype: !<ObjectOwner/7a751fbc-2005-44b9-9c22-6a9200d29e92>
     PackagePath: ""
     objects:
       - !<own> b0534530-0ea1-45cf-5b2a-7facd80d5630

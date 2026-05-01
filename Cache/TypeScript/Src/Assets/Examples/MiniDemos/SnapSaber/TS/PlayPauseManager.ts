@@ -4,7 +4,7 @@
  *
  * Responsibilities:
  *   - Pause / resume all lane instantiators and the LanePatternController
- *   - Display live damage percentage (each tree hit = 1/3; 3 hits = 100%)
+ *   - Display live damage percentage (each enemy hit = 1/3; 3 hits = 100%)
  *   - Display cumulative distance travelled (speed × time, converted to metres)
  *
  * Button wiring is handled by MainMenu.ts — call pause() / resume() / restart()
@@ -14,7 +14,7 @@ import { Logger } from "Utilities.lspkg/Scripts/Utils/Logger"
 import { bindStartEvent, bindUpdateEvent } from "SnapDecorators.lspkg/decorators"
 import { LanePatternController } from "./LanePatternController"
 import { CoinInstantiator } from "./CoinInstantiator"
-import { TreeInstantiator } from "./TreeInstantiator"
+import { EnemyInstantiator } from "./EnemyInstantiator"
 import { RoadInstantiator } from "./RoadInstantiator"
 import { SnapSaberGlobalManager } from "./SnapSaberGlobalManager"
 
@@ -47,22 +47,22 @@ export class PlayPauseManager extends BaseScriptComponent {
   coinRight: CoinInstantiator | undefined
 
   @ui.separator
-  @ui.label('<span style="color: #94A3B8; font-size: 11px;">Tree Instantiators</span>')
+  @ui.label('<span style="color: #94A3B8; font-size: 11px;">Enemy Instantiators</span>')
 
   @input
   @allowUndefined
-  @hint("Left lane TreeInstantiator")
-  treeLeft: TreeInstantiator | undefined
+  @hint("Left lane EnemyInstantiator")
+  enemyLeft: EnemyInstantiator | undefined
 
   @input
   @allowUndefined
-  @hint("Middle lane TreeInstantiator")
-  treeMiddle: TreeInstantiator | undefined
+  @hint("Middle lane EnemyInstantiator")
+  enemyMiddle: EnemyInstantiator | undefined
 
   @input
   @allowUndefined
-  @hint("Right lane TreeInstantiator")
-  treeRight: TreeInstantiator | undefined
+  @hint("Right lane EnemyInstantiator")
+  enemyRight: EnemyInstantiator | undefined
 
   @ui.separator
   @ui.label('<span style="color: #94A3B8; font-size: 11px;">Road Instantiators</span>')
@@ -101,6 +101,19 @@ export class PlayPauseManager extends BaseScriptComponent {
   scoreText: Component | undefined
 
   @ui.separator
+  @ui.label('<span style="color: #60A5FA;">VFX</span>')
+
+  @input
+  @allowUndefined
+  @hint("Rain VFXComponent — will be paused/resumed alongside the game")
+  rainVFX: VFXComponent | undefined
+
+  @input
+  @allowUndefined
+  @hint("Cloud VFXComponent — will be paused/resumed alongside the game")
+  cloudVFX: VFXComponent | undefined
+
+  @ui.separator
   @input
   @hint("If true the game starts paused — useful for testing; in production MainMenu controls this via Play button")
   startPaused: boolean = false
@@ -125,7 +138,7 @@ export class PlayPauseManager extends BaseScriptComponent {
   public onGameOver: (() => void) | null = null
 
   private coins: (CoinInstantiator | undefined)[] = []
-  private trees: (TreeInstantiator | undefined)[] = []
+  private enemies: (EnemyInstantiator | undefined)[] = []
   private roads: (RoadInstantiator | undefined)[] = []
 
   private logger: Logger
@@ -161,7 +174,7 @@ export class PlayPauseManager extends BaseScriptComponent {
     }
 
     this.coins = [this.coinLeft,  this.coinMiddle,  this.coinRight]
-    this.trees = [this.treeLeft,  this.treeMiddle,  this.treeRight]
+    this.enemies = [this.enemyLeft,  this.enemyMiddle,  this.enemyRight]
     this.roads = [this.roadLeft,  this.roadMiddle,  this.roadRight]
 
     if (this.startPaused) {
@@ -185,6 +198,8 @@ export class PlayPauseManager extends BaseScriptComponent {
     } else {
       this.logger.warn("pause() — laneController not assigned, movement will not stop!")
     }
+    if (this.rainVFX)  this.rainVFX.paused  = true
+    if (this.cloudVFX) this.cloudVFX.paused = true
     this.logger.info("Game paused")
   }
 
@@ -198,6 +213,8 @@ export class PlayPauseManager extends BaseScriptComponent {
     if (this.laneController) {
       this.laneController.resumeAll()
     }
+    if (this.rainVFX)  this.rainVFX.paused  = false
+    if (this.cloudVFX) this.cloudVFX.paused = false
     this.logger.info("Game resumed")
   }
 
@@ -205,7 +222,7 @@ export class PlayPauseManager extends BaseScriptComponent {
     // Wipe all in-flight tiles and reset spawn timers on every instantiator
     for (let i = 0; i < 3; i++) {
       if (this.coins[i]) this.coins[i].reset()
-      if (this.trees[i]) this.trees[i].reset()
+      if (this.enemies[i]) this.enemies[i].reset()
       if (this.roads[i]) this.roads[i].reset()
     }
 
@@ -223,6 +240,8 @@ export class PlayPauseManager extends BaseScriptComponent {
     this.distanceTravelled   = 0
     this.isPaused            = false
     this.gameOverTriggered   = false
+    if (this.rainVFX)  this.rainVFX.paused  = false
+    if (this.cloudVFX) this.cloudVFX.paused = false
 
     this.logger.info("Game restarted")
   }
@@ -266,8 +285,8 @@ export class PlayPauseManager extends BaseScriptComponent {
     if (!this.damageText) return
     const gm = SnapSaberGlobalManager.getInstance()
     if (!gm) return
-    const strikes = gm.getTreeStrikes()
-    const max     = gm.maxTreeStrikes
+    const strikes = gm.getEnemyStrikes()
+    const max     = gm.maxEnemyStrikes
     const pct     = Math.min(Math.round((strikes / max) * 100), 100)
     try {
       ;(this.damageText as any).text = `Damage: ${pct}%`

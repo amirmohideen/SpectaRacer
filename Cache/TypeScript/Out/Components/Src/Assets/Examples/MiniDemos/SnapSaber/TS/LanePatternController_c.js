@@ -19,10 +19,10 @@ function checkUndefined(property, showIfData) {
 // @input AssignableType_1 coinMiddle {"hint":"Middle lane CoinInstantiator"}
 // @input AssignableType_2 coinRight {"hint":"Right lane CoinInstantiator"}
 // @ui {"widget":"separator"}
-// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Tree Instantiators — drag the SceneObject with the TreeInstantiator script for each lane</span>"}
-// @input AssignableType_3 treeLeft {"hint":"Left lane TreeInstantiator"}
-// @input AssignableType_4 treeMiddle {"hint":"Middle lane TreeInstantiator"}
-// @input AssignableType_5 treeRight {"hint":"Right lane TreeInstantiator"}
+// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Enemy Instantiators — drag the SceneObject with the EnemyInstantiator script for each lane</span>"}
+// @input AssignableType_3 enemyLeft {"hint":"Left lane EnemyInstantiator"}
+// @input AssignableType_4 enemyMiddle {"hint":"Middle lane EnemyInstantiator"}
+// @input AssignableType_5 enemyRight {"hint":"Right lane EnemyInstantiator"}
 // @ui {"widget":"separator"}
 // @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Road Instantiators — drag the SceneObject with the RoadInstantiator script for each lane</span>"}
 // @input AssignableType_6 roadLeft {"hint":"Left lane RoadInstantiator"}
@@ -63,9 +63,9 @@ awakeEvent.bind(() => {
     checkUndefined("coinLeft", []);
     checkUndefined("coinMiddle", []);
     checkUndefined("coinRight", []);
-    checkUndefined("treeLeft", []);
-    checkUndefined("treeMiddle", []);
-    checkUndefined("treeRight", []);
+    checkUndefined("enemyLeft", []);
+    checkUndefined("enemyMiddle", []);
+    checkUndefined("enemyRight", []);
     checkUndefined("initialMoveSpeed", []);
     checkUndefined("maxMoveSpeed", []);
     checkUndefined("speedRampTime", []);

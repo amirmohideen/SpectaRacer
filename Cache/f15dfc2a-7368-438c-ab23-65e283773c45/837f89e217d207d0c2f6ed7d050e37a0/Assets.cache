@@ -222,7 +222,7 @@
       Level: Medium
       Mipmap: false
 - !<ObjectPrefabAssetData/5244abe7-47c4-49ed-bb53-016465bb715c>
-  Prototype: !<ObjectOwner/9be08b33-df21-4723-8a2b-e3b4e55b48eb>
+  Prototype: !<ObjectOwner/db540cc0-769e-4c47-ba47-33cfdb18f21e>
     PackagePath: ""
     objects:
       - !<own> 267e45d0-88c0-4a63-601f-d39b26b68c2c

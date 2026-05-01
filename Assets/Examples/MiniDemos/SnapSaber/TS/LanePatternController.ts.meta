@@ -32,6 +32,9 @@
     difficultyRampTime: false
     enableLogging: false
     enableLoggingLifecycle: false
+    enemyLeft: false
+    enemyMiddle: false
+    enemyRight: false
     gapDuration: false
     gapFrequency: false
     initialMoveSpeed: false
@@ -42,9 +45,6 @@
     roadMiddle: false
     roadRight: false
     speedRampTime: false
-    treeLeft: false
-    treeMiddle: false
-    treeRight: false
   ScriptTypesHidden:
     {}
   ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
@@ -57,9 +57,9 @@
     - coinLeft: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
       coinMiddle: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
       coinRight: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
-      treeLeft: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
-      treeMiddle: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
-      treeRight: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      enemyLeft: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      enemyMiddle: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      enemyRight: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
       roadLeft: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
       roadMiddle: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
       roadRight: !<MappingBased.AssignableType_8> 00000000-0000-0000-0000-000000000000
@@ -84,10 +84,10 @@
     - '// @input AssignableType_1 coinMiddle {"hint":"Middle lane CoinInstantiator"}'
     - '// @input AssignableType_2 coinRight {"hint":"Right lane CoinInstantiator"}'
     - '// @ui {"widget":"separator"}'
-    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Tree Instantiators — drag the SceneObject with the TreeInstantiator script for each lane</span>"}'
-    - '// @input AssignableType_3 treeLeft {"hint":"Left lane TreeInstantiator"}'
-    - '// @input AssignableType_4 treeMiddle {"hint":"Middle lane TreeInstantiator"}'
-    - '// @input AssignableType_5 treeRight {"hint":"Right lane TreeInstantiator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Enemy Instantiators — drag the SceneObject with the EnemyInstantiator script for each lane</span>"}'
+    - '// @input AssignableType_3 enemyLeft {"hint":"Left lane EnemyInstantiator"}'
+    - '// @input AssignableType_4 enemyMiddle {"hint":"Middle lane EnemyInstantiator"}'
+    - '// @input AssignableType_5 enemyRight {"hint":"Right lane EnemyInstantiator"}'
     - '// @ui {"widget":"separator"}'
     - '// @ui {"widget":"label", "label":"<span style=\"color: #94A3B8; font-size: 11px;\">Road Instantiators — drag the SceneObject with the RoadInstantiator script for each lane</span>"}'
     - '// @input AssignableType_6 roadLeft {"hint":"Left lane RoadInstantiator"}'

@@ -1,0 +1,41 @@
+- !<NativePackageDescriptor/4cdc9c88-af08-4223-b0ff-4376298e99da>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Manipulation on surface (rotate with two fingers) Provides an animated graphic hint and a helper script that allows to configure hint behavior
+    
+    Usage:
+    Drag and drop the asset "Hint - Manipulate Dots 2F__PUT_IN_ORTHO_CAM" into your scene, under the Orthographic Camera. The hint will start playing automatically when the Lens is opened.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: 0d6bbd80-fcec-4ad4-b02d-14b3c64659c9
+  ComponentUid: 65af1dbc-efae-4f04-b79c-137003db935c
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

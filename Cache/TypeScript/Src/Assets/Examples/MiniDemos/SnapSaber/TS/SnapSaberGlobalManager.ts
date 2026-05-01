@@ -7,20 +7,16 @@ import { bindStartEvent } from "SnapDecorators.lspkg/decorators"
 
 @component
 export class SnapSaberGlobalManager extends BaseScriptComponent {
-  @ui.label('<span style="color: #60A5FA;">SnapSaberGlobalManager – singleton score & damage manager</span><br/><span style="color: #94A3B8; font-size: 11px;">Tracks score from coin hits and tree damage strikes. 3 tree hits = game over.</span>')
+  @ui.label('<span style="color: #60A5FA;">SnapSaberGlobalManager – singleton score & damage manager</span><br/><span style="color: #94A3B8; font-size: 11px;">Tracks score from coin hits and enemy damage strikes. 3 enemy hits = game over.</span>')
   @ui.separator
-
-  @input
-  @hint("Text component that displays the score")
-  scoreText!: Component
 
   @input
   @hint("Points awarded for each coin hit")
   pointsPerHit: number = 10
 
   @input
-  @hint("Number of tree hits before game over")
-  maxTreeStrikes: number = 3
+  @hint("Number of enemy hits before game over")
+  maxEnemyStrikes: number = 3
 
   @ui.separator
   @ui.label('<span style="color: #60A5FA;">Sound Effects</span>')
@@ -32,8 +28,8 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
 
   @input
   @allowUndefined
-  @hint("AudioComponent to play when the car hits a tree — assign your crash SFX AudioComponent here")
-  treeAudio: AudioComponent | undefined
+  @hint("AudioComponent to play when the car hits an enemy — assign your crash SFX AudioComponent here")
+  enemyAudio: AudioComponent | undefined
 
   @ui.separator
   @ui.label('<span style="color: #60A5FA;">Logging</span>')
@@ -46,7 +42,7 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
   enableLoggingLifecycle: boolean = false
 
   private score: number = 0
-  private treeStrikes: number = 0
+  private enemyStrikes: number = 0
   private isGameOver: boolean = false
   private lastHitTime: number = 0
   private hitCooldown: number = 0.1
@@ -69,9 +65,8 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
     if (this.enableLoggingLifecycle) this.logger.debug("LIFECYCLE: onStart()")
 
     this.score = 0
-    this.treeStrikes = 0
+    this.enemyStrikes = 0
     this.isGameOver = false
-    this.updateScoreDisplay()
 
     this.isInitialized = true
     this.logger.info("SnapSaber Global Manager started")
@@ -97,7 +92,6 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
     this.lastHitTime = currentTime
 
     if (this.coinAudio) this.coinAudio.play(1)
-    this.updateScoreDisplay()
     this.logger.info(`Coin hit! Score: ${this.score}`)
 
     if (targetObject) {
@@ -114,20 +108,20 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
     this.registerCoinHit(targetObject)
   }
 
-  registerTreeHit(targetObject: SceneObject): void {
+  registerEnemyHit(targetObject: SceneObject): void {
     if (!this.isInitialized || this.isGameOver) return
 
     const currentTime = getTime()
     if (currentTime - this.lastHitTime < this.hitCooldown) return
 
-    this.treeStrikes++
+    this.enemyStrikes++
     this.lastHitTime = currentTime
 
-    if (this.treeAudio) this.treeAudio.play(1)
-    this.logger.info(`Tree hit! Strikes: ${this.treeStrikes} / ${this.maxTreeStrikes}`)
-    print(`[SnapSaberGlobalManager] Tree hit! Strikes: ${this.treeStrikes} / ${this.maxTreeStrikes}`)
+    if (this.enemyAudio) this.enemyAudio.play(1)
+    this.logger.info(`Enemy hit! Strikes: ${this.enemyStrikes} / ${this.maxEnemyStrikes}`)
+    print(`[SnapSaberGlobalManager] Enemy hit! Strikes: ${this.enemyStrikes} / ${this.maxEnemyStrikes}`)
 
-    if (this.treeStrikes >= this.maxTreeStrikes) {
+    if (this.enemyStrikes >= this.maxEnemyStrikes) {
       this.isGameOver = true
       print("[SnapSaberGlobalManager] GAME OVER")
       this.logger.info("GAME OVER")
@@ -137,7 +131,7 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
       try {
         targetObject.destroy()
       } catch (e) {
-        this.logger.error("Error destroying tree: " + e)
+        this.logger.error("Error destroying enemy: " + e)
       }
     }
   }
@@ -146,8 +140,8 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
     return this.score
   }
 
-  getTreeStrikes(): number {
-    return this.treeStrikes
+  getEnemyStrikes(): number {
+    return this.enemyStrikes
   }
 
   isOver(): boolean {
@@ -155,21 +149,10 @@ export class SnapSaberGlobalManager extends BaseScriptComponent {
   }
 
   reset(): void {
-    this.score       = 0
-    this.treeStrikes = 0
-    this.isGameOver  = false
-    this.lastHitTime = 0
-    this.updateScoreDisplay()
+    this.score        = 0
+    this.enemyStrikes = 0
+    this.isGameOver   = false
+    this.lastHitTime  = 0
     this.logger.info("SnapSaberGlobalManager reset")
-  }
-
-  private updateScoreDisplay(): void {
-    if (this.scoreText) {
-      try {
-        ;(this.scoreText as any).text = `Score: ${this.score}`
-      } catch (e) {
-        this.logger.error("Error updating score display: " + e)
-      }
-    }
   }
 }

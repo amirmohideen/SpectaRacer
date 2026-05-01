@@ -1,0 +1,41 @@
+- !<NativePackageDescriptor/6923125a-c412-467b-8849-9476e901d6aa>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Pinch / Zoom Provides an animated graphic hint and a helper script that allows to configure hint behavior Most common hint for interactions. Using it when need to emphasize an interactive element. For a clickable area prefer to use the design with feedback instead.
+    
+    Usage:
+    Drag and drop the asset "Hint - Pinch Zoom In__PUT_IN_ORTHO_CAM" into your scene, under the Orthographic Camera. The hint will start playing automatically when the Lens is opened.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: ef7efffb-4854-437a-8a21-eacaef827382
+  ComponentUid: 733154f5-dec0-4b58-9b9e-11163d1d83af
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0

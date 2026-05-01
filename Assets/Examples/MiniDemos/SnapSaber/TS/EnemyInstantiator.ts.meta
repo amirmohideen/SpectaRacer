@@ -1,0 +1,84 @@
+- !<AssetImportMetadata/dc133c71-8db9-4c07-8b08-9f98ceb86799>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> fb57233a-b9fc-4a96-a519-4297a8d5eb13
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> fb57233a-b9fc-4a96-a519-4297a8d5eb13
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> fcd7a237-9000-4dae-9b53-e3ca3dfb377f
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/fcd7a237-9000-4dae-9b53-e3ca3dfb377f>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: d49aef11-17f2-49c4-b528-33c6f2f6548b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    destroyOnReachTarget: false
+    enableLogging: false
+    enableLoggingLifecycle: false
+    endZone: false
+    moveSpeed: false
+    prefab: false
+    rotationSpeedX: false
+    rotationSpeedY: false
+    rotationSpeedZ: false
+    showSpawnGizmo: false
+    spawnInterval: false
+    spawnPosition: false
+    targetPosition: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - prefab: !<reference.ObjectPrefab> 00000000-0000-0000-0000-000000000000
+      spawnPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetPosition: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      endZone: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spawnInterval: !<float> 2.000000
+      moveSpeed: !<float> 2.000000
+      rotationSpeedX: !<float> 0.000000
+      rotationSpeedY: !<float> 45.000000
+      rotationSpeedZ: !<float> 0.000000
+      destroyOnReachTarget: false
+      showSpawnGizmo: true
+      enableLogging: false
+      enableLoggingLifecycle: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #4ADE80;\">EnemyInstantiator – spawn and animate enemy obstacle cubes</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Instantiates enemy prefabs at regular intervals and moves them toward a target. Cubes are destroyed on end-zone collision.</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @input Asset.ObjectPrefab prefab {"hint":"Prefab to instantiate"}'
+    - '// @input SceneObject spawnPosition {"hint":"Spawn position – where prefabs appear from"}'
+    - '// @input SceneObject targetPosition {"hint":"Target position – defines movement direction"}'
+    - '// @input SceneObject endZone {"hint":"SceneObject with a box collider that destroys enemies on contact (e.g. InstantiatorEndPosition1)"}'
+    - '// @input float spawnInterval = 2 {"hint":"Time between spawning prefabs in seconds"}'
+    - '// @input float moveSpeed = 2 {"hint":"Speed at which prefabs move toward the target"}'
+    - '// @input float rotationSpeedX {"hint":"Rotation speed on X axis in degrees per second"}'
+    - '// @input float rotationSpeedY = 45 {"hint":"Rotation speed on Y axis in degrees per second"}'
+    - '// @input float rotationSpeedZ {"hint":"Rotation speed on Z axis in degrees per second"}'
+    - '// @input bool destroyOnReachTarget {"hint":"Destroy prefabs when they reach the target position"}'
+    - '// @input bool showSpawnGizmo = true {"hint":"Draw a debug line from spawn position to target position each frame"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}'
+    - '// @input bool enableLogging {"hint":"Enable general logging"}'
+    - '// @input bool enableLoggingLifecycle {"hint":"Enable lifecycle logging (onAwake, onStart, onUpdate, onDestroy)"}'

@@ -12,11 +12,11 @@ function checkUndefined(property, showIfData) {
         throw new Error("Input " + property + " was not provided for the object " + script.getSceneObject().name);
     }
 }
-// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">SnapSaberCollisionHandler – detect saber-to-target collisions</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Coin hits award points; tree hits deal damage (3 strikes = game over).</span>"}
+// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">SnapSaberCollisionHandler – detect saber-to-target collisions</span><br/><span style=\"color: #94A3B8; font-size: 11px;\">Coin hits award points; enemy hits deal damage (3 strikes = game over).</span>"}
 // @ui {"widget":"separator"}
 // @input SceneObject saberObject {"hint":"The saber object with the collider component"}
 // @input string coinIdentifier = "CoinCube" {"hint":"Name prefix to identify coin target objects"}
-// @input string treeIdentifier = "TreeCube" {"hint":"Name prefix to identify tree obstacle objects"}
+// @input string enemyIdentifier = "EnemyCube" {"hint":"Name prefix to identify enemy obstacle objects"}
 // @ui {"widget":"separator"}
 // @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">Logging</span>"}
 // @input bool enableLogging {"hint":"Enable general logging"}
@@ -37,7 +37,7 @@ let awakeEvent = script.createEvent("OnAwakeEvent");
 awakeEvent.bind(() => {
     checkUndefined("saberObject", []);
     checkUndefined("coinIdentifier", []);
-    checkUndefined("treeIdentifier", []);
+    checkUndefined("enemyIdentifier", []);
     checkUndefined("enableLogging", []);
     checkUndefined("enableLoggingLifecycle", []);
     if (script.onAwake) {

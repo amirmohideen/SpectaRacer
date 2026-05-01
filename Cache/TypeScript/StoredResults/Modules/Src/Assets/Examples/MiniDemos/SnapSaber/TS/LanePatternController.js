@@ -52,7 +52,7 @@ function component(target) {
 }
 /**
  * Specs Inc. 2026
- * Lane Pattern Controller — orchestrates the existing CoinInstantiator and TreeInstantiator
+ * Lane Pattern Controller — orchestrates the existing CoinInstantiator and EnemyInstantiator
  * scripts to produce structured, skill-based spawning across three lanes.
  *
  * Nothing about the instantiators changes — their prefabs, orientations, spawn positions,
@@ -60,9 +60,9 @@ function component(target) {
  * WHICH instantiators are allowed to spawn at any given moment.
  *
  * Pattern format per wave:  [left, middle, right]
- *   0 = EMPTY  — both coin and tree disabled on this lane
- *   1 = COIN   — coin instantiator enabled, tree disabled
- *   2 = TREE   — tree instantiator enabled, coin disabled
+ *   0 = EMPTY  — both coin and enemy disabled on this lane
+ *   1 = COIN   — coin instantiator enabled, enemy disabled
+ *   2 = ENEMY  — enemy instantiator enabled, coin disabled
  *
  * State machine:
  *   initial gap → WAVE (pattern active) → gap → WAVE → ... → rest wave every N → ...
@@ -71,7 +71,7 @@ const Logger_1 = require("Utilities.lspkg/Scripts/Utils/Logger");
 const decorators_1 = require("SnapDecorators.lspkg/decorators");
 const EMPTY = 0;
 const COIN = 1;
-const TREE = 2;
+const ENEMY = 2;
 let LanePatternController = (() => {
     let _classDecorators = [component];
     let _classDescriptor;
@@ -87,9 +87,9 @@ let LanePatternController = (() => {
             this.coinLeft = (__runInitializers(this, _instanceExtraInitializers), this.coinLeft);
             this.coinMiddle = this.coinMiddle;
             this.coinRight = this.coinRight;
-            this.treeLeft = this.treeLeft;
-            this.treeMiddle = this.treeMiddle;
-            this.treeRight = this.treeRight;
+            this.enemyLeft = this.enemyLeft;
+            this.enemyMiddle = this.enemyMiddle;
+            this.enemyRight = this.enemyRight;
             this.roadLeft = this.roadLeft;
             this.roadMiddle = this.roadMiddle;
             this.roadRight = this.roadRight;
@@ -105,29 +105,29 @@ let LanePatternController = (() => {
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
             // ─── Pattern library ───────────────────────────────────────────────────────
             // Safety invariant: every pattern has ≥1 lane that is EMPTY or COIN.
-            /** Easy — 1 tree max, clear safe options */
+            /** Easy — 1 enemy max, clear safe options */
             this.PATTERNS_EASY = [
                 [COIN, COIN, COIN], // pure reward
                 [COIN, COIN, EMPTY],
                 [EMPTY, COIN, COIN],
                 [COIN, EMPTY, COIN],
-                [TREE, COIN, COIN], // one obstacle, two escapes
-                [COIN, TREE, COIN],
-                [COIN, COIN, TREE],
-                [TREE, COIN, EMPTY], // one obstacle, coin + empty escape
-                [TREE, EMPTY, COIN],
-                [COIN, EMPTY, TREE],
-                [EMPTY, TREE, COIN],
-                [EMPTY, COIN, TREE],
-                [COIN, TREE, EMPTY],
+                [ENEMY, COIN, COIN], // one obstacle, two escapes
+                [COIN, ENEMY, COIN],
+                [COIN, COIN, ENEMY],
+                [ENEMY, COIN, EMPTY], // one obstacle, coin + empty escape
+                [ENEMY, EMPTY, COIN],
+                [COIN, EMPTY, ENEMY],
+                [EMPTY, ENEMY, COIN],
+                [EMPTY, COIN, ENEMY],
+                [COIN, ENEMY, EMPTY],
             ];
-            /** Medium — two trees, exactly one escape lane */
+            /** Medium — two enemies, exactly one escape lane */
             this.PATTERNS_MEDIUM = [
-                [TREE, TREE, COIN],
-                [TREE, COIN, TREE],
-                [COIN, TREE, TREE],
-                [TREE, TREE, EMPTY],
-                [EMPTY, TREE, TREE],
+                [ENEMY, ENEMY, COIN],
+                [ENEMY, COIN, ENEMY],
+                [COIN, ENEMY, ENEMY],
+                [ENEMY, ENEMY, EMPTY],
+                [EMPTY, ENEMY, ENEMY],
             ];
             /** Rest — breathing room inserted every gapFrequency waves */
             this.PATTERNS_REST = [
@@ -154,9 +154,9 @@ let LanePatternController = (() => {
             this.coinLeft = (__runInitializers(this, _instanceExtraInitializers), this.coinLeft);
             this.coinMiddle = this.coinMiddle;
             this.coinRight = this.coinRight;
-            this.treeLeft = this.treeLeft;
-            this.treeMiddle = this.treeMiddle;
-            this.treeRight = this.treeRight;
+            this.enemyLeft = this.enemyLeft;
+            this.enemyMiddle = this.enemyMiddle;
+            this.enemyRight = this.enemyRight;
             this.roadLeft = this.roadLeft;
             this.roadMiddle = this.roadMiddle;
             this.roadRight = this.roadRight;
@@ -172,29 +172,29 @@ let LanePatternController = (() => {
             this.enableLoggingLifecycle = this.enableLoggingLifecycle;
             // ─── Pattern library ───────────────────────────────────────────────────────
             // Safety invariant: every pattern has ≥1 lane that is EMPTY or COIN.
-            /** Easy — 1 tree max, clear safe options */
+            /** Easy — 1 enemy max, clear safe options */
             this.PATTERNS_EASY = [
                 [COIN, COIN, COIN], // pure reward
                 [COIN, COIN, EMPTY],
                 [EMPTY, COIN, COIN],
                 [COIN, EMPTY, COIN],
-                [TREE, COIN, COIN], // one obstacle, two escapes
-                [COIN, TREE, COIN],
-                [COIN, COIN, TREE],
-                [TREE, COIN, EMPTY], // one obstacle, coin + empty escape
-                [TREE, EMPTY, COIN],
-                [COIN, EMPTY, TREE],
-                [EMPTY, TREE, COIN],
-                [EMPTY, COIN, TREE],
-                [COIN, TREE, EMPTY],
+                [ENEMY, COIN, COIN], // one obstacle, two escapes
+                [COIN, ENEMY, COIN],
+                [COIN, COIN, ENEMY],
+                [ENEMY, COIN, EMPTY], // one obstacle, coin + empty escape
+                [ENEMY, EMPTY, COIN],
+                [COIN, EMPTY, ENEMY],
+                [EMPTY, ENEMY, COIN],
+                [EMPTY, COIN, ENEMY],
+                [COIN, ENEMY, EMPTY],
             ];
-            /** Medium — two trees, exactly one escape lane */
+            /** Medium — two enemies, exactly one escape lane */
             this.PATTERNS_MEDIUM = [
-                [TREE, TREE, COIN],
-                [TREE, COIN, TREE],
-                [COIN, TREE, TREE],
-                [TREE, TREE, EMPTY],
-                [EMPTY, TREE, TREE],
+                [ENEMY, ENEMY, COIN],
+                [ENEMY, COIN, ENEMY],
+                [COIN, ENEMY, ENEMY],
+                [ENEMY, ENEMY, EMPTY],
+                [EMPTY, ENEMY, ENEMY],
             ];
             /** Rest — breathing room inserted every gapFrequency waves */
             this.PATTERNS_REST = [
@@ -226,21 +226,21 @@ let LanePatternController = (() => {
             if (this.enableLoggingLifecycle)
                 this.logger.debug("LIFECYCLE: onStart()");
             this.coins = [this.coinLeft, this.coinMiddle, this.coinRight];
-            this.trees = [this.treeLeft, this.treeMiddle, this.treeRight];
+            this.enemies = [this.enemyLeft, this.enemyMiddle, this.enemyRight];
             this.roads = [this.roadLeft, this.roadMiddle, this.roadRight];
             for (let i = 0; i < 3; i++) {
                 if (!this.coins[i])
                     this.logger.warn(`coinInstantiator[${i}] not assigned`);
-                if (!this.trees[i])
-                    this.logger.warn(`treeInstantiator[${i}] not assigned`);
+                if (!this.enemies[i])
+                    this.logger.warn(`enemyInstantiator[${i}] not assigned`);
             }
             // Fix coin interval to 0.3 s on all lanes — controller owns this value
             for (let i = 0; i < 3; i++) {
                 if (this.coins[i])
                     this.coins[i].spawnInterval = 0.3;
-                // Large interval so each tree fires exactly once per wave regardless of wave duration
-                if (this.trees[i])
-                    this.trees[i].spawnInterval = 9999;
+                // Large interval so each enemy fires exactly once per wave regardless of wave duration
+                if (this.enemies[i])
+                    this.enemies[i].spawnInterval = 9999;
             }
             // Disable all instantiators immediately — controller takes full ownership
             this.disableAll();
@@ -258,23 +258,23 @@ let LanePatternController = (() => {
                     this.coins[i].moveSpeed = 0;
                     this.coins[i].spawnEnabled = false;
                 }
-                if (this.trees[i]) {
-                    this.trees[i].moveSpeed = 0;
-                    this.trees[i].spawnEnabled = false;
+                if (this.enemies[i]) {
+                    this.enemies[i].moveSpeed = 0;
+                    this.enemies[i].spawnEnabled = false;
                 }
                 if (this.roads[i]) {
                     this.roads[i].moveSpeed = 0;
                     this.roads[i].spawnEnabled = false;
                 }
             }
-            this.logger.info(`pauseAll called — coins[0] ok:${!!this.coins[0]}, trees[0] ok:${!!this.trees[0]}, roads[0] ok:${!!this.roads[0]}`);
+            this.logger.info(`pauseAll called — coins[0] ok:${!!this.coins[0]}, enemies[0] ok:${!!this.enemies[0]}, roads[0] ok:${!!this.roads[0]}`);
         }
         resumeAll() {
             this.isPaused = false;
             for (let i = 0; i < 3; i++) {
                 if (this.roads[i])
                     this.roads[i].spawnEnabled = true;
-                // coins/trees spawnEnabled is restored by the state machine on its next wave/gap transition
+                // coins/enemies spawnEnabled is restored by the state machine on its next wave/gap transition
             }
             // updateMoveSpeed() runs on the very next onUpdate frame and restores the correct ramped speed
             this.logger.info("resumeAll called — LPC resuming");
@@ -284,25 +284,25 @@ let LanePatternController = (() => {
             for (let i = 0; i < 3; i++) {
                 if (this.coins[i])
                     this.coins[i].spawnEnabled = false;
-                if (this.trees[i])
-                    this.trees[i].spawnEnabled = false;
+                if (this.enemies[i])
+                    this.enemies[i].spawnEnabled = false;
             }
         }
         applyPattern(pattern) {
             for (let i = 0; i < 3; i++) {
                 const wantCoin = pattern[i] === COIN;
-                const wantTree = pattern[i] === TREE;
+                const wantEnemy = pattern[i] === ENEMY;
                 if (this.coins[i]) {
                     this.coins[i].spawnEnabled = wantCoin;
                     // delay = 0 → first coin spawns on the very next frame
                     if (wantCoin)
                         this.coins[i].resetSpawnTimer(0);
                 }
-                if (this.trees[i]) {
-                    this.trees[i].spawnEnabled = wantTree;
-                    // delay = 0 → tree spawns immediately; interval is 9999 so it won't fire again this wave
-                    if (wantTree)
-                        this.trees[i].resetSpawnTimer(0);
+                if (this.enemies[i]) {
+                    this.enemies[i].spawnEnabled = wantEnemy;
+                    // delay = 0 → enemy spawns immediately; interval is 9999 so it won't fire again this wave
+                    if (wantEnemy)
+                        this.enemies[i].resetSpawnTimer(0);
                 }
             }
         }
@@ -328,9 +328,9 @@ let LanePatternController = (() => {
                 candidates = pool;
             }
             // Lane-switching enforcement: if the same safe lane appeared ≥2 times in a row,
-            // bias toward patterns that put a TREE on that lane so the player must rotate
+            // bias toward patterns that put a ENEMY on that lane so the player must rotate
             if (this.lastSafeLane >= 0 && this.consecutiveSafe >= 2) {
-                const forcing = candidates.filter(p => p[this.lastSafeLane] === TREE);
+                const forcing = candidates.filter(p => p[this.lastSafeLane] === ENEMY);
                 if (forcing.length > 0) {
                     candidates = forcing;
                     this.logger.info(`Forcing switch away from lane ${this.lastSafeLane}`);
@@ -400,8 +400,8 @@ let LanePatternController = (() => {
             for (let i = 0; i < 3; i++) {
                 if (this.coins[i])
                     this.coins[i].moveSpeed = this.initialMoveSpeed;
-                if (this.trees[i])
-                    this.trees[i].moveSpeed = this.initialMoveSpeed;
+                if (this.enemies[i])
+                    this.enemies[i].moveSpeed = this.initialMoveSpeed;
                 if (this.roads[i])
                     this.roads[i].moveSpeed = this.initialMoveSpeed;
             }
@@ -429,8 +429,8 @@ let LanePatternController = (() => {
             for (let i = 0; i < 3; i++) {
                 if (this.coins[i])
                     this.coins[i].moveSpeed = this.currentSpeed;
-                if (this.trees[i])
-                    this.trees[i].moveSpeed = this.currentSpeed;
+                if (this.enemies[i])
+                    this.enemies[i].moveSpeed = this.currentSpeed;
                 if (this.roads[i])
                     this.roads[i].moveSpeed = this.currentSpeed;
             }

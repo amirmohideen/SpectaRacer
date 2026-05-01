@@ -1,0 +1,41 @@
+- !<NativePackageDescriptor/5c35b75a-5ac4-4b69-8d68-24d12d8983c9>
+  PackagePath: ""
+  StudioVersion:
+    major: 5
+    minor: 15
+    patch: 4
+    build: 26022322
+    type: Unset
+    buildFlavor: ""
+    timestamp: 0
+    commit: ""
+  Description: |-
+    Hint - Manipulation on surface (1 finger cube) Provides an animated graphic hint and a helper script that allows to configure hint behavior
+    
+    Usage:
+    Drag and drop the asset "Hint - Manipulate 1f__PUT_IN_ORTHO_CAM" into your scene, under the Orthographic Camera. The hint will start playing automatically when the Lens is opened.
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  VersionMajor: 1
+  VersionMinor: 0
+  VersionPatch: 0
+  UpdateCheckpoint: 76
+  ExportUid: a96058c5-0606-4786-9e3b-b044beeb73a3
+  ComponentUid: 936d25c0-6b48-44a8-bbb7-c5822bb2f5a6
+  PackagePolicy: CanBeUnpackedTransparent
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  Instantiable: !<reference> 00000000-0000-0000-0000-000000000000
+  AssetLibraryDependencyStructure: !<AssetLibraryDependencyStructure>
+    Name: ""
+    AssetId: ""
+    Hash: ""
+    Version:
+      major: 0
+      minor: 0
+      patch: 0
+      build: 0
