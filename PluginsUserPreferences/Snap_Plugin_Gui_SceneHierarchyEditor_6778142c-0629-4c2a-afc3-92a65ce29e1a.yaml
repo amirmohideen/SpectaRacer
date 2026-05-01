@@ -1,8 +1,9 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 136
+    size: 139
     values:
+      - 00000000-0000-0065-0000-000000000064
       - 0005641c-028d-459a-0000-000000014b4d
       - 012aef1b-be9d-449b-a833-67bb101960b2
       - 04fdf7dd-9770-42f4-8b1a-e8b03933c43b
@@ -68,6 +69,7 @@ CollapsedEntities:
       - 5dc442e4-b1a8-44d0-a54d-f6a85a65536a
       - 62c3333e-80fe-4230-9525-5d3c63a7a44f
       - 647dd01b-5c4e-4ec9-a2a8-2112d81fd781
+      - 69a95710-4b95-4d26-bd4a-19582fba190d
       - 6b5e8112-825c-43bc-acd0-61e66ac221c7
       - 6d93fa89-b9dc-4b24-bdea-63b0b5fbbb68
       - 6eea9637-180d-4228-a74b-3533f7c123f8
@@ -136,6 +138,7 @@ CollapsedEntities:
       - f054962e-0bec-4e54-8916-d57f292fa9f5
       - f20befd7-ccd9-42ae-8e7c-af931f5333e4
       - f3a8936b-5ca0-4a6e-beba-0d461ae2e9dc
+      - f489c7dd-bd40-4449-8ac3-f560d19172f5
       - f689d0a3-1495-4e4b-a0f7-c996e0d3f7e5
       - fa3482bb-1ddd-41f5-a4f1-ba94e1e7cc57
       - fb1e8866-3bda-44fc-9b5d-63eddbd11930

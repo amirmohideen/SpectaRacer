@@ -1,21 +1,17 @@
-# SpectaRun
+# SpectaRacer
 
-> An AR endless runner built for Snap Spectacles — dodge enemies, collect coins, and race the clock in the real world.
+> An AR endless runner built for Snap Spectacles: dodge enemies, collect coins, and race the clock in the real world.
 
-SpectaRun is a fully playable, production-quality endless runner lens for Snap Spectacles. Three lanes of enemies and collectibles scroll toward the player at an ever-increasing speed. Survive as long as possible, rack up coins, and track your distance — all overlaid on your real environment.
+SpectaRacer is a fully playable, production-quality endless runner lens for Snap Spectacles. Three lanes of enemies and collectibles scroll toward the player at an ever-increasing speed. Survive as long as possible, rack up coins, and track your distance: all overlaid on your real environment.
 
 ---
 
-## Features
+## How to Play
 
-- **3-lane endless runner** with procedurally selected enemy/coin patterns
-- **Adaptive difficulty** — speed and pattern complexity ramp smoothly over 120 seconds
-- **Full game loop** — main menu → gameplay → pause → game over → restart, with no reloads
-- **Live HUD** — real-time damage percentage, distance in metres, and coin score
-- **Weather system** — toggle an environmental effect and its rain VFX mid-game; rain audio tracks the switch state
-- **Spatial audio** — distinct coin collect and crash sound effects; looping ambient rain that respects both menu and weather toggle state
-- **Complete menu system** — four panels (main menu, pause, tutorial, game over) wired entirely in TypeScript with no Inspector callbacks
-- **Singleton architecture** — `PlayPauseManager` and `SnapSaberGlobalManager` accessible from any script via `getInstance()`
+Point and/or pinch and hold:
+
+- **Top yellow part of the steering wheel** and steer right/left to move the car.
+- **Bottom part of the steering wheel** to adjust the level position.
 
 ---
 
@@ -25,11 +21,24 @@ SpectaRun is a fully playable, production-quality endless runner lens for Snap S
 |---|---|
 | Drive into a coin | Score increases, coin SFX plays |
 | Collide with an enemy | Damage +33%, crash SFX plays |
-| Three enemy hits | Game over — Panel 4 appears |
+| Three enemy hits | Game over: Panel 4 appears |
 | Press pause button | Game freezes, VFX pause, pause panel opens |
 | Resume / Restart / Main Menu | All wired through the pause overlay |
 
 Three enemy collisions end the run. The game over screen appears automatically and offers a one-tap restart or return to the main menu.
+
+---
+
+## Features
+
+- **3-lane endless runner** with procedurally selected enemy/coin patterns
+- **Adaptive difficulty**: speed and pattern complexity ramp smoothly over 120 seconds
+- **Full game loop**: main menu → gameplay → pause → game over → restart, with no reloads
+- **Live HUD**: real-time damage percentage, distance in metres, and coin score
+- **Weather system**: toggle an environmental effect and its rain VFX mid-game; rain audio tracks the switch state
+- **Spatial audio**: distinct coin collect and crash sound effects; looping ambient rain that respects both menu and weather toggle state
+- **Complete menu system**: four panels (main menu, pause, tutorial, game over) wired entirely in TypeScript with no Inspector callbacks
+- **Singleton architecture**: `PlayPauseManager` and `SnapSaberGlobalManager` accessible from any script via `getInstance()`
 
 ---
 
@@ -76,7 +85,7 @@ SpectaRacer/
 |---|---|
 | `MainMenu.ts` | Panel navigation (4 panels), level enable/disable, rain audio, weather toggle, game lifecycle |
 | `PlayPauseManager.ts` | Pause/resume/restart, HUD output (damage %, distance, score), game-over detection, VFX freeze |
-| `SnapSaberGlobalManager.ts` | Singleton — score tracking, damage strikes, coin/crash SFX |
+| `SnapSaberGlobalManager.ts` | Singleton: score tracking, damage strikes, coin/crash SFX |
 | `SnapSaberCollisionHandler.ts` | Car collision detection, routes hits to GlobalManager |
 | `LanePatternController.ts` | Wave-based pattern selection across 3 lanes, speed ramp, pause/resume/reset |
 | `CoinInstantiator.ts` | Spawns and moves coin prefabs; end-zone cleanup via overlap collider |
@@ -85,15 +94,15 @@ SpectaRacer/
 
 ### Design Patterns
 
-**Singleton via global scope** — `SnapSaberGlobalManager` and `PlayPauseManager` register themselves in Lens Studio's `global` object on `onAwake`, providing type-safe `getInstance()` accessors to any script without creating inspector dependencies.
+**Singleton via global scope**: `SnapSaberGlobalManager` and `PlayPauseManager` register themselves in Lens Studio's `global` object on `onAwake`, providing type-safe `getInstance()` accessors to any script without creating inspector dependencies.
 
-**Callback for cross-boundary events** — When damage reaches 100%, `PlayPauseManager` invokes an `onGameOver` callback registered by `MainMenu` at game start. This avoids a circular import between the two scripts while keeping the event flow explicit and traceable.
+**Callback for cross-boundary events**: When damage reaches 100%, `PlayPauseManager` invokes an `onGameOver` callback registered by `MainMenu` at game start. This avoids a circular import between the two scripts while keeping the event flow explicit and traceable.
 
-**Controller-owned pause** — `LanePatternController.pauseAll()` and `resumeAll()` freeze all nine lane instantiators (coins, enemies, roads) in a single call. `PlayPauseManager` needs only one inspector reference to produce a complete, reliable freeze — including VFX components.
+**Controller-owned pause**: `LanePatternController.pauseAll()` and `resumeAll()` freeze all nine lane instantiators (coins, enemies, roads) in a single call. `PlayPauseManager` needs only one inspector reference to produce a complete, reliable freeze: including VFX components.
 
-**Wave state machine** — `LanePatternController` cycles gap → wave → gap. Pattern pools are split into Easy, Medium, and Rest tiers. Difficulty weight shifts from 0 to 1 over `difficultyRampTime` seconds. A lane-switching enforcement rule tracks consecutive waves on the same safe lane and forces a rotation when the threshold is exceeded — keeping players active rather than camping.
+**Wave state machine**: `LanePatternController` cycles gap → wave → gap. Pattern pools are split into Easy, Medium, and Rest tiers. Difficulty weight shifts from 0 to 1 over `difficultyRampTime` seconds. A lane-switching enforcement rule tracks consecutive waves on the same safe lane and forces a rotation when the threshold is exceeded: keeping players active rather than camping.
 
-**Weather-aware audio** — Rain audio is controlled by `MainMenu` and guards against both menu panel state and the weather switch toggle. `startRain()` checks `weatherToggleSwitch.isOn` before playing, so every resume path respects the current weather preference without additional coordination.
+**Weather-aware audio**: Rain audio is controlled by `MainMenu` and guards against both menu panel state and the weather switch toggle. `startRain()` checks `weatherToggleSwitch.isOn` before playing, so every resume path respects the current weather preference without additional coordination.
 
 ---
 
@@ -109,7 +118,7 @@ SpectaRacer/
 1. Clone or download this repository.
 2. Open Lens Studio.
 3. Choose **File → Open Project** and select the `SpectaRacer/` folder.
-4. Lens Studio resolves the packed `.lspkg` dependencies from the `Packages/` folder automatically — no install step needed.
+4. Lens Studio resolves the packed `.lspkg` dependencies from the `Packages/` folder automatically: no install step needed.
 5. Press **Play** in Lens Studio to run in the simulator, or push to a paired Spectacles device via the device panel.
 
 > No npm, no build commands, no external services. Everything runs inside Lens Studio.
@@ -142,7 +151,7 @@ The scene is pre-wired in `Scene.scene`. If you rebuild from scratch, every insp
 | Button slots | Drag each `RectangleButton` component from its SceneObject |
 
 ### PlayPauseManager
-> Lives inside `LevelHandleMover`. Controls game logic only — no button wiring needed here.
+> Lives inside `LevelHandleMover`. Controls game logic only: no button wiring needed here.
 
 | Slot | Assign |
 |---|---|
@@ -154,13 +163,13 @@ The scene is pre-wired in `Scene.scene`. If you rebuild from scratch, every insp
 | `distanceText` | Text component for the distance display |
 | `scoreText` | Text component for the score display |
 | `rainVFX` | `VFXComponent` for rain particles (paused with game) |
-| `cloudVFX` | `VFXComponent` for cloud particles — optional |
+| `cloudVFX` | `VFXComponent` for cloud particles: optional |
 
 ### Sound Effects
 
-**Coin + crash SFX** — Add two `AudioComponent`s to the `SnapSaberGlobalManager` SceneObject. Assign one `.mp3` per component. Drag each into the `coinAudio` and `enemyAudio` slots on `SnapSaberGlobalManager`.
+**Coin + crash SFX**: Add two `AudioComponent`s to the `SnapSaberGlobalManager` SceneObject. Assign one `.mp3` per component. Drag each into the `coinAudio` and `enemyAudio` slots on `SnapSaberGlobalManager`.
 
-**Ambient rain** — Add one `AudioComponent` to the **MainMenu** SceneObject. Assign the rain `.mp3`. Set **Play On Awake → OFF** (the script controls playback). Drag it into the `rainAudio` slot on `MainMenu`. Rain plays during gameplay, pauses when the pause menu opens, and respects the weather switch — if the switch is off, rain stays silent on resume.
+**Ambient rain**: Add one `AudioComponent` to the **MainMenu** SceneObject. Assign the rain `.mp3`. Set **Play On Awake → OFF** (the script controls playback). Drag it into the `rainAudio` slot on `MainMenu`. Rain plays during gameplay, pauses when the pause menu opens, and respects the weather switch: if the switch is off, rain stays silent on resume.
 
 ---
 
@@ -189,11 +198,11 @@ Patterns are `number[3]` arrays inside `LanePatternController.ts`:
 0 = EMPTY   1 = COIN   2 = ENEMY
 ```
 
-Add entries to `PATTERNS_EASY`, `PATTERNS_MEDIUM`, or `PATTERNS_REST`. The safety invariant (at least one non-enemy lane per pattern) is enforced by convention — every pattern in the library already satisfies it.
+Add entries to `PATTERNS_EASY`, `PATTERNS_MEDIUM`, or `PATTERNS_REST`. The safety invariant (at least one non-enemy lane per pattern) is enforced by convention: every pattern in the library already satisfies it.
 
 ### Swapping Prefabs
 
-Drop a replacement prefab into the `prefab` slot on any instantiator. The end-zone collision system identifies objects by name prefix (`CoinCube_`, `EnemyCube_`, `RoadTile_`) — spawned instances keep these prefixes automatically since the instantiator sets the name on spawn.
+Drop a replacement prefab into the `prefab` slot on any instantiator. The end-zone collision system identifies objects by name prefix (`CoinCube_`, `EnemyCube_`, `RoadTile_`): spawned instances keep these prefixes automatically since the instantiator sets the name on spawn.
 
 ---
 
@@ -211,4 +220,4 @@ Drop a replacement prefab into the `prefab` slot on any instantiator. The end-zo
 
 ## License
 
-This project is submitted to the Spectacles Community Challenge under the Open Source category. You are free to use, modify, and build upon it. Attribution is appreciated but not required.
+MIT. Giving Credit would be appreciated.
