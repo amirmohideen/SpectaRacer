@@ -1187,6 +1187,26 @@
   ScriptTypes:
     "":
       {}
+- !<RenderMeshVisual/07996a57-4da4-4498-b356-38dc4ff1e0b2>
+  PrefabRemaps:
+    []
+  Name: component_39
+  Enabled: true
+  RenderOrder: 0
+  StretchMode: Stretch
+  VerticalAlignment: Center
+  HorizontalAlignment: Center
+  MeshShadowMode: None
+  ShadowColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ShadowDensity: 1.000000
+  Materials:
+    - !<reference> ba3dba5c-fbb6-4494-9dcc-7ddcddab613c
+  Mesh: !<reference> 6b0d0d2f-2aec-489f-86c3-665a9e6ba94c
+  Skin: !<reference> 00000000-0000-0000-0000-000000000000
+  BlendShapesEnabled: true
+  BlendNormals: false
+  BlendShapes:
+    {}
 - !<SceneObject/07d0818d-79f2-4a06-a0a6-7867420354f0>
   PrefabRemaps:
     []
@@ -3534,7 +3554,7 @@
     - 192efa33-d5b3-4ad7-974c-de835127224c: eea06134-e479-47c0-5b36-dd2d827f8935
     - f3eecf10-4bfe-491a-8b69-0786ab0ea0c8: 326500d5-137c-4cf5-68bc-5e342adca641
   Name: RainVFX
-  Enabled: true
+  Enabled: false
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}
@@ -15371,6 +15391,21 @@
     - !<own> 2b240d9e-ebb1-4349-9113-9545125b7620
   Components:
     []
+- !<SceneObject/66a83819-0fc7-40d6-afa7-5e5975aa74f5>
+  PrefabRemaps:
+    []
+  Name: Cube
+  Enabled: true
+  Layers: 1
+  LocalTransform: !<TransformEntity>
+    Position: {x: 0.000000, y: 23.742188, z: 0.000015}
+    Rotation: {x: 0.000000, y: 0.000000, z: 0.000000}
+    Scale: {x: 0.333874, y: 0.193356, z: 0.035210}
+    HasSegmentScaleCompensation: false
+  Children:
+    []
+  Components:
+    - !<own> 07996a57-4da4-4498-b356-38dc4ff1e0b2
 - !<SceneObject/6705d105-67d5-431c-8052-fcbd00fa3958>
   PrefabRemaps:
     []
@@ -15693,6 +15728,7 @@
     - !<own> b79eee67-3079-4e6d-bdf4-3b29460d7178
     - !<own> 0830196d-5bf4-49e3-b40c-21bf2cd21fed
     - !<own> 732fc791-4b23-4788-9696-9de6e35e452b
+    - !<own> 66a83819-0fc7-40d6-afa7-5e5975aa74f5
   Components:
     - !<own> cc9690b4-be4c-4512-be96-1f1e11bc04d9
     - !<own> ac422ab2-b58f-46a3-94c8-7c87ed1b9fb2
@@ -26757,7 +26793,7 @@
     - 29e8842a-827a-4b72-bf6b-ce41e60db0fd: 2c2369a3-b01a-42cf-4ecc-ddec261e37e9
     - c6a75897-3ffd-41d8-9d5a-4e2c4597cae0: e3407189-26a0-47b8-7645-0bd52c7768ab
   Name: BlizzardVFX
-  Enabled: false
+  Enabled: true
   Layers: 1
   LocalTransform: !<TransformEntity>
     Position: {x: 0.000000, y: 0.000000, z: 0.000000}

@@ -1,31 +1,31 @@
 - !<AssetCache>
   AssetFiles:
     8a340993-c548-4f5e-b175-357a951ff951: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/Firework Explosion.vfxgraph
-    0f7016af-c0ac-4fa7-8e22-79c5c81a5d56: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/script_39.js
-    1e2e4bf4-4e60-4764-b2e7-cc2daccd017c: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/feedback_39.mat
-    1835ed56-ec61-457e-8fcf-2777ee270014: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/feedback_39.glsl
-    2bcb83f9-b670-4aee-b815-2a7899fc9e9c: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/render_39.mat
-    2e610d0d-40c5-468c-9939-9f8ec5f36126: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/render_39.glsl
-    a1bde8cf-e97f-4761-b41f-9cbaec816e46: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/simulate_39.mat
-    6b72501c-2c77-406c-b453-5761b4a8b93a: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/simulate_39.glsl
+    af1e74a5-128d-49fd-9e3b-87f8acd5ad30: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/script_39.js
+    743e0413-9893-4612-b261-a5a7d99d73c9: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/feedback_39.mat
+    4c0a1cba-22ad-4f73-b10c-9e6ef39e7632: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/feedback_39.glsl
+    1a8d7ede-21cd-420e-8deb-0598d3f4f4fe: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/render_39.mat
+    79aac273-1fdd-43f8-8e5f-2e674acbe8b9: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/render_39.glsl
+    7dfc99ea-7307-4efc-ac9f-cae98f5e574b: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/simulate_39.mat
+    056889a6-884f-4fc8-86e3-7cb2b200df7f: 762b1340-3ec2-3860-5436-ec244d6c91c3/6ca934af8c960ea007066e47ab631f2c/Data/6a992e8/System_39/simulate_39.glsl
   Assets:
     - !<VFXAsset/8a340993-c548-4f5e-b175-357a951ff951>
       PackagePath: ""
       Systems:
-        39: !<VFXSystem/e934317b-2640-48a0-8fe7-858e8731bf0c>
-          FeedbackMaterial: !<Material/1e2e4bf4-4e60-4764-b2e7-cc2daccd017c>
+        39: !<VFXSystem/f8dfecab-3146-4cd9-9d36-d66e9241d57b>
+          FeedbackMaterial: !<Material/743e0413-9893-4612-b261-a5a7d99d73c9>
             PackagePath: ""
             PassesInfo:
-              - !<own> 5212b9ea-1ac6-4469-b0b1-d0eb04628af2
-          SimulateMaterial: !<Material/a1bde8cf-e97f-4761-b41f-9cbaec816e46>
+              - !<own> 1e6b1d96-f189-41fe-a55a-2be99cd15a99
+          SimulateMaterial: !<Material/7dfc99ea-7307-4efc-ac9f-cae98f5e574b>
             PackagePath: ""
             PassesInfo:
-              - !<own> 53a1dcb6-0c91-402b-b435-22d0527fa163
-          RenderMaterial: !<Material/2bcb83f9-b670-4aee-b815-2a7899fc9e9c>
+              - !<own> 5824eaab-32c8-4d99-86af-b9211120fa9a
+          RenderMaterial: !<Material/1a8d7ede-21cd-420e-8deb-0598d3f4f4fe>
             PackagePath: ""
             PassesInfo:
-              - !<own> ea28cdc9-bfd9-43b9-abd3-11ce4071cd3f
-          FeedbackPass: !<Pass/1835ed56-ec61-457e-8fcf-2777ee270014>
+              - !<own> f082ccfe-41e1-4f8f-84dd-828e269826bd
+          FeedbackPass: !<Pass/4c0a1cba-22ad-4f73-b10c-9e6ef39e7632>
             PackagePath: ""
             DefaultDefines:
               []
@@ -432,7 +432,7 @@
               PassBindings:
                 []
               ShaderType: Mesh3d
-          SimulatePass: !<Pass/6b72501c-2c77-406c-b453-5761b4a8b93a>
+          SimulatePass: !<Pass/056889a6-884f-4fc8-86e3-7cb2b200df7f>
             PackagePath: ""
             DefaultDefines:
               []
@@ -940,7 +940,7 @@
                   mValues:
                     []
               ShaderType: PostProcessing
-          RenderPass: !<Pass/2e610d0d-40c5-468c-9939-9f8ec5f36126>
+          RenderPass: !<Pass/79aac273-1fdd-43f8-8e5f-2e674acbe8b9>
             PackagePath: ""
             DefaultDefines:
               []
@@ -1360,7 +1360,7 @@
                   mValues:
                     []
               ShaderType: PostProcessing
-          Script: !<JavaScriptAsset/0f7016af-c0ac-4fa7-8e22-79c5c81a5d56>
+          Script: !<JavaScriptAsset/af1e74a5-128d-49fd-9e3b-87f8acd5ad30>
             PackagePath: Manager_Script
             Description: ""
             SvgIcon: ""
@@ -1438,7 +1438,7 @@
   FileHash: f9be26529f5c6ebdd050358515850a6e
   NativePackageItems:
     []
-- !<PassInfo/5212b9ea-1ac6-4469-b0b1-d0eb04628af2>
+- !<PassInfo/1e6b1d96-f189-41fe-a55a-2be99cd15a99>
   CachedProperties:
     []
   DepthWrite: false
@@ -1503,8 +1503,8 @@
           borderColor: {x: 0.000000, y: 0.000000, z: 0.000000, w: 0.000000}
           mipmaps: false
         type: Texture2D
-  Pass: !<reference> 1835ed56-ec61-457e-8fcf-2777ee270014
-- !<PassInfo/53a1dcb6-0c91-402b-b435-22d0527fa163>
+  Pass: !<reference> 4c0a1cba-22ad-4f73-b10c-9e6ef39e7632
+- !<PassInfo/5824eaab-32c8-4d99-86af-b9211120fa9a>
   CachedProperties:
     - uReset:
         typeIdx: 0
@@ -2191,8 +2191,8 @@
     vfxTargetWidth:
       typeIdx: 0
       value: 0
-  Pass: !<reference> 6b72501c-2c77-406c-b453-5761b4a8b93a
-- !<PassInfo/ea28cdc9-bfd9-43b9-abd3-11ce4071cd3f>
+  Pass: !<reference> 056889a6-884f-4fc8-86e3-7cb2b200df7f
+- !<PassInfo/f082ccfe-41e1-4f8f-84dd-828e269826bd>
   CachedProperties:
     []
   DepthWrite: false
@@ -2404,4 +2404,4 @@
     vfxTargetWidth:
       typeIdx: 0
       value: 0
-  Pass: !<reference> 2e610d0d-40c5-468c-9939-9f8ec5f36126
+  Pass: !<reference> 79aac273-1fdd-43f8-8e5f-2e674acbe8b9

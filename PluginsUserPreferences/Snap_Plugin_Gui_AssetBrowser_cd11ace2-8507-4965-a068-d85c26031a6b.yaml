@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 2199
+    size: 2237
     values:
       - ""
       - 3-2-1 Countdown.lspkg
@@ -245,6 +245,7 @@ CollapsedEntities:
       - Examples/Solvers
       - Examples/Solvers/CarHandleSteering.ts
       - Examples/Solvers/HandleReturnToStart.ts
+      - FPS Counter.lsc
       - FastUI.lspkg
       - FastUI.lspkg/Examples__PLACE_IN_SCENE.prefab
       - FastUI.lspkg/README.md
@@ -785,6 +786,43 @@ CollapsedEntities:
       - PrefabsCreated/tile_road_direct.prefab
       - PrefabsCreated/tile_road_direct2.prefab
       - PrefabsCreated/tile_road_direct3.prefab
+      - Primitive Pack.lspkg
+      - Primitive Pack.lspkg/Materials
+      - Primitive Pack.lspkg/Materials/primitive_sample_material.mat
+      - Primitive Pack.lspkg/Meshes
+      - Primitive Pack.lspkg/Meshes/Capsule.mesh
+      - Primitive Pack.lspkg/Meshes/Cone.mesh
+      - Primitive Pack.lspkg/Meshes/Cube.mesh
+      - Primitive Pack.lspkg/Meshes/Cylinder.mesh
+      - Primitive Pack.lspkg/Meshes/Disc.mesh
+      - Primitive Pack.lspkg/Meshes/Head.mesh
+      - Primitive Pack.lspkg/Meshes/Joint.mesh
+      - Primitive Pack.lspkg/Meshes/LeftFoot.mesh
+      - Primitive Pack.lspkg/Meshes/LeftHand.mesh
+      - Primitive Pack.lspkg/Meshes/LeftJoint.mesh
+      - Primitive Pack.lspkg/Meshes/LeftJoint_2.mesh
+      - Primitive Pack.lspkg/Meshes/LeftJoint_3.mesh
+      - Primitive Pack.lspkg/Meshes/LeftLower_Arm.mesh
+      - Primitive Pack.lspkg/Meshes/LeftShin.mesh
+      - Primitive Pack.lspkg/Meshes/LeftThigh.mesh
+      - Primitive Pack.lspkg/Meshes/LeftUpper_Arm.mesh
+      - Primitive Pack.lspkg/Meshes/Pelvis.mesh
+      - Primitive Pack.lspkg/Meshes/Plane.mesh
+      - Primitive Pack.lspkg/Meshes/Platonic.mesh
+      - Primitive Pack.lspkg/Meshes/Pyramid.mesh
+      - Primitive Pack.lspkg/Meshes/Right_Hand.mesh
+      - Primitive Pack.lspkg/Meshes/Right_Lower_Arm.mesh
+      - Primitive Pack.lspkg/Meshes/Right_Shin.mesh
+      - Primitive Pack.lspkg/Meshes/Right_Thigh.mesh
+      - Primitive Pack.lspkg/Meshes/Right_Upper_Arm.mesh
+      - Primitive Pack.lspkg/Meshes/Sphere.mesh
+      - Primitive Pack.lspkg/Meshes/Torus.mesh
+      - Primitive Pack.lspkg/Meshes/Tube.mesh
+      - Primitive Pack.lspkg/Meshes/Upper_Body.mesh
+      - Primitive Pack.lspkg/PrimitivePack__PLACE_IN_SCENE.prefab
+      - Primitive Pack.lspkg/Shaders
+      - Primitive Pack.lspkg/Shaders/primitive_sample_material.ss_graph
+      - Primitive Pack.lspkg/package.native
       - Rain VFX.lspkg
       - Rain VFX.lspkg/RainVFX__PLACE_IN_SCENE.prefab
       - Rain VFX.lspkg/VFX

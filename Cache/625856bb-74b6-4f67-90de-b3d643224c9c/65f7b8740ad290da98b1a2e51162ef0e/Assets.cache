@@ -930,7 +930,7 @@
   Components:
     - !<own> 6506ee4d-73d5-45e4-69d5-560c2264b648
 - !<ObjectPrefabAssetData/1f0ddf85-5a37-474d-8f72-3b732d961ce1>
-  Prototype: !<ObjectOwner/79d50741-97db-4364-b7fd-8d477302233b>
+  Prototype: !<ObjectOwner/6773477b-2dd2-4da9-93ab-5e31b0098da8>
     PackagePath: ""
     objects:
       - !<own> b4df4a4d-15eb-4283-7be2-0e5b3addb2ff
@@ -4324,7 +4324,7 @@
   Components:
     []
 - !<ObjectPrefabAssetData/805e9b4c-98fa-49c3-8d39-3d80bd582e17>
-  Prototype: !<ObjectOwner/760cebea-482d-4162-80e5-5d454e14609b>
+  Prototype: !<ObjectOwner/503c1e7a-d71c-46bd-b7fa-164888a014ca>
     PackagePath: ""
     objects:
       - !<own> 4ef8fde8-4182-4e08-5d93-40e366a0c6a0
@@ -7066,7 +7066,7 @@
   Components:
     []
 - !<ObjectPrefabAssetData/ceea006e-319a-4c32-8428-f4b606ca2085>
-  Prototype: !<ObjectOwner/d01be8fc-1fd1-41af-a7eb-bfa415e8f7db>
+  Prototype: !<ObjectOwner/6d06ef3f-860f-4871-914a-d1119c5c359b>
     PackagePath: ""
     objects:
       - !<own> edef4291-9da5-4fae-526d-04e10c2aaceb
