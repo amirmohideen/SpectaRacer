@@ -1,8 +1,10 @@
 # SpectaRacer
 
-> An AR endless runner built for Snap Spectacles: dodge enemies, collect coins, and race the clock in the real world.
+SpectaRacer is a car racing themed endless runner lens for Snap Spectacles. Three lanes of enemies and collectibles scroll toward the player at an ever-increasing speed. Survive as long as possible, rack up coins, and track your distance: all overlaid on your real environment.
 
-SpectaRacer is a fully playable, production-quality endless runner lens for Snap Spectacles. Three lanes of enemies and collectibles scroll toward the player at an ever-increasing speed. Survive as long as possible, rack up coins, and track your distance: all overlaid on your real environment.
+---
+
+https://github.com/user-attachments/assets/2fff35ac-18da-4ade-aa5d-0cfa5220db4d
 
 ---
 
@@ -21,7 +23,7 @@ Point and/or pinch and hold:
 |---|---|
 | Drive into a coin | Score increases, coin SFX plays |
 | Collide with an enemy | Damage +33%, crash SFX plays |
-| Three enemy hits | Game over: Panel 4 appears |
+| Three enemy hits | Game over panel appears |
 | Press pause button | Game freezes, VFX pause, pause panel opens |
 | Resume / Restart / Main Menu | All wired through the pause overlay |
 
@@ -110,7 +112,7 @@ SpectaRacer/
 
 ### Requirements
 
-- [Lens Studio](https://ar.snap.com/lens-studio) 5.x or later
+- [Lens Studio](https://ar.snap.com/spectacles) v5.15.4
 - Snap Spectacles (physical device) or the Spectacles simulator built into Lens Studio
 
 ### Opening the Project
@@ -220,4 +222,4 @@ Drop a replacement prefab into the `prefab` slot on any instantiator. The end-zo
 
 ## License
 
-MIT. Giving Credit would be appreciated.
+MIT. Giving credit would be appreciated.
