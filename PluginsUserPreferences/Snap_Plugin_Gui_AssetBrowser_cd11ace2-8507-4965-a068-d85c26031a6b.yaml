@@ -1,7 +1,7 @@
 CollapsedEntities:
   type: stringset
   value:
-    size: 2237
+    size: 2238
     values:
       - ""
       - 3-2-1 Countdown.lspkg
@@ -1219,6 +1219,7 @@ CollapsedEntities:
       - SoundEffectsImported/Coin.audioOutput
       - SoundEffectsImported/CoinSoundEffect.mp3
       - SoundEffectsImported/RainSoundEffect.mp3
+      - SpectaRacer Lens Icon.png
       - SpectaclesInteractionKit.lspkg
       - SpectaclesInteractionKit.lspkg/Assets/Audio
       - SpectaclesInteractionKit.lspkg/Assets/Audio/HoverAudioTrack.wav
